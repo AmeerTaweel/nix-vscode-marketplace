@@ -9,7 +9,7 @@ export async function getEntries() {
 	log.info(`${count} extensions found.`)
 
 	log.info("Generating entries...")
-	const entries = data.map(e => ({
+	const entries = data.filter(filterPlatformDependent).map(e => ({
 		name: e.name,
 		publisher: e.namespace,
 		passthru: {
@@ -30,4 +30,12 @@ export async function getEntries() {
 	log.info("Generated entries.")
 
 	return entries
+}
+
+
+function filterPlatformDependent(e) {
+	// e.g
+	// universal: https://open-vsx.org/api/zjffun/snippetsmanager?size=1
+	// platform-dependent: https://open-vsx.org/api/devsense/phptools-vscode?size=1
+	return 'universal' in e.downloads;
 }

@@ -6,62 +6,62 @@ on:
   # Trigger every day
   schedule:
     - cron: "0 0 * * *"
+  push:
+
+env:
+  nixpkgs: nixpkgs=https://github.com/NixOS/nixpkgs/archive/cd87aef066e4bdbb1139845500072bd252d37c5e.tar.gz
+  extra_nix_config: |
+    substituters = https://cache.nixos.org https://nix-community.cachix.org https://fog.cachix.org
+    trusted-public-keys = cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY= nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs= fog.cachix.org-1:FAxiA6qMLoXEUdEq+HaT24g1MjnxdfygrbrLDBp6U/s=
+
+  run_updater: export DENO_DIR=.deno && nix run nixpkgs#deno -- run --allow-write --allow-net={0} --no-prompt updater/index.ts {1} nvfetch/{2}.toml
+  
+  # https://github.com/berberman/nvfetcher#cli
+  run_nvfetcher: nix run nixpkgs#nvfetcher -- -j 0 -o generated/{0}/ -c nvfetch/{1}.toml -t
+
+  commit_and_push: |
+    git config user.name github-actions
+    git config user.email github-actions@github.com
+    git pull --rebase --autostash
+    git add nvfetch/{0}.toml generated/{1}
+    git diff --quiet && git diff --staged --quiet || git commit -m "action: update {2} extensions"
+    git push
+
+# https://docs.github.com/en/actions/learn-github-actions/expressions#example-returning-a-json-object
+# https://docs.github.com/en/actions/using-jobs/defining-outputs-for-jobs#example-defining-outputs-for-a-job
 
 jobs:
-  update_vscode_marketplace_extensions:
+  read_config:
     runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Install latest Nix
-      uses: cachix/install-nix-action@v17
-      with:
-        extra_nix_config: |
-          substituters = https://cache.nixos.org https://nix-community.cachix.org https://fog.cachix.org
-          trusted-public-keys = cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY= nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs= fog.cachix.org-1:FAxiA6qMLoXEUdEq+HaT24g1MjnxdfygrbrLDBp6U/s=
-        nix_path: nixpkgs=channel:nixos-unstable
+      - id: set-matrix
+        run: echo "::set-output name=matrix::$(jq -c . < .github/workflows/config.json)"
 
-    - name: Run Updater on VSCode Marketplace extensions
-      run: export DENO_DIR=.deno && nix run "nixpkgs#deno" -- run --allow-write --allow-net=marketplace.visualstudio.com --no-prompt updater/index.ts vscode-marketplace nvfetch/vscode-marketplace.toml
-
-    - name: Run nvfetcher on VSCode Marketplace extensions
-      run: nix run "nixpkgs#nvfetcher" -- -o generated/vscode-marketplace/ -c nvfetch/vscode-marketplace.toml -t
-
-    - name: Commit and push changes
-      run: |
-        git config user.name github-actions
-        git config user.email github-actions@github.com
-        git pull --rebase --autostash
-        git add nvfetch/vscode-marketplace.toml generated/vscode-marketplace
-        git commit -m "action: update vscode-marketplace extensions"
-        git push
-
-  update_open_vsx_extensions:
+  update_extensions:
+    needs: read_config
     runs-on: ubuntu-latest
+    strategy:
+      matrix: ${{ fromJSON(needs.read_config.outputs.matrix) }}
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Install latest Nix
-      uses: cachix/install-nix-action@v17
-      with:
-        extra_nix_config: |
-          substituters = https://cache.nixos.org https://nix-community.cachix.org https://fog.cachix.org
-          trusted-public-keys = cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY= nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs= fog.cachix.org-1:FAxiA6qMLoXEUdEq+HaT24g1MjnxdfygrbrLDBp6U/s=
-        nix_path: nixpkgs=channel:nixos-unstable
+      - name: Install latest Nix
+        uses: cachix/install-nix-action@v17
+        with:
+          extra_nix_config: ${{ env.extra_nix_config }}
+          nix_path: ${{ env.nixpkgs }}
 
-    - name: Run Updater on OpenVSX extensions
-      run: export DENO_DIR=.deno && nix run "nixpkgs#deno" -- run --allow-write --allow-net=open-vsx.org --no-prompt updater/index.ts open-vsx nvfetch/open-vsx.toml
+      - name: Run Updater on ${{ matrix.name }} extensions
+        run: ${{ format(env.run_updater, matrix.allow_net, matrix.target, matrix.target) }}
 
-    - name: Run nvfetcher on OpenVSX extensions
-      run: nix run "nixpkgs#nvfetcher" -- -o generated/open-vsx/ -c nvfetch/open-vsx.toml -t
+      - name: Run nvfetcher on ${{ matrix.name }} extensions
+        run: ${{ format(env.run_nvfetcher, matrix.target, matrix.target) }}
 
-    - name: Commit and push changes
-      run: |
-        git config user.name github-actions
-        git config user.email github-actions@github.com
-        git pull --rebase --autostash
-        git add nvfetch/open-vsx.toml generated/open-vsx
-        git commit -m "action: update open-vsx extensions"
-        git push
+      - name: Commit and push changes
+        run: ${{ format(env.commit_and_push, matrix.target, matrix.target, matrix.target) }}
