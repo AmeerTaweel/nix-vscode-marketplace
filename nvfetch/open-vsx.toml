@@ -869,8 +869,8 @@ publisher = "samuelcolvin"
 marketplaceName = "jinjahtml"
 marketplacePublisher = "samuelcolvin"
 license = "mit"
-changelog = "https://open-vsx.org/api/samuelcolvin/jinjahtml/0.18.0/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/samuelcolvin/jinjahtml/0.18.0/file/samuelcolvin.jinjahtml-0.18.0.vsix"
+changelog = "https://open-vsx.org/api/samuelcolvin/jinjahtml/0.19.0/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/samuelcolvin/jinjahtml/0.19.0/file/samuelcolvin.jinjahtml-0.19.0.vsix"
 homepage = "https://github.com/samuelcolvin/jinjahtml-vscode#readme"
 
 [arzg-slate]
@@ -2511,8 +2511,8 @@ publisher = "vscode-icons-team"
 marketplaceName = "vscode-icons"
 marketplacePublisher = "vscode-icons-team"
 license = "mit"
-changelog = "https://open-vsx.org/api/vscode-icons-team/vscode-icons/11.18.0/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/vscode-icons-team/vscode-icons/11.18.0/file/vscode-icons-team.vscode-icons-11.18.0.vsix"
+changelog = "https://open-vsx.org/api/vscode-icons-team/vscode-icons/11.19.0/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/vscode-icons-team/vscode-icons/11.19.0/file/vscode-icons-team.vscode-icons-11.19.0.vsix"
 homepage = "https://github.com/vscode-icons/vscode-icons"
 
 [tomi-xalesssnippets]
@@ -3757,7 +3757,7 @@ publisher = "vscode"
 marketplaceName = "perl"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/perl/1.64.0-next.d9fa2b12136/file/vscode.perl-1.64.0-next.d9fa2b12136.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/perl/1.64.0-next.68976705968/file/vscode.perl-1.64.0-next.68976705968.vsix"
 homepage = ""
 
 [openra-vscode-openra-lua]
@@ -4133,7 +4133,7 @@ publisher = "dendron"
 marketplaceName = "nightly"
 marketplacePublisher = "dendron"
 license = "agpl3Only"
-downloadPage = "https://open-vsx.org/api/dendron/nightly/0.114.4/file/dendron.nightly-0.114.4.vsix"
+downloadPage = "https://open-vsx.org/api/dendron/nightly/0.114.5/file/dendron.nightly-0.114.5.vsix"
 homepage = "https://github.com/dendronhq/dendron#readme"
 
 [zjffun-gotofolder]
@@ -4362,7 +4362,7 @@ publisher = "vscode"
 marketplaceName = "python"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/python/1.64.0-next.68976705968/file/vscode.python-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/python/1.64.0-next.d9fa2b12136/file/vscode.python-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [vscode-sql]
@@ -4375,7 +4375,7 @@ publisher = "vscode"
 marketplaceName = "sql"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/sql/1.64.0-next.68976705968/file/vscode.sql-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/sql/1.64.0-next.d9fa2b12136/file/vscode.sql-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [alantech-alan-lang]
@@ -4718,7 +4718,7 @@ publisher = "vscode"
 marketplaceName = "fsharp"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/fsharp/1.64.0-next.d9fa2b12136/file/vscode.fsharp-1.64.0-next.d9fa2b12136.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/fsharp/1.64.0-next.68976705968/file/vscode.fsharp-1.64.0-next.68976705968.vsix"
 homepage = ""
 
 [jorol-perl-completions]
@@ -4947,7 +4947,7 @@ publisher = "vscode"
 marketplaceName = "rust"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/rust/1.64.0-next.d9fa2b12136/file/vscode.rust-1.64.0-next.d9fa2b12136.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/rust/1.64.0-next.68976705968/file/vscode.rust-1.64.0-next.68976705968.vsix"
 homepage = ""
 
 [vscode-log]
@@ -5732,7 +5732,7 @@ publisher = "vscode"
 marketplaceName = "markdown"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/markdown/1.64.0-next.68976705968/file/vscode.markdown-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/markdown/1.64.0-next.d9fa2b12136/file/vscode.markdown-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [vscode-typescript-language-features]
@@ -5771,7 +5771,7 @@ publisher = "vscode"
 marketplaceName = "npm"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/npm/1.64.0-next.68976705968/file/vscode.npm-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/npm/1.64.0-next.d9fa2b12136/file/vscode.npm-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [hediet-vscode-drawio]
@@ -5864,7 +5864,7 @@ publisher = "vscode"
 marketplaceName = "shellscript"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/shellscript/1.64.0-next.d9fa2b12136/file/vscode.shellscript-1.64.0-next.d9fa2b12136.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/shellscript/1.64.0-next.68976705968/file/vscode.shellscript-1.64.0-next.68976705968.vsix"
 homepage = ""
 
 [cweijan-cweijan-personal-material-icon-theme]
@@ -12161,7 +12161,7 @@ publisher = "dfinity-foundation"
 marketplaceName = "vscode-motoko"
 marketplacePublisher = "dfinity-foundation"
 license = "asl20"
-downloadPage = "https://open-vsx.org/api/dfinity-foundation/vscode-motoko/0.4.6/file/dfinity-foundation.vscode-motoko-0.4.6.vsix"
+downloadPage = "https://open-vsx.org/api/dfinity-foundation/vscode-motoko/0.4.7/file/dfinity-foundation.vscode-motoko-0.4.7.vsix"
 homepage = "https://github.com/dfinity/vscode-motoko#readme"
 
 [marcostazi-VS-code-vagrantfile]
@@ -16088,8 +16088,8 @@ publisher = "rxliuli"
 marketplaceName = "joplin-vscode-plugin"
 marketplacePublisher = "rxliuli"
 license = "mit"
-changelog = "https://open-vsx.org/api/rxliuli/joplin-vscode-plugin/0.7.12/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/rxliuli/joplin-vscode-plugin/0.7.12/file/rxliuli.joplin-vscode-plugin-0.7.12.vsix"
+changelog = "https://open-vsx.org/api/rxliuli/joplin-vscode-plugin/0.8.3/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/rxliuli/joplin-vscode-plugin/0.8.3/file/rxliuli.joplin-vscode-plugin-0.8.3.vsix"
 homepage = "https://joplin-utils.rxliuli.com/zh/joplin-vscode-plugin/"
 
 [antfu-vite]
@@ -19085,7 +19085,7 @@ publisher = "jeanp413"
 marketplaceName = "open-remote-ssh"
 marketplacePublisher = "jeanp413"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/jeanp413/open-remote-ssh/0.0.15/file/jeanp413.open-remote-ssh-0.0.15.vsix"
+downloadPage = "https://open-vsx.org/api/jeanp413/open-remote-ssh/0.0.16/file/jeanp413.open-remote-ssh-0.0.16.vsix"
 homepage = "https://github.com/jeanp413/open-remote-ssh#readme"
 
 [vscjava-vscode-java-pack]
@@ -21502,8 +21502,8 @@ publisher = "znck"
 marketplaceName = "vue-language-features"
 marketplacePublisher = "znck"
 license = "mit"
-changelog = "https://open-vsx.org/api/znck/vue-language-features/0.11.7/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/znck/vue-language-features/0.11.7/file/znck.vue-language-features-0.11.7.vsix"
+changelog = "https://open-vsx.org/api/znck/vue-language-features/0.11.9/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/znck/vue-language-features/0.11.9/file/znck.vue-language-features-0.11.9.vsix"
 homepage = "https://github.com/znck/vue-developer-experience/blob/main/extensions/vscode#readme"
 
 [Ionide-Ionide-fsharp]
@@ -21623,8 +21623,8 @@ publisher = "znck"
 marketplaceName = "vue"
 marketplacePublisher = "znck"
 license = "mit"
-changelog = "https://open-vsx.org/api/znck/vue/0.11.6/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/znck/vue/0.11.6/file/znck.vue-0.11.6.vsix"
+changelog = "https://open-vsx.org/api/znck/vue/0.11.8/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/znck/vue/0.11.8/file/znck.vue-0.11.8.vsix"
 homepage = "https://github.com/znck/vue-developer-experience/blob/main/extensions/vscode#readme"
 
 [Miezhiko-miezhiko]
@@ -22212,8 +22212,8 @@ publisher = "vadimcn"
 marketplaceName = "vscode-lldb"
 marketplacePublisher = "vadimcn"
 license = "mit"
-changelog = "https://open-vsx.org/api/vadimcn/vscode-lldb/1.7.4/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/vadimcn/vscode-lldb/1.7.4/file/vadimcn.vscode-lldb-1.7.4.vsix"
+changelog = "https://open-vsx.org/api/vadimcn/vscode-lldb/1.8.0/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/vadimcn/vscode-lldb/1.8.0/file/vadimcn.vscode-lldb-1.8.0.vsix"
 homepage = "https://github.com/vadimcn/vscode-lldb#readme"
 
 [unifiedjs-vscode-remark]
@@ -22309,7 +22309,7 @@ publisher = "bringout"
 marketplaceName = "f18-klijent"
 marketplacePublisher = "bringout"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/bringout/f18-klijent/5.6.33/file/bringout.f18-klijent-5.6.33.vsix"
+downloadPage = "https://open-vsx.org/api/bringout/f18-klijent/5.6.34/file/bringout.f18-klijent-5.6.34.vsix"
 homepage = ""
 
 [ionutvmi-path-autocomplete]
@@ -22513,8 +22513,8 @@ publisher = "slint"
 marketplaceName = "slint-nightly"
 marketplacePublisher = "Slint"
 license = "gpl3Only"
-changelog = "https://open-vsx.org/api/Slint/slint-nightly/2022.9.3023/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/Slint/slint-nightly/2022.9.3023/file/Slint.slint-nightly-2022.9.3023.vsix"
+changelog = "https://open-vsx.org/api/Slint/slint-nightly/2022.10.210/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/Slint/slint-nightly/2022.10.210/file/Slint.slint-nightly-2022.10.210.vsix"
 homepage = "https://github.com/slint-ui/slint#readme"
 
 [WatermelonTools-watermelon-tools]
@@ -25801,8 +25801,8 @@ publisher = "d-biehl"
 marketplaceName = "robotcode"
 marketplacePublisher = "d-biehl"
 license = "asl20"
-changelog = "https://open-vsx.org/api/d-biehl/robotcode/0.13.18/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/d-biehl/robotcode/0.13.18/file/d-biehl.robotcode-0.13.18.vsix"
+changelog = "https://open-vsx.org/api/d-biehl/robotcode/0.13.19/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/d-biehl/robotcode/0.13.19/file/d-biehl.robotcode-0.13.19.vsix"
 homepage = "https://robotcode.io"
 
 [jbenden-c-cpp-flylint]
