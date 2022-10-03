@@ -1,3 +1,4 @@
+#!/bin/bash
 name=$NAME
 block_size=$BLOCK_SIZE
 
