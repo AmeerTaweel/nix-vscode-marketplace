@@ -61,6 +61,7 @@ jobs:
         env:
           NAME: ${{ matrix.target }}
           BLOCK_SIZE: ${{ matrix.BLOCK_SIZE }}
+          LIMIT: ${{ matrix.limit }}
         run: |
           bash ./.github/scripts/nvfetch.sh
 
