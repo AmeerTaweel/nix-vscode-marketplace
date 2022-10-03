@@ -59,9 +59,10 @@ jobs:
 
       - name: Run nvfetcher on ${{ matrix.name }} extensions
         env:
-          NAME: matrix.target
-          BLOCK_SIZE: matrix.BLOCK_SIZE
-        run: bash ./.github/scripts/nvfetch.sh
+          NAME: ${{ matrix.target }}
+          BLOCK_SIZE: ${{ matrix.BLOCK_SIZE }}
+        run: |
+          bash ./.github/scripts/nvfetch.sh
 
       - name: Commit and push changes
         run: ${{ format(env.commit_and_push, matrix.target, matrix.target, matrix.target) }}
