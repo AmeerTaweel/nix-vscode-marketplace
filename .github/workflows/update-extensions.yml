@@ -61,8 +61,7 @@ jobs:
         env:
           NAME: matrix.target
           BLOCK_SIZE: matrix.BLOCK_SIZE
-        run: .github/scripts/nvfetch.sh
-        shell: bash
+        run: bash ./.github/scripts/nvfetch.sh
 
       - name: Commit and push changes
         run: ${{ format(env.commit_and_push, matrix.target, matrix.target, matrix.target) }}
