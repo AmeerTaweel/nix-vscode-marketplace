@@ -1282,8 +1282,8 @@ publisher = "streetsidesoftware"
 marketplaceName = "code-spell-checker"
 marketplacePublisher = "streetsidesoftware"
 license = "gpl3Plus"
-changelog = "https://open-vsx.org/api/streetsidesoftware/code-spell-checker/2.10.0/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/streetsidesoftware/code-spell-checker/2.10.0/file/streetsidesoftware.code-spell-checker-2.10.0.vsix"
+changelog = "https://open-vsx.org/api/streetsidesoftware/code-spell-checker/2.10.1/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/streetsidesoftware/code-spell-checker/2.10.1/file/streetsidesoftware.code-spell-checker-2.10.1.vsix"
 homepage = "https://streetsidesoftware.github.io/vscode-spell-checker"
 
 [formulahendry-auto-close-tag]
@@ -3664,7 +3664,7 @@ publisher = "vscode"
 marketplaceName = "theme-abyss"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/theme-abyss/1.64.0-next.68976705968/file/vscode.theme-abyss-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/theme-abyss/1.64.0-next.d9fa2b12136/file/vscode.theme-abyss-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [markwylde-relative-from-current]
@@ -3704,7 +3704,7 @@ publisher = "vscode"
 marketplaceName = "groovy"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/groovy/1.64.0-next.d9fa2b12136/file/vscode.groovy-1.64.0-next.d9fa2b12136.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/groovy/1.64.0-next.68976705968/file/vscode.groovy-1.64.0-next.68976705968.vsix"
 homepage = ""
 
 [davelopez-galaxy-tools]
@@ -3757,7 +3757,7 @@ publisher = "vscode"
 marketplaceName = "perl"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/perl/1.64.0-next.68976705968/file/vscode.perl-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/perl/1.64.0-next.d9fa2b12136/file/vscode.perl-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [openra-vscode-openra-lua]
@@ -3904,7 +3904,7 @@ publisher = "vscode"
 marketplaceName = "razor"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/razor/1.64.0-next.d9fa2b12136/file/vscode.razor-1.64.0-next.d9fa2b12136.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/razor/1.64.0-next.68976705968/file/vscode.razor-1.64.0-next.68976705968.vsix"
 homepage = ""
 
 [zokugun-sync-settings]
@@ -4027,7 +4027,7 @@ publisher = "vscode"
 marketplaceName = "objective-c"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/objective-c/1.64.0-next.68976705968/file/vscode.objective-c-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/objective-c/1.64.0-next.d9fa2b12136/file/vscode.objective-c-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [ModestExtensionTeam-modestextension]
@@ -4079,7 +4079,7 @@ publisher = "vscode"
 marketplaceName = "php"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/php/1.64.0-next.d9fa2b12136/file/vscode.php-1.64.0-next.d9fa2b12136.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/php/1.64.0-next.68976705968/file/vscode.php-1.64.0-next.68976705968.vsix"
 homepage = ""
 
 [sndst00m-vscode-native-svg-preview]
@@ -4362,7 +4362,7 @@ publisher = "vscode"
 marketplaceName = "python"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/python/1.64.0-next.68976705968/file/vscode.python-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/python/1.64.0-next.d9fa2b12136/file/vscode.python-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [vscode-sql]
@@ -4482,7 +4482,7 @@ publisher = "vscode"
 marketplaceName = "json"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/json/1.64.0-next.68976705968/file/vscode.json-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/json/1.64.0-next.d9fa2b12136/file/vscode.json-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [vscode-git]
@@ -4773,7 +4773,7 @@ publisher = "vscode"
 marketplaceName = "emmet"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/emmet/1.64.0-next.68976705968/file/vscode.emmet-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/emmet/1.64.0-next.d9fa2b12136/file/vscode.emmet-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [grain-lang-vscode-grain]
@@ -4960,7 +4960,7 @@ publisher = "vscode"
 marketplaceName = "log"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/log/1.64.0-next.68976705968/file/vscode.log-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/log/1.64.0-next.d9fa2b12136/file/vscode.log-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [vscode-coffeescript]
@@ -4973,7 +4973,7 @@ publisher = "vscode"
 marketplaceName = "coffeescript"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/coffeescript/1.64.0-next.68976705968/file/vscode.coffeescript-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/coffeescript/1.64.0-next.d9fa2b12136/file/vscode.coffeescript-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [arzg-noel]
@@ -5109,7 +5109,7 @@ publisher = "vscode"
 marketplaceName = "gulp"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/gulp/1.64.0-next.d9fa2b12136/file/vscode.gulp-1.64.0-next.d9fa2b12136.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/gulp/1.64.0-next.68976705968/file/vscode.gulp-1.64.0-next.68976705968.vsix"
 homepage = ""
 
 [idleberg-extension-api]
@@ -5136,7 +5136,7 @@ publisher = "vscode"
 marketplaceName = "php-language-features"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/php-language-features/1.64.0-next.d9fa2b12136/file/vscode.php-language-features-1.64.0-next.d9fa2b12136.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/php-language-features/1.64.0-next.68976705968/file/vscode.php-language-features-1.64.0-next.68976705968.vsix"
 homepage = ""
 
 [uloco-theme-bluloco-light]
@@ -5338,7 +5338,7 @@ publisher = "vscode"
 marketplaceName = "css"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/css/1.64.0-next.68976705968/file/vscode.css-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/css/1.64.0-next.d9fa2b12136/file/vscode.css-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [mtxr-sqltools-driver-mssql]
@@ -5363,7 +5363,7 @@ publisher = "vscode"
 marketplaceName = "theme-monokai-dimmed"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/theme-monokai-dimmed/1.64.0-next.d9fa2b12136/file/vscode.theme-monokai-dimmed-1.64.0-next.d9fa2b12136.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/theme-monokai-dimmed/1.64.0-next.68976705968/file/vscode.theme-monokai-dimmed-1.64.0-next.68976705968.vsix"
 homepage = ""
 
 [mtxr-sqltools-driver-mysql]
@@ -5442,7 +5442,7 @@ publisher = "vscode"
 marketplaceName = "swift"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/swift/1.64.0-next.68976705968/file/vscode.swift-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/swift/1.64.0-next.d9fa2b12136/file/vscode.swift-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [mtayllan-moonokai]
@@ -5944,7 +5944,7 @@ publisher = "vscode"
 marketplaceName = "image-preview"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/image-preview/1.64.0-next.d9fa2b12136/file/vscode.image-preview-1.64.0-next.d9fa2b12136.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/image-preview/1.64.0-next.68976705968/file/vscode.image-preview-1.64.0-next.68976705968.vsix"
 homepage = ""
 
 [cweijan-vscode-redis-client]
@@ -6012,7 +6012,7 @@ publisher = "vscode"
 marketplaceName = "clojure"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/clojure/1.64.0-next.68976705968/file/vscode.clojure-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/clojure/1.64.0-next.d9fa2b12136/file/vscode.clojure-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [ikappas-phpcs]
@@ -6064,7 +6064,7 @@ publisher = "vscode"
 marketplaceName = "debug-server-ready"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/debug-server-ready/1.64.0-next.d9fa2b12136/file/vscode.debug-server-ready-1.64.0-next.d9fa2b12136.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/debug-server-ready/1.64.0-next.68976705968/file/vscode.debug-server-ready-1.64.0-next.68976705968.vsix"
 homepage = ""
 
 [giscafer-leek-fund]
@@ -6201,7 +6201,7 @@ publisher = "vscode"
 marketplaceName = "bat"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/bat/1.64.0-next.68976705968/file/vscode.bat-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/bat/1.64.0-next.d9fa2b12136/file/vscode.bat-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [wicked-labs-wvsc-serendipity]
@@ -6254,7 +6254,7 @@ publisher = "vscode"
 marketplaceName = "cpp"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/cpp/1.64.0-next.68976705968/file/vscode.cpp-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/cpp/1.64.0-next.d9fa2b12136/file/vscode.cpp-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [benvp-vscode-hex-pm-intellisense]
@@ -6294,7 +6294,7 @@ publisher = "vscode"
 marketplaceName = "csharp"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/csharp/1.64.0-next.68976705968/file/vscode.csharp-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/csharp/1.64.0-next.d9fa2b12136/file/vscode.csharp-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [arcticicestudio-nord-visual-studio-code]
@@ -6360,7 +6360,7 @@ publisher = "vscode"
 marketplaceName = "debug-auto-launch"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/debug-auto-launch/1.64.0-next.d9fa2b12136/file/vscode.debug-auto-launch-1.64.0-next.d9fa2b12136.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/debug-auto-launch/1.64.0-next.68976705968/file/vscode.debug-auto-launch-1.64.0-next.68976705968.vsix"
 homepage = ""
 
 [amazonwebservices-aws-toolkit-vscode]
@@ -6387,7 +6387,7 @@ publisher = "vscode"
 marketplaceName = "theme-solarized-light"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/theme-solarized-light/1.64.0-next.452e2c53030/file/vscode.theme-solarized-light-1.64.0-next.452e2c53030.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/theme-solarized-light/1.64.0-next.68976705968/file/vscode.theme-solarized-light-1.64.0-next.68976705968.vsix"
 homepage = ""
 
 [icrawl-discord-vscode]
@@ -6481,7 +6481,7 @@ publisher = "vscode"
 marketplaceName = "ini"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/ini/1.64.0-next.68976705968/file/vscode.ini-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/ini/1.64.0-next.d9fa2b12136/file/vscode.ini-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [shivaprasanth-dotbook]
@@ -6591,8 +6591,8 @@ publisher = "dart-code"
 marketplaceName = "dart-code"
 marketplacePublisher = "Dart-Code"
 license = "mit"
-changelog = "https://open-vsx.org/api/Dart-Code/dart-code/3.48.0/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/Dart-Code/dart-code/3.48.0/file/Dart-Code.dart-code-3.48.0.vsix"
+changelog = "https://open-vsx.org/api/Dart-Code/dart-code/3.50.0/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/Dart-Code/dart-code/3.50.0/file/Dart-Code.dart-code-3.50.0.vsix"
 homepage = "https://dartcode.org/"
 
 [VMSSoftwareInc-vms-ide]
@@ -10062,6 +10062,20 @@ marketplacePublisher = "kasik96"
 license = "mit"
 downloadPage = "https://open-vsx.org/api/kasik96/latte/0.18.0/file/kasik96.latte-0.18.0.vsix"
 homepage = "https://github.com/kasik96/VS-Latte"
+
+[h3knix-dateversion]
+src.openvsx = "h3knix.dateversion"
+fetch.openvsx = "h3knix.dateversion"
+
+[h3knix-dateversion.passthru]
+name = "dateversion"
+publisher = "h3knix"
+marketplaceName = "dateversion"
+marketplacePublisher = "h3knix"
+license = "mit"
+changelog = "https://open-vsx.org/api/h3knix/dateversion/0.2.0/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/h3knix/dateversion/0.2.0/file/h3knix.dateversion-0.2.0.vsix"
+homepage = "https://github.com/h3knix/vscode-dateversion/"
 
 [redhat-vscode-apache-camel]
 src.openvsx = "redhat.vscode-apache-camel"
@@ -15427,7 +15441,7 @@ publisher = "devsense"
 marketplaceName = "composer-php-vscode"
 marketplacePublisher = "devsense"
 license = "unfree"
-downloadPage = "https://open-vsx.org/api/devsense/composer-php-vscode/1.18.10705/file/devsense.composer-php-vscode-1.18.10705.vsix"
+downloadPage = "https://open-vsx.org/api/devsense/composer-php-vscode/1.18.10716/file/devsense.composer-php-vscode-1.18.10716.vsix"
 homepage = "https://www.devsense.com/"
 
 [harmony-harmony-assist]
@@ -18241,6 +18255,20 @@ changelog = "https://open-vsx.org/api/kaptainmicila/gzdoom-zscript/1.9.1/file/CH
 downloadPage = "https://open-vsx.org/api/kaptainmicila/gzdoom-zscript/1.9.1/file/kaptainmicila.gzdoom-zscript-1.9.1.vsix"
 homepage = "https://github.com/KaptainMicila/ZScript-VSCode"
 
+[rpdswtk-vsmqtt]
+src.openvsx = "rpdswtk.vsmqtt"
+fetch.openvsx = "rpdswtk.vsmqtt"
+
+[rpdswtk-vsmqtt.passthru]
+name = "vsmqtt"
+publisher = "rpdswtk"
+marketplaceName = "vsmqtt"
+marketplacePublisher = "rpdswtk"
+license = "mit"
+changelog = "https://open-vsx.org/api/rpdswtk/vsmqtt/1.4.4/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/rpdswtk/vsmqtt/1.4.4/file/rpdswtk.vsmqtt-1.4.4.vsix"
+homepage = "https://github.com/rpdswtk/vsmqtt#readme"
+
 [eliostruyf-vscode-front-matter-beta]
 src.openvsx = "eliostruyf.vscode-front-matter-beta"
 fetch.openvsx = "eliostruyf.vscode-front-matter-beta"
@@ -19971,7 +19999,7 @@ publisher = "devsense"
 marketplaceName = "profiler-php-vscode"
 marketplacePublisher = "devsense"
 license = "unfree"
-downloadPage = "https://open-vsx.org/api/devsense/profiler-php-vscode/1.18.10705/file/devsense.profiler-php-vscode-1.18.10705.vsix"
+downloadPage = "https://open-vsx.org/api/devsense/profiler-php-vscode/1.18.10716/file/devsense.profiler-php-vscode-1.18.10716.vsix"
 homepage = "https://www.devsense.com/"
 
 [KnisterPeter-vscode-github]
@@ -20767,8 +20795,8 @@ publisher = "rangav"
 marketplaceName = "vscode-thunder-client"
 marketplacePublisher = "rangav"
 license = "unfree"
-changelog = "https://open-vsx.org/api/rangav/vscode-thunder-client/1.19.3/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/rangav/vscode-thunder-client/1.19.3/file/rangav.vscode-thunder-client-1.19.3.vsix"
+changelog = "https://open-vsx.org/api/rangav/vscode-thunder-client/1.19.4/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/rangav/vscode-thunder-client/1.19.4/file/rangav.vscode-thunder-client-1.19.4.vsix"
 homepage = "https://www.thunderclient.com"
 
 [dendron-dendron-snippet-maker]
@@ -22212,8 +22240,8 @@ publisher = "vadimcn"
 marketplaceName = "vscode-lldb"
 marketplacePublisher = "vadimcn"
 license = "mit"
-changelog = "https://open-vsx.org/api/vadimcn/vscode-lldb/1.8.0/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/vadimcn/vscode-lldb/1.8.0/file/vadimcn.vscode-lldb-1.8.0.vsix"
+changelog = "https://open-vsx.org/api/vadimcn/vscode-lldb/1.8.1/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/vadimcn/vscode-lldb/1.8.1/file/vadimcn.vscode-lldb-1.8.1.vsix"
 homepage = "https://github.com/vadimcn/vscode-lldb#readme"
 
 [unifiedjs-vscode-remark]
@@ -25732,7 +25760,7 @@ publisher = "viper-admin"
 marketplaceName = "viper"
 marketplacePublisher = "viper-admin"
 license = "unfree"
-downloadPage = "https://open-vsx.org/api/viper-admin/viper/2.5.0/file/viper-admin.viper-2.5.0.vsix"
+downloadPage = "https://open-vsx.org/api/viper-admin/viper/3.0.1/file/viper-admin.viper-3.0.1.vsix"
 homepage = "https://github.com/viperproject/viper-ide#readme"
 
 [aliariff-vscode-erb-beautify]
@@ -26985,8 +27013,8 @@ publisher = "sebastianbille"
 marketplaceName = "iam-legend"
 marketplacePublisher = "sebastianbille"
 license = "mit"
-changelog = "https://open-vsx.org/api/sebastianbille/iam-legend/1.1.4/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/sebastianbille/iam-legend/1.1.4/file/sebastianbille.iam-legend-1.1.4.vsix"
+changelog = "https://open-vsx.org/api/sebastianbille/iam-legend/1.1.5/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/sebastianbille/iam-legend/1.1.5/file/sebastianbille.iam-legend-1.1.5.vsix"
 homepage = "https://github.com/TastefulElk/iam-legend#readme"
 
 [bmcsoftware-job-as-code]
