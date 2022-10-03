@@ -58,7 +58,7 @@
     			export DENO_DIR="$(pwd)/.deno"
 			'';
 			nativeBuildInputs = with pkgs; [
-				deno nvfetcher
+				deno nvfetcher gawk
 			];
 			buildInputs = [ ];
 		};

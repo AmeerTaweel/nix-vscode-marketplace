@@ -15,9 +15,6 @@ env:
     trusted-public-keys = cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY= nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs= fog.cachix.org-1:FAxiA6qMLoXEUdEq+HaT24g1MjnxdfygrbrLDBp6U/s=
 
   run_updater: export DENO_DIR=.deno && nix run nixpkgs#deno -- run --allow-write --allow-net={0} --no-prompt updater/index.ts {1} nvfetch/{2}.toml
-  
-  # https://github.com/berberman/nvfetcher#cli
-  run_nvfetcher: nix run nixpkgs#nvfetcher -- -j 0 -o generated/{0}/ -c nvfetch/{1}.toml -t
 
   commit_and_push: |
     git config user.name github-actions
@@ -61,7 +58,11 @@ jobs:
         run: ${{ format(env.run_updater, matrix.allow_net, matrix.target, matrix.target) }}
 
       - name: Run nvfetcher on ${{ matrix.name }} extensions
-        run: ${{ format(env.run_nvfetcher, matrix.target, matrix.target) }}
+        env:
+          NAME: matrix.target
+          BLOCK_SIZE: matrix.BLOCK_SIZE
+        run: ./.github/scripts/build.sh
+        shell: bash
 
       - name: Commit and push changes
         run: ${{ format(env.commit_and_push, matrix.target, matrix.target, matrix.target) }}
