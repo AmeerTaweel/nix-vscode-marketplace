@@ -13,6 +13,10 @@ awk=$(nix build --print-out-paths --no-link nixpkgs#gawk)/bin/awk
 
 let "count = $(cat $file | awk '/\[/{++a}END{print a}') / 2 / $block_size + 1"
 
+echo $wc
+echo $nvfetcher
+echo $awk
+
 echo $BLOCK_SIZE
 echo $count
 
