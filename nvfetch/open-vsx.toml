@@ -3704,7 +3704,7 @@ publisher = "vscode"
 marketplaceName = "groovy"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/groovy/1.64.0-next.68976705968/file/vscode.groovy-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/groovy/1.64.0-next.d9fa2b12136/file/vscode.groovy-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [davelopez-galaxy-tools]
@@ -3904,7 +3904,7 @@ publisher = "vscode"
 marketplaceName = "razor"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/razor/1.64.0-next.68976705968/file/vscode.razor-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/razor/1.64.0-next.d9fa2b12136/file/vscode.razor-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [zokugun-sync-settings]
@@ -4079,7 +4079,7 @@ publisher = "vscode"
 marketplaceName = "php"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/php/1.64.0-next.68976705968/file/vscode.php-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/php/1.64.0-next.d9fa2b12136/file/vscode.php-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [sndst00m-vscode-native-svg-preview]
@@ -4362,7 +4362,7 @@ publisher = "vscode"
 marketplaceName = "python"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/python/1.64.0-next.d9fa2b12136/file/vscode.python-1.64.0-next.d9fa2b12136.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/python/1.64.0-next.68976705968/file/vscode.python-1.64.0-next.68976705968.vsix"
 homepage = ""
 
 [vscode-sql]
@@ -5109,7 +5109,7 @@ publisher = "vscode"
 marketplaceName = "gulp"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/gulp/1.64.0-next.68976705968/file/vscode.gulp-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/gulp/1.64.0-next.d9fa2b12136/file/vscode.gulp-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [idleberg-extension-api]
@@ -5136,7 +5136,7 @@ publisher = "vscode"
 marketplaceName = "php-language-features"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/php-language-features/1.64.0-next.68976705968/file/vscode.php-language-features-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/php-language-features/1.64.0-next.d9fa2b12136/file/vscode.php-language-features-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [uloco-theme-bluloco-light]
@@ -5363,7 +5363,7 @@ publisher = "vscode"
 marketplaceName = "theme-monokai-dimmed"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/theme-monokai-dimmed/1.64.0-next.68976705968/file/vscode.theme-monokai-dimmed-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/theme-monokai-dimmed/1.64.0-next.d9fa2b12136/file/vscode.theme-monokai-dimmed-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [mtxr-sqltools-driver-mysql]
@@ -5612,7 +5612,7 @@ publisher = "vscode"
 marketplaceName = "css-language-features"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/css-language-features/1.64.0-next.d9fa2b12136/file/vscode.css-language-features-1.64.0-next.d9fa2b12136.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/css-language-features/1.64.0-next.68976705968/file/vscode.css-language-features-1.64.0-next.68976705968.vsix"
 homepage = ""
 
 [sodatea-velocity]
@@ -5944,7 +5944,7 @@ publisher = "vscode"
 marketplaceName = "image-preview"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/image-preview/1.64.0-next.68976705968/file/vscode.image-preview-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/image-preview/1.64.0-next.d9fa2b12136/file/vscode.image-preview-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [cweijan-vscode-redis-client]
@@ -6064,7 +6064,7 @@ publisher = "vscode"
 marketplaceName = "debug-server-ready"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/debug-server-ready/1.64.0-next.68976705968/file/vscode.debug-server-ready-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/debug-server-ready/1.64.0-next.d9fa2b12136/file/vscode.debug-server-ready-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [giscafer-leek-fund]
@@ -6360,7 +6360,7 @@ publisher = "vscode"
 marketplaceName = "debug-auto-launch"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/debug-auto-launch/1.64.0-next.68976705968/file/vscode.debug-auto-launch-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/debug-auto-launch/1.64.0-next.d9fa2b12136/file/vscode.debug-auto-launch-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [amazonwebservices-aws-toolkit-vscode]
@@ -6387,7 +6387,7 @@ publisher = "vscode"
 marketplaceName = "theme-solarized-light"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/theme-solarized-light/1.64.0-next.68976705968/file/vscode.theme-solarized-light-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/theme-solarized-light/1.64.0-next.452e2c53030/file/vscode.theme-solarized-light-1.64.0-next.452e2c53030.vsix"
 homepage = ""
 
 [icrawl-discord-vscode]
@@ -6646,8 +6646,8 @@ publisher = "dart-code"
 marketplaceName = "flutter"
 marketplacePublisher = "Dart-Code"
 license = "mit"
-changelog = "https://open-vsx.org/api/Dart-Code/flutter/3.48.0/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/Dart-Code/flutter/3.48.0/file/Dart-Code.flutter-3.48.0.vsix"
+changelog = "https://open-vsx.org/api/Dart-Code/flutter/3.50.0/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/Dart-Code/flutter/3.50.0/file/Dart-Code.flutter-3.50.0.vsix"
 homepage = "https://dartcode.org/"
 
 [IronGeek-vscode-env]
@@ -6877,6 +6877,20 @@ changelog = "https://open-vsx.org/api/usernamehw/indent-one-space/0.3.0/file/CHA
 downloadPage = "https://open-vsx.org/api/usernamehw/indent-one-space/0.3.0/file/usernamehw.indent-one-space-0.3.0.vsix"
 homepage = ""
 
+[SonarSource-sonarlint-vscode]
+src.openvsx = "SonarSource.sonarlint-vscode"
+fetch.openvsx = "SonarSource.sonarlint-vscode"
+
+[SonarSource-sonarlint-vscode.passthru]
+name = "sonarlint-vscode"
+publisher = "sonarsource"
+marketplaceName = "sonarlint-vscode"
+marketplacePublisher = "SonarSource"
+license = "lgpl3Only"
+changelog = "https://open-vsx.org/api/SonarSource/sonarlint-vscode/3.11.0/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/SonarSource/sonarlint-vscode/3.11.0/file/SonarSource.sonarlint-vscode-3.11.0.vsix"
+homepage = "http://www.sonarlint.org"
+
 [shufo-vscode-blade-formatter]
 src.openvsx = "shufo.vscode-blade-formatter"
 fetch.openvsx = "shufo.vscode-blade-formatter"
@@ -6890,20 +6904,6 @@ license = "mit"
 changelog = "https://open-vsx.org/api/shufo/vscode-blade-formatter/0.18.2/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/shufo/vscode-blade-formatter/0.18.2/file/shufo.vscode-blade-formatter-0.18.2.vsix"
 homepage = "https://github.com/shufo/vscode-blade-formatter#readme"
-
-[SonarSource-sonarlint-vscode]
-src.openvsx = "SonarSource.sonarlint-vscode"
-fetch.openvsx = "SonarSource.sonarlint-vscode"
-
-[SonarSource-sonarlint-vscode.passthru]
-name = "sonarlint-vscode"
-publisher = "sonarsource"
-marketplaceName = "sonarlint-vscode"
-marketplacePublisher = "SonarSource"
-license = "lgpl3Only"
-changelog = "https://open-vsx.org/api/SonarSource/sonarlint-vscode/3.10.0/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/SonarSource/sonarlint-vscode/3.10.0/file/SonarSource.sonarlint-vscode-3.10.0.vsix"
-homepage = "http://www.sonarlint.org"
 
 [vymarkov-nodejs-devops-extension-pack]
 src.openvsx = "vymarkov.nodejs-devops-extension-pack"
@@ -10073,8 +10073,8 @@ publisher = "redhat"
 marketplaceName = "vscode-apache-camel"
 marketplacePublisher = "redhat"
 license = "asl20"
-changelog = "https://open-vsx.org/api/redhat/vscode-apache-camel/0.4.0/file/Changelog.md"
-downloadPage = "https://open-vsx.org/api/redhat/vscode-apache-camel/0.4.0/file/redhat.vscode-apache-camel-0.4.0.vsix"
+changelog = "https://open-vsx.org/api/redhat/vscode-apache-camel/0.5.0/file/Changelog.md"
+downloadPage = "https://open-vsx.org/api/redhat/vscode-apache-camel/0.5.0/file/redhat.vscode-apache-camel-0.5.0.vsix"
 homepage = "https://github.com/camel-tooling/camel-lsp-client-vscode"
 
 [ms-pyright-pyright]
