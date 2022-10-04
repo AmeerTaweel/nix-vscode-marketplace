@@ -6463,12 +6463,12 @@
         },
         "pinned": false,
         "src": {
-            "name": "groovy-1.64.0-next.68976705968.zip",
-            "sha256": "sha256-AJt7fJTvfpe3I3DvQXj/XrhCiQTki9CCnxTx906Omho=",
+            "name": "groovy-1.64.0-next.d9fa2b12136.zip",
+            "sha256": "sha256-bh2lx3JX4Sp+VRmBvq2LopN3739ebp75xHfBOfQ5M5k=",
             "type": "url",
-            "url": "https://open-vsx.org/api/vscode/groovy/1.64.0-next.68976705968/file/vscode.groovy-1.64.0-next.68976705968.vsix"
+            "url": "https://open-vsx.org/api/vscode/groovy/1.64.0-next.d9fa2b12136/file/vscode.groovy-1.64.0-next.d9fa2b12136.vsix"
         },
-        "version": "1.64.0-next.68976705968"
+        "version": "1.64.0-next.d9fa2b12136"
     },
     "vscode-less": {
         "cargoLocks": null,
@@ -6519,7 +6519,7 @@
         "extract": null,
         "name": "vscode-perl",
         "passthru": {
-            "downloadPage": "https://open-vsx.org/api/vscode/perl/1.64.0-next.68976705968/file/vscode.perl-1.64.0-next.68976705968.vsix",
+            "downloadPage": "https://open-vsx.org/api/vscode/perl/1.64.0-next.d9fa2b12136/file/vscode.perl-1.64.0-next.d9fa2b12136.vsix",
             "homepage": "",
             "license": "mit",
             "marketplaceName": "perl",
@@ -6607,7 +6607,7 @@
         "extract": null,
         "name": "vscode-theme-defaults",
         "passthru": {
-            "downloadPage": "https://open-vsx.org/api/vscode/theme-defaults/1.64.0-next.68976705968/file/vscode.theme-defaults-1.64.0-next.68976705968.vsix",
+            "downloadPage": "https://open-vsx.org/api/vscode/theme-defaults/1.64.0-next.d9fa2b12136/file/vscode.theme-defaults-1.64.0-next.d9fa2b12136.vsix",
             "homepage": "",
             "license": "mit",
             "marketplaceName": "theme-defaults",
@@ -6629,7 +6629,7 @@
         "extract": null,
         "name": "vscode-theme-red",
         "passthru": {
-            "downloadPage": "https://open-vsx.org/api/vscode/theme-red/1.64.0-next.d9fa2b12136/file/vscode.theme-red-1.64.0-next.d9fa2b12136.vsix",
+            "downloadPage": "https://open-vsx.org/api/vscode/theme-red/1.64.0-next.68976705968/file/vscode.theme-red-1.64.0-next.68976705968.vsix",
             "homepage": "",
             "license": "mit",
             "marketplaceName": "theme-red",
@@ -8414,12 +8414,21 @@
         },
         "pinned": false,
         "src": {
+<<<<<<< Updated upstream
             "name": "gulp-1.64.0-next.d9fa2b12136.zip",
             "sha256": "sha256-06OPwg2FfkcrjhpjIFMBu/IZjK/s7C9RH8wNpL8vp0g=",
             "type": "url",
             "url": "https://open-vsx.org/api/vscode/gulp/1.64.0-next.d9fa2b12136/file/vscode.gulp-1.64.0-next.d9fa2b12136.vsix"
         },
         "version": "1.64.0-next.d9fa2b12136"
+=======
+            "name": "gulp-1.64.0-next.68976705968.zip",
+            "sha256": "sha256-m9XSVN2DoZVLb+79MF0Iexq0hjCvSqZrCcpV1fQ52YI=",
+            "type": "url",
+            "url": "https://open-vsx.org/api/vscode/gulp/1.64.0-next.68976705968/file/vscode.gulp-1.64.0-next.68976705968.vsix"
+        },
+        "version": "1.64.0-next.68976705968"
+>>>>>>> Stashed changes
     },
     "vscode-handlebars": {
         "cargoLocks": null,
@@ -8480,12 +8489,12 @@
         },
         "pinned": false,
         "src": {
-            "name": "html-language-features-1.64.0-next.68976705968.zip",
-            "sha256": "sha256-gNNHbK0NZ02Gje1rIsed9TqBlFW8TN8a+LmQCnfOshY=",
+            "name": "html-language-features-1.64.0-next.d9fa2b12136.zip",
+            "sha256": "sha256-I3icJsIoYAerUwJGHsfNZdQ63aMsNAihjEpzDVLG8rE=",
             "type": "url",
-            "url": "https://open-vsx.org/api/vscode/html-language-features/1.64.0-next.68976705968/file/vscode.html-language-features-1.64.0-next.68976705968.vsix"
+            "url": "https://open-vsx.org/api/vscode/html-language-features/1.64.0-next.d9fa2b12136/file/vscode.html-language-features-1.64.0-next.d9fa2b12136.vsix"
         },
-        "version": "1.64.0-next.68976705968"
+        "version": "1.64.0-next.d9fa2b12136"
     },
     "vscode-jake": {
         "cargoLocks": null,
@@ -8624,7 +8633,7 @@
         "extract": null,
         "name": "vscode-php-language-features",
         "passthru": {
-            "downloadPage": "https://open-vsx.org/api/vscode/php-language-features/1.64.0-next.d9fa2b12136/file/vscode.php-language-features-1.64.0-next.d9fa2b12136.vsix",
+            "downloadPage": "https://open-vsx.org/api/vscode/php-language-features/1.64.0-next.68976705968/file/vscode.php-language-features-1.64.0-next.68976705968.vsix",
             "homepage": "",
             "license": "mit",
             "marketplaceName": "php-language-features",
@@ -8668,7 +8677,7 @@
         "extract": null,
         "name": "vscode-pug",
         "passthru": {
-            "downloadPage": "https://open-vsx.org/api/vscode/pug/1.64.0-next.d9fa2b12136/file/vscode.pug-1.64.0-next.d9fa2b12136.vsix",
+            "downloadPage": "https://open-vsx.org/api/vscode/pug/1.64.0-next.68976705968/file/vscode.pug-1.64.0-next.68976705968.vsix",
             "homepage": "",
             "license": "mit",
             "marketplaceName": "pug",
@@ -8690,7 +8699,11 @@
         "extract": null,
         "name": "vscode-python",
         "passthru": {
+<<<<<<< Updated upstream
             "downloadPage": "https://open-vsx.org/api/vscode/python/1.64.0-next.d9fa2b12136/file/vscode.python-1.64.0-next.d9fa2b12136.vsix",
+=======
+            "downloadPage": "https://open-vsx.org/api/vscode/python/1.64.0-next.68976705968/file/vscode.python-1.64.0-next.68976705968.vsix",
+>>>>>>> Stashed changes
             "homepage": "",
             "license": "mit",
             "marketplaceName": "python",
@@ -10763,12 +10776,12 @@
         },
         "pinned": false,
         "src": {
-            "name": "image-preview-1.64.0-next.68976705968.zip",
-            "sha256": "sha256-QOvZNlDJYJpRb2e32JTWQPdiBwSUWS4v8OL+zmFJxkw=",
+            "name": "image-preview-1.64.0-next.d9fa2b12136.zip",
+            "sha256": "sha256-IINZMqqGVO7ZgpeVG+Wx/Hf2d88SXJZGAYY19GULNoE=",
             "type": "url",
-            "url": "https://open-vsx.org/api/vscode/image-preview/1.64.0-next.68976705968/file/vscode.image-preview-1.64.0-next.68976705968.vsix"
+            "url": "https://open-vsx.org/api/vscode/image-preview/1.64.0-next.d9fa2b12136/file/vscode.image-preview-1.64.0-next.d9fa2b12136.vsix"
         },
-        "version": "1.64.0-next.68976705968"
+        "version": "1.64.0-next.d9fa2b12136"
     },
     "vscode-ini": {
         "cargoLocks": null,
@@ -10951,7 +10964,7 @@
         "extract": null,
         "name": "vscode-ruby",
         "passthru": {
-            "downloadPage": "https://open-vsx.org/api/vscode/ruby/1.64.0-next.68976705968/file/vscode.ruby-1.64.0-next.68976705968.vsix",
+            "downloadPage": "https://open-vsx.org/api/vscode/ruby/1.64.0-next.d9fa2b12136/file/vscode.ruby-1.64.0-next.d9fa2b12136.vsix",
             "homepage": "",
             "license": "mit",
             "marketplaceName": "ruby",
@@ -10961,12 +10974,12 @@
         },
         "pinned": false,
         "src": {
-            "name": "ruby-1.64.0-next.68976705968.zip",
-            "sha256": "sha256-7OwgWEjnPG7bwMwJdIhJ4uwMDmbg7Xe+pZ6JrF+odGk=",
+            "name": "ruby-1.64.0-next.d9fa2b12136.zip",
+            "sha256": "sha256-pCAYitv2Sf2tFoi1m/CPFIsbRmxlY0kkMUsloja1GWc=",
             "type": "url",
-            "url": "https://open-vsx.org/api/vscode/ruby/1.64.0-next.68976705968/file/vscode.ruby-1.64.0-next.68976705968.vsix"
+            "url": "https://open-vsx.org/api/vscode/ruby/1.64.0-next.d9fa2b12136/file/vscode.ruby-1.64.0-next.d9fa2b12136.vsix"
         },
-        "version": "1.64.0-next.68976705968"
+        "version": "1.64.0-next.d9fa2b12136"
     },
     "vscode-scss": {
         "cargoLocks": null,
@@ -11039,7 +11052,11 @@
         "extract": null,
         "name": "vscode-swift",
         "passthru": {
+<<<<<<< Updated upstream
             "downloadPage": "https://open-vsx.org/api/vscode/swift/1.64.0-next.68976705968/file/vscode.swift-1.64.0-next.68976705968.vsix",
+=======
+            "downloadPage": "https://open-vsx.org/api/vscode/swift/1.64.0-next.d9fa2b12136/file/vscode.swift-1.64.0-next.d9fa2b12136.vsix",
+>>>>>>> Stashed changes
             "homepage": "",
             "license": "mit",
             "marketplaceName": "swift",
@@ -11092,12 +11109,12 @@
         },
         "pinned": false,
         "src": {
-            "name": "theme-kimbie-dark-1.64.0-next.68976705968.zip",
-            "sha256": "sha256-xxn6b9UgGvTGU4HOPQ/zJwo1915zuMSCsd1Mn3slKJ0=",
+            "name": "theme-kimbie-dark-1.64.0-next.452e2c53030.zip",
+            "sha256": "sha256-i0P5RLc3b97//tNSEDABotQqJSF8pjn4rs+xqmBF7Pw=",
             "type": "url",
-            "url": "https://open-vsx.org/api/vscode/theme-kimbie-dark/1.64.0-next.68976705968/file/vscode.theme-kimbie-dark-1.64.0-next.68976705968.vsix"
+            "url": "https://open-vsx.org/api/vscode/theme-kimbie-dark/1.64.0-next.452e2c53030/file/vscode.theme-kimbie-dark-1.64.0-next.452e2c53030.vsix"
         },
-        "version": "1.64.0-next.68976705968"
+        "version": "1.64.0-next.452e2c53030"
     },
     "vscode-theme-solarized-light": {
         "cargoLocks": null,
@@ -28671,8 +28688,8 @@
         "extract": null,
         "name": "streetsidesoftware-code-spell-checker-dutch",
         "passthru": {
-            "changelog": "https://open-vsx.org/api/streetsidesoftware/code-spell-checker-dutch/0.3.4/file/CHANGELOG.md",
-            "downloadPage": "https://open-vsx.org/api/streetsidesoftware/code-spell-checker-dutch/0.3.4/file/streetsidesoftware.code-spell-checker-dutch-0.3.4.vsix",
+            "changelog": "https://open-vsx.org/api/streetsidesoftware/code-spell-checker-dutch/0.3.5/file/CHANGELOG.md",
+            "downloadPage": "https://open-vsx.org/api/streetsidesoftware/code-spell-checker-dutch/0.3.5/file/streetsidesoftware.code-spell-checker-dutch-0.3.5.vsix",
             "homepage": "https://github.com/streetsidesoftware/vscode-cspell-dict-extensions#readme",
             "license": "mit",
             "marketplaceName": "code-spell-checker-dutch",
@@ -28763,8 +28780,8 @@
         "extract": null,
         "name": "streetsidesoftware-code-spell-checker-german",
         "passthru": {
-            "changelog": "https://open-vsx.org/api/streetsidesoftware/code-spell-checker-german/2.0.5/file/CHANGELOG.md",
-            "downloadPage": "https://open-vsx.org/api/streetsidesoftware/code-spell-checker-german/2.0.5/file/streetsidesoftware.code-spell-checker-german-2.0.5.vsix",
+            "changelog": "https://open-vsx.org/api/streetsidesoftware/code-spell-checker-german/2.1.0/file/CHANGELOG.md",
+            "downloadPage": "https://open-vsx.org/api/streetsidesoftware/code-spell-checker-german/2.1.0/file/streetsidesoftware.code-spell-checker-german-2.1.0.vsix",
             "homepage": "https://github.com/streetsidesoftware/vscode-cspell-dict-extensions#readme",
             "license": "gpl3Plus",
             "marketplaceName": "code-spell-checker-german",
@@ -28774,12 +28791,12 @@
         },
         "pinned": false,
         "src": {
-            "name": "code-spell-checker-german-2.0.5.zip",
-            "sha256": "sha256-v2hMINkGXi1NE/B/pEng/Y7+w11OLoeVReZAxLKYAd0=",
+            "name": "code-spell-checker-german-2.1.0.zip",
+            "sha256": "sha256-r36XEyyjdrmpeYwb5p79uOuwSVcfAdsPwKIimVXAUU4=",
             "type": "url",
-            "url": "https://open-vsx.org/api/streetsidesoftware/code-spell-checker-german/2.0.5/file/streetsidesoftware.code-spell-checker-german-2.0.5.vsix"
+            "url": "https://open-vsx.org/api/streetsidesoftware/code-spell-checker-german/2.1.0/file/streetsidesoftware.code-spell-checker-german-2.1.0.vsix"
         },
-        "version": "2.0.5"
+        "version": "2.1.0"
     },
     "streetsidesoftware-code-spell-checker-greek": {
         "cargoLocks": null,
@@ -28901,8 +28918,8 @@
         "extract": null,
         "name": "streetsidesoftware-code-spell-checker-polish",
         "passthru": {
-            "changelog": "https://open-vsx.org/api/streetsidesoftware/code-spell-checker-polish/2.0.0/file/CHANGELOG.md",
-            "downloadPage": "https://open-vsx.org/api/streetsidesoftware/code-spell-checker-polish/2.0.0/file/streetsidesoftware.code-spell-checker-polish-2.0.0.vsix",
+            "changelog": "https://open-vsx.org/api/streetsidesoftware/code-spell-checker-polish/2.0.1/file/CHANGELOG.md",
+            "downloadPage": "https://open-vsx.org/api/streetsidesoftware/code-spell-checker-polish/2.0.1/file/streetsidesoftware.code-spell-checker-polish-2.0.1.vsix",
             "homepage": "https://github.com/streetsidesoftware/vscode-cspell-dict-extensions#readme",
             "license": "gpl3Plus",
             "marketplaceName": "code-spell-checker-polish",
@@ -28912,12 +28929,12 @@
         },
         "pinned": false,
         "src": {
-            "name": "code-spell-checker-polish-2.0.0.zip",
-            "sha256": "sha256-ZuY0MqeadUBRSECBKgBZ0hxs5ACFJZG+8QXSk17vZ10=",
+            "name": "code-spell-checker-polish-2.0.1.zip",
+            "sha256": "sha256-4zkDvloccPc7jNcx6IzCzP7NYHUeXvJPZeeu9yPmVX8=",
             "type": "url",
-            "url": "https://open-vsx.org/api/streetsidesoftware/code-spell-checker-polish/2.0.0/file/streetsidesoftware.code-spell-checker-polish-2.0.0.vsix"
+            "url": "https://open-vsx.org/api/streetsidesoftware/code-spell-checker-polish/2.0.1/file/streetsidesoftware.code-spell-checker-polish-2.0.1.vsix"
         },
-        "version": "2.0.0"
+        "version": "2.0.1"
     },
     "streetsidesoftware-code-spell-checker-russian": {
         "cargoLocks": null,
@@ -31266,8 +31283,8 @@
         "extract": null,
         "name": "streetsidesoftware-code-spell-checker-spanish",
         "passthru": {
-            "changelog": "https://open-vsx.org/api/streetsidesoftware/code-spell-checker-spanish/2.1.3/file/CHANGELOG.md",
-            "downloadPage": "https://open-vsx.org/api/streetsidesoftware/code-spell-checker-spanish/2.1.3/file/streetsidesoftware.code-spell-checker-spanish-2.1.3.vsix",
+            "changelog": "https://open-vsx.org/api/streetsidesoftware/code-spell-checker-spanish/2.1.4/file/CHANGELOG.md",
+            "downloadPage": "https://open-vsx.org/api/streetsidesoftware/code-spell-checker-spanish/2.1.4/file/streetsidesoftware.code-spell-checker-spanish-2.1.4.vsix",
             "homepage": "https://github.com/streetsidesoftware/vscode-cspell-dict-extensions#readme",
             "license": "mit",
             "marketplaceName": "code-spell-checker-spanish",
@@ -31277,12 +31294,12 @@
         },
         "pinned": false,
         "src": {
-            "name": "code-spell-checker-spanish-2.1.3.zip",
-            "sha256": "sha256-aZqiyY0rYJlPohk9857c9zD3644TaOjS83rpL4uewDA=",
+            "name": "code-spell-checker-spanish-2.1.4.zip",
+            "sha256": "sha256-6gyuUYijnm2ksFzykFrjP/eS+roYftPzckdWCAieicg=",
             "type": "url",
-            "url": "https://open-vsx.org/api/streetsidesoftware/code-spell-checker-spanish/2.1.3/file/streetsidesoftware.code-spell-checker-spanish-2.1.3.vsix"
+            "url": "https://open-vsx.org/api/streetsidesoftware/code-spell-checker-spanish/2.1.4/file/streetsidesoftware.code-spell-checker-spanish-2.1.4.vsix"
         },
-        "version": "2.1.3"
+        "version": "2.1.4"
     },
     "streetsidesoftware-code-spell-checker-swedish": {
         "cargoLocks": null,
@@ -42368,8 +42385,8 @@
         "extract": null,
         "name": "senx-warpscript-language",
         "passthru": {
-            "changelog": "https://open-vsx.org/api/senx/warpscript-language/2.1.12/file/CHANGELOG.md",
-            "downloadPage": "https://open-vsx.org/api/senx/warpscript-language/2.1.12/file/senx.warpscript-language-2.1.12.vsix",
+            "changelog": "https://open-vsx.org/api/senx/warpscript-language/2.1.13/file/CHANGELOG.md",
+            "downloadPage": "https://open-vsx.org/api/senx/warpscript-language/2.1.13/file/senx.warpscript-language-2.1.13.vsix",
             "homepage": "https://github.com/senx/VSCode-WarpScriptLanguage#readme",
             "license": "asl20",
             "marketplaceName": "warpscript-language",
@@ -47683,6 +47700,7 @@
         "src": {
             "name": "git-base-1.64.0-next.68976705968.zip",
             "sha256": "sha256-28nIVtpKS0IZAAawi5Fbb3/rA2BNaBDq1hMWrwp+5HI=",
+<<<<<<< Updated upstream
             "type": "url",
             "url": "https://open-vsx.org/api/vscode/git-base/1.64.0-next.68976705968/file/vscode.git-base-1.64.0-next.68976705968.vsix"
         },
@@ -47704,3 +47722,6 @@
         },
         "pinned": false,
         "src": {,
+=======
+            "type": "url",,
+>>>>>>> Stashed changes
