@@ -4,8 +4,8 @@
             "target": "vscode-marketplace",
             "allow_net": "marketplace.visualstudio.com",
             "name": "VSCode Marketplace",
-            "BLOCK_SIZE": 20,
-            "LIMIT": 3
+            "BLOCK_SIZE": 100,
+            "LIMIT": 5
         },
         {
             "target": "open-vsx",
