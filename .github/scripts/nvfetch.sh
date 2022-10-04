@@ -41,8 +41,8 @@ printf '{mempty = {};\n}' > $nix_acc
 json_generated_block=tmp/$json_generated
 nix_generated_block=tmp/$nix_generated
 
-log_tmp=tmp/$dir_generated/log
-
+log_tmp=tmp/$dir_generated/logs
+mkdir -p $log_tmp
 
 # install programs
 nix profile install nixpkgs#gawk nixpkgs#nvfetcher nixpkgs#tree
@@ -90,8 +90,11 @@ do
     cat $toml_file | awk -v start=$block -v end=$next_block "$awk_print_block_toml" > $toml_block
 
     # https://github.com/berberman/nvfetcher#cli
-    nvfetcher -j 0 -o $dir_tmp_generated -c $toml_block -t > $log_tmp
+    block_log="$log_tmp/block$block_idx"
+    nvfetcher -j 0 -o $dir_tmp_generated -c $toml_block -t > $block_log
     
+    cat $block_log | awk 'BEGIN{a=0; b=0}/FetchUrl/{ a++ }/Check/{b++}END{printf "fetched: %s\nchecked: %s\n", a, b}'
+
     head -n -1 $json_acc | sed -z '$ s/\n$//' > $json_acc_tmp
     printf ",\n" >> $json_acc_tmp
     tail -n +2 $json_generated_block >> $json_acc_tmp
