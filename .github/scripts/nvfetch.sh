@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Input environment
+
 # name of target marketplace
 name=$NAME
 
@@ -9,67 +11,94 @@ block_size=$BLOCK_SIZE
 # Total number of blocks to fetch
 limit=${LIMIT:-5}
 
-file=nvfetch/$name.toml
 
+# Prepare files
+
+# Previous artifacts
+toml_file=nvfetch/$name.toml
+
+dir_generated=generated/$name
+json_generated=$dir_generated/generated.json
+nix_generated=$dir_generated/generated.nix
+
+# Temp location
 mkdir -p tmp
-tmp=tmp/$name.toml
+toml_block=tmp/$name.toml
 
-generated_dir=generated/$name
+dir_tmp_generated=tmp/$dir_generated
+mkdir -p tmp/$dir_generated
 
-mkdir -p $generated_dir
+# accumulator
+json_acc=$dir_tmp_generated/acc.json
+nix_acc=$dir_tmp_generated/acc.nix
 
-full_generated=$generated_dir/full
+json_acc_tmp=$dir_tmp_generated/acc.tmp.json
+printf '{"mempty" : {}\n}' > $json_acc
 
-full_json=$full_generated.json
-touch $full_json
+nix_acc_tmp=$dir_tmp_generated/acc.tmp.nix
+printf '{mempty = {};\n}' > $nix_acc
 
-full_nix=$full_generated.nix
-touch $full_nix
+json_generated_block=tmp/$json_generated
+nix_generated_block=tmp/$nix_generated
 
-echo $full_nix
-
-generated_json=$generated_dir/generated.json
-generated_nix=$generated_dir/generated.nix
-
-full_json_tmp=$full_json.tmp
-full_nix_tmp=$full_nix.tmp
+log_tmp=tmp/$dir_generated/log
 
 
-nix profile install nixpkgs#gawk nixpkgs#nvfetcher
+# install programs
+nix profile install nixpkgs#gawk nixpkgs#nvfetcher nixpkgs#tree
 
-let "count = $(cat $file | awk '/\[/{++a}END{print a}') / 2 / $block_size + 1"
+# calculate
+let "ext_count = $(cat $toml_file | awk '/\[/{++a}END{print a}') / 2 / $block_size + 1"
 
-echo "block size: $BLOCK_SIZE"
-echo "#extensions: $count"
+echo "total #extensions: $ext_count"
+echo "block size: $block_size"
 
-for i in $(seq 0 1 $count);
+let "blocks_n = (ext_count + block_size) / $block_size"
+echo "total #blocks: $blocks_n"
+
+echo "block limit: $limit"
+
+let "ext_load = $block_size * $limit > $ext_count ? $ext_count : $block_size * $limit"
+echo "#extensions to load: $ext_load"
+
+awk_print_block_toml='
+    /\[/ {a++}
+    {if (a > 2 * start && a <= 2 * end) {print}}'
+
+
+for i in $(seq 1 1 $limit);
 do
-    let "block = i * $block_size * 2"
+    # there are 2N opening square brackets (for awk matching)
+    let "block = (i - 1) * $block_size"
 
-    if (( $i > $limit )); then break; fi
+    # if (( $i > $limit )); then break; fi
 
-    let "next_block = (i + 1) * $block_size * 2"
-    printf "\n\n[ block: %s  ]\n\n" $i
-    cat nvfetch/$name.toml | awk -v start=$block -v end=$next_block '/\[/ {++a} {if (a > start && a <= end) {print}}' > $tmp
+    let "next_block = i * $block_size"
+    
+    let "block_idx = $i"
+    printf "\n\n[ block: %s; extensions %s...%s ]\n\n" $block_idx $block $next_block
+    
+    tree $HOME
+    # echo "extensions: $block...$next_block"
+    
+    # we can't read json blocks as json isn't aligned with toml
+    # so, we simply copy the lookup json
+    cat $json_generated > $json_generated_block
+        
+    cat $toml_file | awk -v start=$block -v end=$next_block "$awk_print_block_toml" > $toml_block
 
     # https://github.com/berberman/nvfetcher#cli
-    nvfetcher -j 0 -o $generated_dir -c $tmp -t
+    nvfetcher -j 0 -o $dir_tmp_generated -c $toml_block -t > $log_tmp
     
-    if [ $i == 0 ]; then 
-        mv $generated_json $full_json;
-        mv $generated_nix $full_nix;
-    else
-        head -n -1 $full_json > $full_json_tmp
-        printf ",\n" >> $full_json_tmp
-        tail +2 $generated_json >> $full_json_tmp
-        mv $full_json_tmp $full_json
-       
-        head -n -1 $full_nix > $full_nix_tmp
-        printf "\n" >> $full_nix_tmp
-        tail -n +4 $generated_nix >> $full_nix_tmp
-        mv $full_nix_tmp $full_nix
-    fi
+    head -n -1 $json_acc | sed -z '$ s/\n$//' > $json_acc_tmp
+    printf ",\n" >> $json_acc_tmp
+    tail -n +2 $json_generated_block >> $json_acc_tmp
+    cat $json_acc_tmp > $json_acc
+
+    head -n -1 $nix_acc > $nix_acc_tmp
+    tail -n +4 $nix_generated_block >> $nix_acc_tmp
+    cat $nix_acc_tmp > $nix_acc
 done
 
-mv $full_json $generated_json
-mv $full_nix $generated_nix
+cat $json_acc | awk '/mempty/ { printf "{\n"; next} {print}' > $json_generated
+cat $nix_acc | awk '/mempty/ { printf "{\n"; next} {print}' > $nix_generated

@@ -90,6 +90,7 @@
         },
         "version": "1.72.0"
     },
+<<<<<<< HEAD
     "MS-CEINTL-vscode-language-pack-en-GB": {
         "cargoLocks": null,
         "extract": null,
@@ -2886,6 +2887,9 @@
         "version": "0.0.9"
     },
     "ms-python-python": {
+=======
+    "ModyQyW-vscode-uni-app-schemas": {
+>>>>>>> 3095ab2 (upd fetch script)
         "cargoLocks": null,
         "extract": null,
         "name": "ms-python-python",
@@ -3451,93 +3455,93 @@
         },
         "version": "0.1.2"
     },
-    "ModyQyW-vscode-uni-app-snippets": {
+    "MS-CEINTL-vscode-language-pack-en-GB": {
         "cargoLocks": null,
         "extract": null,
-        "name": "ModyQyW-vscode-uni-app-snippets",
+        "name": "MS-CEINTL-vscode-language-pack-en-GB",
         "passthru": {
-            "changelog": "https://open-vsx.org/api/ModyQyW/vscode-uni-app-snippets/0.9.3/file/CHANGELOG.md",
-            "downloadPage": "https://open-vsx.org/api/ModyQyW/vscode-uni-app-snippets/0.9.3/file/ModyQyW.vscode-uni-app-snippets-0.9.3.vsix",
-            "homepage": "https://github.com/ModyQyW/uni-helper/tree/main#readme",
+            "changelog": "https://open-vsx.org/api/MS-CEINTL/vscode-language-pack-en-GB/1.54.1/file/CHANGELOG.md",
+            "downloadPage": "https://open-vsx.org/api/MS-CEINTL/vscode-language-pack-en-GB/1.54.1/file/MS-CEINTL.vscode-language-pack-en-GB-1.54.1.vsix",
             "license": "mit",
-            "marketplaceName": "vscode-uni-app-snippets",
-            "marketplacePublisher": "ModyQyW",
-            "name": "vscode-uni-app-snippets",
-            "publisher": "modyqyw"
+            "marketplaceName": "vscode-language-pack-en-GB",
+            "marketplacePublisher": "MS-CEINTL",
+            "name": "vscode-language-pack-en-gb",
+            "publisher": "ms-ceintl"
         },
         "pinned": false,
         "src": {
-            "name": "vscode-uni-app-snippets-0.9.3.zip",
-            "sha256": "sha256-FKbFh4t47QgJIi6+2LgJnIlpFlH2xCmqbz3HjYZBEb8=",
+            "name": "vscode-language-pack-en-GB-1.54.1.zip",
+            "sha256": "sha256-HBjXcY+y8oSYYQXoHqY2cp/5tASumG76Ir7hnbgSgJc=",
             "type": "url",
-            "url": "https://open-vsx.org/api/ModyQyW/vscode-uni-app-snippets/0.9.3/file/ModyQyW.vscode-uni-app-snippets-0.9.3.vsix"
+            "url": "https://open-vsx.org/api/MS-CEINTL/vscode-language-pack-en-GB/1.54.1/file/MS-CEINTL.vscode-language-pack-en-GB-1.54.1.vsix"
         },
-        "version": "0.9.3"
+        "version": "1.54.1"
     },
-    "ModyQyW-vscode-uni-cloud-snippets": {
+    "vunguyentuan-vscode-css-variables": {
         "cargoLocks": null,
         "extract": null,
-        "name": "ModyQyW-vscode-uni-cloud-snippets",
+        "name": "vunguyentuan-vscode-css-variables",
         "passthru": {
-            "changelog": "https://open-vsx.org/api/ModyQyW/vscode-uni-cloud-snippets/0.2.7/file/CHANGELOG.md",
-            "downloadPage": "https://open-vsx.org/api/ModyQyW/vscode-uni-cloud-snippets/0.2.7/file/ModyQyW.vscode-uni-cloud-snippets-0.2.7.vsix",
-            "homepage": "https://github.com/ModyQyW/uni-helper/tree/main#readme",
+            "changelog": "https://open-vsx.org/api/vunguyentuan/vscode-css-variables/2.6.1/file/CHANGELOG.md",
+            "downloadPage": "https://open-vsx.org/api/vunguyentuan/vscode-css-variables/2.6.1/file/vunguyentuan.vscode-css-variables-2.6.1.vsix",
+            "homepage": "https://github.com/vunguyentuan/vscode-css-variables#readme",
             "license": "mit",
-            "marketplaceName": "vscode-uni-cloud-snippets",
-            "marketplacePublisher": "ModyQyW",
-            "name": "vscode-uni-cloud-snippets",
-            "publisher": "modyqyw"
+            "marketplaceName": "vscode-css-variables",
+            "marketplacePublisher": "vunguyentuan",
+            "name": "vscode-css-variables",
+            "publisher": "vunguyentuan"
         },
         "pinned": false,
         "src": {
-            "name": "vscode-uni-cloud-snippets-0.2.7.zip",
-            "sha256": "sha256-G9ZhIZRm5shvu+wLjGatLM1B8HFWMRLZSMd1vnIB6mU=",
+            "name": "vscode-css-variables-2.6.1.zip",
+            "sha256": "sha256-V1dtywpdV6CXZKnwOTa2PHMW6+sDDNxazc9r3U7iKas=",
             "type": "url",
-            "url": "https://open-vsx.org/api/ModyQyW/vscode-uni-cloud-snippets/0.2.7/file/ModyQyW.vscode-uni-cloud-snippets-0.2.7.vsix"
+            "url": "https://open-vsx.org/api/vunguyentuan/vscode-css-variables/2.6.1/file/vunguyentuan.vscode-css-variables-2.6.1.vsix"
         },
-        "version": "0.2.7"
+        "version": "2.6.1"
     },
-    "ModyQyW-vscode-uni-helper": {
+    "MS-CEINTL-vscode-language-pack-es": {
         "cargoLocks": null,
         "extract": null,
-        "name": "ModyQyW-vscode-uni-helper",
+        "name": "MS-CEINTL-vscode-language-pack-es",
         "passthru": {
-            "downloadPage": "https://open-vsx.org/api/ModyQyW/vscode-uni-helper/0.5.5/file/ModyQyW.vscode-uni-helper-0.5.5.vsix",
-            "homepage": "https://github.com/ModyQyW/uni-helper/tree/main#readme",
+            "changelog": "https://open-vsx.org/api/MS-CEINTL/vscode-language-pack-es/1.72.0/file/CHANGELOG.md",
+            "downloadPage": "https://open-vsx.org/api/MS-CEINTL/vscode-language-pack-es/1.72.0/file/MS-CEINTL.vscode-language-pack-es-1.72.0.vsix",
+            "homepage": "https://github.com/Microsoft/vscode-loc#readme",
             "license": "mit",
-            "marketplaceName": "vscode-uni-helper",
-            "marketplacePublisher": "ModyQyW",
-            "name": "vscode-uni-helper",
-            "publisher": "modyqyw"
+            "marketplaceName": "vscode-language-pack-es",
+            "marketplacePublisher": "MS-CEINTL",
+            "name": "vscode-language-pack-es",
+            "publisher": "ms-ceintl"
         },
         "pinned": false,
         "src": {
-            "name": "vscode-uni-helper-0.5.5.zip",
-            "sha256": "sha256-uBigLRmoH0sr41f194toQWg8b7DJZOX0Z/oUQWbi3ZA=",
+            "name": "vscode-language-pack-es-1.72.0.zip",
+            "sha256": "sha256-C14D0TXA+0+xpsIQ+J+cNpvMpgRsbiLNj7KvZOIKANU=",
             "type": "url",
-            "url": "https://open-vsx.org/api/ModyQyW/vscode-uni-helper/0.5.5/file/ModyQyW.vscode-uni-helper-0.5.5.vsix"
+            "url": "https://open-vsx.org/api/MS-CEINTL/vscode-language-pack-es/1.72.0/file/MS-CEINTL.vscode-language-pack-es-1.72.0.vsix"
         },
-        "version": "0.5.5"
+        "version": "1.72.0"
     },
-    "ModyQyW-vscode-uni-ui-snippets": {
+    "trixnz-go-to-method": {
         "cargoLocks": null,
         "extract": null,
-        "name": "ModyQyW-vscode-uni-ui-snippets",
+        "name": "trixnz-go-to-method",
         "passthru": {
-            "changelog": "https://open-vsx.org/api/ModyQyW/vscode-uni-ui-snippets/0.6.4/file/CHANGELOG.md",
-            "downloadPage": "https://open-vsx.org/api/ModyQyW/vscode-uni-ui-snippets/0.6.4/file/ModyQyW.vscode-uni-ui-snippets-0.6.4.vsix",
-            "homepage": "https://github.com/ModyQyW/uni-helper/tree/main#readme",
+            "downloadPage": "https://open-vsx.org/api/trixnz/go-to-method/0.2.0/file/trixnz.go-to-method-0.2.0.vsix",
+            "homepage": "https://github.com/trixnz/vscode-go-to-method#readme",
             "license": "mit",
-            "marketplaceName": "vscode-uni-ui-snippets",
-            "marketplacePublisher": "ModyQyW",
-            "name": "vscode-uni-ui-snippets",
-            "publisher": "modyqyw"
+            "marketplaceName": "go-to-method",
+            "marketplacePublisher": "trixnz",
+            "name": "go-to-method",
+            "publisher": "trixnz"
         },
         "pinned": false,
         "src": {
-            "name": "vscode-uni-ui-snippets-0.6.4.zip",
-            "sha256": "sha256-fdZCz87e7GUBSRnhp2w3MZiHf/gmhgCmdXKHA+6XOkw=",
+            "name": "go-to-method-0.2.0.zip",
+            "sha256": "sha256-zTctziY+lgrrw9xFNw/LSr8EV3/PPrXtuQBXTuR+AAo=",
             "type": "url",
+<<<<<<< HEAD
             "url": "https://open-vsx.org/api/ModyQyW/vscode-uni-ui-snippets/0.6.4/file/ModyQyW.vscode-uni-ui-snippets-0.6.4.vsix"
         },
         "version": "0.6.4"
@@ -35050,10 +35054,75 @@
             "marketplaceName": "vscode-language-pack-qps-ploc",
             "marketplacePublisher": "MS-CEINTL",
             "name": "vscode-language-pack-qps-ploc",
+=======
+            "url": "https://open-vsx.org/api/trixnz/go-to-method/0.2.0/file/trixnz.go-to-method-0.2.0.vsix"
+        },
+        "version": "0.2.0"
+    },
+    "mattpocock-ts-error-translator": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "mattpocock-ts-error-translator",
+        "passthru": {
+            "changelog": "https://open-vsx.org/api/mattpocock/ts-error-translator/0.5.3/file/CHANGELOG.md",
+            "downloadPage": "https://open-vsx.org/api/mattpocock/ts-error-translator/0.5.3/file/mattpocock.ts-error-translator-0.5.3.vsix",
+            "homepage": "https://github.com/mattpocock/ts-error-translator#readme",
+            "license": "mit",
+            "marketplaceName": "ts-error-translator",
+            "marketplacePublisher": "mattpocock",
+            "name": "ts-error-translator",
+            "publisher": "mattpocock"
+        },
+        "pinned": false,
+        "src": {
+            "name": "ts-error-translator-0.5.3.zip",
+            "sha256": "sha256-aew4Kvqdy3/ScQO6pQuXgPP150qgqJizL7aKrU5s6jA=",
+            "type": "url",
+            "url": "https://open-vsx.org/api/mattpocock/ts-error-translator/0.5.3/file/mattpocock.ts-error-translator-0.5.3.vsix"
+        },
+        "version": "0.5.3"
+    },
+    "nullxception-cherry-theme": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "nullxception-cherry-theme",
+        "passthru": {
+            "changelog": "https://open-vsx.org/api/nullxception/cherry-theme/0.2.4/file/CHANGELOG.md",
+            "downloadPage": "https://open-vsx.org/api/nullxception/cherry-theme/0.2.4/file/nullxception.cherry-theme-0.2.4.vsix",
+            "homepage": "https://github.com/nullxception/cherry-vscode",
+            "license": "mit",
+            "marketplaceName": "cherry-theme",
+            "marketplacePublisher": "nullxception",
+            "name": "cherry-theme",
+            "publisher": "nullxception"
+        },
+        "pinned": false,
+        "src": {
+            "name": "cherry-theme-0.2.4.zip",
+            "sha256": "sha256-QF2b1n1MkQT6CWJM60ItI7VZ2nhyYffLBM4ZReHr7m8=",
+            "type": "url",
+            "url": "https://open-vsx.org/api/nullxception/cherry-theme/0.2.4/file/nullxception.cherry-theme-0.2.4.vsix"
+        },
+        "version": "0.2.4"
+    },
+    "MS-CEINTL-vscode-language-pack-fr": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "MS-CEINTL-vscode-language-pack-fr",
+        "passthru": {
+            "changelog": "https://open-vsx.org/api/MS-CEINTL/vscode-language-pack-fr/1.72.0/file/CHANGELOG.md",
+            "downloadPage": "https://open-vsx.org/api/MS-CEINTL/vscode-language-pack-fr/1.72.0/file/MS-CEINTL.vscode-language-pack-fr-1.72.0.vsix",
+            "homepage": "https://github.com/Microsoft/vscode-loc#readme",
+            "license": "mit",
+            "marketplaceName": "vscode-language-pack-fr",
+            "marketplacePublisher": "MS-CEINTL",
+            "name": "vscode-language-pack-fr",
+>>>>>>> 3095ab2 (upd fetch script)
             "publisher": "ms-ceintl"
         },
         "pinned": false,
         "src": {
+<<<<<<< HEAD
             "name": "vscode-language-pack-qps-ploc-1.72.0.zip",
             "sha256": "sha256-5ruct3O2/P070/VczFtxJZENdVRClEZAs63xsgR1Ehc=",
             "type": "url",
@@ -47754,3 +47823,36 @@
         "version": "1.13.0"
     }
 ,
+=======
+            "name": "vscode-language-pack-fr-1.72.0.zip",
+            "sha256": "sha256-OsrDIuTbUFkISOIXTwRPG67uktKNP9b9zhz9nTfGDtY=",
+            "type": "url",
+            "url": "https://open-vsx.org/api/MS-CEINTL/vscode-language-pack-fr/1.72.0/file/MS-CEINTL.vscode-language-pack-fr-1.72.0.vsix"
+        },
+        "version": "1.72.0"
+    },
+    "vunguyentuan-vscode-postcss": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "vunguyentuan-vscode-postcss",
+        "passthru": {
+            "changelog": "https://open-vsx.org/api/vunguyentuan/vscode-postcss/2.0.2/file/CHANGELOG.md",
+            "downloadPage": "https://open-vsx.org/api/vunguyentuan/vscode-postcss/2.0.2/file/vunguyentuan.vscode-postcss-2.0.2.vsix",
+            "homepage": "https://github.com/vunguyentuan/vscode-postcss#readme",
+            "license": "mit",
+            "marketplaceName": "vscode-postcss",
+            "marketplacePublisher": "vunguyentuan",
+            "name": "vscode-postcss",
+            "publisher": "vunguyentuan"
+        },
+        "pinned": false,
+        "src": {
+            "name": "vscode-postcss-2.0.2.zip",
+            "sha256": "sha256-cWZNKwd6oRhEJf+aQIRUJ1W5L6nDr77Rtx8w+v3Abmc=",
+            "type": "url",
+            "url": "https://open-vsx.org/api/vunguyentuan/vscode-postcss/2.0.2/file/vunguyentuan.vscode-postcss-2.0.2.vsix"
+        },
+        "version": "2.0.2"
+    }
+}
+>>>>>>> 3095ab2 (upd fetch script)
