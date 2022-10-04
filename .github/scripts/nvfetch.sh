@@ -68,7 +68,7 @@ awk_print_block_toml='
     {if (a > 2 * start && a <= 2 * end) {print}}'
 
 
-for i in $(seq 1 1 $limit);
+for i in $(seq 1 1 $block_limit);
 do
     # there are 2N opening square brackets (for awk matching)
     let "block = (i - 1) * $block_size"
