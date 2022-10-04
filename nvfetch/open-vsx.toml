@@ -4027,7 +4027,7 @@ publisher = "vscode"
 marketplaceName = "objective-c"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/objective-c/1.64.0-next.d9fa2b12136/file/vscode.objective-c-1.64.0-next.d9fa2b12136.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/objective-c/1.64.0-next.68976705968/file/vscode.objective-c-1.64.0-next.68976705968.vsix"
 homepage = ""
 
 [ModestExtensionTeam-modestextension]
@@ -4079,7 +4079,7 @@ publisher = "vscode"
 marketplaceName = "php"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/php/1.64.0-next.68976705968/file/vscode.php-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/php/1.64.0-next.d9fa2b12136/file/vscode.php-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [sndst00m-vscode-native-svg-preview]
@@ -4534,7 +4534,7 @@ publisher = "vscode"
 marketplaceName = "html"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/html/1.64.0-next.d9fa2b12136/file/vscode.html-1.64.0-next.d9fa2b12136.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/html/1.64.0-next.68976705968/file/vscode.html-1.64.0-next.68976705968.vsix"
 homepage = ""
 
 [laradump-laradump]
@@ -4572,7 +4572,7 @@ publisher = "vscode"
 marketplaceName = "xml"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/xml/1.64.0-next.d9fa2b12136/file/vscode.xml-1.64.0-next.d9fa2b12136.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/xml/1.64.0-next.68976705968/file/vscode.xml-1.64.0-next.68976705968.vsix"
 homepage = ""
 
 [itsjonq-owlet]
@@ -5027,7 +5027,7 @@ publisher = "vscode"
 marketplaceName = "go"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/go/1.64.0-next.d9fa2b12136/file/vscode.go-1.64.0-next.d9fa2b12136.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/go/1.64.0-next.68976705968/file/vscode.go-1.64.0-next.68976705968.vsix"
 homepage = ""
 
 [Cloud-pipelines-pipeline-editor-vscode]
@@ -5176,7 +5176,7 @@ publisher = "vscode"
 marketplaceName = "jake"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/jake/1.64.0-next.68976705968/file/vscode.jake-1.64.0-next.68976705968.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/jake/1.64.0-next.d9fa2b12136/file/vscode.jake-1.64.0-next.d9fa2b12136.vsix"
 homepage = ""
 
 [uloco-theme-bluloco-dark]
@@ -5388,7 +5388,7 @@ publisher = "vscode"
 marketplaceName = "typescript"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/typescript/1.64.0-next.d9fa2b12136/file/vscode.typescript-1.64.0-next.d9fa2b12136.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/typescript/1.64.0-next.68976705968/file/vscode.typescript-1.64.0-next.68976705968.vsix"
 homepage = ""
 
 [ComplYue-edh-vscode-lsc]
@@ -5851,7 +5851,7 @@ publisher = "vscode"
 marketplaceName = "scss"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/scss/1.64.0-next.d9fa2b12136/file/vscode.scss-1.64.0-next.d9fa2b12136.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/scss/1.64.0-next.68976705968/file/vscode.scss-1.64.0-next.68976705968.vsix"
 homepage = ""
 
 [vscode-shellscript]
@@ -6294,7 +6294,7 @@ publisher = "vscode"
 marketplaceName = "csharp"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/csharp/1.64.0-next.d9fa2b12136/file/vscode.csharp-1.64.0-next.d9fa2b12136.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/csharp/1.64.0-next.68976705968/file/vscode.csharp-1.64.0-next.68976705968.vsix"
 homepage = ""
 
 [arcticicestudio-nord-visual-studio-code]
