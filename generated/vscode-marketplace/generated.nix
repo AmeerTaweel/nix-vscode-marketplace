@@ -508,11 +508,11 @@
   };
   eg2-vscode-npm-script = {
     pname = "eg2-vscode-npm-script";
-    version = "0.3.28";
+    version = "0.3.29";
     src = fetchurl {
-      url = "https://eg2.gallery.vsassets.io/_apis/public/gallery/publisher/eg2/extension/vscode-npm-script/0.3.28/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscode-npm-script-0.3.28.zip";
-      sha256 = "sha256-ZWiP/CJFcDemWEbhe7gK+1Z7c8kYWhOpVr7uWYX9xXE=";
+      url = "https://eg2.gallery.vsassets.io/_apis/public/gallery/publisher/eg2/extension/vscode-npm-script/0.3.29/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscode-npm-script-0.3.29.zip";
+      sha256 = "sha256-k6DtmhYBj7mg8SUU3pg+ezRzWvhiECqYQVj9LDhhV4I=";
     };
     name = "vscode-npm-script";
     marketplacePublisher = "eg2";
@@ -703,11 +703,11 @@
   };
   ms-python-python = {
     pname = "ms-python-python";
-    version = "2022.15.12731017";
+    version = "2022.17.12771040";
     src = fetchurl {
-      url = "https://ms-python.gallery.vsassets.io/_apis/public/gallery/publisher/ms-python/extension/python/2022.15.12731017/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "python-2022.15.12731017.zip";
-      sha256 = "sha256-qBR/mgfeUl0Z1ZYFjTjtLWHxbOcqZkMWrwlrxtqPVU8=";
+      url = "https://ms-python.gallery.vsassets.io/_apis/public/gallery/publisher/ms-python/extension/python/2022.17.12771040/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "python-2022.17.12771040.zip";
+      sha256 = "sha256-GPoVJ57vAELsI40xP5FeTKuMyYeSt7OYQWJTqDdWcK8=";
     };
     name = "python";
     marketplacePublisher = "ms-python";
@@ -1578,7 +1578,7 @@
     src = fetchurl {
       url = "https://Vue.gallery.vsassets.io/_apis/public/gallery/publisher/Vue/extension/volar/0.40.13/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
       name = "volar-0.40.13.zip";
-      sha256 = "sha256-M14Zgb+8O6BrzdFDVJf9xuydYq1Me2tCdPn3fSATR0E=";
+      sha256 = "sha256-IDCvqRKEqdP9QUejkE/Xe4+I0ma/We634bfSX8HZ2bI=";
     };
     name = "volar";
     marketplacePublisher = "Vue";
@@ -3593,7 +3593,7 @@
     src = fetchurl {
       url = "https://rust-lang.gallery.vsassets.io/_apis/public/gallery/publisher/rust-lang/extension/rust-analyzer/0.4.1228/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
       name = "rust-analyzer-0.4.1228.zip";
-      sha256 = "sha256-BQD1+gvgC1dX1Ea8eBxEREtVXYEfGS6+nkVuk2gZ3qQ=";
+      sha256 = "sha256-5Cdq6aJL9bWQKvEtgEs2jjUyHl6V1VWG2TN6zwLIkL0=";
     };
     name = "rust-analyzer";
     marketplacePublisher = "rust-lang";
@@ -5049,7 +5049,7 @@
     src = fetchurl {
       url = "https://sumneko.gallery.vsassets.io/_apis/public/gallery/publisher/sumneko/extension/lua/3.5.6/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
       name = "lua-3.5.6.zip";
-      sha256 = "sha256-ZJsuYe74lsF1gcqyKCFqD+KlcX3tNgWu6tGOJfq4H6c=";
+      sha256 = "sha256-Unzs9rX/0MlQprSvScdBCCFMeLCaGzWsMbcFqSKY2XY=";
     };
     name = "lua";
     marketplacePublisher = "sumneko";
@@ -11153,19 +11153,6 @@
     marketplaceName = "marp-vscode";
     publisher = "marp-team";
   };
-  maximetinu-identical-sublime-monokai-csharp-theme-colorizer = {
-    pname = "maximetinu-identical-sublime-monokai-csharp-theme-colorizer";
-    version = "1.2.2";
-    src = fetchurl {
-      url = "https://maximetinu.gallery.vsassets.io/_apis/public/gallery/publisher/maximetinu/extension/identical-sublime-monokai-csharp-theme-colorizer/1.2.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "identical-sublime-monokai-csharp-theme-colorizer-1.2.2.zip";
-      sha256 = "sha256-rZxStDqc7jdO5chXYioSGLJQT7EZREHa+j+HxnQjouI=";
-    };
-    name = "identical-sublime-monokai-csharp-theme-colorizer";
-    marketplacePublisher = "maximetinu";
-    marketplaceName = "identical-sublime-monokai-csharp-theme-colorizer";
-    publisher = "maximetinu";
-  };
   mrmlnc-vscode-csscomb = {
     pname = "mrmlnc-vscode-csscomb";
     version = "5.3.2";
@@ -11178,6 +11165,19 @@
     marketplacePublisher = "mrmlnc";
     marketplaceName = "vscode-csscomb";
     publisher = "mrmlnc";
+  };
+  ms-azuretools-azure-dev = {
+    pname = "ms-azuretools-azure-dev";
+    version = "0.3.0";
+    src = fetchurl {
+      url = "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/azure-dev/0.3.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "azure-dev-0.3.0.zip";
+      sha256 = "sha256-rQ41pizJ5HE8dEUep1nuc7S1ESxRoy0FMnA+RiNe47I=";
+    };
+    name = "azure-dev";
+    marketplacePublisher = "ms-azuretools";
+    marketplaceName = "azure-dev";
+    publisher = "ms-azuretools";
   };
   ms-azuretools-vscode-apimanagement = {
     pname = "ms-azuretools-vscode-apimanagement";
@@ -12531,6 +12531,19 @@
     marketplaceName = "vscode-mocha-sidebar";
     publisher = "maty";
   };
+  maximetinu-identical-sublime-monokai-csharp-theme-colorizer = {
+    pname = "maximetinu-identical-sublime-monokai-csharp-theme-colorizer";
+    version = "1.2.2";
+    src = fetchurl {
+      url = "https://maximetinu.gallery.vsassets.io/_apis/public/gallery/publisher/maximetinu/extension/identical-sublime-monokai-csharp-theme-colorizer/1.2.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "identical-sublime-monokai-csharp-theme-colorizer-1.2.2.zip";
+      sha256 = "sha256-rZxStDqc7jdO5chXYioSGLJQT7EZREHa+j+HxnQjouI=";
+    };
+    name = "identical-sublime-monokai-csharp-theme-colorizer";
+    marketplacePublisher = "maximetinu";
+    marketplaceName = "identical-sublime-monokai-csharp-theme-colorizer";
+    publisher = "maximetinu";
+  };
   mblode-twig-language = {
     pname = "mblode-twig-language";
     version = "0.9.2";
@@ -12621,19 +12634,6 @@
     marketplacePublisher = "mrmlnc";
     marketplaceName = "vscode-attrs-sorter";
     publisher = "mrmlnc";
-  };
-  ms-azuretools-azure-dev = {
-    pname = "ms-azuretools-azure-dev";
-    version = "0.3.0";
-    src = fetchurl {
-      url = "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/azure-dev/0.3.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "azure-dev-0.3.0.zip";
-      sha256 = "sha256-rQ41pizJ5HE8dEUep1nuc7S1ESxRoy0FMnA+RiNe47I=";
-    };
-    name = "azure-dev";
-    marketplacePublisher = "ms-azuretools";
-    marketplaceName = "azure-dev";
-    publisher = "ms-azuretools";
   };
   ms-python-pylint = {
     pname = "ms-python-pylint";
@@ -22593,19 +22593,6 @@
     marketplaceName = "Nix";
     publisher = "bbenoist";
   };
-  bernardodsanderson-theme-material-neutral = {
-    pname = "bernardodsanderson-theme-material-neutral";
-    version = "0.9.8";
-    src = fetchurl {
-      url = "https://bernardodsanderson.gallery.vsassets.io/_apis/public/gallery/publisher/bernardodsanderson/extension/theme-material-neutral/0.9.8/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "theme-material-neutral-0.9.8.zip";
-      sha256 = "sha256-goR11NSlB7uQytfEP6Xqe7hwjLJEVlaVNzl0bq7FgyU=";
-    };
-    name = "theme-material-neutral";
-    marketplacePublisher = "bernardodsanderson";
-    marketplaceName = "theme-material-neutral";
-    publisher = "bernardodsanderson";
-  };
   budparr-language-hugo-vscode = {
     pname = "budparr-language-hugo-vscode";
     version = "1.3.1";
@@ -22657,6 +22644,19 @@
     marketplacePublisher = "datmt24";
     marketplaceName = "rapid-json-search";
     publisher = "datmt24";
+  };
+  david9991-plcc-plugin = {
+    pname = "david9991-plcc-plugin";
+    version = "0.14.15";
+    src = fetchurl {
+      url = "https://david9991.gallery.vsassets.io/_apis/public/gallery/publisher/david9991/extension/plcc-plugin/0.14.15/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "plcc-plugin-0.14.15.zip";
+      sha256 = "sha256-cULjZ0ziXU148SBWB3VpRjP7ijY9jnmN2RKomTzxUM4=";
+    };
+    name = "plcc-plugin";
+    marketplacePublisher = "david9991";
+    marketplaceName = "plcc-plugin";
+    publisher = "david9991";
   };
   davidrockburn-py-pack = {
     pname = "davidrockburn-py-pack";
@@ -23698,6 +23698,19 @@
     marketplaceName = "razor-plus";
     publisher = "austincummings";
   };
+  bernardodsanderson-theme-material-neutral = {
+    pname = "bernardodsanderson-theme-material-neutral";
+    version = "0.9.8";
+    src = fetchurl {
+      url = "https://bernardodsanderson.gallery.vsassets.io/_apis/public/gallery/publisher/bernardodsanderson/extension/theme-material-neutral/0.9.8/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "theme-material-neutral-0.9.8.zip";
+      sha256 = "sha256-goR11NSlB7uQytfEP6Xqe7hwjLJEVlaVNzl0bq7FgyU=";
+    };
+    name = "theme-material-neutral";
+    marketplacePublisher = "bernardodsanderson";
+    marketplaceName = "theme-material-neutral";
+    publisher = "bernardodsanderson";
+  };
   bhshawon-node-json-autocomplete = {
     pname = "bhshawon-node-json-autocomplete";
     version = "0.1.3";
@@ -23801,19 +23814,6 @@
     marketplacePublisher = "damianbal";
     marketplaceName = "vs-phpclassgen";
     publisher = "damianbal";
-  };
-  david9991-plcc-plugin = {
-    pname = "david9991-plcc-plugin";
-    version = "0.14.15";
-    src = fetchurl {
-      url = "https://david9991.gallery.vsassets.io/_apis/public/gallery/publisher/david9991/extension/plcc-plugin/0.14.15/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "plcc-plugin-0.14.15.zip";
-      sha256 = "sha256-cULjZ0ziXU148SBWB3VpRjP7ijY9jnmN2RKomTzxUM4=";
-    };
-    name = "plcc-plugin";
-    marketplacePublisher = "david9991";
-    marketplaceName = "plcc-plugin";
-    publisher = "david9991";
   };
   dhoeric-ansible-vault = {
     pname = "dhoeric-ansible-vault";
@@ -26131,11 +26131,11 @@
   };
   Prisma-prisma-insider = {
     pname = "Prisma-prisma-insider";
-    version = "31.0.1469";
+    version = "31.0.1471";
     src = fetchurl {
-      url = "https://Prisma.gallery.vsassets.io/_apis/public/gallery/publisher/Prisma/extension/prisma-insider/31.0.1469/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "prisma-insider-31.0.1469.zip";
-      sha256 = "sha256-e14GxptSqp7vffObJvP9+a8iUznJd6DOBxjZW07A3DE=";
+      url = "https://Prisma.gallery.vsassets.io/_apis/public/gallery/publisher/Prisma/extension/prisma-insider/31.0.1471/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "prisma-insider-31.0.1471.zip";
+      sha256 = "sha256-mXYsH4oBS9r7Vcx2vBuv+jUzNckuEEkMgOAe4I6FjDE=";
     };
     name = "prisma-insider";
     marketplacePublisher = "Prisma";
@@ -26362,19 +26362,6 @@
     marketplacePublisher = "cbrevik";
     marketplaceName = "toggle-format-on-save";
     publisher = "cbrevik";
-  };
-  changkaiyan-tf2snippets = {
-    pname = "changkaiyan-tf2snippets";
-    version = "0.1.0";
-    src = fetchurl {
-      url = "https://changkaiyan.gallery.vsassets.io/_apis/public/gallery/publisher/changkaiyan/extension/tf2snippets/0.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "tf2snippets-0.1.0.zip";
-      sha256 = "sha256-Sug46ofME0+Dzx/H6tHLJnrzYTtcalZBBSqbvGqQlz4=";
-    };
-    name = "tf2snippets";
-    marketplacePublisher = "changkaiyan";
-    marketplaceName = "tf2snippets";
-    publisher = "changkaiyan";
   };
   cliffordfajardo-highlight-line-vscode = {
     pname = "cliffordfajardo-highlight-line-vscode";
@@ -26973,6 +26960,19 @@
     marketplacePublisher = "ms-vscode";
     marketplaceName = "latex";
     publisher = "ms-vscode";
+  };
+  msjsdiag-debugger-for-chrome-nightly = {
+    pname = "msjsdiag-debugger-for-chrome-nightly";
+    version = "2020.2.15300";
+    src = fetchurl {
+      url = "https://msjsdiag.gallery.vsassets.io/_apis/public/gallery/publisher/msjsdiag/extension/debugger-for-chrome-nightly/2020.2.15300/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "debugger-for-chrome-nightly-2020.2.15300.zip";
+      sha256 = "sha256-n10QGtjVMWstbP1lPk8/SGyU3UwIMr+fFPY8R7PAP5A=";
+    };
+    name = "debugger-for-chrome-nightly";
+    marketplacePublisher = "msjsdiag";
+    marketplaceName = "debugger-for-chrome-nightly";
+    publisher = "msjsdiag";
   };
   nmsmith89-incrementor = {
     pname = "nmsmith89-incrementor";
@@ -27624,6 +27624,19 @@
     marketplaceName = "insert-unicode";
     publisher = "brunnerh";
   };
+  changkaiyan-tf2snippets = {
+    pname = "changkaiyan-tf2snippets";
+    version = "0.1.0";
+    src = fetchurl {
+      url = "https://changkaiyan.gallery.vsassets.io/_apis/public/gallery/publisher/changkaiyan/extension/tf2snippets/0.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "tf2snippets-0.1.0.zip";
+      sha256 = "sha256-Sug46ofME0+Dzx/H6tHLJnrzYTtcalZBBSqbvGqQlz4=";
+    };
+    name = "tf2snippets";
+    marketplacePublisher = "changkaiyan";
+    marketplaceName = "tf2snippets";
+    publisher = "changkaiyan";
+  };
   cpmcgrath-codealignment-vscode = {
     pname = "cpmcgrath-codealignment-vscode";
     version = "2.0.19";
@@ -28091,19 +28104,6 @@
     marketplacePublisher = "ms-vscode";
     marketplaceName = "vscode-github-issue-notebooks";
     publisher = "ms-vscode";
-  };
-  msjsdiag-debugger-for-chrome-nightly = {
-    pname = "msjsdiag-debugger-for-chrome-nightly";
-    version = "2020.2.15300";
-    src = fetchurl {
-      url = "https://msjsdiag.gallery.vsassets.io/_apis/public/gallery/publisher/msjsdiag/extension/debugger-for-chrome-nightly/2020.2.15300/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "debugger-for-chrome-nightly-2020.2.15300.zip";
-      sha256 = "sha256-n10QGtjVMWstbP1lPk8/SGyU3UwIMr+fFPY8R7PAP5A=";
-    };
-    name = "debugger-for-chrome-nightly";
-    marketplacePublisher = "msjsdiag";
-    marketplaceName = "debugger-for-chrome-nightly";
-    publisher = "msjsdiag";
   };
   nervtech-mq4 = {
     pname = "nervtech-mq4";
@@ -29158,6 +29158,19 @@
     marketplaceName = "webpack-snippets";
     publisher = "gogocrow";
   };
+  hzgood-dart-data-class-generator = {
+    pname = "hzgood-dart-data-class-generator";
+    version = "0.5.4";
+    src = fetchurl {
+      url = "https://hzgood.gallery.vsassets.io/_apis/public/gallery/publisher/hzgood/extension/dart-data-class-generator/0.5.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "dart-data-class-generator-0.5.4.zip";
+      sha256 = "sha256-VFL5jdyh9cTiD8Lq0Vke/Y3TbVaxJn3L2nidFTBFRwE=";
+    };
+    name = "dart-data-class-generator";
+    marketplacePublisher = "hzgood";
+    marketplaceName = "dart-data-class-generator";
+    publisher = "hzgood";
+  };
   iampeterbanjo-elixirlinter = {
     pname = "iampeterbanjo-elixirlinter";
     version = "0.4.1";
@@ -29274,19 +29287,6 @@
     marketplacePublisher = "kaih2o";
     marketplaceName = "python-resource-monitor";
     publisher = "kaih2o";
-  };
-  keenethics-keen-neutral-icon-theme = {
-    pname = "keenethics-keen-neutral-icon-theme";
-    version = "1.0.8";
-    src = fetchurl {
-      url = "https://keenethics.gallery.vsassets.io/_apis/public/gallery/publisher/keenethics/extension/keen-neutral-icon-theme/1.0.8/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "keen-neutral-icon-theme-1.0.8.zip";
-      sha256 = "sha256-30xhiyd7IpBq2OTr/Ve1lR2fOvBVo60tZQisBoq+M2M=";
-    };
-    name = "keen-neutral-icon-theme";
-    marketplacePublisher = "keenethics";
-    marketplaceName = "keen-neutral-icon-theme";
-    publisher = "keenethics";
   };
   kube-theme-kay = {
     pname = "kube-theme-kay";
@@ -30601,19 +30601,6 @@
     marketplaceName = "vscode-systemd-support";
     publisher = "hangxingliu";
   };
-  hzgood-dart-data-class-generator = {
-    pname = "hzgood-dart-data-class-generator";
-    version = "0.5.4";
-    src = fetchurl {
-      url = "https://hzgood.gallery.vsassets.io/_apis/public/gallery/publisher/hzgood/extension/dart-data-class-generator/0.5.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "dart-data-class-generator-0.5.4.zip";
-      sha256 = "sha256-VFL5jdyh9cTiD8Lq0Vke/Y3TbVaxJn3L2nidFTBFRwE=";
-    };
-    name = "dart-data-class-generator";
-    marketplacePublisher = "hzgood";
-    marketplaceName = "dart-data-class-generator";
-    publisher = "hzgood";
-  };
   jansenfuller-crayon-vscode = {
     pname = "jansenfuller-crayon-vscode";
     version = "0.6.4";
@@ -30730,6 +30717,19 @@
     marketplacePublisher = "kdcro101";
     marketplaceName = "favorites";
     publisher = "kdcro101";
+  };
+  keenethics-keen-neutral-icon-theme = {
+    pname = "keenethics-keen-neutral-icon-theme";
+    version = "1.0.8";
+    src = fetchurl {
+      url = "https://keenethics.gallery.vsassets.io/_apis/public/gallery/publisher/keenethics/extension/keen-neutral-icon-theme/1.0.8/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "keen-neutral-icon-theme-1.0.8.zip";
+      sha256 = "sha256-30xhiyd7IpBq2OTr/Ve1lR2fOvBVo60tZQisBoq+M2M=";
+    };
+    name = "keen-neutral-icon-theme";
+    marketplacePublisher = "keenethics";
+    marketplaceName = "keen-neutral-icon-theme";
+    publisher = "keenethics";
   };
   kisstkondoros-csstriggers = {
     pname = "kisstkondoros-csstriggers";
@@ -31250,6 +31250,19 @@
     marketplacePublisher = "CoderCoder";
     marketplaceName = "codercoder-dark-theme";
     publisher = "codercoder";
+  };
+  DEVSENSE-profiler-php-vscode = {
+    pname = "DEVSENSE-profiler-php-vscode";
+    version = "1.18.10716";
+    src = fetchurl {
+      url = "https://DEVSENSE.gallery.vsassets.io/_apis/public/gallery/publisher/DEVSENSE/extension/profiler-php-vscode/1.18.10716/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "profiler-php-vscode-1.18.10716.zip";
+      sha256 = "sha256-rNp0eLIzncRkMqCqqTbBGgn2xnEGlfE80IjvAR9zIaE=";
+    };
+    name = "profiler-php-vscode";
+    marketplacePublisher = "DEVSENSE";
+    marketplaceName = "profiler-php-vscode";
+    publisher = "devsense";
   };
   Docter60-vscode-terminal-for-ubuntu = {
     pname = "Docter60-vscode-terminal-for-ubuntu";
@@ -32057,19 +32070,6 @@
     marketplaceName = "camelcasenavigation";
     publisher = "maptz";
   };
-  mde-select-highlight-minimap = {
-    pname = "mde-select-highlight-minimap";
-    version = "0.1.0";
-    src = fetchurl {
-      url = "https://mde.gallery.vsassets.io/_apis/public/gallery/publisher/mde/extension/select-highlight-minimap/0.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "select-highlight-minimap-0.1.0.zip";
-      sha256 = "sha256-DHRCvaIfhOse/j/afMxwqNLpsqQQuVjL520N9NdexTY=";
-    };
-    name = "select-highlight-minimap";
-    marketplacePublisher = "mde";
-    marketplaceName = "select-highlight-minimap";
-    publisher = "mde";
-  };
   medzhidov-font-awesome-codes-css = {
     pname = "medzhidov-font-awesome-codes-css";
     version = "0.1.1";
@@ -32141,7 +32141,7 @@
     src = fetchurl {
       url = "https://nordic-semiconductor.gallery.vsassets.io/_apis/public/gallery/publisher/nordic-semiconductor/extension/nrf-connect/2022.9.179/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
       name = "nrf-connect-2022.9.179.zip";
-      sha256 = "sha256-JfE3lp7xxknB3VUiXf1q/So9g5hSwlSnKLdBeKP7Rro=";
+      sha256 = "sha256-+vXyqTGiKqwIu+biGIdzrKx/OCrMaGR0IQQ7npIaFko=";
     };
     name = "nrf-connect";
     marketplacePublisher = "nordic-semiconductor";
@@ -32524,19 +32524,6 @@
     marketplacePublisher = "Boto3typed";
     marketplaceName = "boto3-ide";
     publisher = "boto3typed";
-  };
-  DEVSENSE-profiler-php-vscode = {
-    pname = "DEVSENSE-profiler-php-vscode";
-    version = "1.18.10716";
-    src = fetchurl {
-      url = "https://DEVSENSE.gallery.vsassets.io/_apis/public/gallery/publisher/DEVSENSE/extension/profiler-php-vscode/1.18.10716/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "profiler-php-vscode-1.18.10716.zip";
-      sha256 = "sha256-rNp0eLIzncRkMqCqqTbBGgn2xnEGlfE80IjvAR9zIaE=";
-    };
-    name = "profiler-php-vscode";
-    marketplacePublisher = "DEVSENSE";
-    marketplaceName = "profiler-php-vscode";
-    publisher = "devsense";
   };
   DougFinke-vscode-PSStackoverflow = {
     pname = "DougFinke-vscode-PSStackoverflow";
@@ -33304,6 +33291,19 @@
     marketplacePublisher = "maxerbox";
     marketplaceName = "vscode-discord";
     publisher = "maxerbox";
+  };
+  mde-select-highlight-minimap = {
+    pname = "mde-select-highlight-minimap";
+    version = "0.1.0";
+    src = fetchurl {
+      url = "https://mde.gallery.vsassets.io/_apis/public/gallery/publisher/mde/extension/select-highlight-minimap/0.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "select-highlight-minimap-0.1.0.zip";
+      sha256 = "sha256-DHRCvaIfhOse/j/afMxwqNLpsqQQuVjL520N9NdexTY=";
+    };
+    name = "select-highlight-minimap";
+    marketplacePublisher = "mde";
+    marketplaceName = "select-highlight-minimap";
+    publisher = "mde";
   };
   mjmlio-vscode-mjml = {
     pname = "mjmlio-vscode-mjml";
@@ -34241,6 +34241,19 @@
     marketplaceName = "google-translate-ext";
     publisher = "benshabatnoam";
   };
+  bitlang-cobol = {
+    pname = "bitlang-cobol";
+    version = "8.10.3";
+    src = fetchurl {
+      url = "https://bitlang.gallery.vsassets.io/_apis/public/gallery/publisher/bitlang/extension/cobol/8.10.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "cobol-8.10.3.zip";
+      sha256 = "sha256-VO2nfjf7hj9mWmSDHGR0XHjKVsriwtd4T8hqkNSKSF8=";
+    };
+    name = "cobol";
+    marketplacePublisher = "bitlang";
+    marketplaceName = "cobol";
+    publisher = "bitlang";
+  };
   bitwisecook-tcl = {
     pname = "bitwisecook-tcl";
     version = "0.4.0";
@@ -34487,19 +34500,6 @@
     marketplacePublisher = "gioboa";
     marketplaceName = "jira-plugin";
     publisher = "gioboa";
-  };
-  gitduck-code-streaming = {
-    pname = "gitduck-code-streaming";
-    version = "0.4.11";
-    src = fetchurl {
-      url = "https://gitduck.gallery.vsassets.io/_apis/public/gallery/publisher/gitduck/extension/code-streaming/0.4.11/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "code-streaming-0.4.11.zip";
-      sha256 = "sha256-NmYD51LHVfpaXlvGqVnR9pMhxUlZ/LnGh67Pkp/EAZ4=";
-    };
-    name = "code-streaming";
-    marketplacePublisher = "gitduck";
-    marketplaceName = "code-streaming";
-    publisher = "gitduck";
   };
   gordonwalkedby-vbnet = {
     pname = "gordonwalkedby-vbnet";
@@ -35203,19 +35203,6 @@
     marketplaceName = "one-dark-darker";
     publisher = "joelcrosby";
   };
-  LawrenceGrant-cql = {
-    pname = "LawrenceGrant-cql";
-    version = "0.8.7";
-    src = fetchurl {
-      url = "https://LawrenceGrant.gallery.vsassets.io/_apis/public/gallery/publisher/LawrenceGrant/extension/cql/0.8.7/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "cql-0.8.7.zip";
-      sha256 = "sha256-rQMnECfzxXBNsl2GagyUNmRn3MMPphlbJRa31WldI9g=";
-    };
-    name = "cql";
-    marketplacePublisher = "LawrenceGrant";
-    marketplaceName = "cql";
-    publisher = "lawrencegrant";
-  };
   MengsiCode-vscode-django-boilerplate = {
     pname = "MengsiCode-vscode-django-boilerplate";
     version = "1.6.0";
@@ -35476,19 +35463,6 @@
     marketplaceName = "scenebuilderextension";
     publisher = "bilalekrem";
   };
-  bitlang-cobol = {
-    pname = "bitlang-cobol";
-    version = "8.10.3";
-    src = fetchurl {
-      url = "https://bitlang.gallery.vsassets.io/_apis/public/gallery/publisher/bitlang/extension/cobol/8.10.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "cobol-8.10.3.zip";
-      sha256 = "sha256-VO2nfjf7hj9mWmSDHGR0XHjKVsriwtd4T8hqkNSKSF8=";
-    };
-    name = "cobol";
-    marketplacePublisher = "bitlang";
-    marketplaceName = "cobol";
-    publisher = "bitlang";
-  };
   blenderfreetimeprojects-blender-python-code-templates = {
     pname = "blenderfreetimeprojects-blender-python-code-templates";
     version = "0.9.6";
@@ -35670,6 +35644,19 @@
     marketplacePublisher = "gep13";
     marketplaceName = "chocolatey-vscode";
     publisher = "gep13";
+  };
+  gitduck-code-streaming = {
+    pname = "gitduck-code-streaming";
+    version = "0.4.11";
+    src = fetchurl {
+      url = "https://gitduck.gallery.vsassets.io/_apis/public/gallery/publisher/gitduck/extension/code-streaming/0.4.11/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "code-streaming-0.4.11.zip";
+      sha256 = "sha256-NmYD51LHVfpaXlvGqVnR9pMhxUlZ/LnGh67Pkp/EAZ4=";
+    };
+    name = "code-streaming";
+    marketplacePublisher = "gitduck";
+    marketplaceName = "code-streaming";
+    publisher = "gitduck";
   };
   intersystems-language-server = {
     pname = "intersystems-language-server";
@@ -36232,11 +36219,11 @@
   };
   streetsidesoftware-code-spell-checker-polish = {
     pname = "streetsidesoftware-code-spell-checker-polish";
-    version = "2.0.0";
+    version = "2.0.1";
     src = fetchurl {
-      url = "https://streetsidesoftware.gallery.vsassets.io/_apis/public/gallery/publisher/streetsidesoftware/extension/code-spell-checker-polish/2.0.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "code-spell-checker-polish-2.0.0.zip";
-      sha256 = "sha256-tosvW9uu/AS/wwTE+kukTHKUKuqldSY3fxJqoaZ8E8Q=";
+      url = "https://streetsidesoftware.gallery.vsassets.io/_apis/public/gallery/publisher/streetsidesoftware/extension/code-spell-checker-polish/2.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "code-spell-checker-polish-2.0.1.zip";
+      sha256 = "sha256-9MQwEEFIv7Ywd88L/7HJ0j/oQPo2q1IGGdj1ZPpu8KA=";
     };
     name = "code-spell-checker-polish";
     marketplacePublisher = "streetsidesoftware";
@@ -36320,6 +36307,19 @@
     marketplacePublisher = "tonsky";
     marketplaceName = "theme-alabaster";
     publisher = "tonsky";
+  };
+  viatsko-html-mason = {
+    pname = "viatsko-html-mason";
+    version = "1.0.0";
+    src = fetchurl {
+      url = "https://viatsko.gallery.vsassets.io/_apis/public/gallery/publisher/viatsko/extension/html-mason/1.0.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "html-mason-1.0.0.zip";
+      sha256 = "sha256-9gWHjHoO3+3DYYJ5DGwjgwe1ncqzDIL7M56rpHGygpA=";
+    };
+    name = "html-mason";
+    marketplacePublisher = "viatsko";
+    marketplaceName = "html-mason";
+    publisher = "viatsko";
   };
   vilicvane-es-quotes = {
     pname = "vilicvane-es-quotes";
@@ -36528,6 +36528,19 @@
     marketplacePublisher = "Kipters";
     marketplaceName = "codeshell";
     publisher = "kipters";
+  };
+  LawrenceGrant-cql = {
+    pname = "LawrenceGrant-cql";
+    version = "0.8.7";
+    src = fetchurl {
+      url = "https://LawrenceGrant.gallery.vsassets.io/_apis/public/gallery/publisher/LawrenceGrant/extension/cql/0.8.7/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "cql-0.8.7.zip";
+      sha256 = "sha256-rQMnECfzxXBNsl2GagyUNmRn3MMPphlbJRa31WldI9g=";
+    };
+    name = "cql";
+    marketplacePublisher = "LawrenceGrant";
+    marketplaceName = "cql";
+    publisher = "lawrencegrant";
   };
   LiteFeel-shaderlabformatter = {
     pname = "LiteFeel-shaderlabformatter";
@@ -37582,19 +37595,6 @@
     marketplaceName = "xamarin-debug";
     publisher = "vadzim-vysotski";
   };
-  viatsko-html-mason = {
-    pname = "viatsko-html-mason";
-    version = "1.0.0";
-    src = fetchurl {
-      url = "https://viatsko.gallery.vsassets.io/_apis/public/gallery/publisher/viatsko/extension/html-mason/1.0.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "html-mason-1.0.0.zip";
-      sha256 = "sha256-9gWHjHoO3+3DYYJ5DGwjgwe1ncqzDIL7M56rpHGygpA=";
-    };
-    name = "html-mason";
-    marketplacePublisher = "viatsko";
-    marketplaceName = "html-mason";
-    publisher = "viatsko";
-  };
   wangkechun-html-less-class-completion = {
     pname = "wangkechun-html-less-class-completion";
     version = "0.0.6";
@@ -38167,19 +38167,6 @@
     marketplaceName = "hightlight-selections-vscode";
     publisher = "cliffordfajardo";
   };
-  codelios-dartsass = {
-    pname = "codelios-dartsass";
-    version = "0.9.2";
-    src = fetchurl {
-      url = "https://codelios.gallery.vsassets.io/_apis/public/gallery/publisher/codelios/extension/dartsass/0.9.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "dartsass-0.9.2.zip";
-      sha256 = "sha256-zJg3dwCdM/qjYP8E/Qvnh6e2DaetO0LS6FOtXI7iQ4M=";
-    };
-    name = "dartsass";
-    marketplacePublisher = "codelios";
-    marketplaceName = "dartsass";
-    publisher = "codelios";
-  };
   cperezabo-routeros-syntax = {
     pname = "cperezabo-routeros-syntax";
     version = "1.0.0";
@@ -38205,6 +38192,19 @@
     marketplacePublisher = "cubewise";
     marketplaceName = "canvas";
     publisher = "cubewise";
+  };
+  d-biehl-robotcode = {
+    pname = "d-biehl-robotcode";
+    version = "0.13.21";
+    src = fetchurl {
+      url = "https://d-biehl.gallery.vsassets.io/_apis/public/gallery/publisher/d-biehl/extension/robotcode/0.13.21/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "robotcode-0.13.21.zip";
+      sha256 = "sha256-QYFpz0bPYhWyXRgwEIcIFThJe3oMx0T48OTHDHHMrm4=";
+    };
+    name = "robotcode";
+    marketplacePublisher = "d-biehl";
+    marketplaceName = "robotcode";
+    publisher = "d-biehl";
   };
   defaltd-go-coverage-viewer = {
     pname = "defaltd-go-coverage-viewer";

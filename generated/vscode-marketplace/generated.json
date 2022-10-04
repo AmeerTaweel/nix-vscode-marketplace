@@ -752,12 +752,12 @@
         },
         "pinned": false,
         "src": {
-            "name": "vscode-npm-script-0.3.28.zip",
-            "sha256": "sha256-ZWiP/CJFcDemWEbhe7gK+1Z7c8kYWhOpVr7uWYX9xXE=",
+            "name": "vscode-npm-script-0.3.29.zip",
+            "sha256": "sha256-k6DtmhYBj7mg8SUU3pg+ezRzWvhiECqYQVj9LDhhV4I=",
             "type": "url",
-            "url": "https://eg2.gallery.vsassets.io/_apis/public/gallery/publisher/eg2/extension/vscode-npm-script/0.3.28/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+            "url": "https://eg2.gallery.vsassets.io/_apis/public/gallery/publisher/eg2/extension/vscode-npm-script/0.3.29/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
-        "version": "0.3.28"
+        "version": "0.3.29"
     },
     "esbenp-prettier-vscode": {
         "cargoLocks": null,
@@ -1037,12 +1037,12 @@
         },
         "pinned": false,
         "src": {
-            "name": "python-2022.15.12731017.zip",
-            "sha256": "sha256-qBR/mgfeUl0Z1ZYFjTjtLWHxbOcqZkMWrwlrxtqPVU8=",
+            "name": "python-2022.17.12771040.zip",
+            "sha256": "sha256-GPoVJ57vAELsI40xP5FeTKuMyYeSt7OYQWJTqDdWcK8=",
             "type": "url",
-            "url": "https://ms-python.gallery.vsassets.io/_apis/public/gallery/publisher/ms-python/extension/python/2022.15.12731017/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+            "url": "https://ms-python.gallery.vsassets.io/_apis/public/gallery/publisher/ms-python/extension/python/2022.17.12771040/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
-        "version": "2022.15.12731017"
+        "version": "2022.17.12771040"
     },
     "ms-python-vscode-pylance": {
         "cargoLocks": null,
@@ -2311,7 +2311,7 @@
         "pinned": false,
         "src": {
             "name": "volar-0.40.13.zip",
-            "sha256": "sha256-M14Zgb+8O6BrzdFDVJf9xuydYq1Me2tCdPn3fSATR0E=",
+            "sha256": "sha256-IDCvqRKEqdP9QUejkE/Xe4+I0ma/We634bfSX8HZ2bI=",
             "type": "url",
             "url": "https://Vue.gallery.vsassets.io/_apis/public/gallery/publisher/Vue/extension/volar/0.40.13/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
@@ -5256,7 +5256,7 @@
         "pinned": false,
         "src": {
             "name": "rust-analyzer-0.4.1228.zip",
-            "sha256": "sha256-BQD1+gvgC1dX1Ea8eBxEREtVXYEfGS6+nkVuk2gZ3qQ=",
+            "sha256": "sha256-5Cdq6aJL9bWQKvEtgEs2jjUyHl6V1VWG2TN6zwLIkL0=",
             "type": "url",
             "url": "https://rust-lang.gallery.vsassets.io/_apis/public/gallery/publisher/rust-lang/extension/rust-analyzer/0.4.1228/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
@@ -7384,7 +7384,7 @@
         "pinned": false,
         "src": {
             "name": "lua-3.5.6.zip",
-            "sha256": "sha256-ZJsuYe74lsF1gcqyKCFqD+KlcX3tNgWu6tGOJfq4H6c=",
+            "sha256": "sha256-Unzs9rX/0MlQprSvScdBCCFMeLCaGzWsMbcFqSKY2XY=",
             "type": "url",
             "url": "https://sumneko.gallery.vsassets.io/_apis/public/gallery/publisher/sumneko/extension/lua/3.5.6/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
@@ -16301,25 +16301,6 @@
         },
         "version": "2.3.0"
     },
-    "maximetinu-identical-sublime-monokai-csharp-theme-colorizer": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "maximetinu-identical-sublime-monokai-csharp-theme-colorizer",
-        "passthru": {
-            "marketplaceName": "identical-sublime-monokai-csharp-theme-colorizer",
-            "marketplacePublisher": "maximetinu",
-            "name": "identical-sublime-monokai-csharp-theme-colorizer",
-            "publisher": "maximetinu"
-        },
-        "pinned": false,
-        "src": {
-            "name": "identical-sublime-monokai-csharp-theme-colorizer-1.2.2.zip",
-            "sha256": "sha256-rZxStDqc7jdO5chXYioSGLJQT7EZREHa+j+HxnQjouI=",
-            "type": "url",
-            "url": "https://maximetinu.gallery.vsassets.io/_apis/public/gallery/publisher/maximetinu/extension/identical-sublime-monokai-csharp-theme-colorizer/1.2.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "1.2.2"
-    },
     "mrmlnc-vscode-csscomb": {
         "cargoLocks": null,
         "extract": null,
@@ -16338,6 +16319,25 @@
             "url": "https://mrmlnc.gallery.vsassets.io/_apis/public/gallery/publisher/mrmlnc/extension/vscode-csscomb/5.3.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
         "version": "5.3.2"
+    },
+    "ms-azuretools-azure-dev": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "ms-azuretools-azure-dev",
+        "passthru": {
+            "marketplaceName": "azure-dev",
+            "marketplacePublisher": "ms-azuretools",
+            "name": "azure-dev",
+            "publisher": "ms-azuretools"
+        },
+        "pinned": false,
+        "src": {
+            "name": "azure-dev-0.3.0.zip",
+            "sha256": "sha256-rQ41pizJ5HE8dEUep1nuc7S1ESxRoy0FMnA+RiNe47I=",
+            "type": "url",
+            "url": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/azure-dev/0.3.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+        },
+        "version": "0.3.0"
     },
     "ms-azuretools-vscode-apimanagement": {
         "cargoLocks": null,
@@ -18315,6 +18315,25 @@
         },
         "version": "0.22.2"
     },
+    "maximetinu-identical-sublime-monokai-csharp-theme-colorizer": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "maximetinu-identical-sublime-monokai-csharp-theme-colorizer",
+        "passthru": {
+            "marketplaceName": "identical-sublime-monokai-csharp-theme-colorizer",
+            "marketplacePublisher": "maximetinu",
+            "name": "identical-sublime-monokai-csharp-theme-colorizer",
+            "publisher": "maximetinu"
+        },
+        "pinned": false,
+        "src": {
+            "name": "identical-sublime-monokai-csharp-theme-colorizer-1.2.2.zip",
+            "sha256": "sha256-rZxStDqc7jdO5chXYioSGLJQT7EZREHa+j+HxnQjouI=",
+            "type": "url",
+            "url": "https://maximetinu.gallery.vsassets.io/_apis/public/gallery/publisher/maximetinu/extension/identical-sublime-monokai-csharp-theme-colorizer/1.2.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+        },
+        "version": "1.2.2"
+    },
     "mblode-twig-language": {
         "cargoLocks": null,
         "extract": null,
@@ -18447,25 +18466,6 @@
             "url": "https://mrmlnc.gallery.vsassets.io/_apis/public/gallery/publisher/mrmlnc/extension/vscode-attrs-sorter/2.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
         "version": "2.1.0"
-    },
-    "ms-azuretools-azure-dev": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "ms-azuretools-azure-dev",
-        "passthru": {
-            "marketplaceName": "azure-dev",
-            "marketplacePublisher": "ms-azuretools",
-            "name": "azure-dev",
-            "publisher": "ms-azuretools"
-        },
-        "pinned": false,
-        "src": {
-            "name": "azure-dev-0.3.0.zip",
-            "sha256": "sha256-rQ41pizJ5HE8dEUep1nuc7S1ESxRoy0FMnA+RiNe47I=",
-            "type": "url",
-            "url": "https://ms-azuretools.gallery.vsassets.io/_apis/public/gallery/publisher/ms-azuretools/extension/azure-dev/0.3.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "0.3.0"
     },
     "ms-python-pylint": {
         "cargoLocks": null,
@@ -33021,25 +33021,6 @@
         },
         "version": "1.0.1"
     },
-    "bernardodsanderson-theme-material-neutral": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "bernardodsanderson-theme-material-neutral",
-        "passthru": {
-            "marketplaceName": "theme-material-neutral",
-            "marketplacePublisher": "bernardodsanderson",
-            "name": "theme-material-neutral",
-            "publisher": "bernardodsanderson"
-        },
-        "pinned": false,
-        "src": {
-            "name": "theme-material-neutral-0.9.8.zip",
-            "sha256": "sha256-goR11NSlB7uQytfEP6Xqe7hwjLJEVlaVNzl0bq7FgyU=",
-            "type": "url",
-            "url": "https://bernardodsanderson.gallery.vsassets.io/_apis/public/gallery/publisher/bernardodsanderson/extension/theme-material-neutral/0.9.8/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "0.9.8"
-    },
     "budparr-language-hugo-vscode": {
         "cargoLocks": null,
         "extract": null,
@@ -33115,6 +33096,25 @@
             "url": "https://datmt24.gallery.vsassets.io/_apis/public/gallery/publisher/datmt24/extension/rapid-json-search/0.1.8/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
         "version": "0.1.8"
+    },
+    "david9991-plcc-plugin": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "david9991-plcc-plugin",
+        "passthru": {
+            "marketplaceName": "plcc-plugin",
+            "marketplacePublisher": "david9991",
+            "name": "plcc-plugin",
+            "publisher": "david9991"
+        },
+        "pinned": false,
+        "src": {
+            "name": "plcc-plugin-0.14.15.zip",
+            "sha256": "sha256-cULjZ0ziXU148SBWB3VpRjP7ijY9jnmN2RKomTzxUM4=",
+            "type": "url",
+            "url": "https://david9991.gallery.vsassets.io/_apis/public/gallery/publisher/david9991/extension/plcc-plugin/0.14.15/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+        },
+        "version": "0.14.15"
     },
     "davidrockburn-py-pack": {
         "cargoLocks": null,
@@ -34636,6 +34636,25 @@
         },
         "version": "0.1.4"
     },
+    "bernardodsanderson-theme-material-neutral": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "bernardodsanderson-theme-material-neutral",
+        "passthru": {
+            "marketplaceName": "theme-material-neutral",
+            "marketplacePublisher": "bernardodsanderson",
+            "name": "theme-material-neutral",
+            "publisher": "bernardodsanderson"
+        },
+        "pinned": false,
+        "src": {
+            "name": "theme-material-neutral-0.9.8.zip",
+            "sha256": "sha256-goR11NSlB7uQytfEP6Xqe7hwjLJEVlaVNzl0bq7FgyU=",
+            "type": "url",
+            "url": "https://bernardodsanderson.gallery.vsassets.io/_apis/public/gallery/publisher/bernardodsanderson/extension/theme-material-neutral/0.9.8/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+        },
+        "version": "0.9.8"
+    },
     "bhshawon-node-json-autocomplete": {
         "cargoLocks": null,
         "extract": null,
@@ -34787,25 +34806,6 @@
             "url": "https://damianbal.gallery.vsassets.io/_apis/public/gallery/publisher/damianbal/extension/vs-phpclassgen/0.1.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
         "version": "0.1.1"
-    },
-    "david9991-plcc-plugin": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "david9991-plcc-plugin",
-        "passthru": {
-            "marketplaceName": "plcc-plugin",
-            "marketplacePublisher": "david9991",
-            "name": "plcc-plugin",
-            "publisher": "david9991"
-        },
-        "pinned": false,
-        "src": {
-            "name": "plcc-plugin-0.14.15.zip",
-            "sha256": "sha256-cULjZ0ziXU148SBWB3VpRjP7ijY9jnmN2RKomTzxUM4=",
-            "type": "url",
-            "url": "https://david9991.gallery.vsassets.io/_apis/public/gallery/publisher/david9991/extension/plcc-plugin/0.14.15/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "0.14.15"
     },
     "dhoeric-ansible-vault": {
         "cargoLocks": null,
@@ -38201,12 +38201,12 @@
         },
         "pinned": false,
         "src": {
-            "name": "prisma-insider-31.0.1469.zip",
-            "sha256": "sha256-e14GxptSqp7vffObJvP9+a8iUznJd6DOBxjZW07A3DE=",
+            "name": "prisma-insider-31.0.1471.zip",
+            "sha256": "sha256-mXYsH4oBS9r7Vcx2vBuv+jUzNckuEEkMgOAe4I6FjDE=",
             "type": "url",
-            "url": "https://Prisma.gallery.vsassets.io/_apis/public/gallery/publisher/Prisma/extension/prisma-insider/31.0.1469/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+            "url": "https://Prisma.gallery.vsassets.io/_apis/public/gallery/publisher/Prisma/extension/prisma-insider/31.0.1471/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
-        "version": "31.0.1469"
+        "version": "31.0.1471"
     },
     "RomanPeshkov-vscode-text-tables": {
         "cargoLocks": null,
@@ -38530,25 +38530,6 @@
             "url": "https://cbrevik.gallery.vsassets.io/_apis/public/gallery/publisher/cbrevik/extension/toggle-format-on-save/0.2.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
         "version": "0.2.0"
-    },
-    "changkaiyan-tf2snippets": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "changkaiyan-tf2snippets",
-        "passthru": {
-            "marketplaceName": "tf2snippets",
-            "marketplacePublisher": "changkaiyan",
-            "name": "tf2snippets",
-            "publisher": "changkaiyan"
-        },
-        "pinned": false,
-        "src": {
-            "name": "tf2snippets-0.1.0.zip",
-            "sha256": "sha256-Sug46ofME0+Dzx/H6tHLJnrzYTtcalZBBSqbvGqQlz4=",
-            "type": "url",
-            "url": "https://changkaiyan.gallery.vsassets.io/_apis/public/gallery/publisher/changkaiyan/extension/tf2snippets/0.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "0.1.0"
     },
     "cliffordfajardo-highlight-line-vscode": {
         "cargoLocks": null,
@@ -39423,6 +39404,25 @@
             "url": "https://ms-vscode.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode/extension/latex/1.0.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
         "version": "1.0.0"
+    },
+    "msjsdiag-debugger-for-chrome-nightly": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "msjsdiag-debugger-for-chrome-nightly",
+        "passthru": {
+            "marketplaceName": "debugger-for-chrome-nightly",
+            "marketplacePublisher": "msjsdiag",
+            "name": "debugger-for-chrome-nightly",
+            "publisher": "msjsdiag"
+        },
+        "pinned": false,
+        "src": {
+            "name": "debugger-for-chrome-nightly-2020.2.15300.zip",
+            "sha256": "sha256-n10QGtjVMWstbP1lPk8/SGyU3UwIMr+fFPY8R7PAP5A=",
+            "type": "url",
+            "url": "https://msjsdiag.gallery.vsassets.io/_apis/public/gallery/publisher/msjsdiag/extension/debugger-for-chrome-nightly/2020.2.15300/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+        },
+        "version": "2020.2.15300"
     },
     "nmsmith89-incrementor": {
         "cargoLocks": null,
@@ -40374,6 +40374,25 @@
         },
         "version": "0.13.3"
     },
+    "changkaiyan-tf2snippets": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "changkaiyan-tf2snippets",
+        "passthru": {
+            "marketplaceName": "tf2snippets",
+            "marketplacePublisher": "changkaiyan",
+            "name": "tf2snippets",
+            "publisher": "changkaiyan"
+        },
+        "pinned": false,
+        "src": {
+            "name": "tf2snippets-0.1.0.zip",
+            "sha256": "sha256-Sug46ofME0+Dzx/H6tHLJnrzYTtcalZBBSqbvGqQlz4=",
+            "type": "url",
+            "url": "https://changkaiyan.gallery.vsassets.io/_apis/public/gallery/publisher/changkaiyan/extension/tf2snippets/0.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+        },
+        "version": "0.1.0"
+    },
     "cpmcgrath-codealignment-vscode": {
         "cargoLocks": null,
         "extract": null,
@@ -41057,25 +41076,6 @@
             "url": "https://ms-vscode.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode/extension/vscode-github-issue-notebooks/0.0.124/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
         "version": "0.0.124"
-    },
-    "msjsdiag-debugger-for-chrome-nightly": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "msjsdiag-debugger-for-chrome-nightly",
-        "passthru": {
-            "marketplaceName": "debugger-for-chrome-nightly",
-            "marketplacePublisher": "msjsdiag",
-            "name": "debugger-for-chrome-nightly",
-            "publisher": "msjsdiag"
-        },
-        "pinned": false,
-        "src": {
-            "name": "debugger-for-chrome-nightly-2020.2.15300.zip",
-            "sha256": "sha256-n10QGtjVMWstbP1lPk8/SGyU3UwIMr+fFPY8R7PAP5A=",
-            "type": "url",
-            "url": "https://msjsdiag.gallery.vsassets.io/_apis/public/gallery/publisher/msjsdiag/extension/debugger-for-chrome-nightly/2020.2.15300/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "2020.2.15300"
     },
     "nervtech-mq4": {
         "cargoLocks": null,
@@ -42616,6 +42616,25 @@
         },
         "version": "0.0.4"
     },
+    "hzgood-dart-data-class-generator": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "hzgood-dart-data-class-generator",
+        "passthru": {
+            "marketplaceName": "dart-data-class-generator",
+            "marketplacePublisher": "hzgood",
+            "name": "dart-data-class-generator",
+            "publisher": "hzgood"
+        },
+        "pinned": false,
+        "src": {
+            "name": "dart-data-class-generator-0.5.4.zip",
+            "sha256": "sha256-VFL5jdyh9cTiD8Lq0Vke/Y3TbVaxJn3L2nidFTBFRwE=",
+            "type": "url",
+            "url": "https://hzgood.gallery.vsassets.io/_apis/public/gallery/publisher/hzgood/extension/dart-data-class-generator/0.5.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+        },
+        "version": "0.5.4"
+    },
     "iampeterbanjo-elixirlinter": {
         "cargoLocks": null,
         "extract": null,
@@ -42786,25 +42805,6 @@
             "url": "https://kaih2o.gallery.vsassets.io/_apis/public/gallery/publisher/kaih2o/extension/python-resource-monitor/0.1.9/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
         "version": "0.1.9"
-    },
-    "keenethics-keen-neutral-icon-theme": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "keenethics-keen-neutral-icon-theme",
-        "passthru": {
-            "marketplaceName": "keen-neutral-icon-theme",
-            "marketplacePublisher": "keenethics",
-            "name": "keen-neutral-icon-theme",
-            "publisher": "keenethics"
-        },
-        "pinned": false,
-        "src": {
-            "name": "keen-neutral-icon-theme-1.0.8.zip",
-            "sha256": "sha256-30xhiyd7IpBq2OTr/Ve1lR2fOvBVo60tZQisBoq+M2M=",
-            "type": "url",
-            "url": "https://keenethics.gallery.vsassets.io/_apis/public/gallery/publisher/keenethics/extension/keen-neutral-icon-theme/1.0.8/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "1.0.8"
     },
     "kube-theme-kay": {
         "cargoLocks": null,
@@ -44725,25 +44725,6 @@
         },
         "version": "1.0.1"
     },
-    "hzgood-dart-data-class-generator": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "hzgood-dart-data-class-generator",
-        "passthru": {
-            "marketplaceName": "dart-data-class-generator",
-            "marketplacePublisher": "hzgood",
-            "name": "dart-data-class-generator",
-            "publisher": "hzgood"
-        },
-        "pinned": false,
-        "src": {
-            "name": "dart-data-class-generator-0.5.4.zip",
-            "sha256": "sha256-VFL5jdyh9cTiD8Lq0Vke/Y3TbVaxJn3L2nidFTBFRwE=",
-            "type": "url",
-            "url": "https://hzgood.gallery.vsassets.io/_apis/public/gallery/publisher/hzgood/extension/dart-data-class-generator/0.5.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "0.5.4"
-    },
     "jansenfuller-crayon-vscode": {
         "cargoLocks": null,
         "extract": null,
@@ -44914,6 +44895,25 @@
             "url": "https://kdcro101.gallery.vsassets.io/_apis/public/gallery/publisher/kdcro101/extension/favorites/2.4.5/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
         "version": "2.4.5"
+    },
+    "keenethics-keen-neutral-icon-theme": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "keenethics-keen-neutral-icon-theme",
+        "passthru": {
+            "marketplaceName": "keen-neutral-icon-theme",
+            "marketplacePublisher": "keenethics",
+            "name": "keen-neutral-icon-theme",
+            "publisher": "keenethics"
+        },
+        "pinned": false,
+        "src": {
+            "name": "keen-neutral-icon-theme-1.0.8.zip",
+            "sha256": "sha256-30xhiyd7IpBq2OTr/Ve1lR2fOvBVo60tZQisBoq+M2M=",
+            "type": "url",
+            "url": "https://keenethics.gallery.vsassets.io/_apis/public/gallery/publisher/keenethics/extension/keen-neutral-icon-theme/1.0.8/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+        },
+        "version": "1.0.8"
     },
     "kisstkondoros-csstriggers": {
         "cargoLocks": null,
@@ -45674,6 +45674,25 @@
             "url": "https://CoderCoder.gallery.vsassets.io/_apis/public/gallery/publisher/CoderCoder/extension/codercoder-dark-theme/1.2.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
         "version": "1.2.2"
+    },
+    "DEVSENSE-profiler-php-vscode": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "DEVSENSE-profiler-php-vscode",
+        "passthru": {
+            "marketplaceName": "profiler-php-vscode",
+            "marketplacePublisher": "DEVSENSE",
+            "name": "profiler-php-vscode",
+            "publisher": "devsense"
+        },
+        "pinned": false,
+        "src": {
+            "name": "profiler-php-vscode-1.18.10716.zip",
+            "sha256": "sha256-rNp0eLIzncRkMqCqqTbBGgn2xnEGlfE80IjvAR9zIaE=",
+            "type": "url",
+            "url": "https://DEVSENSE.gallery.vsassets.io/_apis/public/gallery/publisher/DEVSENSE/extension/profiler-php-vscode/1.18.10716/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+        },
+        "version": "1.18.10716"
     },
     "Docter60-vscode-terminal-for-ubuntu": {
         "cargoLocks": null,
@@ -46853,25 +46872,6 @@
         },
         "version": "1.1.3"
     },
-    "mde-select-highlight-minimap": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "mde-select-highlight-minimap",
-        "passthru": {
-            "marketplaceName": "select-highlight-minimap",
-            "marketplacePublisher": "mde",
-            "name": "select-highlight-minimap",
-            "publisher": "mde"
-        },
-        "pinned": false,
-        "src": {
-            "name": "select-highlight-minimap-0.1.0.zip",
-            "sha256": "sha256-DHRCvaIfhOse/j/afMxwqNLpsqQQuVjL520N9NdexTY=",
-            "type": "url",
-            "url": "https://mde.gallery.vsassets.io/_apis/public/gallery/publisher/mde/extension/select-highlight-minimap/0.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "0.1.0"
-    },
     "medzhidov-font-awesome-codes-css": {
         "cargoLocks": null,
         "extract": null,
@@ -46980,7 +46980,7 @@
         "pinned": false,
         "src": {
             "name": "nrf-connect-2022.9.179.zip",
-            "sha256": "sha256-JfE3lp7xxknB3VUiXf1q/So9g5hSwlSnKLdBeKP7Rro=",
+            "sha256": "sha256-+vXyqTGiKqwIu+biGIdzrKx/OCrMaGR0IQQ7npIaFko=",
             "type": "url",
             "url": "https://nordic-semiconductor.gallery.vsassets.io/_apis/public/gallery/publisher/nordic-semiconductor/extension/nrf-connect/2022.9.179/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
@@ -47536,25 +47536,6 @@
             "url": "https://Boto3typed.gallery.vsassets.io/_apis/public/gallery/publisher/Boto3typed/extension/boto3-ide/0.5.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
         "version": "0.5.1"
-    },
-    "DEVSENSE-profiler-php-vscode": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "DEVSENSE-profiler-php-vscode",
-        "passthru": {
-            "marketplaceName": "profiler-php-vscode",
-            "marketplacePublisher": "DEVSENSE",
-            "name": "profiler-php-vscode",
-            "publisher": "devsense"
-        },
-        "pinned": false,
-        "src": {
-            "name": "profiler-php-vscode-1.18.10716.zip",
-            "sha256": "sha256-rNp0eLIzncRkMqCqqTbBGgn2xnEGlfE80IjvAR9zIaE=",
-            "type": "url",
-            "url": "https://DEVSENSE.gallery.vsassets.io/_apis/public/gallery/publisher/DEVSENSE/extension/profiler-php-vscode/1.18.10716/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "1.18.10716"
     },
     "DougFinke-vscode-PSStackoverflow": {
         "cargoLocks": null,
@@ -48676,6 +48657,25 @@
             "url": "https://maxerbox.gallery.vsassets.io/_apis/public/gallery/publisher/maxerbox/extension/vscode-discord/1.0.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
         "version": "1.0.2"
+    },
+    "mde-select-highlight-minimap": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "mde-select-highlight-minimap",
+        "passthru": {
+            "marketplaceName": "select-highlight-minimap",
+            "marketplacePublisher": "mde",
+            "name": "select-highlight-minimap",
+            "publisher": "mde"
+        },
+        "pinned": false,
+        "src": {
+            "name": "select-highlight-minimap-0.1.0.zip",
+            "sha256": "sha256-DHRCvaIfhOse/j/afMxwqNLpsqQQuVjL520N9NdexTY=",
+            "type": "url",
+            "url": "https://mde.gallery.vsassets.io/_apis/public/gallery/publisher/mde/extension/select-highlight-minimap/0.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+        },
+        "version": "0.1.0"
     },
     "mjmlio-vscode-mjml": {
         "cargoLocks": null,
@@ -50045,6 +50045,25 @@
         },
         "version": "2.2.2"
     },
+    "bitlang-cobol": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "bitlang-cobol",
+        "passthru": {
+            "marketplaceName": "cobol",
+            "marketplacePublisher": "bitlang",
+            "name": "cobol",
+            "publisher": "bitlang"
+        },
+        "pinned": false,
+        "src": {
+            "name": "cobol-8.10.3.zip",
+            "sha256": "sha256-VO2nfjf7hj9mWmSDHGR0XHjKVsriwtd4T8hqkNSKSF8=",
+            "type": "url",
+            "url": "https://bitlang.gallery.vsassets.io/_apis/public/gallery/publisher/bitlang/extension/cobol/8.10.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+        },
+        "version": "8.10.3"
+    },
     "bitwisecook-tcl": {
         "cargoLocks": null,
         "extract": null,
@@ -50405,25 +50424,6 @@
             "url": "https://gioboa.gallery.vsassets.io/_apis/public/gallery/publisher/gioboa/extension/jira-plugin/0.22.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
         "version": "0.22.2"
-    },
-    "gitduck-code-streaming": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "gitduck-code-streaming",
-        "passthru": {
-            "marketplaceName": "code-streaming",
-            "marketplacePublisher": "gitduck",
-            "name": "code-streaming",
-            "publisher": "gitduck"
-        },
-        "pinned": false,
-        "src": {
-            "name": "code-streaming-0.4.11.zip",
-            "sha256": "sha256-NmYD51LHVfpaXlvGqVnR9pMhxUlZ/LnGh67Pkp/EAZ4=",
-            "type": "url",
-            "url": "https://gitduck.gallery.vsassets.io/_apis/public/gallery/publisher/gitduck/extension/code-streaming/0.4.11/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "0.4.11"
     },
     "gordonwalkedby-vbnet": {
         "cargoLocks": null,
@@ -51451,25 +51451,6 @@
         },
         "version": "1.0.4"
     },
-    "LawrenceGrant-cql": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "LawrenceGrant-cql",
-        "passthru": {
-            "marketplaceName": "cql",
-            "marketplacePublisher": "LawrenceGrant",
-            "name": "cql",
-            "publisher": "lawrencegrant"
-        },
-        "pinned": false,
-        "src": {
-            "name": "cql-0.8.7.zip",
-            "sha256": "sha256-rQMnECfzxXBNsl2GagyUNmRn3MMPphlbJRa31WldI9g=",
-            "type": "url",
-            "url": "https://LawrenceGrant.gallery.vsassets.io/_apis/public/gallery/publisher/LawrenceGrant/extension/cql/0.8.7/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "0.8.7"
-    },
     "MengsiCode-vscode-django-boilerplate": {
         "cargoLocks": null,
         "extract": null,
@@ -51850,25 +51831,6 @@
         },
         "version": "1.0.1"
     },
-    "bitlang-cobol": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "bitlang-cobol",
-        "passthru": {
-            "marketplaceName": "cobol",
-            "marketplacePublisher": "bitlang",
-            "name": "cobol",
-            "publisher": "bitlang"
-        },
-        "pinned": false,
-        "src": {
-            "name": "cobol-8.10.3.zip",
-            "sha256": "sha256-VO2nfjf7hj9mWmSDHGR0XHjKVsriwtd4T8hqkNSKSF8=",
-            "type": "url",
-            "url": "https://bitlang.gallery.vsassets.io/_apis/public/gallery/publisher/bitlang/extension/cobol/8.10.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "8.10.3"
-    },
     "blenderfreetimeprojects-blender-python-code-templates": {
         "cargoLocks": null,
         "extract": null,
@@ -52134,6 +52096,25 @@
             "url": "https://gep13.gallery.vsassets.io/_apis/public/gallery/publisher/gep13/extension/chocolatey-vscode/0.7.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
         "version": "0.7.2"
+    },
+    "gitduck-code-streaming": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "gitduck-code-streaming",
+        "passthru": {
+            "marketplaceName": "code-streaming",
+            "marketplacePublisher": "gitduck",
+            "name": "code-streaming",
+            "publisher": "gitduck"
+        },
+        "pinned": false,
+        "src": {
+            "name": "code-streaming-0.4.11.zip",
+            "sha256": "sha256-NmYD51LHVfpaXlvGqVnR9pMhxUlZ/LnGh67Pkp/EAZ4=",
+            "type": "url",
+            "url": "https://gitduck.gallery.vsassets.io/_apis/public/gallery/publisher/gitduck/extension/code-streaming/0.4.11/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+        },
+        "version": "0.4.11"
     },
     "intersystems-language-server": {
         "cargoLocks": null,
@@ -52964,12 +52945,12 @@
         },
         "pinned": false,
         "src": {
-            "name": "code-spell-checker-polish-2.0.0.zip",
-            "sha256": "sha256-tosvW9uu/AS/wwTE+kukTHKUKuqldSY3fxJqoaZ8E8Q=",
+            "name": "code-spell-checker-polish-2.0.1.zip",
+            "sha256": "sha256-9MQwEEFIv7Ywd88L/7HJ0j/oQPo2q1IGGdj1ZPpu8KA=",
             "type": "url",
-            "url": "https://streetsidesoftware.gallery.vsassets.io/_apis/public/gallery/publisher/streetsidesoftware/extension/code-spell-checker-polish/2.0.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+            "url": "https://streetsidesoftware.gallery.vsassets.io/_apis/public/gallery/publisher/streetsidesoftware/extension/code-spell-checker-polish/2.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
-        "version": "2.0.0"
+        "version": "2.0.1"
     },
     "tabeyti-jenkins-jack": {
         "cargoLocks": null,
@@ -53084,6 +53065,25 @@
             "url": "https://tonsky.gallery.vsassets.io/_apis/public/gallery/publisher/tonsky/extension/theme-alabaster/0.2.9/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
         "version": "0.2.9"
+    },
+    "viatsko-html-mason": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "viatsko-html-mason",
+        "passthru": {
+            "marketplaceName": "html-mason",
+            "marketplacePublisher": "viatsko",
+            "name": "html-mason",
+            "publisher": "viatsko"
+        },
+        "pinned": false,
+        "src": {
+            "name": "html-mason-1.0.0.zip",
+            "sha256": "sha256-9gWHjHoO3+3DYYJ5DGwjgwe1ncqzDIL7M56rpHGygpA=",
+            "type": "url",
+            "url": "https://viatsko.gallery.vsassets.io/_apis/public/gallery/publisher/viatsko/extension/html-mason/1.0.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+        },
+        "version": "1.0.0"
     },
     "vilicvane-es-quotes": {
         "cargoLocks": null,
@@ -53388,6 +53388,25 @@
             "url": "https://Kipters.gallery.vsassets.io/_apis/public/gallery/publisher/Kipters/extension/codeshell/0.2.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
         "version": "0.2.2"
+    },
+    "LawrenceGrant-cql": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "LawrenceGrant-cql",
+        "passthru": {
+            "marketplaceName": "cql",
+            "marketplacePublisher": "LawrenceGrant",
+            "name": "cql",
+            "publisher": "lawrencegrant"
+        },
+        "pinned": false,
+        "src": {
+            "name": "cql-0.8.7.zip",
+            "sha256": "sha256-rQMnECfzxXBNsl2GagyUNmRn3MMPphlbJRa31WldI9g=",
+            "type": "url",
+            "url": "https://LawrenceGrant.gallery.vsassets.io/_apis/public/gallery/publisher/LawrenceGrant/extension/cql/0.8.7/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+        },
+        "version": "0.8.7"
     },
     "LiteFeel-shaderlabformatter": {
         "cargoLocks": null,
@@ -54928,25 +54947,6 @@
         },
         "version": "0.0.1"
     },
-    "viatsko-html-mason": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "viatsko-html-mason",
-        "passthru": {
-            "marketplaceName": "html-mason",
-            "marketplacePublisher": "viatsko",
-            "name": "html-mason",
-            "publisher": "viatsko"
-        },
-        "pinned": false,
-        "src": {
-            "name": "html-mason-1.0.0.zip",
-            "sha256": "sha256-9gWHjHoO3+3DYYJ5DGwjgwe1ncqzDIL7M56rpHGygpA=",
-            "type": "url",
-            "url": "https://viatsko.gallery.vsassets.io/_apis/public/gallery/publisher/viatsko/extension/html-mason/1.0.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "1.0.0"
-    },
     "wangkechun-html-less-class-completion": {
         "cargoLocks": null,
         "extract": null,
@@ -55783,25 +55783,6 @@
         },
         "version": "0.0.1"
     },
-    "codelios-dartsass": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "codelios-dartsass",
-        "passthru": {
-            "marketplaceName": "dartsass",
-            "marketplacePublisher": "codelios",
-            "name": "dartsass",
-            "publisher": "codelios"
-        },
-        "pinned": false,
-        "src": {
-            "name": "dartsass-0.9.2.zip",
-            "sha256": "sha256-zJg3dwCdM/qjYP8E/Qvnh6e2DaetO0LS6FOtXI7iQ4M=",
-            "type": "url",
-            "url": "https://codelios.gallery.vsassets.io/_apis/public/gallery/publisher/codelios/extension/dartsass/0.9.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "0.9.2"
-    },
     "cperezabo-routeros-syntax": {
         "cargoLocks": null,
         "extract": null,
@@ -55839,6 +55820,25 @@
             "url": "https://cubewise.gallery.vsassets.io/_apis/public/gallery/publisher/cubewise/extension/canvas/1.4.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
         "version": "1.4.1"
+    },
+    "d-biehl-robotcode": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "d-biehl-robotcode",
+        "passthru": {
+            "marketplaceName": "robotcode",
+            "marketplacePublisher": "d-biehl",
+            "name": "robotcode",
+            "publisher": "d-biehl"
+        },
+        "pinned": false,
+        "src": {
+            "name": "robotcode-0.13.21.zip",
+            "sha256": "sha256-QYFpz0bPYhWyXRgwEIcIFThJe3oMx0T48OTHDHHMrm4=",
+            "type": "url",
+            "url": "https://d-biehl.gallery.vsassets.io/_apis/public/gallery/publisher/d-biehl/extension/robotcode/0.13.21/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+        },
+        "version": "0.13.21"
     },
     "defaltd-go-coverage-viewer": {
         "cargoLocks": null,
