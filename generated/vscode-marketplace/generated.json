@@ -1513,7 +1513,7 @@
         "pinned": false,
         "src": {
             "name": "vscode-xml-0.21.2022093004.zip",
-            "sha256": "sha256-swmxsRZDbV5+wiJaqKh7zf9XFtwuiccuKVuP0uC/FmA=",
+            "sha256": "sha256-cpIyRAOCL4DQNXbb28OGgmQXRBKcVg1M+Fwd642geKY=",
             "type": "url",
             "url": "https://redhat.gallery.vsassets.io/_apis/public/gallery/publisher/redhat/extension/vscode-xml/0.21.2022093004/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
@@ -4970,12 +4970,12 @@
         },
         "pinned": false,
         "src": {
-            "name": "vscode-ai-remote-0.19.2022100309.zip",
-            "sha256": "sha256-Ur+3m+GY/p0WZKcF5RfQNliOU/sgN+bEkxsejVnC6D8=",
+            "name": "vscode-ai-remote-0.19.2022100409.zip",
+            "sha256": "sha256-0sURyecWxX2a11o65IPHQkPzNHvOShHLQvMJkEdNmNY=",
             "type": "url",
-            "url": "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/vscode-ai-remote/0.19.2022100309/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+            "url": "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/vscode-ai-remote/0.19.2022100409/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
-        "version": "0.19.2022100309"
+        "version": "0.19.2022100409"
     },
     "ms-vscode-atom-keybindings": {
         "cargoLocks": null,

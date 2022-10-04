@@ -1032,7 +1032,7 @@
     src = fetchurl {
       url = "https://redhat.gallery.vsassets.io/_apis/public/gallery/publisher/redhat/extension/vscode-xml/0.21.2022093004/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
       name = "vscode-xml-0.21.2022093004.zip";
-      sha256 = "sha256-swmxsRZDbV5+wiJaqKh7zf9XFtwuiccuKVuP0uC/FmA=";
+      sha256 = "sha256-cpIyRAOCL4DQNXbb28OGgmQXRBKcVg1M+Fwd642geKY=";
     };
     name = "vscode-xml";
     marketplacePublisher = "redhat";
@@ -3394,11 +3394,11 @@
   };
   ms-toolsai-vscode-ai-remote = {
     pname = "ms-toolsai-vscode-ai-remote";
-    version = "0.19.2022100309";
+    version = "0.19.2022100409";
     src = fetchurl {
-      url = "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/vscode-ai-remote/0.19.2022100309/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscode-ai-remote-0.19.2022100309.zip";
-      sha256 = "sha256-Ur+3m+GY/p0WZKcF5RfQNliOU/sgN+bEkxsejVnC6D8=";
+      url = "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/vscode-ai-remote/0.19.2022100409/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscode-ai-remote-0.19.2022100409.zip";
+      sha256 = "sha256-0sURyecWxX2a11o65IPHQkPzNHvOShHLQvMJkEdNmNY=";
     };
     name = "vscode-ai-remote";
     marketplacePublisher = "ms-toolsai";
