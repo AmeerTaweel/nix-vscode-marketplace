@@ -56,9 +56,11 @@ echo "block size: $block_size"
 let "blocks_n = (ext_count + block_size) / $block_size"
 echo "total #blocks: $blocks_n"
 
-echo "block limit: $limit"
+let "block_limit = $block_size * $limit <= $ext_count ? $limit : $blocks_n"
 
-let "ext_load = $block_size * $limit > $ext_count ? $ext_count : $block_size * $limit"
+echo "block limit: $block_limit"
+
+let "ext_load = $block_size * $block_limit <= $ext_count ? $block_size * $block_limit : $ext_count"
 echo "#extensions to load: $ext_load"
 
 awk_print_block_toml='
@@ -75,8 +77,8 @@ do
 
     let "next_block = i * $block_size"
     
-    let "block_idx = $i + 1"
-    printf "\n\n[ block: %s; extensions %s...%s ]\n\n" $block_idx $block $next_block
+    let "block_idx = $i"
+    printf "\n\n[ block: %s; extensions %s...%s ]\n\n" $block_idx $(let "p = block + 1"; printf "$p") $next_block
     
     # tree $HOME
     # echo "extensions: $block...$next_block"
