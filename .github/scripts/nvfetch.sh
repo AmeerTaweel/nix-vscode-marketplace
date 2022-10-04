@@ -78,7 +78,7 @@ do
     let "block_idx = $i"
     printf "\n\n[ block: %s; extensions %s...%s ]\n\n" $block_idx $block $next_block
     
-    tree $HOME
+    # tree $HOME
     # echo "extensions: $block...$next_block"
     
     # we can't read json blocks as json isn't aligned with toml

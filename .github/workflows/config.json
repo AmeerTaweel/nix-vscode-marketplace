@@ -5,14 +5,14 @@
             "allow_net": "marketplace.visualstudio.com",
             "name": "VSCode Marketplace",
             "BLOCK_SIZE": 100,
-            "LIMIT": 5
+            "LIMIT": 10
         },
         {
             "target": "open-vsx",
             "allow_net": "open-vsx.org",
             "name": "OpenVSX",
-            "BLOCK_SIZE": 5,
-            "LIMIT": 5
+            "BLOCK_SIZE": 100,
+            "LIMIT": 10
         }
     ]
 }
