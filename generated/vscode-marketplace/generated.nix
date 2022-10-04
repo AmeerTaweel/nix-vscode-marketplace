@@ -2241,7 +2241,7 @@
     src = fetchurl {
       url = "https://platformio.gallery.vsassets.io/_apis/public/gallery/publisher/platformio/extension/platformio-ide/2.5.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
       name = "platformio-ide-2.5.4.zip";
-      sha256 = "sha256-KbXlegQSLjMCVotR1mU/CDiaQMKLLSX+nnbRJgdFTz8=";
+      sha256 = "sha256-/vBdZ6Mu1KlF+glqp5CNt9WeK1ECqfaivCnK8TisChg=";
     };
     name = "platformio-ide";
     marketplacePublisher = "platformio";
@@ -3593,7 +3593,7 @@
     src = fetchurl {
       url = "https://rust-lang.gallery.vsassets.io/_apis/public/gallery/publisher/rust-lang/extension/rust-analyzer/0.4.1228/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
       name = "rust-analyzer-0.4.1228.zip";
-      sha256 = "sha256-5Cdq6aJL9bWQKvEtgEs2jjUyHl6V1VWG2TN6zwLIkL0=";
+      sha256 = "sha256-BQD1+gvgC1dX1Ea8eBxEREtVXYEfGS6+nkVuk2gZ3qQ=";
     };
     name = "rust-analyzer";
     marketplacePublisher = "rust-lang";
@@ -5257,7 +5257,7 @@
     src = fetchurl {
       url = "https://DEVSENSE.gallery.vsassets.io/_apis/public/gallery/publisher/DEVSENSE/extension/phptools-vscode/1.18.10716/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
       name = "phptools-vscode-1.18.10716.zip";
-      sha256 = "sha256-zTpvl7MhAJ0efWP65ehgoizM3iKlQ/DI7LLwzkVZKQg=";
+      sha256 = "sha256-u7B8hITddwkbac9EnWddoMi/R7kbn3iu5sXJQZ5AaxI=";
     };
     name = "phptools-vscode";
     marketplacePublisher = "DEVSENSE";
@@ -6551,6 +6551,19 @@
     marketplaceName = "beardedtheme";
     publisher = "beardedbear";
   };
+  CS50-extension-uninstaller = {
+    pname = "CS50-extension-uninstaller";
+    version = "1.0.3";
+    src = fetchurl {
+      url = "https://CS50.gallery.vsassets.io/_apis/public/gallery/publisher/CS50/extension/extension-uninstaller/1.0.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "extension-uninstaller-1.0.3.zip";
+      sha256 = "sha256-AuQI/M07FfQQ/hRofPy8Ml3Q8koeOlUD9ojgZchwZ1k=";
+    };
+    name = "extension-uninstaller";
+    marketplacePublisher = "CS50";
+    marketplaceName = "extension-uninstaller";
+    publisher = "cs50";
+  };
   Compulim-compulim-vscode-closetag = {
     pname = "Compulim-compulim-vscode-closetag";
     version = "1.2.0";
@@ -6739,7 +6752,7 @@
     src = fetchurl {
       url = "https://actboy168.gallery.vsassets.io/_apis/public/gallery/publisher/actboy168/extension/lua-debug/1.60.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
       name = "lua-debug-1.60.0.zip";
-      sha256 = "sha256-hdJ/vWbpt68b/u32eoQK4wpBwPj1cETwDh6tcDcmAvc=";
+      sha256 = "sha256-ti8hoM5aoVlqEGn75ZgRdnT5I9DWaW262hkK7aAKP5U=";
     };
     name = "lua-debug";
     marketplacePublisher = "actboy168";
@@ -7643,19 +7656,6 @@
     marketplaceName = "swdc-vscode";
     publisher = "softwaredotcom";
   };
-  sohibe-java-generate-setters-getters = {
-    pname = "sohibe-java-generate-setters-getters";
-    version = "7.4.0";
-    src = fetchurl {
-      url = "https://sohibe.gallery.vsassets.io/_apis/public/gallery/publisher/sohibe/extension/java-generate-setters-getters/7.4.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "java-generate-setters-getters-7.4.0.zip";
-      sha256 = "sha256-byNcC0wXazHnkQgXMAISjBExsvNblhb9y6abOLPXPt0=";
-    };
-    name = "java-generate-setters-getters";
-    marketplacePublisher = "sohibe";
-    marketplaceName = "java-generate-setters-getters";
-    publisher = "sohibe";
-  };
   solnurkarim-html-to-css-autocompletion = {
     pname = "solnurkarim-html-to-css-autocompletion";
     version = "1.1.2";
@@ -7862,19 +7862,6 @@
     name = "ddb50";
     marketplacePublisher = "CS50";
     marketplaceName = "ddb50";
-    publisher = "cs50";
-  };
-  CS50-extension-uninstaller = {
-    pname = "CS50-extension-uninstaller";
-    version = "1.0.3";
-    src = fetchurl {
-      url = "https://CS50.gallery.vsassets.io/_apis/public/gallery/publisher/CS50/extension/extension-uninstaller/1.0.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "extension-uninstaller-1.0.3.zip";
-      sha256 = "sha256-AuQI/M07FfQQ/hRofPy8Ml3Q8koeOlUD9ojgZchwZ1k=";
-    };
-    name = "extension-uninstaller";
-    marketplacePublisher = "CS50";
-    marketplaceName = "extension-uninstaller";
     publisher = "cs50";
   };
   CodeStream-codestream = {
@@ -8968,6 +8955,19 @@
     marketplacePublisher = "slevesque";
     marketplaceName = "vscode-autohotkey";
     publisher = "slevesque";
+  };
+  sohibe-java-generate-setters-getters = {
+    pname = "sohibe-java-generate-setters-getters";
+    version = "7.4.0";
+    src = fetchurl {
+      url = "https://sohibe.gallery.vsassets.io/_apis/public/gallery/publisher/sohibe/extension/java-generate-setters-getters/7.4.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "java-generate-setters-getters-7.4.0.zip";
+      sha256 = "sha256-byNcC0wXazHnkQgXMAISjBExsvNblhb9y6abOLPXPt0=";
+    };
+    name = "java-generate-setters-getters";
+    marketplacePublisher = "sohibe";
+    marketplaceName = "java-generate-setters-getters";
+    publisher = "sohibe";
   };
   spook-easysass = {
     pname = "spook-easysass";
@@ -26133,11 +26133,15 @@
     pname = "Prisma-prisma-insider";
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
     version = "31.0.1471";
     src = fetchurl {
       url = "https://Prisma.gallery.vsassets.io/_apis/public/gallery/publisher/Prisma/extension/prisma-insider/31.0.1471/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
       name = "prisma-insider-31.0.1471.zip";
       sha256 = "sha256-mXYsH4oBS9r7Vcx2vBuv+jUzNckuEEkMgOAe4I6FjDE=";
+<<<<<<< Updated upstream
 =======
     version = "31.0.1469";
     src = fetchurl {
@@ -26151,6 +26155,8 @@
       url = "https://Prisma.gallery.vsassets.io/_apis/public/gallery/publisher/Prisma/extension/prisma-insider/31.0.1471/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
       name = "prisma-insider-31.0.1471.zip";
       sha256 = "sha256-mXYsH4oBS9r7Vcx2vBuv+jUzNckuEEkMgOAe4I6FjDE=";
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     };
     name = "prisma-insider";
@@ -26381,6 +26387,7 @@
   };
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
   changkaiyan-tf2snippets = {
     pname = "changkaiyan-tf2snippets";
@@ -26395,6 +26402,8 @@
     marketplaceName = "tf2snippets";
     publisher = "changkaiyan";
   };
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -26998,6 +27007,9 @@
   };
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   msjsdiag-debugger-for-chrome-nightly = {
@@ -27014,6 +27026,9 @@
     publisher = "msjsdiag";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -27670,6 +27685,9 @@
   };
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   changkaiyan-tf2snippets = {
@@ -27686,6 +27704,9 @@
     publisher = "changkaiyan";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -27939,11 +27960,11 @@
   };
   intersystems-community-vscode-objectscript = {
     pname = "intersystems-community-vscode-objectscript";
-    version = "1.9.2022100301";
+    version = "2.0.0";
     src = fetchurl {
-      url = "https://intersystems-community.gallery.vsassets.io/_apis/public/gallery/publisher/intersystems-community/extension/vscode-objectscript/1.9.2022100301/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscode-objectscript-1.9.2022100301.zip";
-      sha256 = "sha256-9n1ieHAcvS6bZnwFvl2mfjc4AI3gJ9M0hcrjQp6kgVo=";
+      url = "https://intersystems-community.gallery.vsassets.io/_apis/public/gallery/publisher/intersystems-community/extension/vscode-objectscript/2.0.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscode-objectscript-2.0.0.zip";
+      sha256 = "sha256-D+IOA/oEd7lLFWaNdzIu8BOIw7hox9wNM4Fd8dJvy9Y=";
     };
     name = "vscode-objectscript";
     marketplacePublisher = "intersystems-community";
@@ -28160,6 +28181,7 @@
   };
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
   msjsdiag-debugger-for-chrome-nightly = {
     pname = "msjsdiag-debugger-for-chrome-nightly";
@@ -28174,6 +28196,8 @@
     marketplaceName = "debugger-for-chrome-nightly";
     publisher = "msjsdiag";
   };
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -29232,6 +29256,9 @@
   };
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   hzgood-dart-data-class-generator = {
@@ -29248,6 +29275,9 @@
     publisher = "hzgood";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -29371,6 +29401,7 @@
   };
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
   keenethics-keen-neutral-icon-theme = {
     pname = "keenethics-keen-neutral-icon-theme";
@@ -29385,6 +29416,8 @@
     marketplaceName = "keen-neutral-icon-theme";
     publisher = "keenethics";
   };
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -30703,6 +30736,7 @@
   };
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
   hzgood-dart-data-class-generator = {
     pname = "hzgood-dart-data-class-generator";
@@ -30717,6 +30751,8 @@
     marketplaceName = "dart-data-class-generator";
     publisher = "hzgood";
   };
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -30839,6 +30875,9 @@
   };
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   keenethics-keen-neutral-icon-theme = {
@@ -30855,6 +30894,9 @@
     publisher = "keenethics";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -31381,6 +31423,9 @@
   };
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   DEVSENSE-profiler-php-vscode = {
@@ -31397,6 +31442,9 @@
     publisher = "devsense";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -32209,6 +32257,7 @@
   };
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
   mde-select-highlight-minimap = {
     pname = "mde-select-highlight-minimap";
@@ -32223,6 +32272,8 @@
     marketplaceName = "select-highlight-minimap";
     publisher = "mde";
   };
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -32683,6 +32734,7 @@
   };
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
   DEVSENSE-profiler-php-vscode = {
     pname = "DEVSENSE-profiler-php-vscode";
@@ -32697,6 +32749,8 @@
     marketplaceName = "profiler-php-vscode";
     publisher = "devsense";
   };
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -33246,7 +33300,6 @@
     marketplaceName = "css2react";
     publisher = "gottfired";
   };
-<<<<<<< Updated upstream
   grimmer-vscode-back-forward-button = {
     pname = "grimmer-vscode-back-forward-button";
     version = "0.1.6";
@@ -33260,8 +33313,6 @@
     marketplaceName = "vscode-back-forward-button";
     publisher = "grimmer";
   };
-=======
->>>>>>> Stashed changes
   hdevalke-rust-test-lens = {
     pname = "hdevalke-rust-test-lens";
     version = "1.0.0";
@@ -33472,6 +33523,9 @@
   };
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   mde-select-highlight-minimap = {
@@ -33488,6 +33542,9 @@
     publisher = "mde";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -33856,22 +33913,6 @@
     marketplaceName = "run-in-powershell";
     publisher = "tobysmith568";
   };
-<<<<<<< Updated upstream
-=======
-  trongthanh-theme-boxythemekit = {
-    pname = "trongthanh-theme-boxythemekit";
-    version = "0.5.4";
-    src = fetchurl {
-      url = "https://trongthanh.gallery.vsassets.io/_apis/public/gallery/publisher/trongthanh/extension/theme-boxythemekit/0.5.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "theme-boxythemekit-0.5.4.zip";
-      sha256 = "sha256-Xj8CV5a6pDqUj8pJNETemoHExKRuIohpXUbkphn6glk=";
-    };
-    name = "theme-boxythemekit";
-    marketplacePublisher = "trongthanh";
-    marketplaceName = "theme-boxythemekit";
-    publisher = "trongthanh";
-  };
->>>>>>> Stashed changes
   tsvetan-ganev-nativescript-xml-snippets = {
     pname = "tsvetan-ganev-nativescript-xml-snippets";
     version = "1.0.7";
@@ -34446,6 +34487,9 @@
   };
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   bitlang-cobol = {
@@ -34462,6 +34506,9 @@
     publisher = "bitlang";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -34715,6 +34762,7 @@
   };
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
   gitduck-code-streaming = {
     pname = "gitduck-code-streaming";
@@ -34732,6 +34780,8 @@
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   gordonwalkedby-vbnet = {
     pname = "gordonwalkedby-vbnet";
     version = "1.0.2";
@@ -34745,22 +34795,6 @@
     marketplaceName = "vbnet";
     publisher = "gordonwalkedby";
   };
-<<<<<<< Updated upstream
-=======
-  grimmer-vscode-back-forward-button = {
-    pname = "grimmer-vscode-back-forward-button";
-    version = "0.1.6";
-    src = fetchurl {
-      url = "https://grimmer.gallery.vsassets.io/_apis/public/gallery/publisher/grimmer/extension/vscode-back-forward-button/0.1.6/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscode-back-forward-button-0.1.6.zip";
-      sha256 = "sha256-/SI+ZAsLka24UhZhi5eZt2z9Y8HFDayPKnF+t+IZy68=";
-    };
-    name = "vscode-back-forward-button";
-    marketplacePublisher = "grimmer";
-    marketplaceName = "vscode-back-forward-button";
-    publisher = "grimmer";
-  };
->>>>>>> Stashed changes
   gunturpoetra-nodejs-module-snippet = {
     pname = "gunturpoetra-nodejs-module-snippet";
     version = "0.0.2";
@@ -34828,11 +34862,11 @@
   };
   intersystems-community-servermanager = {
     pname = "intersystems-community-servermanager";
-    version = "3.1.2022092801";
+    version = "3.2.1";
     src = fetchurl {
-      url = "https://intersystems-community.gallery.vsassets.io/_apis/public/gallery/publisher/intersystems-community/extension/servermanager/3.1.2022092801/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "servermanager-3.1.2022092801.zip";
-      sha256 = "sha256-LrvklTC11O+wj/9ZpsKLkn8Me7D8FAqg1IE9D7M0y9k=";
+      url = "https://intersystems-community.gallery.vsassets.io/_apis/public/gallery/publisher/intersystems-community/extension/servermanager/3.2.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "servermanager-3.2.1.zip";
+      sha256 = "sha256-utJnWA6I1RergIGvYfFb+OFZyGxIBp5gLCFQDmnAiDY=";
     };
     name = "servermanager";
     marketplacePublisher = "intersystems-community";
@@ -35177,7 +35211,6 @@
     marketplaceName = "simple-dark";
     publisher = "travis";
   };
-<<<<<<< Updated upstream
   trongthanh-theme-boxythemekit = {
     pname = "trongthanh-theme-boxythemekit";
     version = "0.5.4";
@@ -35191,8 +35224,6 @@
     marketplaceName = "theme-boxythemekit";
     publisher = "trongthanh";
   };
-=======
->>>>>>> Stashed changes
   tsega-drupal-8-twig-snippets = {
     pname = "tsega-drupal-8-twig-snippets";
     version = "1.0.2";
@@ -35455,6 +35486,7 @@
   };
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
   LawrenceGrant-cql = {
     pname = "LawrenceGrant-cql";
@@ -35469,6 +35501,8 @@
     marketplaceName = "cql";
     publisher = "lawrencegrant";
   };
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -35734,6 +35768,7 @@
   };
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
   bitlang-cobol = {
     pname = "bitlang-cobol";
@@ -35748,6 +35783,8 @@
     marketplaceName = "cobol";
     publisher = "bitlang";
   };
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -35935,6 +35972,9 @@
   };
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   gitduck-code-streaming = {
@@ -35951,6 +35991,9 @@
     publisher = "gitduck";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -36518,11 +36561,15 @@
     pname = "streetsidesoftware-code-spell-checker-polish";
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
     version = "2.0.1";
     src = fetchurl {
       url = "https://streetsidesoftware.gallery.vsassets.io/_apis/public/gallery/publisher/streetsidesoftware/extension/code-spell-checker-polish/2.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
       name = "code-spell-checker-polish-2.0.1.zip";
       sha256 = "sha256-9MQwEEFIv7Ywd88L/7HJ0j/oQPo2q1IGGdj1ZPpu8KA=";
+<<<<<<< Updated upstream
 =======
     version = "2.0.0";
     src = fetchurl {
@@ -36536,6 +36583,8 @@
       url = "https://streetsidesoftware.gallery.vsassets.io/_apis/public/gallery/publisher/streetsidesoftware/extension/code-spell-checker-polish/2.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
       name = "code-spell-checker-polish-2.0.1.zip";
       sha256 = "sha256-9MQwEEFIv7Ywd88L/7HJ0j/oQPo2q1IGGdj1ZPpu8KA=";
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     };
     name = "code-spell-checker-polish";
@@ -36623,6 +36672,9 @@
   };
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   viatsko-html-mason = {
@@ -36639,6 +36691,9 @@
     publisher = "viatsko";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -36853,6 +36908,9 @@
   };
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   LawrenceGrant-cql = {
@@ -36869,6 +36927,9 @@
     publisher = "lawrencegrant";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -37928,6 +37989,7 @@
   };
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
   viatsko-html-mason = {
     pname = "viatsko-html-mason";
@@ -37942,6 +38004,8 @@
     marketplaceName = "html-mason";
     publisher = "viatsko";
   };
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -38519,7 +38583,10 @@
   };
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
   codelios-dartsass = {
     pname = "codelios-dartsass";
     version = "0.9.2";
@@ -38533,6 +38600,9 @@
     marketplaceName = "dartsass";
     publisher = "codelios";
   };
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -38564,6 +38634,9 @@
   };
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   d-biehl-robotcode = {
@@ -38580,6 +38653,9 @@
     publisher = "d-biehl";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -39143,19 +39219,6 @@
     marketplaceName = "mayacode";
     publisher = "saviof";
   };
-  skyran-matlab-snippets = {
-    pname = "skyran-matlab-snippets";
-    version = "1.11.0";
-    src = fetchurl {
-      url = "https://skyran.gallery.vsassets.io/_apis/public/gallery/publisher/skyran/extension/matlab-snippets/1.11.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "matlab-snippets-1.11.0.zip";
-      sha256 = "sha256-E7bGxEiJDWe8QLs90kBKr9m825ciWKN6XqmDNqtEB+A=";
-    };
-    name = "matlab-snippets";
-    marketplacePublisher = "skyran";
-    marketplaceName = "matlab-snippets";
-    publisher = "skyran";
-  };
   sldobri-fantastical-php-code = {
     pname = "sldobri-fantastical-php-code";
     version = "0.1.2";
@@ -39379,7 +39442,10 @@
   };
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   "710850609-auto-js-vscodeext-fixed" = {
@@ -39604,7 +39670,10 @@
     publisher = "timvaneker";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
   Zarifprogrammer-tailwind-snippets = {
     pname = "Zarifprogrammer-tailwind-snippets";
     version = "1.0.1";
@@ -39618,6 +39687,9 @@
     marketplaceName = "tailwind-snippets";
     publisher = "zarifprogrammer";
   };
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   aalpgiray-javascript-development = {
     pname = "aalpgiray-javascript-development";
@@ -39789,6 +39861,7 @@
     publisher = "betwo";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   blairleduc-net-core-starters-pack = {
     pname = "blairleduc-net-core-starters-pack";
     version = "1.1.0";
@@ -39802,6 +39875,8 @@
     marketplaceName = "net-core-starters-pack";
     publisher = "blairleduc";
   };
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   bodil-prettier-toml = {
@@ -39886,6 +39961,7 @@
     publisher = "cupshe";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   d-biehl-robotcode = {
     pname = "d-biehl-robotcode";
     version = "0.13.21";
@@ -39899,6 +39975,8 @@
     marketplaceName = "robotcode";
     publisher = "d-biehl";
   };
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   dqisme-sync-scroll = {
@@ -40564,6 +40642,19 @@
     marketplaceName = "vscode-tailwindcss";
     publisher = "sidharthachatterjee";
   };
+  skyran-matlab-snippets = {
+    pname = "skyran-matlab-snippets";
+    version = "1.11.0";
+    src = fetchurl {
+      url = "https://skyran.gallery.vsassets.io/_apis/public/gallery/publisher/skyran/extension/matlab-snippets/1.11.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "matlab-snippets-1.11.0.zip";
+      sha256 = "sha256-E7bGxEiJDWe8QLs90kBKr9m825ciWKN6XqmDNqtEB+A=";
+    };
+    name = "matlab-snippets";
+    marketplacePublisher = "skyran";
+    marketplaceName = "matlab-snippets";
+    publisher = "skyran";
+  };
   soft-aesthetic-soft-era-theme = {
     pname = "soft-aesthetic-soft-era-theme";
     version = "1.0.3";
@@ -40968,6 +41059,7 @@
     publisher = "xaviercai";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   Zarifprogrammer-tailwind-snippets = {
     pname = "Zarifprogrammer-tailwind-snippets";
     version = "1.0.1";
@@ -40981,6 +41073,8 @@
     marketplaceName = "tailwind-snippets";
     publisher = "zarifprogrammer";
   };
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   adnanayoub-bs4code = {
@@ -41088,7 +41182,10 @@
     publisher = "belfz";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
   blairleduc-net-core-starters-pack = {
     pname = "blairleduc-net-core-starters-pack";
     version = "1.1.0";
@@ -41102,6 +41199,9 @@
     marketplaceName = "net-core-starters-pack";
     publisher = "blairleduc";
   };
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   boseny-iview-snippets = {
     pname = "boseny-iview-snippets";
@@ -42117,19 +42217,6 @@
     marketplaceName = "create-task";
     publisher = "dago17";
   };
-  DanijelMalinovic-visual-studio-blue-theme = {
-    pname = "DanijelMalinovic-visual-studio-blue-theme";
-    version = "0.0.1";
-    src = fetchurl {
-      url = "https://DanijelMalinovic.gallery.vsassets.io/_apis/public/gallery/publisher/DanijelMalinovic/extension/visual-studio-blue-theme/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "visual-studio-blue-theme-0.0.1.zip";
-      sha256 = "sha256-fwh7V3CjEm7SyV7P/nOTeeY2q6WALbxylUF8U9PmXWw=";
-    };
-    name = "visual-studio-blue-theme";
-    marketplacePublisher = "DanijelMalinovic";
-    marketplaceName = "visual-studio-blue-theme";
-    publisher = "danijelmalinovic";
-  };
   Daosro-stylelint = {
     pname = "Daosro-stylelint";
     version = "0.24.0";
@@ -43027,6 +43114,19 @@
     marketplaceName = "vs-media-player";
     publisher = "mkloubert";
   };
+  ms-toolsai-vscode-jupyter-cell-tags = {
+    pname = "ms-toolsai-vscode-jupyter-cell-tags";
+    version = "0.1.5";
+    src = fetchurl {
+      url = "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/vscode-jupyter-cell-tags/0.1.5/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscode-jupyter-cell-tags-0.1.5.zip";
+      sha256 = "sha256-U8asFHEyhGQvH5bm5JOMNySvFeUzO9efCli/og5kwrE=";
+    };
+    name = "vscode-jupyter-cell-tags";
+    marketplacePublisher = "ms-toolsai";
+    marketplaceName = "vscode-jupyter-cell-tags";
+    publisher = "ms-toolsai";
+  };
   nadim-vscode-infinity-dark-theme = {
     pname = "nadim-vscode-infinity-dark-theme";
     version = "0.1.0";
@@ -43173,11 +43273,19 @@
   streetsidesoftware-code-spell-checker-dutch = {
     pname = "streetsidesoftware-code-spell-checker-dutch";
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     version = "0.3.4";
     src = fetchurl {
       url = "https://streetsidesoftware.gallery.vsassets.io/_apis/public/gallery/publisher/streetsidesoftware/extension/code-spell-checker-dutch/0.3.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
       name = "code-spell-checker-dutch-0.3.4.zip";
       sha256 = "sha256-7VHzrXnhk6qCm2FmmcNh6wAPXmdAVEeuXzQ3xL9wPZk=";
+=======
+    version = "0.3.5";
+    src = fetchurl {
+      url = "https://streetsidesoftware.gallery.vsassets.io/_apis/public/gallery/publisher/streetsidesoftware/extension/code-spell-checker-dutch/0.3.5/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "code-spell-checker-dutch-0.3.5.zip";
+      sha256 = "sha256-zCurCE9qkhJ+WgBtAI/rp0wU5mBWvJ0Zq4mf95fNkhU=";
+>>>>>>> Stashed changes
 =======
     version = "0.3.5";
     src = fetchurl {
@@ -43411,6 +43519,19 @@
     marketplacePublisher = "CoenraadS";
     marketplaceName = "disableligatures";
     publisher = "coenraads";
+  };
+  DanijelMalinovic-visual-studio-blue-theme = {
+    pname = "DanijelMalinovic-visual-studio-blue-theme";
+    version = "0.0.1";
+    src = fetchurl {
+      url = "https://DanijelMalinovic.gallery.vsassets.io/_apis/public/gallery/publisher/DanijelMalinovic/extension/visual-studio-blue-theme/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "visual-studio-blue-theme-0.0.1.zip";
+      sha256 = "sha256-fwh7V3CjEm7SyV7P/nOTeeY2q6WALbxylUF8U9PmXWw=";
+    };
+    name = "visual-studio-blue-theme";
+    marketplacePublisher = "DanijelMalinovic";
+    marketplaceName = "visual-studio-blue-theme";
+    publisher = "danijelmalinovic";
   };
   Framer-framer-syntax = {
     pname = "Framer-framer-syntax";
@@ -44270,19 +44391,6 @@
     marketplaceName = "data-access-migration-toolkit";
     publisher = "ms-databasemigration";
   };
-  ms-toolsai-vscode-jupyter-cell-tags = {
-    pname = "ms-toolsai-vscode-jupyter-cell-tags";
-    version = "0.1.5";
-    src = fetchurl {
-      url = "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/vscode-jupyter-cell-tags/0.1.5/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscode-jupyter-cell-tags-0.1.5.zip";
-      sha256 = "sha256-U8asFHEyhGQvH5bm5JOMNySvFeUzO9efCli/og5kwrE=";
-    };
-    name = "vscode-jupyter-cell-tags";
-    marketplacePublisher = "ms-toolsai";
-    marketplaceName = "vscode-jupyter-cell-tags";
-    publisher = "ms-toolsai";
-  };
   ms-toolsai-vscode-jupyter-slideshow = {
     pname = "ms-toolsai-vscode-jupyter-slideshow";
     version = "0.1.5";
@@ -44295,19 +44403,6 @@
     marketplacePublisher = "ms-toolsai";
     marketplaceName = "vscode-jupyter-slideshow";
     publisher = "ms-toolsai";
-  };
-  ms-vscode-vscode-js-profile-table = {
-    pname = "ms-vscode-vscode-js-profile-table";
-    version = "1.0.3";
-    src = fetchurl {
-      url = "https://ms-vscode.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode/extension/vscode-js-profile-table/1.0.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscode-js-profile-table-1.0.3.zip";
-      sha256 = "sha256-udqwF1BtnmpGmg+Cs5Lkyx16JaSEPx24ujlsvuIJz8U=";
-    };
-    name = "vscode-js-profile-table";
-    marketplacePublisher = "ms-vscode";
-    marketplaceName = "vscode-js-profile-table";
-    publisher = "ms-vscode";
   };
   mxschmitt-postscript = {
     pname = "mxschmitt-postscript";
@@ -44607,6 +44702,19 @@
     marketplacePublisher = "walonli";
     marketplaceName = "edk2-vscode";
     publisher = "walonli";
+  };
+  willumz-generic-pseudocode = {
+    pname = "willumz-generic-pseudocode";
+    version = "1.4.1";
+    src = fetchurl {
+      url = "https://willumz.gallery.vsassets.io/_apis/public/gallery/publisher/willumz/extension/generic-pseudocode/1.4.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "generic-pseudocode-1.4.1.zip";
+      sha256 = "sha256-2PQ+AIuWzTxw7Li6T4Qu/ssLvmC1GqwEuIL9Tf3OWrg=";
+    };
+    name = "generic-pseudocode";
+    marketplacePublisher = "willumz";
+    marketplaceName = "generic-pseudocode";
+    publisher = "willumz";
   };
   yahya-gilany-vscode-pomodoro = {
     pname = "yahya-gilany-vscode-pomodoro";
@@ -45596,6 +45704,19 @@
     marketplaceName = "isort";
     publisher = "ms-python";
   };
+  ms-vscode-vscode-js-profile-table = {
+    pname = "ms-vscode-vscode-js-profile-table";
+    version = "1.0.3";
+    src = fetchurl {
+      url = "https://ms-vscode.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode/extension/vscode-js-profile-table/1.0.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscode-js-profile-table-1.0.3.zip";
+      sha256 = "sha256-udqwF1BtnmpGmg+Cs5Lkyx16JaSEPx24ujlsvuIJz8U=";
+    };
+    name = "vscode-js-profile-table";
+    marketplacePublisher = "ms-vscode";
+    marketplaceName = "vscode-js-profile-table";
+    publisher = "ms-vscode";
+  };
   nespinozacr-mysql-autocomplete = {
     pname = "nespinozacr-mysql-autocomplete";
     version = "0.5.0";
@@ -45855,19 +45976,6 @@
     marketplacePublisher = "wejectchan";
     marketplaceName = "vue3-snippets-for-vscode";
     publisher = "wejectchan";
-  };
-  willumz-generic-pseudocode = {
-    pname = "willumz-generic-pseudocode";
-    version = "1.4.1";
-    src = fetchurl {
-      url = "https://willumz.gallery.vsassets.io/_apis/public/gallery/publisher/willumz/extension/generic-pseudocode/1.4.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "generic-pseudocode-1.4.1.zip";
-      sha256 = "sha256-2PQ+AIuWzTxw7Li6T4Qu/ssLvmC1GqwEuIL9Tf3OWrg=";
-    };
-    name = "generic-pseudocode";
-    marketplacePublisher = "willumz";
-    marketplaceName = "generic-pseudocode";
-    publisher = "willumz";
   };
   wushuaiBUAA-autocomplete-english-word = {
     pname = "wushuaiBUAA-autocomplete-english-word";
@@ -46405,11 +46513,19 @@
   chenglou92-rescript-vscode = {
     pname = "chenglou92-rescript-vscode";
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     version = "1.9.0";
     src = fetchurl {
       url = "https://chenglou92.gallery.vsassets.io/_apis/public/gallery/publisher/chenglou92/extension/rescript-vscode/1.9.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
       name = "rescript-vscode-1.9.0.zip";
       sha256 = "sha256-eyvdp3mzSobjqZxy9um5IFBNtN2qFVzykyj8uN25c24=";
+=======
+    version = "1.9.2";
+    src = fetchurl {
+      url = "https://chenglou92.gallery.vsassets.io/_apis/public/gallery/publisher/chenglou92/extension/rescript-vscode/1.9.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "rescript-vscode-1.9.2.zip";
+      sha256 = "sha256-QX3Tgb0VmzTQBZD3oHnVVNX9km4LNQAbcT2VaJYBHYE=";
+>>>>>>> Stashed changes
 =======
     version = "1.9.2";
     src = fetchurl {
@@ -46476,6 +46592,7 @@
     publisher = "codeavecjonathan";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   cosminalco-pomodoro = {
     pname = "cosminalco-pomodoro";
     version = "1.1.0";
@@ -46489,6 +46606,8 @@
     marketplaceName = "pomodoro";
     publisher = "cosminalco";
   };
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   crisward-riot-tag = {
@@ -46544,7 +46663,10 @@
     publisher = "danileao";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
   deagrut-pep8-asm = {
     pname = "deagrut-pep8-asm";
     version = "0.0.1";
@@ -46558,6 +46680,9 @@
     marketplaceName = "pep8-asm";
     publisher = "deagrut";
   };
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   denco-confluence-markup = {
     pname = "denco-confluence-markup";
@@ -47782,7 +47907,10 @@
     publisher = "corentinartaud";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
   cosminalco-pomodoro = {
     pname = "cosminalco-pomodoro";
     version = "1.1.0";
@@ -47796,6 +47924,9 @@
     marketplaceName = "pomodoro";
     publisher = "cosminalco";
   };
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   cotto-theme-harmonic16-light = {
     pname = "cotto-theme-harmonic16-light";
@@ -47837,6 +47968,7 @@
     publisher = "ctf0";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   deagrut-pep8-asm = {
     pname = "deagrut-pep8-asm";
     version = "0.0.1";
@@ -47850,6 +47982,8 @@
     marketplaceName = "pep8-asm";
     publisher = "deagrut";
   };
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   devil-cyber-keras-snippet = {
@@ -47983,7 +48117,10 @@
     publisher = "hancel";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
   helsmy-autohotkey-debug = {
     pname = "helsmy-autohotkey-debug";
     version = "0.6.16";
@@ -47997,6 +48134,9 @@
     marketplaceName = "autohotkey-debug";
     publisher = "helsmy";
   };
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   hhawkins-AzureFunctionsSnippets = {
     pname = "hhawkins-AzureFunctionsSnippets";
@@ -48025,6 +48165,7 @@
     publisher = "hridoy";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   idered-figma = {
     pname = "idered-figma";
     version = "0.1.1";
@@ -48038,6 +48179,8 @@
     marketplaceName = "figma";
     publisher = "idered";
   };
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   idleberg-svg-icons = {
@@ -49133,6 +49276,7 @@
     publisher = "gvekony";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   helsmy-autohotkey-debug = {
     pname = "helsmy-autohotkey-debug";
     version = "0.6.16";
@@ -49146,6 +49290,8 @@
     marketplaceName = "autohotkey-debug";
     publisher = "helsmy";
   };
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   hridoy-animate-css = {
@@ -49851,7 +49997,10 @@
     publisher = "willjleong";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
   wk-j-vscode-rainbow-string = {
     pname = "wk-j-vscode-rainbow-string";
     version = "18.3.7";
@@ -49865,6 +50014,9 @@
     marketplaceName = "vscode-rainbow-string";
     publisher = "wk-j";
   };
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   wmaurer-html2jade = {
     pname = "wmaurer-html2jade";
@@ -51050,7 +51202,10 @@
     publisher = "statelyai";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
   stephenwassell-light-high-contrast-theme = {
     pname = "stephenwassell-light-high-contrast-theme";
     version = "1.1.5";
@@ -51064,6 +51219,9 @@
     marketplaceName = "light-high-contrast-theme";
     publisher = "stephenwassell";
   };
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   thesofakillers-vscode-pbtxt = {
     pname = "thesofakillers-vscode-pbtxt";
@@ -51157,6 +51315,7 @@
     publisher = "watchakorn-18k";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   wk-j-vscode-rainbow-string = {
     pname = "wk-j-vscode-rainbow-string";
     version = "18.3.7";
@@ -51170,6 +51329,8 @@
     marketplaceName = "vscode-rainbow-string";
     publisher = "wk-j";
   };
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   wraith13-wandbox-vscode = {
@@ -52161,7 +52322,10 @@
     publisher = "ms-vscode";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
   ms-vscode-vscode-serial-monitor = {
     pname = "ms-vscode-vscode-serial-monitor";
     version = "0.3.221001001";
@@ -52175,6 +52339,9 @@
     marketplaceName = "vscode-serial-monitor";
     publisher = "ms-vscode";
   };
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   mscgenjs-vscode-mscgen = {
     pname = "mscgenjs-vscode-mscgen";
@@ -52385,6 +52552,7 @@
     publisher = "speedy37";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   stephenwassell-light-high-contrast-theme = {
     pname = "stephenwassell-light-high-contrast-theme";
     version = "1.1.5";
@@ -52398,6 +52566,8 @@
     marketplaceName = "light-high-contrast-theme";
     publisher = "stephenwassell";
   };
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   strum355-vscode-mc-shader = {
@@ -53428,7 +53598,10 @@
     publisher = "lsadam0";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
   m-thorsen-vscode-materia = {
     pname = "m-thorsen-vscode-materia";
     version = "0.6.5";
@@ -53442,6 +53615,9 @@
     marketplaceName = "vscode-materia";
     publisher = "m-thorsen";
   };
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   marus25-cortex-debug-dp-stm32f4 = {
     pname = "marus25-cortex-debug-dp-stm32f4";
@@ -53509,6 +53685,7 @@
     publisher = "ms-azuretools";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   ms-vscode-vscode-serial-monitor = {
     pname = "ms-vscode-vscode-serial-monitor";
     version = "0.3.221001001";
@@ -53522,6 +53699,8 @@
     marketplaceName = "vscode-serial-monitor";
     publisher = "ms-vscode";
   };
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   msjsdiag-vscode-react-native-preview = {
@@ -54357,7 +54536,10 @@
     publisher = "bierner";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
   closemarketing-wp-development-toolbox = {
     pname = "closemarketing-wp-development-toolbox";
     version = "2.5.0";
@@ -54371,6 +54553,9 @@
     marketplaceName = "wp-development-toolbox";
     publisher = "closemarketing";
   };
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   coddx-coddx-alpha = {
     pname = "coddx-coddx-alpha";
@@ -54802,6 +54987,7 @@
     publisher = "lifeart";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m-thorsen-vscode-materia = {
     pname = "m-thorsen-vscode-materia";
     version = "0.6.5";
@@ -54815,6 +55001,8 @@
     marketplaceName = "vscode-materia";
     publisher = "m-thorsen";
   };
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   marsl-vscode-php-refactoring = {
@@ -54911,11 +55099,19 @@
   quarto-quarto = {
     pname = "quarto-quarto";
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     version = "1.44.0";
     src = fetchurl {
       url = "https://quarto.gallery.vsassets.io/_apis/public/gallery/publisher/quarto/extension/quarto/1.44.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
       name = "quarto-1.44.0.zip";
       sha256 = "sha256-COo+WVtnrksSl2hafTQEnncozZGW+hAD8b/geQkfvY0=";
+=======
+    version = "1.45.0";
+    src = fetchurl {
+      url = "https://quarto.gallery.vsassets.io/_apis/public/gallery/publisher/quarto/extension/quarto/1.45.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "quarto-1.45.0.zip";
+      sha256 = "sha256-Avh0fweFkUzK6SnZpY7sLKeif78wjra1nQK2mSC4ahg=";
+>>>>>>> Stashed changes
 =======
     version = "1.45.0";
     src = fetchurl {
@@ -55658,6 +55854,7 @@
     publisher = "chrisbibby";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   closemarketing-wp-development-toolbox = {
     pname = "closemarketing-wp-development-toolbox";
     version = "2.5.0";
@@ -55671,6 +55868,8 @@
     marketplaceName = "wp-development-toolbox";
     publisher = "closemarketing";
   };
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   csknklc-shark-color-themes = {
@@ -56114,6 +56313,19 @@
     marketplacePublisher = "l2fprod";
     marketplaceName = "terraform-fork";
     publisher = "l2fprod";
+  };
+  laurencebahiirwa-deno-std-lib-snippets = {
+    pname = "laurencebahiirwa-deno-std-lib-snippets";
+    version = "0.0.8";
+    src = fetchurl {
+      url = "https://laurencebahiirwa.gallery.vsassets.io/_apis/public/gallery/publisher/laurencebahiirwa/extension/deno-std-lib-snippets/0.0.8/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "deno-std-lib-snippets-0.0.8.zip";
+      sha256 = "sha256-oJjfItaR/3fsk7s/4y7Zaf2NzCk/fhOwnmWd8c8xFWE=";
+    };
+    name = "deno-std-lib-snippets";
+    marketplacePublisher = "laurencebahiirwa";
+    marketplaceName = "deno-std-lib-snippets";
+    publisher = "laurencebahiirwa";
   };
   lucasmsa-arkham-theme = {
     pname = "lucasmsa-arkham-theme";
@@ -56795,7 +57007,10 @@
     publisher = "abdullahceylan";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
   adisreyaj-swagger-snippets = {
     pname = "adisreyaj-swagger-snippets";
     version = "0.0.1";
@@ -56809,6 +57024,9 @@
     marketplaceName = "swagger-snippets";
     publisher = "adisreyaj";
   };
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   alanlang-theme-ocean = {
     pname = "alanlang-theme-ocean";
@@ -57368,19 +57586,6 @@
     marketplacePublisher = "langxm";
     marketplaceName = "micropython";
     publisher = "langxm";
-  };
-  laurencebahiirwa-deno-std-lib-snippets = {
-    pname = "laurencebahiirwa-deno-std-lib-snippets";
-    version = "0.0.8";
-    src = fetchurl {
-      url = "https://laurencebahiirwa.gallery.vsassets.io/_apis/public/gallery/publisher/laurencebahiirwa/extension/deno-std-lib-snippets/0.0.8/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "deno-std-lib-snippets-0.0.8.zip";
-      sha256 = "sha256-oJjfItaR/3fsk7s/4y7Zaf2NzCk/fhOwnmWd8c8xFWE=";
-    };
-    name = "deno-std-lib-snippets";
-    marketplacePublisher = "laurencebahiirwa";
-    marketplaceName = "deno-std-lib-snippets";
-    publisher = "laurencebahiirwa";
   };
   lixquid-calculator = {
     pname = "lixquid-calculator";
@@ -58114,6 +58319,7 @@
     publisher = "abelqjli";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   adisreyaj-swagger-snippets = {
     pname = "adisreyaj-swagger-snippets";
     version = "0.0.1";
@@ -58127,6 +58333,8 @@
     marketplaceName = "swagger-snippets";
     publisher = "adisreyaj";
   };
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   alechp-react-toolbox-snippets = {
@@ -58507,7 +58715,10 @@
     publisher = "haberdashpi";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
   hilalh-hyper-dracula-vscode-theme = {
     pname = "hilalh-hyper-dracula-vscode-theme";
     version = "0.1.1";
@@ -58521,6 +58732,9 @@
     marketplaceName = "hyper-dracula-vscode-theme";
     publisher = "hilalh";
   };
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   hkh12-pitch-black = {
     pname = "hkh12-pitch-black";
@@ -59732,6 +59946,7 @@
     publisher = "hbrok";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   hilalh-hyper-dracula-vscode-theme = {
     pname = "hilalh-hyper-dracula-vscode-theme";
     version = "0.1.1";
@@ -59745,6 +59960,8 @@
     marketplaceName = "hyper-dracula-vscode-theme";
     publisher = "hilalh";
   };
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   hitode909-perl-outline = {
@@ -60164,7 +60381,10 @@
     publisher = "pytheme";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
   rafwilinski-serverless-vscode-snippets = {
     pname = "rafwilinski-serverless-vscode-snippets";
     version = "0.0.5";
@@ -60178,6 +60398,9 @@
     marketplaceName = "serverless-vscode-snippets";
     publisher = "rafwilinski";
   };
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   rduldulao-py-coverage-view = {
     pname = "rduldulao-py-coverage-view";
@@ -60570,7 +60793,10 @@
     publisher = "cacher";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
   DhavalVira-django-import-libraries = {
     pname = "DhavalVira-django-import-libraries";
     version = "0.0.4";
@@ -60584,6 +60810,9 @@
     marketplaceName = "django-import-libraries";
     publisher = "dhavalvira";
   };
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   Gandola-pig = {
     pname = "Gandola-pig";
@@ -61548,6 +61777,7 @@
     publisher = "rafaelmardojai";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   rafwilinski-serverless-vscode-snippets = {
     pname = "rafwilinski-serverless-vscode-snippets";
     version = "0.0.5";
@@ -61561,6 +61791,8 @@
     marketplaceName = "serverless-vscode-snippets";
     publisher = "rafwilinski";
   };
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   reddevil-pythondoc = {
@@ -61863,6 +62095,7 @@
     publisher = "codereviewer14";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   DhavalVira-django-import-libraries = {
     pname = "DhavalVira-django-import-libraries";
     version = "0.0.4";
@@ -61876,6 +62109,8 @@
     marketplaceName = "django-import-libraries";
     publisher = "dhavalvira";
   };
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   FedericoVarela-pipenv-scripts = {
@@ -62204,7 +62439,10 @@
     publisher = "betajob";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
   breaking-point-vsc-postman = {
     pname = "breaking-point-vsc-postman";
     version = "1.1.0";
@@ -62218,6 +62456,9 @@
     marketplaceName = "vsc-postman";
     publisher = "breaking-point";
   };
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   chuck94-Xsl-Snippet-Creator = {
     pname = "chuck94-Xsl-Snippet-Creator";
@@ -63260,7 +63501,10 @@
     publisher = "krystofriha";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
   LlewellynPaintsil-legendary-dark = {
     pname = "LlewellynPaintsil-legendary-dark";
     version = "5.0.1";
@@ -63274,6 +63518,9 @@
     marketplaceName = "legendary-dark";
     publisher = "llewellynpaintsil";
   };
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   Massi-javascript-docstrings = {
     pname = "Massi-javascript-docstrings";
@@ -63510,6 +63757,7 @@
     publisher = "bogdanlazar";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   breaking-point-vsc-postman = {
     pname = "breaking-point-vsc-postman";
     version = "1.1.0";
@@ -63523,6 +63771,8 @@
     marketplaceName = "vsc-postman";
     publisher = "breaking-point";
   };
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   curlybracket-vlocode = {
@@ -64631,6 +64881,7 @@
     publisher = "knightjun";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   LlewellynPaintsil-legendary-dark = {
     pname = "LlewellynPaintsil-legendary-dark";
     version = "5.0.1";
@@ -64644,6 +64895,8 @@
     marketplaceName = "legendary-dark";
     publisher = "llewellynpaintsil";
   };
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   MeshIntelligentTechnologiesInc-pieces-vscode = {
@@ -64842,7 +65095,10 @@
     publisher = "actboy168";
   };
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
   alygin-vscode-tlaplus = {
     pname = "alygin-vscode-tlaplus";
     version = "1.5.4";
@@ -64856,6 +65112,9 @@
     marketplaceName = "vscode-tlaplus";
     publisher = "alygin";
   };
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   annliu-1987 = {
     pname = "annliu-1987";
@@ -65767,6 +66026,7 @@
     marketplaceName = "theme-happy-hipster";
     publisher = "zadvorny";
   };
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   Angelmaneuver-wallpaper-setting = {
     pname = "Angelmaneuver-wallpaper-setting";
@@ -91768,6 +92028,8 @@
     marketplaceName = "screen-recorder";
     publisher = "wk-j";
   };
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
