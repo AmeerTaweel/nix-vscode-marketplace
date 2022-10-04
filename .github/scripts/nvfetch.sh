@@ -75,7 +75,7 @@ do
 
     let "next_block = i * $block_size"
     
-    let "block_idx = $i"
+    let "block_idx = $i + 1"
     printf "\n\n[ block: %s; extensions %s...%s ]\n\n" $block_idx $block $next_block
     
     # tree $HOME
