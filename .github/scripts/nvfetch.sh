@@ -48,7 +48,7 @@ log_tmp=tmp/$dir_generated/log
 nix profile install nixpkgs#gawk nixpkgs#nvfetcher nixpkgs#tree
 
 # calculate
-let "ext_count = $(cat $toml_file | awk '/\[/{++a}END{print a}') / 2 / $block_size + 1"
+let "ext_count = $(cat $toml_file | awk '/\[/{++a}END{print a}') / 2"
 
 echo "total #extensions: $ext_count"
 echo "block size: $block_size"
