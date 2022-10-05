@@ -56,6 +56,9 @@
 		devShell = pkgs.mkShell {
 			shellHook = ''
     			export DENO_DIR="$(pwd)/.deno"
+					export BLOCK_SIZE=2
+					export LIMIT=3
+					export NAME=open-vsx
 			'';
 			nativeBuildInputs = with pkgs; [
 				deno nvfetcher gawk
