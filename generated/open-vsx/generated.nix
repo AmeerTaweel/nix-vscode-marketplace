@@ -951,18 +951,18 @@
   };
   erlang-ls-erlang-ls = {
     pname = "erlang-ls-erlang-ls";
-    version = "0.0.37";
+    version = "0.0.38";
     src = fetchurl {
-      url = "https://open-vsx.org/api/erlang-ls/erlang-ls/0.0.37/file/erlang-ls.erlang-ls-0.0.37.vsix";
-      name = "erlang-ls-0.0.37.zip";
-      sha256 = "sha256-jZWYulnW9uXlWsyAkHkBg5Pn0dIssElcz2TspkpxJWg=";
+      url = "https://open-vsx.org/api/erlang-ls/erlang-ls/0.0.38/file/erlang-ls.erlang-ls-0.0.38.vsix";
+      name = "erlang-ls-0.0.38.zip";
+      sha256 = "sha256-4l7WnuF6Dth5gAACKo4Sb94Z8IBPWOcAxMhedu4UzfQ=";
     };
     license = "asl20";
     name = "erlang-ls";
     homepage = "https://erlang-ls.github.io";
-    downloadPage = "https://open-vsx.org/api/erlang-ls/erlang-ls/0.0.37/file/erlang-ls.erlang-ls-0.0.37.vsix";
+    downloadPage = "https://open-vsx.org/api/erlang-ls/erlang-ls/0.0.38/file/erlang-ls.erlang-ls-0.0.38.vsix";
     marketplacePublisher = "erlang-ls";
-    changelog = "https://open-vsx.org/api/erlang-ls/erlang-ls/0.0.37/file/CHANGELOG.md";
+    changelog = "https://open-vsx.org/api/erlang-ls/erlang-ls/0.0.38/file/CHANGELOG.md";
     marketplaceName = "erlang-ls";
     publisher = "erlang-ls";
   };
@@ -4708,11 +4708,11 @@
   };
   vscode-configuration-editing = {
     pname = "vscode-configuration-editing";
-    version = "1.64.0-next.d9fa2b12136";
+    version = "1.64.0-next.68976705968";
     src = fetchurl {
-      url = "https://open-vsx.org/api/vscode/configuration-editing/1.64.0-next.d9fa2b12136/file/vscode.configuration-editing-1.64.0-next.d9fa2b12136.vsix";
-      name = "configuration-editing-1.64.0-next.d9fa2b12136.zip";
-      sha256 = "sha256-R7JiCqKN2eLfJkAMDbc6pdVjVsQCCdin8guOwT4Y5kY=";
+      url = "https://open-vsx.org/api/vscode/configuration-editing/1.64.0-next.68976705968/file/vscode.configuration-editing-1.64.0-next.68976705968.vsix";
+      name = "configuration-editing-1.64.0-next.68976705968.zip";
+      sha256 = "sha256-Ny4vbcmK1md/PZCsH7S2wOowQN7HwnAQP9aUG6zKcf4=";
     };
     license = "mit";
     name = "configuration-editing";
@@ -4740,11 +4740,11 @@
   };
   vscode-groovy = {
     pname = "vscode-groovy";
-    version = "1.64.0-next.d9fa2b12136";
+    version = "1.64.0-next.68976705968";
     src = fetchurl {
-      url = "https://open-vsx.org/api/vscode/groovy/1.64.0-next.d9fa2b12136/file/vscode.groovy-1.64.0-next.d9fa2b12136.vsix";
-      name = "groovy-1.64.0-next.d9fa2b12136.zip";
-      sha256 = "sha256-bh2lx3JX4Sp+VRmBvq2LopN3739ebp75xHfBOfQ5M5k=";
+      url = "https://open-vsx.org/api/vscode/groovy/1.64.0-next.68976705968/file/vscode.groovy-1.64.0-next.68976705968.vsix";
+      name = "groovy-1.64.0-next.68976705968.zip";
+      sha256 = "sha256-AJt7fJTvfpe3I3DvQXj/XrhCiQTki9CCnxTx906Omho=";
     };
     license = "mit";
     name = "groovy";
@@ -4772,16 +4772,16 @@
   };
   vscode-objective-c = {
     pname = "vscode-objective-c";
-    version = "1.64.0-next.d9fa2b12136";
+    version = "1.64.0-next.68976705968";
     src = fetchurl {
-      url = "https://open-vsx.org/api/vscode/objective-c/1.64.0-next.d9fa2b12136/file/vscode.objective-c-1.64.0-next.d9fa2b12136.vsix";
-      name = "objective-c-1.64.0-next.d9fa2b12136.zip";
-      sha256 = "sha256-XTCPiJ/v3i8scoXgWY71qLyOe+YjCXMy8iiGWc2XnqY=";
+      url = "https://open-vsx.org/api/vscode/objective-c/1.64.0-next.68976705968/file/vscode.objective-c-1.64.0-next.68976705968.vsix";
+      name = "objective-c-1.64.0-next.68976705968.zip";
+      sha256 = "sha256-cTaKqdvqCA9NDWWtnLOkrEaDj7Ep2ZQ5lXDFJwnGPtQ=";
     };
     license = "mit";
     name = "objective-c";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/objective-c/1.64.0-next.d9fa2b12136/file/vscode.objective-c-1.64.0-next.d9fa2b12136.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/objective-c/1.64.0-next.68976705968/file/vscode.objective-c-1.64.0-next.68976705968.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "objective-c";
     publisher = "vscode";
@@ -4893,7 +4893,7 @@
     license = "mit";
     name = "vscode-theme-seti";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/vscode-theme-seti/1.64.0-next.68976705968/file/vscode.vscode-theme-seti-1.64.0-next.68976705968.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/vscode-theme-seti/1.64.0-next.d9fa2b12136/file/vscode.vscode-theme-seti-1.64.0-next.d9fa2b12136.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "vscode-theme-seti";
     publisher = "vscode";
@@ -5331,16 +5331,16 @@
   };
   dendron-nightly = {
     pname = "dendron-nightly";
-    version = "0.114.6";
+    version = "0.114.7";
     src = fetchurl {
-      url = "https://open-vsx.org/api/dendron/nightly/0.114.6/file/dendron.nightly-0.114.6.vsix";
-      name = "nightly-0.114.6.zip";
-      sha256 = "sha256-R7UxrWx+zAP15MN0KoZjZwqxO//aPdM65HW8sRSa7lY=";
+      url = "https://open-vsx.org/api/dendron/nightly/0.114.7/file/dendron.nightly-0.114.7.vsix";
+      name = "nightly-0.114.7.zip";
+      sha256 = "sha256-RTewz3/Swe2Z6g7SUC2wwZYyTzDqVPQHSZCJvaDUi38=";
     };
     license = "agpl3Only";
     name = "nightly";
     homepage = "https://github.com/dendronhq/dendron#readme";
-    downloadPage = "https://open-vsx.org/api/dendron/nightly/0.114.6/file/dendron.nightly-0.114.6.vsix";
+    downloadPage = "https://open-vsx.org/api/dendron/nightly/0.114.7/file/dendron.nightly-0.114.7.vsix";
     marketplacePublisher = "dendron";
     marketplaceName = "nightly";
     publisher = "dendron";
@@ -6035,7 +6035,7 @@
     license = "mit";
     name = "coffeescript";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/coffeescript/1.64.0-next.d9fa2b12136/file/vscode.coffeescript-1.64.0-next.d9fa2b12136.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/coffeescript/1.64.0-next.68976705968/file/vscode.coffeescript-1.64.0-next.68976705968.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "coffeescript";
     publisher = "vscode";
@@ -6058,16 +6058,16 @@
   };
   vscode-emmet = {
     pname = "vscode-emmet";
-    version = "1.64.0-next.68976705968";
+    version = "1.64.0-next.d9fa2b12136";
     src = fetchurl {
-      url = "https://open-vsx.org/api/vscode/emmet/1.64.0-next.68976705968/file/vscode.emmet-1.64.0-next.68976705968.vsix";
-      name = "emmet-1.64.0-next.68976705968.zip";
-      sha256 = "sha256-JThRJ3mkYOhyBIjN/b2TDgTy7HNW/x4T9qFPe+9APCc=";
+      url = "https://open-vsx.org/api/vscode/emmet/1.64.0-next.d9fa2b12136/file/vscode.emmet-1.64.0-next.d9fa2b12136.vsix";
+      name = "emmet-1.64.0-next.d9fa2b12136.zip";
+      sha256 = "sha256-pUGSxtT6NTzr1EnQBcGIPbmiP7JCNY5Ky7mGKxrInys=";
     };
     license = "mit";
     name = "emmet";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/emmet/1.64.0-next.d9fa2b12136/file/vscode.emmet-1.64.0-next.d9fa2b12136.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/emmet/1.64.0-next.68976705968/file/vscode.emmet-1.64.0-next.68976705968.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "emmet";
     publisher = "vscode";
@@ -6083,7 +6083,7 @@
     license = "mit";
     name = "extension-editing";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/extension-editing/1.64.0-next.68976705968/file/vscode.extension-editing-1.64.0-next.68976705968.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/extension-editing/1.64.0-next.d9fa2b12136/file/vscode.extension-editing-1.64.0-next.d9fa2b12136.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "extension-editing";
     publisher = "vscode";
@@ -6099,7 +6099,7 @@
     license = "mit";
     name = "fsharp";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/fsharp/1.64.0-next.68976705968/file/vscode.fsharp-1.64.0-next.68976705968.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/fsharp/1.64.0-next.d9fa2b12136/file/vscode.fsharp-1.64.0-next.d9fa2b12136.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "fsharp";
     publisher = "vscode";
@@ -6162,7 +6162,7 @@
     license = "mit";
     name = "grunt";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/grunt/1.64.0-next.68976705968/file/vscode.grunt-1.64.0-next.68976705968.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/grunt/1.64.0-next.d9fa2b12136/file/vscode.grunt-1.64.0-next.d9fa2b12136.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "grunt";
     publisher = "vscode";
@@ -6194,23 +6194,23 @@
     license = "mit";
     name = "handlebars";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/handlebars/1.64.0-next.68976705968/file/vscode.handlebars-1.64.0-next.68976705968.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/handlebars/1.64.0-next.d9fa2b12136/file/vscode.handlebars-1.64.0-next.d9fa2b12136.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "handlebars";
     publisher = "vscode";
   };
   vscode-html = {
     pname = "vscode-html";
-    version = "1.64.0-next.d9fa2b12136";
+    version = "1.64.0-next.68976705968";
     src = fetchurl {
-      url = "https://open-vsx.org/api/vscode/html/1.64.0-next.d9fa2b12136/file/vscode.html-1.64.0-next.d9fa2b12136.vsix";
-      name = "html-1.64.0-next.d9fa2b12136.zip";
-      sha256 = "sha256-OHhYIMPHvuZH5ct3uDNCzxDLxyqJh+Gxc2VB1YCe/Sw=";
+      url = "https://open-vsx.org/api/vscode/html/1.64.0-next.68976705968/file/vscode.html-1.64.0-next.68976705968.vsix";
+      name = "html-1.64.0-next.68976705968.zip";
+      sha256 = "sha256-tjDt5xB6i/NdyBQhqRNtotw+9kizuHRfSyzqFWpf3uI=";
     };
     license = "mit";
     name = "html";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/html/1.64.0-next.d9fa2b12136/file/vscode.html-1.64.0-next.d9fa2b12136.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/html/1.64.0-next.68976705968/file/vscode.html-1.64.0-next.68976705968.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "html";
     publisher = "vscode";
@@ -6226,23 +6226,23 @@
     license = "mit";
     name = "html-language-features";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/html-language-features/1.64.0-next.68976705968/file/vscode.html-language-features-1.64.0-next.68976705968.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/html-language-features/1.64.0-next.d9fa2b12136/file/vscode.html-language-features-1.64.0-next.d9fa2b12136.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "html-language-features";
     publisher = "vscode";
   };
   vscode-jake = {
     pname = "vscode-jake";
-    version = "1.64.0-next.d9fa2b12136";
+    version = "1.64.0-next.68976705968";
     src = fetchurl {
-      url = "https://open-vsx.org/api/vscode/jake/1.64.0-next.d9fa2b12136/file/vscode.jake-1.64.0-next.d9fa2b12136.vsix";
-      name = "jake-1.64.0-next.d9fa2b12136.zip";
-      sha256 = "sha256-FxAsEcbVYbj6ywzVO9sRhQ7+P4rGcXL/yQv8/z2Pcgc=";
+      url = "https://open-vsx.org/api/vscode/jake/1.64.0-next.68976705968/file/vscode.jake-1.64.0-next.68976705968.vsix";
+      name = "jake-1.64.0-next.68976705968.zip";
+      sha256 = "sha256-k2iUdXDGku0Ntqz31DYic4T4B/91y0PFNiovQYIbutQ=";
     };
     license = "mit";
     name = "jake";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/jake/1.64.0-next.68976705968/file/vscode.jake-1.64.0-next.68976705968.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/jake/1.64.0-next.d9fa2b12136/file/vscode.jake-1.64.0-next.d9fa2b12136.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "jake";
     publisher = "vscode";
@@ -6265,11 +6265,11 @@
   };
   vscode-json = {
     pname = "vscode-json";
-    version = "1.64.0-next.68976705968";
+    version = "1.64.0-next.d9fa2b12136";
     src = fetchurl {
-      url = "https://open-vsx.org/api/vscode/json/1.64.0-next.68976705968/file/vscode.json-1.64.0-next.68976705968.vsix";
-      name = "json-1.64.0-next.68976705968.zip";
-      sha256 = "sha256-G5yFeMMqk5RvbrXlBsYdpm5g9zFg7DY+IaKK1o/cBzc=";
+      url = "https://open-vsx.org/api/vscode/json/1.64.0-next.d9fa2b12136/file/vscode.json-1.64.0-next.d9fa2b12136.vsix";
+      name = "json-1.64.0-next.d9fa2b12136.zip";
+      sha256 = "sha256-pDmYHlIkirNFMqT0tj+iCJhC5rkKbVPdEWvjjRI4tI4=";
     };
     license = "mit";
     name = "json";
@@ -6338,7 +6338,7 @@
     license = "mit";
     name = "php-language-features";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/php-language-features/1.64.0-next.d9fa2b12136/file/vscode.php-language-features-1.64.0-next.d9fa2b12136.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/php-language-features/1.64.0-next.68976705968/file/vscode.php-language-features-1.64.0-next.68976705968.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "php-language-features";
     publisher = "vscode";
@@ -6361,11 +6361,11 @@
   };
   vscode-pug = {
     pname = "vscode-pug";
-    version = "1.64.0-next.68976705968";
+    version = "1.64.0-next.d9fa2b12136";
     src = fetchurl {
-      url = "https://open-vsx.org/api/vscode/pug/1.64.0-next.68976705968/file/vscode.pug-1.64.0-next.68976705968.vsix";
-      name = "pug-1.64.0-next.68976705968.zip";
-      sha256 = "sha256-tPEfX5NZR4Wx05a5zReiMokvhF3Wk8Hksi2bK8lTSrQ=";
+      url = "https://open-vsx.org/api/vscode/pug/1.64.0-next.d9fa2b12136/file/vscode.pug-1.64.0-next.d9fa2b12136.vsix";
+      name = "pug-1.64.0-next.d9fa2b12136.zip";
+      sha256 = "sha256-bl5Goq4Rqq7VWrriL42p5z3RjB731q/PilarNppqeHw=";
     };
     license = "mit";
     name = "pug";
@@ -6425,32 +6425,32 @@
   };
   vscode-theme-monokai = {
     pname = "vscode-theme-monokai";
-    version = "1.64.0-next.68976705968";
+    version = "1.64.0-next.d9fa2b12136";
     src = fetchurl {
-      url = "https://open-vsx.org/api/vscode/theme-monokai/1.64.0-next.68976705968/file/vscode.theme-monokai-1.64.0-next.68976705968.vsix";
-      name = "theme-monokai-1.64.0-next.68976705968.zip";
-      sha256 = "sha256-4bV2X46/ZaBJyeXdazIXmacIagY5IQGjZubwvy64vyw=";
+      url = "https://open-vsx.org/api/vscode/theme-monokai/1.64.0-next.d9fa2b12136/file/vscode.theme-monokai-1.64.0-next.d9fa2b12136.vsix";
+      name = "theme-monokai-1.64.0-next.d9fa2b12136.zip";
+      sha256 = "sha256-FOWo213nd2q2E4YLff+NU1sITQOj/z46qPCSM5Wg4f8=";
     };
     license = "mit";
     name = "theme-monokai";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/theme-monokai/1.64.0-next.68976705968/file/vscode.theme-monokai-1.64.0-next.68976705968.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/theme-monokai/1.64.0-next.d9fa2b12136/file/vscode.theme-monokai-1.64.0-next.d9fa2b12136.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "theme-monokai";
     publisher = "vscode";
   };
   vscode-theme-monokai-dimmed = {
     pname = "vscode-theme-monokai-dimmed";
-    version = "1.64.0-next.68976705968";
+    version = "1.64.0-next.d9fa2b12136";
     src = fetchurl {
-      url = "https://open-vsx.org/api/vscode/theme-monokai-dimmed/1.64.0-next.68976705968/file/vscode.theme-monokai-dimmed-1.64.0-next.68976705968.vsix";
-      name = "theme-monokai-dimmed-1.64.0-next.68976705968.zip";
-      sha256 = "sha256-1FnIvWveKHei6Ctf8WU6zv1zv3dh8iVhXTsBI8K88iw=";
+      url = "https://open-vsx.org/api/vscode/theme-monokai-dimmed/1.64.0-next.d9fa2b12136/file/vscode.theme-monokai-dimmed-1.64.0-next.d9fa2b12136.vsix";
+      name = "theme-monokai-dimmed-1.64.0-next.d9fa2b12136.zip";
+      sha256 = "sha256-OWp1b0dCAVoN+NGhbq/pUxKZDdH8cHoLH96ICqvF61A=";
     };
     license = "mit";
     name = "theme-monokai-dimmed";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/theme-monokai-dimmed/1.64.0-next.68976705968/file/vscode.theme-monokai-dimmed-1.64.0-next.68976705968.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/theme-monokai-dimmed/1.64.0-next.d9fa2b12136/file/vscode.theme-monokai-dimmed-1.64.0-next.d9fa2b12136.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "theme-monokai-dimmed";
     publisher = "vscode";
@@ -6473,32 +6473,32 @@
   };
   vscode-theme-solarized-dark = {
     pname = "vscode-theme-solarized-dark";
-    version = "1.64.0-next.68976705968";
+    version = "1.64.0-next.d9fa2b12136";
     src = fetchurl {
-      url = "https://open-vsx.org/api/vscode/theme-solarized-dark/1.64.0-next.68976705968/file/vscode.theme-solarized-dark-1.64.0-next.68976705968.vsix";
-      name = "theme-solarized-dark-1.64.0-next.68976705968.zip";
-      sha256 = "sha256-x2jxm3EkPwEwLIVVqzgVQuUs4zfFU3Mz5FSbHNqBu7Q=";
+      url = "https://open-vsx.org/api/vscode/theme-solarized-dark/1.64.0-next.d9fa2b12136/file/vscode.theme-solarized-dark-1.64.0-next.d9fa2b12136.vsix";
+      name = "theme-solarized-dark-1.64.0-next.d9fa2b12136.zip";
+      sha256 = "sha256-/zT+M3x7J52xqlxXfZhRPt7/rlf6wE/jf+oxoOjJYKg=";
     };
     license = "mit";
     name = "theme-solarized-dark";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/theme-solarized-dark/1.64.0-next.68976705968/file/vscode.theme-solarized-dark-1.64.0-next.68976705968.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/theme-solarized-dark/1.64.0-next.d9fa2b12136/file/vscode.theme-solarized-dark-1.64.0-next.d9fa2b12136.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "theme-solarized-dark";
     publisher = "vscode";
   };
   vscode-theme-tomorrow-night-blue = {
     pname = "vscode-theme-tomorrow-night-blue";
-    version = "1.64.0-next.d9fa2b12136";
+    version = "1.64.0-next.68976705968";
     src = fetchurl {
-      url = "https://open-vsx.org/api/vscode/theme-tomorrow-night-blue/1.64.0-next.d9fa2b12136/file/vscode.theme-tomorrow-night-blue-1.64.0-next.d9fa2b12136.vsix";
-      name = "theme-tomorrow-night-blue-1.64.0-next.d9fa2b12136.zip";
-      sha256 = "sha256-X78wCN+6WeUvn9gK8lx1AH9FGPdoyRr/tndUb3wK4N0=";
+      url = "https://open-vsx.org/api/vscode/theme-tomorrow-night-blue/1.64.0-next.68976705968/file/vscode.theme-tomorrow-night-blue-1.64.0-next.68976705968.vsix";
+      name = "theme-tomorrow-night-blue-1.64.0-next.68976705968.zip";
+      sha256 = "sha256-l2BA8S0g/EMlxOMC/CXwytUev/l4jcOrOAQGgalW86c=";
     };
     license = "mit";
     name = "theme-tomorrow-night-blue";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/theme-tomorrow-night-blue/1.64.0-next.68976705968/file/vscode.theme-tomorrow-night-blue-1.64.0-next.68976705968.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/theme-tomorrow-night-blue/1.64.0-next.d9fa2b12136/file/vscode.theme-tomorrow-night-blue-1.64.0-next.d9fa2b12136.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "theme-tomorrow-night-blue";
     publisher = "vscode";
@@ -6546,7 +6546,7 @@
     license = "mit";
     name = "xml";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/xml/1.64.0-next.d9fa2b12136/file/vscode.xml-1.64.0-next.d9fa2b12136.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/xml/1.64.0-next.68976705968/file/vscode.xml-1.64.0-next.68976705968.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "xml";
     publisher = "vscode";
@@ -7769,18 +7769,18 @@
     license = "mit";
     name = "bat";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/bat/1.64.0-next.d9fa2b12136/file/vscode.bat-1.64.0-next.d9fa2b12136.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/bat/1.64.0-next.68976705968/file/vscode.bat-1.64.0-next.68976705968.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "bat";
     publisher = "vscode";
   };
   vscode-clojure = {
     pname = "vscode-clojure";
-    version = "1.64.0-next.d9fa2b12136";
+    version = "1.64.0-next.68976705968";
     src = fetchurl {
-      url = "https://open-vsx.org/api/vscode/clojure/1.64.0-next.d9fa2b12136/file/vscode.clojure-1.64.0-next.d9fa2b12136.vsix";
-      name = "clojure-1.64.0-next.d9fa2b12136.zip";
-      sha256 = "sha256-1xVjkFZSHReJ5RcY7lZbahDgivw1aoTg1XSTmTghVtg=";
+      url = "https://open-vsx.org/api/vscode/clojure/1.64.0-next.68976705968/file/vscode.clojure-1.64.0-next.68976705968.vsix";
+      name = "clojure-1.64.0-next.68976705968.zip";
+      sha256 = "sha256-+DKHfKJTBLaZdfGVixYcgDO6OT8yOICnqLRyYCHi5DI=";
     };
     license = "mit";
     name = "clojure";
@@ -7801,18 +7801,18 @@
     license = "mit";
     name = "cpp";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/cpp/1.64.0-next.68976705968/file/vscode.cpp-1.64.0-next.68976705968.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/cpp/1.64.0-next.d9fa2b12136/file/vscode.cpp-1.64.0-next.d9fa2b12136.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "cpp";
     publisher = "vscode";
   };
   vscode-csharp = {
     pname = "vscode-csharp";
-    version = "1.64.0-next.d9fa2b12136";
+    version = "1.64.0-next.68976705968";
     src = fetchurl {
-      url = "https://open-vsx.org/api/vscode/csharp/1.64.0-next.d9fa2b12136/file/vscode.csharp-1.64.0-next.d9fa2b12136.vsix";
-      name = "csharp-1.64.0-next.d9fa2b12136.zip";
-      sha256 = "sha256-stPmbILclR9O1VqQeK071JZDsM6nrLdrp1wRGquvFxU=";
+      url = "https://open-vsx.org/api/vscode/csharp/1.64.0-next.68976705968/file/vscode.csharp-1.64.0-next.68976705968.vsix";
+      name = "csharp-1.64.0-next.68976705968.zip";
+      sha256 = "sha256-pUjlk+TAGdkcPdWTtWaqd4oFb7VXWtp9pkH5kIzeZYE=";
     };
     license = "mit";
     name = "csharp";
@@ -7840,11 +7840,11 @@
   };
   vscode-debug-auto-launch = {
     pname = "vscode-debug-auto-launch";
-    version = "1.64.0-next.d9fa2b12136";
+    version = "1.64.0-next.68976705968";
     src = fetchurl {
-      url = "https://open-vsx.org/api/vscode/debug-auto-launch/1.64.0-next.d9fa2b12136/file/vscode.debug-auto-launch-1.64.0-next.d9fa2b12136.vsix";
-      name = "debug-auto-launch-1.64.0-next.d9fa2b12136.zip";
-      sha256 = "sha256-820SjMoRzRRdtOtykfwa61ALDICFxLhRi6C9l5CR1hs=";
+      url = "https://open-vsx.org/api/vscode/debug-auto-launch/1.64.0-next.68976705968/file/vscode.debug-auto-launch-1.64.0-next.68976705968.vsix";
+      name = "debug-auto-launch-1.64.0-next.68976705968.zip";
+      sha256 = "sha256-wr5Ha3ZkkKsaAirLO65/TvpSlMHxGipkReAH33G5oI8=";
     };
     license = "mit";
     name = "debug-auto-launch";
@@ -7888,11 +7888,11 @@
   };
   vscode-image-preview = {
     pname = "vscode-image-preview";
-    version = "1.64.0-next.d9fa2b12136";
+    version = "1.64.0-next.68976705968";
     src = fetchurl {
-      url = "https://open-vsx.org/api/vscode/image-preview/1.64.0-next.d9fa2b12136/file/vscode.image-preview-1.64.0-next.d9fa2b12136.vsix";
-      name = "image-preview-1.64.0-next.d9fa2b12136.zip";
-      sha256 = "sha256-IINZMqqGVO7ZgpeVG+Wx/Hf2d88SXJZGAYY19GULNoE=";
+      url = "https://open-vsx.org/api/vscode/image-preview/1.64.0-next.68976705968/file/vscode.image-preview-1.64.0-next.68976705968.vsix";
+      name = "image-preview-1.64.0-next.68976705968.zip";
+      sha256 = "sha256-QOvZNlDJYJpRb2e32JTWQPdiBwSUWS4v8OL+zmFJxkw=";
     };
     license = "mit";
     name = "image-preview";
@@ -7904,16 +7904,16 @@
   };
   vscode-ini = {
     pname = "vscode-ini";
-    version = "1.64.0-next.d9fa2b12136";
+    version = "1.64.0-next.68976705968";
     src = fetchurl {
-      url = "https://open-vsx.org/api/vscode/ini/1.64.0-next.d9fa2b12136/file/vscode.ini-1.64.0-next.d9fa2b12136.vsix";
-      name = "ini-1.64.0-next.d9fa2b12136.zip";
-      sha256 = "sha256-xFcS7VK9N7VSeRzbMW96X6F7SF7pdfeawMisWOEvciQ=";
+      url = "https://open-vsx.org/api/vscode/ini/1.64.0-next.68976705968/file/vscode.ini-1.64.0-next.68976705968.vsix";
+      name = "ini-1.64.0-next.68976705968.zip";
+      sha256 = "sha256-sLXCFqCnsZEv6XwFUnECX3e6kySCme+qaEMZ6E3gVYA=";
     };
     license = "mit";
     name = "ini";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/ini/1.64.0-next.68976705968/file/vscode.ini-1.64.0-next.68976705968.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/ini/1.64.0-next.d9fa2b12136/file/vscode.ini-1.64.0-next.d9fa2b12136.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "ini";
     publisher = "vscode";
@@ -7929,7 +7929,7 @@
     license = "mit";
     name = "java";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/java/1.64.0-next.68976705968/file/vscode.java-1.64.0-next.68976705968.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/java/1.64.0-next.d9fa2b12136/file/vscode.java-1.64.0-next.d9fa2b12136.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "java";
     publisher = "vscode";
@@ -7945,7 +7945,7 @@
     license = "mit";
     name = "json-language-features";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/json-language-features/1.64.0-next.68976705968/file/vscode.json-language-features-1.64.0-next.68976705968.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/json-language-features/1.64.0-next.d9fa2b12136/file/vscode.json-language-features-1.64.0-next.d9fa2b12136.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "json-language-features";
     publisher = "vscode";
@@ -7993,7 +7993,7 @@
     license = "mit";
     name = "merge-conflict";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/merge-conflict/1.64.0-next.d9fa2b12136/file/vscode.merge-conflict-1.64.0-next.d9fa2b12136.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/merge-conflict/1.64.0-next.68976705968/file/vscode.merge-conflict-1.64.0-next.68976705968.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "merge-conflict";
     publisher = "vscode";
@@ -8009,18 +8009,18 @@
     license = "mit";
     name = "npm";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/npm/1.64.0-next.d9fa2b12136/file/vscode.npm-1.64.0-next.d9fa2b12136.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/npm/1.64.0-next.68976705968/file/vscode.npm-1.64.0-next.68976705968.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "npm";
     publisher = "vscode";
   };
   vscode-r = {
     pname = "vscode-r";
-    version = "1.64.0-next.d9fa2b12136";
+    version = "1.64.0-next.68976705968";
     src = fetchurl {
-      url = "https://open-vsx.org/api/vscode/r/1.64.0-next.d9fa2b12136/file/vscode.r-1.64.0-next.d9fa2b12136.vsix";
-      name = "r-1.64.0-next.d9fa2b12136.zip";
-      sha256 = "sha256-U7LAg1rRpHfgv8G1M9LCv9mHVeg5TGQZCiRnqk4RxzE=";
+      url = "https://open-vsx.org/api/vscode/r/1.64.0-next.68976705968/file/vscode.r-1.64.0-next.68976705968.vsix";
+      name = "r-1.64.0-next.68976705968.zip";
+      sha256 = "sha256-6NO6vV382xvI04970owOKkEpJtnJeILxX8AhR6ol76w=";
     };
     license = "mit";
     name = "r";
@@ -8041,7 +8041,7 @@
     license = "mit";
     name = "ruby";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/ruby/1.64.0-next.68976705968/file/vscode.ruby-1.64.0-next.68976705968.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/ruby/1.64.0-next.d9fa2b12136/file/vscode.ruby-1.64.0-next.d9fa2b12136.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "ruby";
     publisher = "vscode";
@@ -8057,7 +8057,7 @@
     license = "mit";
     name = "scss";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/scss/1.64.0-next.68976705968/file/vscode.scss-1.64.0-next.68976705968.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/scss/1.64.0-next.d9fa2b12136/file/vscode.scss-1.64.0-next.d9fa2b12136.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "scss";
     publisher = "vscode";
@@ -8089,7 +8089,7 @@
     license = "mit";
     name = "shellscript";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/shellscript/1.64.0-next.d9fa2b12136/file/vscode.shellscript-1.64.0-next.d9fa2b12136.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/shellscript/1.64.0-next.68976705968/file/vscode.shellscript-1.64.0-next.68976705968.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "shellscript";
     publisher = "vscode";
@@ -8136,23 +8136,23 @@
     license = "mit";
     name = "theme-kimbie-dark";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/theme-kimbie-dark/1.64.0-next.452e2c53030/file/vscode.theme-kimbie-dark-1.64.0-next.452e2c53030.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/theme-kimbie-dark/1.64.0-next.68976705968/file/vscode.theme-kimbie-dark-1.64.0-next.68976705968.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "theme-kimbie-dark";
     publisher = "vscode";
   };
   vscode-theme-solarized-light = {
     pname = "vscode-theme-solarized-light";
-    version = "1.64.0-next.452e2c53030";
+    version = "1.64.0-next.68976705968";
     src = fetchurl {
-      url = "https://open-vsx.org/api/vscode/theme-solarized-light/1.64.0-next.452e2c53030/file/vscode.theme-solarized-light-1.64.0-next.452e2c53030.vsix";
-      name = "theme-solarized-light-1.64.0-next.452e2c53030.zip";
-      sha256 = "sha256-pJFDLrgpGB1qxk7xOWg9u+zMBBfDM+IqPJ1oGci7Cow=";
+      url = "https://open-vsx.org/api/vscode/theme-solarized-light/1.64.0-next.68976705968/file/vscode.theme-solarized-light-1.64.0-next.68976705968.vsix";
+      name = "theme-solarized-light-1.64.0-next.68976705968.zip";
+      sha256 = "sha256-4/OyUGBNeU2rcL55Cdf0OU+PLohn6judVWXKVVtu4Bc=";
     };
     license = "mit";
     name = "theme-solarized-light";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/theme-solarized-light/1.64.0-next.452e2c53030/file/vscode.theme-solarized-light-1.64.0-next.452e2c53030.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/theme-solarized-light/1.64.0-next.68976705968/file/vscode.theme-solarized-light-1.64.0-next.68976705968.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "theme-solarized-light";
     publisher = "vscode";
@@ -8175,11 +8175,11 @@
   };
   vscode-yaml = {
     pname = "vscode-yaml";
-    version = "1.64.0-next.68976705968";
+    version = "1.64.0-next.d9fa2b12136";
     src = fetchurl {
-      url = "https://open-vsx.org/api/vscode/yaml/1.64.0-next.68976705968/file/vscode.yaml-1.64.0-next.68976705968.vsix";
-      name = "yaml-1.64.0-next.68976705968.zip";
-      sha256 = "sha256-Pr9+vFcQMEVBCb0IE7YyMRQn08c/rZguC2ESHAp9L9M=";
+      url = "https://open-vsx.org/api/vscode/yaml/1.64.0-next.d9fa2b12136/file/vscode.yaml-1.64.0-next.d9fa2b12136.vsix";
+      name = "yaml-1.64.0-next.d9fa2b12136.zip";
+      sha256 = "sha256-qXCjTRNOm7h9bxnolpL096feJcwo5CAoKBf1Ayw7u+E=";
     };
     license = "mit";
     name = "yaml";
@@ -9215,18 +9215,18 @@
   };
   langium-langium-vscode = {
     pname = "langium-langium-vscode";
-    version = "0.4.0";
+    version = "0.5.0";
     src = fetchurl {
-      url = "https://open-vsx.org/api/langium/langium-vscode/0.4.0/file/langium.langium-vscode-0.4.0.vsix";
-      name = "langium-vscode-0.4.0.zip";
-      sha256 = "sha256-pJT39cPI0ig5dU0WScMh04Cltu1a+pYtI5/WI4BD7nk=";
+      url = "https://open-vsx.org/api/langium/langium-vscode/0.5.0/file/langium.langium-vscode-0.5.0.vsix";
+      name = "langium-vscode-0.5.0.zip";
+      sha256 = "sha256-IwcZ/FG1IigM3+ZwGLVSqA36uO8ZI/NETdEChswe6ko=";
     };
     license = "mit";
     name = "langium-vscode";
     homepage = "https://langium.org";
-    downloadPage = "https://open-vsx.org/api/langium/langium-vscode/0.4.0/file/langium.langium-vscode-0.4.0.vsix";
+    downloadPage = "https://open-vsx.org/api/langium/langium-vscode/0.5.0/file/langium.langium-vscode-0.5.0.vsix";
     marketplacePublisher = "langium";
-    changelog = "https://open-vsx.org/api/langium/langium-vscode/0.4.0/file/CHANGELOG.md";
+    changelog = "https://open-vsx.org/api/langium/langium-vscode/0.5.0/file/CHANGELOG.md";
     marketplaceName = "langium-vscode";
     publisher = "langium";
   };
@@ -10508,18 +10508,18 @@
   };
   chenglou92-rescript-vscode = {
     pname = "chenglou92-rescript-vscode";
-    version = "1.6.0";
+    version = "1.8.1";
     src = fetchurl {
-      url = "https://open-vsx.org/api/chenglou92/rescript-vscode/1.6.0/file/chenglou92.rescript-vscode-1.6.0.vsix";
-      name = "rescript-vscode-1.6.0.zip";
-      sha256 = "sha256-wrNkOA81znJtnTEHUGcsff0C9JaVjZ41hrFPzq2c/i0=";
+      url = "https://open-vsx.org/api/chenglou92/rescript-vscode/1.8.1/file/chenglou92.rescript-vscode-1.8.1.vsix";
+      name = "rescript-vscode-1.8.1.zip";
+      sha256 = "sha256-92CAEcEVDz0P1uYvRZcRO9N68uEdMUaKkL48HfPYhMI=";
     };
     license = "mit";
     name = "rescript-vscode";
     homepage = "https://github.com/rescript-lang/rescript-vscode#readme";
-    downloadPage = "https://open-vsx.org/api/chenglou92/rescript-vscode/1.6.0/file/chenglou92.rescript-vscode-1.6.0.vsix";
+    downloadPage = "https://open-vsx.org/api/chenglou92/rescript-vscode/1.8.1/file/chenglou92.rescript-vscode-1.8.1.vsix";
     marketplacePublisher = "chenglou92";
-    changelog = "https://open-vsx.org/api/chenglou92/rescript-vscode/1.6.0/file/CHANGELOG.md";
+    changelog = "https://open-vsx.org/api/chenglou92/rescript-vscode/1.8.1/file/CHANGELOG.md";
     marketplaceName = "rescript-vscode";
     publisher = "chenglou92";
   };
@@ -12661,18 +12661,18 @@
   };
   ms-pyright-pyright = {
     pname = "ms-pyright-pyright";
-    version = "1.1.273";
+    version = "1.1.274";
     src = fetchurl {
-      url = "https://open-vsx.org/api/ms-pyright/pyright/1.1.273/file/ms-pyright.pyright-1.1.273.vsix";
-      name = "pyright-1.1.273.zip";
-      sha256 = "sha256-5vt3bNCh4JzwZjaSiNjlgGMHoOiQVHR0hf/KbUVGngk=";
+      url = "https://open-vsx.org/api/ms-pyright/pyright/1.1.274/file/ms-pyright.pyright-1.1.274.vsix";
+      name = "pyright-1.1.274.zip";
+      sha256 = "sha256-49hSzFWzp3HYC7IH8C7/Cpdkb5uh1Ff5nXHNlITB2c0=";
     };
     license = "mit";
     name = "pyright";
     homepage = "https://github.com/Microsoft/pyright#readme";
-    downloadPage = "https://open-vsx.org/api/ms-pyright/pyright/1.1.273/file/ms-pyright.pyright-1.1.273.vsix";
+    downloadPage = "https://open-vsx.org/api/ms-pyright/pyright/1.1.274/file/ms-pyright.pyright-1.1.274.vsix";
     marketplacePublisher = "ms-pyright";
-    changelog = "https://open-vsx.org/api/ms-pyright/pyright/1.1.273/file/CHANGELOG.md";
+    changelog = "https://open-vsx.org/api/ms-pyright/pyright/1.1.274/file/CHANGELOG.md";
     marketplaceName = "pyright";
     publisher = "ms-pyright";
   };
@@ -15160,18 +15160,18 @@
   };
   anweber-httpbook = {
     pname = "anweber-httpbook";
-    version = "3.1.4";
+    version = "3.1.5";
     src = fetchurl {
-      url = "https://open-vsx.org/api/anweber/httpbook/3.1.4/file/anweber.httpbook-3.1.4.vsix";
-      name = "httpbook-3.1.4.zip";
-      sha256 = "sha256-6KxzfiRFjZ2jkbZAu8cYdTr+5GrvMgPH9UOaEVmmDBE=";
+      url = "https://open-vsx.org/api/anweber/httpbook/3.1.5/file/anweber.httpbook-3.1.5.vsix";
+      name = "httpbook-3.1.5.zip";
+      sha256 = "sha256-2T5rTfh2VhNXYCvDaxmPvSAU3w6FfZd2odfiUl6VCws=";
     };
     license = "mit";
     name = "httpbook";
     homepage = "https://github.com/AnWeber/httpbook";
-    downloadPage = "https://open-vsx.org/api/anweber/httpbook/3.1.4/file/anweber.httpbook-3.1.4.vsix";
+    downloadPage = "https://open-vsx.org/api/anweber/httpbook/3.1.5/file/anweber.httpbook-3.1.5.vsix";
     marketplacePublisher = "anweber";
-    changelog = "https://open-vsx.org/api/anweber/httpbook/3.1.4/file/CHANGELOG.md";
+    changelog = "https://open-vsx.org/api/anweber/httpbook/3.1.5/file/CHANGELOG.md";
     marketplaceName = "httpbook";
     publisher = "anweber";
   };
@@ -16473,18 +16473,18 @@
   };
   zardoy-npm-rapid-ready = {
     pname = "zardoy-npm-rapid-ready";
-    version = "0.2.7";
+    version = "0.2.8";
     src = fetchurl {
-      url = "https://open-vsx.org/api/zardoy/npm-rapid-ready/0.2.7/file/zardoy.npm-rapid-ready-0.2.7.vsix";
-      name = "npm-rapid-ready-0.2.7.zip";
-      sha256 = "sha256-k7sn6VhJOMG5Pjc1e3iLUB8XF3bIDdOo/sr5Z2IMPc8=";
+      url = "https://open-vsx.org/api/zardoy/npm-rapid-ready/0.2.8/file/zardoy.npm-rapid-ready-0.2.8.vsix";
+      name = "npm-rapid-ready-0.2.8.zip";
+      sha256 = "sha256-phLhPR2jK4bgHxpsvurLy6VmxjxAUeGyHTT3QkBqfrg=";
     };
     license = "mit";
     name = "npm-rapid-ready";
     homepage = "https://github.com/zardoy/npm-the-fastest#readme";
-    downloadPage = "https://open-vsx.org/api/zardoy/npm-rapid-ready/0.2.7/file/zardoy.npm-rapid-ready-0.2.7.vsix";
+    downloadPage = "https://open-vsx.org/api/zardoy/npm-rapid-ready/0.2.8/file/zardoy.npm-rapid-ready-0.2.8.vsix";
     marketplacePublisher = "zardoy";
-    changelog = "https://open-vsx.org/api/zardoy/npm-rapid-ready/0.2.7/file/CHANGELOG.MD";
+    changelog = "https://open-vsx.org/api/zardoy/npm-rapid-ready/0.2.8/file/CHANGELOG.MD";
     marketplaceName = "npm-rapid-ready";
     publisher = "zardoy";
   };
@@ -17648,18 +17648,18 @@
   };
   pokey-cursorless = {
     pname = "pokey-cursorless";
-    version = "0.26.452";
+    version = "0.26.453";
     src = fetchurl {
-      url = "https://open-vsx.org/api/pokey/cursorless/0.26.452/file/pokey.cursorless-0.26.452.vsix";
-      name = "cursorless-0.26.452.zip";
-      sha256 = "sha256-hs+VadxgzppwsHv+kOcnhZMQz9rkol65DD/kG4T8C0M=";
+      url = "https://open-vsx.org/api/pokey/cursorless/0.26.453/file/pokey.cursorless-0.26.453.vsix";
+      name = "cursorless-0.26.453.zip";
+      sha256 = "sha256-IUGNr0kP5HQTuEBv8bHI4CXWS0q7m+Z4CvOafP2opUg=";
     };
     license = "mit";
     name = "cursorless";
     homepage = "https://www.cursorless.org/";
-    downloadPage = "https://open-vsx.org/api/pokey/cursorless/0.26.452/file/pokey.cursorless-0.26.452.vsix";
+    downloadPage = "https://open-vsx.org/api/pokey/cursorless/0.26.453/file/pokey.cursorless-0.26.453.vsix";
     marketplacePublisher = "pokey";
-    changelog = "https://open-vsx.org/api/pokey/cursorless/0.26.452/file/CHANGELOG.md";
+    changelog = "https://open-vsx.org/api/pokey/cursorless/0.26.453/file/CHANGELOG.md";
     marketplaceName = "cursorless";
     publisher = "pokey";
   };
@@ -19709,11 +19709,11 @@
   };
   vscode-github-authentication = {
     pname = "vscode-github-authentication";
-    version = "1.64.0-next.d9fa2b12136";
+    version = "1.64.0-next.68976705968";
     src = fetchurl {
-      url = "https://open-vsx.org/api/vscode/github-authentication/1.64.0-next.d9fa2b12136/file/vscode.github-authentication-1.64.0-next.d9fa2b12136.vsix";
-      name = "github-authentication-1.64.0-next.d9fa2b12136.zip";
-      sha256 = "sha256-5QlTG9QerSy6KIgD/ATv+b0eRzKrtwyPfywTpTy635M=";
+      url = "https://open-vsx.org/api/vscode/github-authentication/1.64.0-next.68976705968/file/vscode.github-authentication-1.64.0-next.68976705968.vsix";
+      name = "github-authentication-1.64.0-next.68976705968.zip";
+      sha256 = "sha256-t8CzyBGuuVLqzHnTs9oyzRmJHetc9uKXOiC/GtV/FVU=";
     };
     license = "mit";
     name = "github-authentication";
@@ -19824,18 +19824,18 @@
   };
   zardoy-ts-essential-plugins = {
     pname = "zardoy-ts-essential-plugins";
-    version = "0.0.24";
+    version = "0.0.25";
     src = fetchurl {
-      url = "https://open-vsx.org/api/zardoy/ts-essential-plugins/0.0.24/file/zardoy.ts-essential-plugins-0.0.24.vsix";
-      name = "ts-essential-plugins-0.0.24.zip";
-      sha256 = "sha256-XIjEsZQOQeAWxbAwFH5vjgy7454pE7nhPjIp4aUShzw=";
+      url = "https://open-vsx.org/api/zardoy/ts-essential-plugins/0.0.25/file/zardoy.ts-essential-plugins-0.0.25.vsix";
+      name = "ts-essential-plugins-0.0.25.zip";
+      sha256 = "sha256-SKkRWuethneQuNvj82Tj/KpDbusA3cyd+zDMWDaMhCk=";
     };
     license = "mit";
     name = "ts-essential-plugins";
     homepage = "https://github.com/zardoy/typescript-vscode-plugins#readme";
-    downloadPage = "https://open-vsx.org/api/zardoy/ts-essential-plugins/0.0.24/file/zardoy.ts-essential-plugins-0.0.24.vsix";
+    downloadPage = "https://open-vsx.org/api/zardoy/ts-essential-plugins/0.0.25/file/zardoy.ts-essential-plugins-0.0.25.vsix";
     marketplacePublisher = "zardoy";
-    changelog = "https://open-vsx.org/api/zardoy/ts-essential-plugins/0.0.24/file/CHANGELOG.MD";
+    changelog = "https://open-vsx.org/api/zardoy/ts-essential-plugins/0.0.25/file/CHANGELOG.MD";
     marketplaceName = "ts-essential-plugins";
     publisher = "zardoy";
   };
@@ -19922,11 +19922,11 @@
   };
   Prisma-prisma-insider = {
     pname = "Prisma-prisma-insider";
-    version = "31.0.1471";
+    version = "31.0.1472";
     src = fetchurl {
-      url = "https://open-vsx.org/api/Prisma/prisma-insider/31.0.1471/file/Prisma.prisma-insider-31.0.1471.vsix";
-      name = "prisma-insider-31.0.1471.zip";
-      sha256 = "sha256-mXYsH4oBS9r7Vcx2vBuv+jUzNckuEEkMgOAe4I6FjDE=";
+      url = "https://open-vsx.org/api/Prisma/prisma-insider/31.0.1472/file/Prisma.prisma-insider-31.0.1472.vsix";
+      name = "prisma-insider-31.0.1472.zip";
+      sha256 = "sha256-k4oCCG0cIYo1Ek1HuiJ4d2qSvm6+v+CvzZ45FPZSvfQ=";
     };
     license = "asl20";
     name = "prisma-insider";
@@ -21356,16 +21356,16 @@
   };
   vscode-search-result = {
     pname = "vscode-search-result";
-    version = "1.64.0-next.68976705968";
+    version = "1.64.0-next.d9fa2b12136";
     src = fetchurl {
-      url = "https://open-vsx.org/api/vscode/search-result/1.64.0-next.68976705968/file/vscode.search-result-1.64.0-next.68976705968.vsix";
-      name = "search-result-1.64.0-next.68976705968.zip";
-      sha256 = "sha256-DsDV4VOrhC5MkocWFy9xXUOCIZtJfm1osLoIva5QmOY=";
+      url = "https://open-vsx.org/api/vscode/search-result/1.64.0-next.d9fa2b12136/file/vscode.search-result-1.64.0-next.d9fa2b12136.vsix";
+      name = "search-result-1.64.0-next.d9fa2b12136.zip";
+      sha256 = "sha256-hTHWPcIZ4o+vJAT05x/nNLx5hETtAiYBT8ClG3tMjo4=";
     };
     license = "mit";
     name = "search-result";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/search-result/1.64.0-next.68976705968/file/vscode.search-result-1.64.0-next.68976705968.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/search-result/1.64.0-next.d9fa2b12136/file/vscode.search-result-1.64.0-next.d9fa2b12136.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "search-result";
     publisher = "vscode";
@@ -23187,18 +23187,18 @@
   };
   ArmantGoldswain-seesharp-theme = {
     pname = "ArmantGoldswain-seesharp-theme";
-    version = "2.0.1";
+    version = "2.1.0";
     src = fetchurl {
-      url = "https://open-vsx.org/api/ArmantGoldswain/seesharp-theme/2.0.1/file/ArmantGoldswain.seesharp-theme-2.0.1.vsix";
-      name = "seesharp-theme-2.0.1.zip";
-      sha256 = "sha256-IXSK6nm6nQkWJ1HAY0Od4D3861Cao6+ZCc85QmPfKL4=";
+      url = "https://open-vsx.org/api/ArmantGoldswain/seesharp-theme/2.1.0/file/ArmantGoldswain.seesharp-theme-2.1.0.vsix";
+      name = "seesharp-theme-2.1.0.zip";
+      sha256 = "sha256-8+NlDecURCwxPqWjfyrNEY6ZbXu/cGz6dyd/sIFvMxs=";
     };
     license = "asl20";
     name = "seesharp-theme";
     homepage = "https://github.com/ArmantG/seesharp-theme/blob/main/README.md";
-    downloadPage = "https://open-vsx.org/api/ArmantGoldswain/seesharp-theme/2.0.1/file/ArmantGoldswain.seesharp-theme-2.0.1.vsix";
+    downloadPage = "https://open-vsx.org/api/ArmantGoldswain/seesharp-theme/2.1.0/file/ArmantGoldswain.seesharp-theme-2.1.0.vsix";
     marketplacePublisher = "ArmantGoldswain";
-    changelog = "https://open-vsx.org/api/ArmantGoldswain/seesharp-theme/2.0.1/file/CHANGELOG.md";
+    changelog = "https://open-vsx.org/api/ArmantGoldswain/seesharp-theme/2.1.0/file/CHANGELOG.md";
     marketplaceName = "seesharp-theme";
     publisher = "armantgoldswain";
   };
@@ -26363,7 +26363,7 @@
     license = "mit";
     name = "microsoft-authentication";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/vscode/microsoft-authentication/1.64.0-next.68976705968/file/vscode.microsoft-authentication-1.64.0-next.68976705968.vsix";
+    downloadPage = "https://open-vsx.org/api/vscode/microsoft-authentication/1.64.0-next.d9fa2b12136/file/vscode.microsoft-authentication-1.64.0-next.d9fa2b12136.vsix";
     marketplacePublisher = "vscode";
     marketplaceName = "microsoft-authentication";
     publisher = "vscode";
@@ -26605,18 +26605,18 @@
   };
   Google-cros-ide = {
     pname = "Google-cros-ide";
-    version = "0.1.1";
+    version = "0.2.0";
     src = fetchurl {
-      url = "https://open-vsx.org/api/Google/cros-ide/0.1.1/file/Google.cros-ide-0.1.1.vsix";
-      name = "cros-ide-0.1.1.zip";
-      sha256 = "sha256-jILJ4Zh9GiZqYSXotFm0GuykohIZaawfFS8l79meim0=";
+      url = "https://open-vsx.org/api/Google/cros-ide/0.2.0/file/Google.cros-ide-0.2.0.vsix";
+      name = "cros-ide-0.2.0.zip";
+      sha256 = "sha256-6M62RKu41spUcs5AN0yO02DVcRxN1deMhTv9AWtrTAE=";
     };
     license = "bsd3";
     name = "cros-ide";
     homepage = "";
-    downloadPage = "https://open-vsx.org/api/Google/cros-ide/0.1.1/file/Google.cros-ide-0.1.1.vsix";
+    downloadPage = "https://open-vsx.org/api/Google/cros-ide/0.2.0/file/Google.cros-ide-0.2.0.vsix";
     marketplacePublisher = "Google";
-    changelog = "https://open-vsx.org/api/Google/cros-ide/0.1.1/file/CHANGELOG.md";
+    changelog = "https://open-vsx.org/api/Google/cros-ide/0.2.0/file/CHANGELOG.md";
     marketplaceName = "cros-ide";
     publisher = "google";
   };
@@ -26720,18 +26720,18 @@
   };
   Slint-slint-nightly = {
     pname = "Slint-slint-nightly";
-    version = "2022.10.312";
+    version = "2022.10.417";
     src = fetchurl {
-      url = "https://open-vsx.org/api/Slint/slint-nightly/2022.10.312/file/Slint.slint-nightly-2022.10.312.vsix";
-      name = "slint-nightly-2022.10.312.zip";
-      sha256 = "sha256-6kvq56c0/Mur6fsA1OG58mfrynDqvBVwJavHfSoiq/4=";
+      url = "https://open-vsx.org/api/Slint/slint-nightly/2022.10.417/file/Slint.slint-nightly-2022.10.417.vsix";
+      name = "slint-nightly-2022.10.417.zip";
+      sha256 = "sha256-z62Zc5RShkWkiKc6HIzCHMj0OB6UvtS54iBO15Uo9IU=";
     };
     license = "gpl3Only";
     name = "slint-nightly";
     homepage = "https://github.com/slint-ui/slint#readme";
-    downloadPage = "https://open-vsx.org/api/Slint/slint-nightly/2022.10.312/file/Slint.slint-nightly-2022.10.312.vsix";
+    downloadPage = "https://open-vsx.org/api/Slint/slint-nightly/2022.10.417/file/Slint.slint-nightly-2022.10.417.vsix";
     marketplacePublisher = "Slint";
-    changelog = "https://open-vsx.org/api/Slint/slint-nightly/2022.10.312/file/CHANGELOG.md";
+    changelog = "https://open-vsx.org/api/Slint/slint-nightly/2022.10.417/file/CHANGELOG.md";
     marketplaceName = "slint-nightly";
     publisher = "slint";
   };
@@ -31314,18 +31314,18 @@
   };
   viper-admin-prusti-assistant = {
     pname = "viper-admin-prusti-assistant";
-    version = "0.10.2";
+    version = "0.11.0";
     src = fetchurl {
-      url = "https://open-vsx.org/api/viper-admin/prusti-assistant/0.10.2/file/viper-admin.prusti-assistant-0.10.2.vsix";
-      name = "prusti-assistant-0.10.2.zip";
-      sha256 = "sha256-dlNkHWGSCwZNs5dRcFNa9NHkrAC+fLuMZ3bNq1ZtZ5k=";
+      url = "https://open-vsx.org/api/viper-admin/prusti-assistant/0.11.0/file/viper-admin.prusti-assistant-0.11.0.vsix";
+      name = "prusti-assistant-0.11.0.zip";
+      sha256 = "sha256-UtWDhSc9HBQTziERGur7dRLcwhO9g1vcEJsFkqWEEB8=";
     };
     license = "mit";
     name = "prusti-assistant";
     homepage = "https://github.com/viperproject/prusti-assistant";
-    downloadPage = "https://open-vsx.org/api/viper-admin/prusti-assistant/0.10.2/file/viper-admin.prusti-assistant-0.10.2.vsix";
+    downloadPage = "https://open-vsx.org/api/viper-admin/prusti-assistant/0.11.0/file/viper-admin.prusti-assistant-0.11.0.vsix";
     marketplacePublisher = "viper-admin";
-    changelog = "https://open-vsx.org/api/viper-admin/prusti-assistant/0.10.2/file/CHANGELOG.md";
+    changelog = "https://open-vsx.org/api/viper-admin/prusti-assistant/0.11.0/file/CHANGELOG.md";
     marketplaceName = "prusti-assistant";
     publisher = "viper-admin";
   };
@@ -35005,18 +35005,18 @@
   };
   zenclabs-previewjs = {
     pname = "zenclabs-previewjs";
-    version = "1.14.0";
+    version = "1.14.2";
     src = fetchurl {
-      url = "https://open-vsx.org/api/zenclabs/previewjs/1.14.0/file/zenclabs.previewjs-1.14.0.vsix";
-      name = "previewjs-1.14.0.zip";
-      sha256 = "sha256-e9GsAM9f3G5R+RyGNeDeXzWs4c9vKcjZDbxm4sFu89Q=";
+      url = "https://open-vsx.org/api/zenclabs/previewjs/1.14.2/file/zenclabs.previewjs-1.14.2.vsix";
+      name = "previewjs-1.14.2.zip";
+      sha256 = "sha256-6T/Kd8LoAI8fFQxx9VP8+H+NUidRMezg3700oYykNsE=";
     };
     license = "unfree";
     name = "previewjs";
     homepage = "https://previewjs.com";
-    downloadPage = "https://open-vsx.org/api/zenclabs/previewjs/1.14.0/file/zenclabs.previewjs-1.14.0.vsix";
+    downloadPage = "https://open-vsx.org/api/zenclabs/previewjs/1.14.2/file/zenclabs.previewjs-1.14.2.vsix";
     marketplacePublisher = "zenclabs";
-    changelog = "https://open-vsx.org/api/zenclabs/previewjs/1.14.0/file/CHANGELOG.md";
+    changelog = "https://open-vsx.org/api/zenclabs/previewjs/1.14.2/file/CHANGELOG.md";
     marketplaceName = "previewjs";
     publisher = "zenclabs";
   };
