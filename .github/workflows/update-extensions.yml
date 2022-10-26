@@ -67,3 +67,43 @@ jobs:
 
       - name: Commit and push changes
         run: ${{ format(env.commit_and_push, matrix.target, matrix.target, matrix.target) }}
+  
+  read_config-1:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - id: set-matrix
+        run: echo "::set-output name=matrix::$(jq -c . < .github/workflows/config-1.json)"
+
+  update_extensions-1:
+    needs: [read_config-1, update_extensions]
+    runs-on: ubuntu-latest
+    strategy:
+      matrix: ${{ fromJSON(needs.read_config-1.outputs.matrix) }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install latest Nix
+        uses: cachix/install-nix-action@v17
+        with:
+          extra_nix_config: ${{ env.extra_nix_config }}
+          nix_path: ${{ env.nixpkgs }}
+
+      - name: Run Updater on ${{ matrix.name }} extensions
+        run: ${{ format(env.run_updater, matrix.allow_net, matrix.target, matrix.target) }}
+
+      - name: Run nvfetcher on ${{ matrix.name }} extensions
+        env:
+          NAME: ${{ matrix.target }}
+          BLOCK_SIZE: ${{ matrix.BLOCK_SIZE }}
+          LIMIT: ${{ matrix.limit }}
+        run: |
+          bash ./.github/scripts/nvfetch.sh
+
+      - name: Commit and push changes
+        run: ${{ format(env.commit_and_push, matrix.target, matrix.target, matrix.target) }}
