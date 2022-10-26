@@ -6,13 +6,6 @@
             "name": "VSCode Marketplace",
             "BLOCK_SIZE": 3,
             "LIMIT": 5
-        },
-        {
-            "target": "open-vsx",
-            "allow_net": "open-vsx.org",
-            "name": "OpenVSX",
-            "BLOCK_SIZE": 3,
-            "LIMIT": 5
         }
     ]
 }
