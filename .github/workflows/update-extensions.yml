@@ -19,7 +19,9 @@ env:
   commit_and_push: |
     git config user.name github-actions
     git config user.email github-actions@github.com
-    git pull --rebase --autostash
+    git config pull.rebase true
+    git config rebase.autoStash true
+    git pull
     git add nvfetch/{0}.toml generated/{1}
     git diff --quiet && git diff --staged --quiet || git commit -m "action: update {2} extensions"
     git push
