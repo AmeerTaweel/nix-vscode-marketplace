@@ -52,7 +52,7 @@ my_parser.add_argument(
     metavar="NUMBER",
     type=int,
     help="Where to write the generated files",
-    default=40,
+    default=0,
 )
 
 my_parser.add_argument(

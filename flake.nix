@@ -69,6 +69,7 @@
 								--out "''${OUT:-.}" --name "$NAME" --first-block "$FIRST_BLOCK" \
 								--block-size "$BLOCK_SIZE" --block-limit "$BLOCK_LIMIT" \
 								--json-init "''${JSON_INIT:-"$dir"/init.json}" --nix-init "''${NIX_INIT:-"$dir"/init.nix}"
+                --threads "$THREADS"
 						'';
           };
         };
@@ -83,6 +84,7 @@
 											export FIRST_BLOCK=1
             					export NAME=vscode-marketplace
 											export OUT=tmp/out
+                      export THREADS=40
 											export JSON_INIT=generated/vscode-marketplace/generated.json
 											export NIX_INIT=generated/vscode-marketplace/generated.nix
             			'';
