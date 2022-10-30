@@ -70,14 +70,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - uses: ./.github/workflows/nvfetch.yaml
+      - uses: ./.github/workflows/nvfetch
         with: 
           NAME: ${{ env.vscode }}
           FIRST_BLOCK: 1
           BLOCK_LIMIT: 1
           JSON_INIT: tmp/init/init.json
           NIX_INIT: tmp/init/init.nix
-      - uses: ./.github/workflows/nvfetch.yaml
+      - uses: ./.github/workflows/nvfetch
         with: 
           NAME: ${{ env.vscode }}
           FIRST_BLOCK: 2
