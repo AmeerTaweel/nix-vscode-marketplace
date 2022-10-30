@@ -19,15 +19,12 @@ env:
   vscode: vscode-marketplace
 
   nvfetch_workflow: ./.github/workflows/nvfetch.yaml
-  # commit_and_push: |
-  #   git config user.name github-actions
-  #   git config user.email github-actions@github.com
-  #   git config pull.rebase true
-  #   git config rebase.autoStash true
-  #   git pull
-  #   git add nvfetch/{0}.toml generated/{1}
-  #   git diff --quiet && git diff --staged --quiet || git commit -m "action: update {2} extensions"
-  #   git push
+  commit_and_push: |
+    git config user.name github-actions
+    git config user.email github-actions@github.com
+    git add nvfetch/{0}.toml
+    git diff --quiet && git diff --staged --quiet || git commit -m "action: update {1} extensions"
+    git push
 
 # https://docs.github.com/en/actions/learn-github-actions/expressions#example-returning-a-json-object
 # https://docs.github.com/en/actions/using-jobs/defining-outputs-for-jobs#example-defining-outputs-for-a-job
