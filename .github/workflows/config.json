@@ -3,9 +3,7 @@
         {
             "target": "vscode-marketplace",
             "allow_net": "marketplace.visualstudio.com",
-            "marketplace": "VSCode Marketplace",
-            "BLOCK_SIZE": 3,
-            "BLOCK_LIMIT": 2
+            "marketplace": "VSCode Marketplace"
         }
     ]
 }
