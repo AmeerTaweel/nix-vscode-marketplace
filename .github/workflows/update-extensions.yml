@@ -66,14 +66,14 @@ jobs:
     needs: update_extensions
     runs-on: ubuntu-latest
     steps:
-      - uses: ${{ env.nvfetch_workflow }}
+      - uses: ./.github/workflows/nvfetch.yaml
         with: 
           NAME: ${{ env.vscode }}
           FIRST_BLOCK: 1
           BLOCK_LIMIT: 1
           JSON_INIT: tmp/init/init.json
           NIX_INIT: tmp/init/init.nix
-      - uses: ${{ env.nvfetch_workflow }}
+      - uses: ./.github/workflows/nvfetch.yaml
         with: 
           NAME: ${{ env.vscode }}
           FIRST_BLOCK: 2
