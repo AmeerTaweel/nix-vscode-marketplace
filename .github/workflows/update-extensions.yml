@@ -66,8 +66,8 @@ jobs:
   nvfetch-1:
     needs: update_extensions
     uses: ./.github/workflows/nvfetch.yaml
-    with: 
-      NAME: ${{ env.vscode }}
+    with:
+      NAME: vscode-marketplace
       FIRST_BLOCK: 1
       BLOCK_LIMIT: 1
       JSON_INIT: tmp/init/init.json
@@ -77,10 +77,9 @@ jobs:
     needs: update_extensions
     uses: ./.github/workflows/nvfetch.yaml
     with:
-      NAME: ${{ env.vscode }}
+      NAME: vscode-marketplace
       FIRST_BLOCK: 2
       BLOCK_LIMIT: 1
-
 
     # needs: [update_extensions, read_config]
     # runs-on: ubuntu-latest
@@ -106,7 +105,7 @@ jobs:
 
   #     - name: Commit and push changes
   #       run: ${{ format(env.commit_and_push, matrix.target, matrix.target, matrix.target) }}
-  
+
   # read_config-1:
   #   runs-on: ubuntu-latest
   #   outputs:
