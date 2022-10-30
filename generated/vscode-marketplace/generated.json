@@ -1,59 +1,59 @@
 {
-    "ms-python-python": {
+    "ms-toolsai-jupyter-keymap": {
         "cargoLocks": null,
         "extract": null,
-        "name": "ms-python-python",
+        "name": "ms-toolsai-jupyter-keymap",
         "passthru": {
-            "marketplaceName": "python",
-            "marketplacePublisher": "ms-python",
-            "name": "python",
-            "publisher": "ms-python"
-        },
-        "pinned": false,
-        "src": {
-            "name": "python-2022.17.13020517.zip",
-            "sha256": "sha256-JrIPtFgMgi+kd2svECUAiYEpnA+bBM1j2XXd5z0m8Hk=",
-            "type": "url",
-            "url": "https://ms-python.gallery.vsassets.io/_apis/public/gallery/publisher/ms-python/extension/python/2022.17.13020517/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "2022.17.13020517"
-    },
-    "ms-python-vscode-pylance": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "ms-python-vscode-pylance",
-        "passthru": {
-            "marketplaceName": "vscode-pylance",
-            "marketplacePublisher": "ms-python",
-            "name": "vscode-pylance",
-            "publisher": "ms-python"
-        },
-        "pinned": false,
-        "src": {
-            "name": "vscode-pylance-2022.10.41.zip",
-            "sha256": "sha256-pUXdWfxQeKp+zLras8+NToLDekW+HFjnk/Qw5/LzCc0=",
-            "type": "url",
-            "url": "https://ms-python.gallery.vsassets.io/_apis/public/gallery/publisher/ms-python/extension/vscode-pylance/2022.10.41/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "2022.10.41"
-    },
-    "ms-toolsai-jupyter": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "ms-toolsai-jupyter",
-        "passthru": {
-            "marketplaceName": "jupyter",
+            "marketplaceName": "jupyter-keymap",
             "marketplacePublisher": "ms-toolsai",
-            "name": "jupyter",
+            "name": "jupyter-keymap",
             "publisher": "ms-toolsai"
         },
         "pinned": false,
         "src": {
-            "name": "jupyter-2022.10.1103032004.zip",
-            "sha256": "sha256-O/8rW1sXluq1zto1JIuMNsDBsvjvjKj+RvC4XlRiZ/w=",
+            "name": "jupyter-keymap-1.0.0.zip",
+            "sha256": "sha256-aP9mRvNfJ/fXSZk286FPo9gH80qwqm8mTDQ2BR+lfHI=",
             "type": "url",
-            "url": "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/jupyter/2022.10.1103032004/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+            "url": "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/jupyter-keymap/1.0.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
-        "version": "2022.10.1103032004"
+        "version": "1.0.0"
+    },
+    "ms-toolsai-jupyter-renderers": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "ms-toolsai-jupyter-renderers",
+        "passthru": {
+            "marketplaceName": "jupyter-renderers",
+            "marketplacePublisher": "ms-toolsai",
+            "name": "jupyter-renderers",
+            "publisher": "ms-toolsai"
+        },
+        "pinned": false,
+        "src": {
+            "name": "jupyter-renderers-1.0.12.zip",
+            "sha256": "sha256-HziacDGDg5HBMWkaO/v4/jdMuFFmMkTP6Xb8O4H5hYo=",
+            "type": "url",
+            "url": "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/jupyter-renderers/1.0.12/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+        },
+        "version": "1.0.12"
+    },
+    "ms-vscode-cpptools": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "ms-vscode-cpptools",
+        "passthru": {
+            "marketplaceName": "cpptools",
+            "marketplacePublisher": "ms-vscode",
+            "name": "cpptools",
+            "publisher": "ms-vscode"
+        },
+        "pinned": false,
+        "src": {
+            "name": "cpptools-1.13.3.zip",
+            "sha256": "sha256-BxBOFlkRrk+QOba5BaNiRnkfJlHMMU61bBC6g4WcZmQ=",
+            "type": "url",
+            "url": "https://ms-vscode.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode/extension/cpptools/1.13.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+        },
+        "version": "1.13.3"
     }
 }
