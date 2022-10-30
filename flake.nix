@@ -62,15 +62,12 @@
 						text = ''
 							poetry install
 							dir="tmp/init"
-							mkdir -p "$dir"
               init_json="$dir/init.json"
               init_nix="$dir/init.nix"
-							printf '{"mempty" : {}\n}' > $init_json
-							printf '{mempty = {};\n}' > $init_nix
 							poetry run python scripts/nvfetch.py \
 								--out "''${OUT:-.}" --name "$NAME" --first-block "$FIRST_BLOCK" \
 								--block-size "$BLOCK_SIZE" --block-limit "$BLOCK_LIMIT" \
-								--json-init "''${JSON_INIT:-$init_json}" --nix-init "''${NIX_INIT:-$init_nix}" \
+								--init-json "''${INIT_JSON:-$init_json}" --init-nix "''${INIT_NIX:-$init_nix}" \
                 --threads "''${THREADS:-0}"
 						'';
           };
@@ -87,8 +84,8 @@
             					export NAME=vscode-marketplace
 											export OUT=tmp/out
                       export THREADS=40
-											export JSON_INIT=generated/vscode-marketplace/generated.json
-											export NIX_INIT=generated/vscode-marketplace/generated.nix
+											# export JSON_INIT=generated/vscode-marketplace/generated.json
+											# export NIX_INIT=generated/vscode-marketplace/generated.nix
             			'';
           nativeBuildInputs = with pkgs; [
             deno
