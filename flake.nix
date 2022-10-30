@@ -65,7 +65,7 @@
               init_json="$dir/init.json"
               init_nix="$dir/init.nix"
 							poetry run python scripts/nvfetch.py \
-								--out "''${OUT:-.}" --name "$NAME" --first-block "$FIRST_BLOCK" \
+								--out "''${OUT:-./}" --name "$NAME" --first-block "$FIRST_BLOCK" \
 								--block-size "$BLOCK_SIZE" --block-limit "$BLOCK_LIMIT" \
 								--init-json "''${INIT_JSON:-$init_json}" --init-nix "''${INIT_NIX:-$init_nix}" \
                 --threads "''${THREADS:-0}"
