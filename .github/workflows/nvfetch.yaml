@@ -69,6 +69,7 @@ jobs:
           FIRST_BLOCK: ${{ inputs.FIRST_BLOCK }}
           BLOCK_LIMIT: ${{ inputs.BLOCK_LIMIT }}
           BLOCK_SIZE: ${{ matrix.BLOCK_SIZE }}
+          THREADS: 0
           # Not set input variables become empty strings
         run: |
           if [ -z "${{ inputs.JSON_INIT }}" ]
