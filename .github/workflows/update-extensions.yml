@@ -59,7 +59,7 @@ jobs:
 
       - name: Run Updater on ${{ matrix.name }} extensions
         run: ${{ format(env.run_updater, matrix.allow_net, matrix.target, matrix.target) }}
-      
+
       - name: Commit and push changes
         run: ${{ format(env.commit_and_push, matrix.target, matrix.target) }}
 
@@ -71,7 +71,7 @@ jobs:
       FIRST_BLOCK: 1
       BLOCK_LIMIT: 1
       JSON_INIT: tmp/init/init.json
-      NIX_INIT: tmp/init/init.nix
+      INIT_NIX: tmp/init/init.nix
 
   nvfetch-2:
     needs: [update_extensions, nvfetch-1]
@@ -80,68 +80,3 @@ jobs:
       NAME: vscode-marketplace
       FIRST_BLOCK: 2
       BLOCK_LIMIT: 1
-
-    # needs: [update_extensions, read_config]
-    # runs-on: ubuntu-latest
-    # strategy:
-    #   matrix: ${{ fromJSON(needs.read_config.outputs.matrix) }}
-    # steps:
-    #   - name: Checkout repository
-    #     uses: actions/checkout@v3
-
-    #   - name: Install latest Nix
-    #     uses: cachix/install-nix-action@v17
-    #     with:
-    #       extra_nix_config: ${{ env.extra_nix_config }}
-    #       nix_path: ${{ env.nixpkgs }}
-
-    #   - name: Run nvfetcher on ${{ matrix.marketplace }}
-    #     env:
-    #       NAME: ${{ matrix.target }}
-    #       BLOCK_SIZE: 3
-    #       BLOCK_LIMIT: 2
-    #       FIRST_BLOCK: 1
-    #     run: nix run .#scripts.nvfetch
-
-  #     - name: Commit and push changes
-  #       run: ${{ format(env.commit_and_push, matrix.target, matrix.target, matrix.target) }}
-
-  # read_config-1:
-  #   runs-on: ubuntu-latest
-  #   outputs:
-  #     matrix: ${{ steps.set-matrix.outputs.matrix }}
-  #   steps:
-  #     - name: Checkout repository
-  #       uses: actions/checkout@v3
-
-  #     - id: set-matrix
-  #       run: echo "::set-output name=matrix::$(jq -c . < .github/workflows/config-1.json)"
-
-  # update_extensions-1:
-  #   needs: [read_config-1, update_extensions]
-  #   runs-on: ubuntu-latest
-  #   strategy:
-  #     matrix: ${{ fromJSON(needs.read_config-1.outputs.matrix) }}
-  #   steps:
-  #     - name: Checkout repository
-  #       uses: actions/checkout@v3
-
-  #     - name: Install latest Nix
-  #       uses: cachix/install-nix-action@v17
-  #       with:
-  #         extra_nix_config: ${{ env.extra_nix_config }}
-  #         nix_path: ${{ env.nixpkgs }}
-
-  #     - name: Run Updater on ${{ matrix.name }} extensions
-  #       run: ${{ format(env.run_updater, matrix.allow_net, matrix.target, matrix.target) }}
-
-  #     - name: Run nvfetcher on ${{ matrix.name }} extensions
-  #       env:
-  #         NAME: ${{ matrix.target }}
-  #         BLOCK_SIZE: ${{ matrix.BLOCK_SIZE }}
-  #         LIMIT: ${{ matrix.limit }}
-  #       run: |
-  #         bash ./.github/scripts/nvfetch.sh
-
-  #     - name: Commit and push changes
-  #       run: ${{ format(env.commit_and_push, matrix.target, matrix.target, matrix.target) }}

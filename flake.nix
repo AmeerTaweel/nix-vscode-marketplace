@@ -85,7 +85,7 @@
 											export OUT_DIR=tmp/out
                       export THREADS=40
 											# export JSON_INIT=generated/vscode-marketplace/generated.json
-											# export NIX_INIT=generated/vscode-marketplace/generated.nix
+											# export INIT_NIX=generated/vscode-marketplace/generated.nix
             			'';
           nativeBuildInputs = with pkgs; [
             deno
