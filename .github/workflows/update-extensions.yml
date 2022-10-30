@@ -59,6 +59,9 @@ jobs:
 
       - name: Run Updater on ${{ matrix.name }} extensions
         run: ${{ format(env.run_updater, matrix.allow_net, matrix.target, matrix.target) }}
+      
+      - name: Commit and push changes
+        run: ${{ format(env.commit_and_push, matrix.target, matrix.target) }}
 
   nvfetch-1:
     needs: update_extensions

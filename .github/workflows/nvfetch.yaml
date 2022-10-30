@@ -30,6 +30,9 @@ env:
     git config user.name github-actions
     git config user.email github-actions@github.com
     git add generated/{0}
+    # git config pull.rebase true
+    # git config rebase.autoStash true
+    # git pull
     git diff --quiet && git diff --staged --quiet || git commit -m "action: run nvfetcher on {1}"
     git push
 
@@ -53,7 +56,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-
+      - name: Git pull
+        run: git pull
       - name: Install latest Nix
         uses: cachix/install-nix-action@v18
         with:

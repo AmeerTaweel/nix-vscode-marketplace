@@ -63,12 +63,14 @@
 							poetry install
 							dir="tmp/init"
 							mkdir -p "$dir"
-							printf '{"mempty" : {}\n}' > "$dir"/init.json
-							printf '{mempty = {};\n}' > "$dir"/init.nix
+              init_json="$dir/init.json"
+              init_nix="$dir/init.nix"
+							printf '{"mempty" : {}\n}' > $init_json
+							printf '{mempty = {};\n}' > $init_nix
 							poetry run python scripts/nvfetch.py \
 								--out "''${OUT:-.}" --name "$NAME" --first-block "$FIRST_BLOCK" \
 								--block-size "$BLOCK_SIZE" --block-limit "$BLOCK_LIMIT" \
-								--json-init "''${JSON_INIT:-"$dir"/init.json}" --nix-init "''${NIX_INIT:-"$dir"/init.nix}" \
+								--json-init "''${JSON_INIT:-$init_json}" --nix-init "''${NIX_INIT:-$init_nix}" \
                 --threads "''${THREADS:-0}"
 						'';
           };
