@@ -68,7 +68,7 @@
 							poetry run python scripts/nvfetch.py \
 								--out "''${OUT:-.}" --name "$NAME" --first-block "$FIRST_BLOCK" \
 								--block-size "$BLOCK_SIZE" --block-limit "$BLOCK_LIMIT" \
-								--json-init "''${JSON_INIT:-"$dir"/init.json}" --nix-init "''${NIX_INIT:-"$dir"/init.nix}"
+								--json-init "''${JSON_INIT:-"$dir"/init.json}" --nix-init "''${NIX_INIT:-"$dir"/init.nix}" \
                 --threads "$THREADS"
 						'';
           };
