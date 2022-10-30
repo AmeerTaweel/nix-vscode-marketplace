@@ -62,7 +62,7 @@ jobs:
           extra_nix_config: ${{ env.extra_nix_config }}
           nix_path: ${{ env.nixpkgs }}
 
-      - name: Run nvfetcher on ${{ matrix.marketplace }}
+      - name: Run nvfetcher on ${{ matrix.name }}
         env:
           NAME: ${{ inputs.NAME }}
           FIRST_BLOCK: ${{ inputs.FIRST_BLOCK }}

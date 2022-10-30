@@ -69,7 +69,7 @@ jobs:
     with:
       NAME: vscode-marketplace
       FIRST_BLOCK: 1
-      BLOCK_LIMIT: 1
+      BLOCK_LIMIT: 10
       INIT_JSON: tmp/init/init.json
       INIT_NIX: tmp/init/init.nix
 
@@ -78,5 +78,5 @@ jobs:
     uses: ./.github/workflows/nvfetch.yaml
     with:
       NAME: vscode-marketplace
-      FIRST_BLOCK: 2
-      BLOCK_LIMIT: 1
+      FIRST_BLOCK: 11
+      BLOCK_LIMIT: 10
