@@ -1,0 +1,82 @@
+on:
+  workflow_call:
+    inputs:
+      NAME:
+        required: true
+        type: string
+      FIRST_BLOCK:
+        required: true
+        type: string
+      BLOCK_LIMIT:
+        required: true
+        type: string
+      JSON_INIT:
+        required: false
+        type: string
+      NIX_INIT:
+        required: false
+        type: string
+
+env:
+  nixpkgs: nixpkgs=https://github.com/NixOS/nixpkgs/archive/cd87aef066e4bdbb1139845500072bd252d37c5e.tar.gz
+  extra_nix_config: |
+    substituters = https://cache.nixos.org https://nix-community.cachix.org https://fog.cachix.org
+    trusted-public-keys = cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY= nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs= fog.cachix.org-1:FAxiA6qMLoXEUdEq+HaT24g1MjnxdfygrbrLDBp6U/s=
+
+  run_updater: export DENO_DIR=.deno && nix run nixpkgs#deno -- run --allow-write --allow-net={0} --no-prompt updater/index.ts {1} nvfetch/{2}.toml
+
+  commit_and_push: |
+    git config user.name github-actions
+    git config user.email github-actions@github.com
+    git config pull.rebase true
+    git config rebase.autoStash true
+    git pull
+    git add nvfetch/{0}.toml generated/{1}
+    git diff --quiet && git diff --staged --quiet || git commit -m "action: update {2} extensions"
+    git push
+
+jobs:
+  read_config:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - id: set-matrix
+        run: echo "matrix=$(jq -c . < .github/workflows/config-${{ inputs.NAME }}.json)" >> $GITHUB_OUTPUT
+  
+  nvfetch:
+    runs-on: ubuntu-latest
+    needs: read_config
+    strategy:
+      matrix: ${{ fromJSON(needs.read_config.outputs.matrix) }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install latest Nix
+        uses: cachix/install-nix-action@v17
+        with:
+          extra_nix_config: ${{ env.extra_nix_config }}
+          nix_path: ${{ env.nixpkgs }}
+
+      - name: Run nvfetcher on ${{ matrix.marketplace }}
+        env:
+          NAME: ${{ inputs.NAME }}
+          FIRST_BLOCK: ${{ inputs.FIRST_BLOCK }}
+          BLOCK_LIMIT: ${{ inputs.BLOCK_LIMIT }}
+          BLOCK_SIZE: ${{ matrix.BLOCK_SIZE }}
+          # Not set input variables become empty strings
+        run: |
+          if [ -z "${{ inputs.JSON_INIT }}" ]
+          then export JSON_INIT=generated/${{ inputs.NAME }}/generated.json
+          fi
+          if [ -z "${{ inputs.NIX_INIT }}" ]
+          then export NIX_INIT=generated/${{ inputs.NAME }}/generated.nix
+          fi
+          nix run .#scripts.nvfetch
+
+      - name: Commit and push changes
+        run: ${{ format(env.commit_and_push, inputs.NAME, inputs.NAME, inputs.NAME) }}

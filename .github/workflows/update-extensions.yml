@@ -16,15 +16,18 @@ env:
 
   run_updater: export DENO_DIR=.deno && nix run nixpkgs#deno -- run --allow-write --allow-net={0} --no-prompt updater/index.ts {1} nvfetch/{2}.toml
 
-  commit_and_push: |
-    git config user.name github-actions
-    git config user.email github-actions@github.com
-    git config pull.rebase true
-    git config rebase.autoStash true
-    git pull
-    git add nvfetch/{0}.toml generated/{1}
-    git diff --quiet && git diff --staged --quiet || git commit -m "action: update {2} extensions"
-    git push
+  vscode: vscode-marketplace
+
+  nvfetch_workflow: ./.github/workflows/nvfetch.yaml
+  # commit_and_push: |
+  #   git config user.name github-actions
+  #   git config user.email github-actions@github.com
+  #   git config pull.rebase true
+  #   git config rebase.autoStash true
+  #   git pull
+  #   git add nvfetch/{0}.toml generated/{1}
+  #   git diff --quiet && git diff --staged --quiet || git commit -m "action: update {2} extensions"
+  #   git push
 
 # https://docs.github.com/en/actions/learn-github-actions/expressions#example-returning-a-json-object
 # https://docs.github.com/en/actions/using-jobs/defining-outputs-for-jobs#example-defining-outputs-for-a-job
@@ -39,7 +42,7 @@ jobs:
         uses: actions/checkout@v3
 
       - id: set-matrix
-        run: echo "::set-output name=matrix::$(jq -c . < .github/workflows/config.json)"
+        run: echo "matrix=$(jq -c . < .github/workflows/config.json)" >> $GITHUB_OUTPUT
 
   update_extensions:
     needs: read_config
@@ -59,53 +62,86 @@ jobs:
       - name: Run Updater on ${{ matrix.name }} extensions
         run: ${{ format(env.run_updater, matrix.allow_net, matrix.target, matrix.target) }}
 
-      - name: Run nvfetcher on ${{ matrix.name }} extensions
-        env:
-          NAME: ${{ matrix.target }}
-          BLOCK_SIZE: ${{ matrix.BLOCK_SIZE }}
-          LIMIT: ${{ matrix.limit }}
-        run: |
-          bash ./.github/scripts/nvfetch.sh
+  nvfetch:
+    needs: update_extensions
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ${{ env.nvfetch_workflow }}
+        with: 
+          NAME: ${{ env.vscode }}
+          FIRST_BLOCK: 1
+          BLOCK_LIMIT: 1
+          JSON_INIT: tmp/init/init.json
+          NIX_INIT: tmp/init/init.nix
+      - uses: ${{ env.nvfetch_workflow }}
+        with: 
+          NAME: ${{ env.vscode }}
+          FIRST_BLOCK: 2
+          BLOCK_LIMIT: 1
 
-      - name: Commit and push changes
-        run: ${{ format(env.commit_and_push, matrix.target, matrix.target, matrix.target) }}
+
+
+    # needs: [update_extensions, read_config]
+    # runs-on: ubuntu-latest
+    # strategy:
+    #   matrix: ${{ fromJSON(needs.read_config.outputs.matrix) }}
+    # steps:
+    #   - name: Checkout repository
+    #     uses: actions/checkout@v3
+
+    #   - name: Install latest Nix
+    #     uses: cachix/install-nix-action@v17
+    #     with:
+    #       extra_nix_config: ${{ env.extra_nix_config }}
+    #       nix_path: ${{ env.nixpkgs }}
+
+    #   - name: Run nvfetcher on ${{ matrix.marketplace }}
+    #     env:
+    #       NAME: ${{ matrix.target }}
+    #       BLOCK_SIZE: 3
+    #       BLOCK_LIMIT: 2
+    #       FIRST_BLOCK: 1
+    #     run: nix run .#scripts.nvfetch
+
+  #     - name: Commit and push changes
+  #       run: ${{ format(env.commit_and_push, matrix.target, matrix.target, matrix.target) }}
   
-  read_config-1:
-    runs-on: ubuntu-latest
-    outputs:
-      matrix: ${{ steps.set-matrix.outputs.matrix }}
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+  # read_config-1:
+  #   runs-on: ubuntu-latest
+  #   outputs:
+  #     matrix: ${{ steps.set-matrix.outputs.matrix }}
+  #   steps:
+  #     - name: Checkout repository
+  #       uses: actions/checkout@v3
 
-      - id: set-matrix
-        run: echo "::set-output name=matrix::$(jq -c . < .github/workflows/config-1.json)"
+  #     - id: set-matrix
+  #       run: echo "::set-output name=matrix::$(jq -c . < .github/workflows/config-1.json)"
 
-  update_extensions-1:
-    needs: [read_config-1, update_extensions]
-    runs-on: ubuntu-latest
-    strategy:
-      matrix: ${{ fromJSON(needs.read_config-1.outputs.matrix) }}
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+  # update_extensions-1:
+  #   needs: [read_config-1, update_extensions]
+  #   runs-on: ubuntu-latest
+  #   strategy:
+  #     matrix: ${{ fromJSON(needs.read_config-1.outputs.matrix) }}
+  #   steps:
+  #     - name: Checkout repository
+  #       uses: actions/checkout@v3
 
-      - name: Install latest Nix
-        uses: cachix/install-nix-action@v17
-        with:
-          extra_nix_config: ${{ env.extra_nix_config }}
-          nix_path: ${{ env.nixpkgs }}
+  #     - name: Install latest Nix
+  #       uses: cachix/install-nix-action@v17
+  #       with:
+  #         extra_nix_config: ${{ env.extra_nix_config }}
+  #         nix_path: ${{ env.nixpkgs }}
 
-      - name: Run Updater on ${{ matrix.name }} extensions
-        run: ${{ format(env.run_updater, matrix.allow_net, matrix.target, matrix.target) }}
+  #     - name: Run Updater on ${{ matrix.name }} extensions
+  #       run: ${{ format(env.run_updater, matrix.allow_net, matrix.target, matrix.target) }}
 
-      - name: Run nvfetcher on ${{ matrix.name }} extensions
-        env:
-          NAME: ${{ matrix.target }}
-          BLOCK_SIZE: ${{ matrix.BLOCK_SIZE }}
-          LIMIT: ${{ matrix.limit }}
-        run: |
-          bash ./.github/scripts/nvfetch.sh
+  #     - name: Run nvfetcher on ${{ matrix.name }} extensions
+  #       env:
+  #         NAME: ${{ matrix.target }}
+  #         BLOCK_SIZE: ${{ matrix.BLOCK_SIZE }}
+  #         LIMIT: ${{ matrix.limit }}
+  #       run: |
+  #         bash ./.github/scripts/nvfetch.sh
 
-      - name: Commit and push changes
-        run: ${{ format(env.commit_and_push, matrix.target, matrix.target, matrix.target) }}
+  #     - name: Commit and push changes
+  #       run: ${{ format(env.commit_and_push, matrix.target, matrix.target, matrix.target) }}

@@ -1,11 +1,9 @@
 {
     "include": [
         {
-            "target": "vscode-marketplace",
             "allow_net": "marketplace.visualstudio.com",
             "name": "VSCode Marketplace",
-            "BLOCK_SIZE": 3,
-            "LIMIT": 5
+            "BLOCK_SIZE": 3
         }
     ]
 }
