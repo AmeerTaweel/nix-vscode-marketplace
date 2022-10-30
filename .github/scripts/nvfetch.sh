@@ -13,6 +13,8 @@ block_size=$BLOCK_SIZE
 # Total number of blocks to fetch
 limit=${LIMIT:-5}
 
+start=${START:-1}
+
 out=${OUT:-"."}
 
 # Prepare files
@@ -73,7 +75,11 @@ awk_print_block_toml='
     /\[/ {a++}
     {if (a > 2 * start && a <= 2 * end) {print}}'
 
-for i in $(seq 1 1 $block_limit);
+let "start_block = $start"
+
+let "end_block = $start + $block_limit"
+
+for i in $(seq $start_block $end_block);
 do
     # there are 2N opening square brackets (for awk matching)
     let "block = (i - 1) * $block_size"
@@ -96,7 +102,7 @@ do
 
     # https://github.com/berberman/nvfetcher#cli
     block_log="$log_tmp/block$block_idx.txt"
-    nvfetcher -j 0 -o $dir_tmp_generated -c $toml_block -t > $block_log
+    nvfetcher -j 40 -o $dir_tmp_generated -c $toml_block -t > $block_log
     
     cat $block_log | awk 'BEGIN{a=0; b=0}/FetchUrl/{ a++ }/Check/{b++}END{printf "fetched: %s\nchecked: %s\n", a, b}'
 

@@ -2,3 +2,5 @@
 result
 .deno
 tmp
+.venv
+.vscode

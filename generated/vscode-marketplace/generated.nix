@@ -3,11 +3,11 @@
 {
   ms-python-python = {
     pname = "ms-python-python";
-    version = "2022.17.13001027";
+    version = "2022.17.13020517";
     src = fetchurl {
-      url = "https://ms-python.gallery.vsassets.io/_apis/public/gallery/publisher/ms-python/extension/python/2022.17.13001027/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "python-2022.17.13001027.zip";
-      sha256 = "sha256-U+AQGsgwJlZbco9t+nXtG/++IVW+YsKjtYKvHkqg70A=";
+      url = "https://ms-python.gallery.vsassets.io/_apis/public/gallery/publisher/ms-python/extension/python/2022.17.13020517/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "python-2022.17.13020517.zip";
+      sha256 = "sha256-JrIPtFgMgi+kd2svECUAiYEpnA+bBM1j2XXd5z0m8Hk=";
     };
     name = "python";
     marketplacePublisher = "ms-python";
@@ -29,17 +29,18 @@
   };
   ms-toolsai-jupyter = {
     pname = "ms-toolsai-jupyter";
-    version = "2022.10.1103021110";
+    version = "2022.10.1103032004";
     src = fetchurl {
-      url = "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/jupyter/2022.10.1103021110/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "jupyter-2022.10.1103021110.zip";
-      sha256 = "sha256-MhqEQXeE/VOrCC+oBKHIy9hfzs4lM9mtEEzaHPzFmXg=";
+      url = "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/jupyter/2022.10.1103032004/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "jupyter-2022.10.1103032004.zip";
+      sha256 = "sha256-O/8rW1sXluq1zto1JIuMNsDBsvjvjKj+RvC4XlRiZ/w=";
     };
     name = "jupyter";
     marketplacePublisher = "ms-toolsai";
     marketplaceName = "jupyter";
     publisher = "ms-toolsai";
   };
+
   ms-toolsai-jupyter-keymap = {
     pname = "ms-toolsai-jupyter-keymap";
     version = "1.0.0";
@@ -55,11 +56,11 @@
   };
   ms-toolsai-jupyter-renderers = {
     pname = "ms-toolsai-jupyter-renderers";
-    version = "1.0.10";
+    version = "1.0.12";
     src = fetchurl {
-      url = "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/jupyter-renderers/1.0.10/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "jupyter-renderers-1.0.10.zip";
-      sha256 = "sha256-sarVhFVQ+BjEV80j3R377vesZEuQsNLKXRixgU1ieUo=";
+      url = "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/jupyter-renderers/1.0.12/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "jupyter-renderers-1.0.12.zip";
+      sha256 = "sha256-HziacDGDg5HBMWkaO/v4/jdMuFFmMkTP6Xb8O4H5hYo=";
     };
     name = "jupyter-renderers";
     marketplacePublisher = "ms-toolsai";
