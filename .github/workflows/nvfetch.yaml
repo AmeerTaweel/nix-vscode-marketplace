@@ -30,9 +30,6 @@ env:
     git config user.name github-actions
     git config user.email github-actions@github.com
     git add generated/{0}
-    # git config pull.rebase true
-    # git config rebase.autoStash true
-    # git pull
     git diff --quiet && git diff --staged --quiet || git commit -m "action: run nvfetcher on {1}"
     git push
 
@@ -79,6 +76,7 @@ jobs:
           if [ -z "${{ inputs.NIX_INIT }}" ]
           then export NIX_INIT=generated/${{ inputs.NAME }}/generated.nix
           fi
+          export OUT=./
           nix run .#scripts.nvfetch
 
       - name: Commit and push changes
