@@ -74,7 +74,7 @@ jobs:
       NIX_INIT: tmp/init/init.nix
 
   nvfetch-2:
-    needs: update_extensions
+    needs: [update_extensions, nvfetch-1]
     uses: ./.github/workflows/nvfetch.yaml
     with:
       NAME: vscode-marketplace
