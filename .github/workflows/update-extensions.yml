@@ -41,7 +41,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - id: set-matrix
+      - name: Save config
+        id: set-matrix
         run: echo "matrix=$(jq -c . < .github/workflows/config.json)" >> $GITHUB_OUTPUT
 
   update_extensions:
@@ -66,6 +67,9 @@ jobs:
     needs: update_extensions
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
       - uses: ./.github/workflows/nvfetch.yaml
         with: 
           NAME: ${{ env.vscode }}
