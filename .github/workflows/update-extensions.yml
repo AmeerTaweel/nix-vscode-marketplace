@@ -70,7 +70,7 @@ jobs:
       NAME: vscode-marketplace
       FIRST_BLOCK: 1
       BLOCK_LIMIT: 1
-      JSON_INIT: tmp/init/init.json
+      INIT_JSON: tmp/init/init.json
       INIT_NIX: tmp/init/init.nix
 
   nvfetch-2:

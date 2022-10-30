@@ -11,12 +11,13 @@ on:
       BLOCK_LIMIT:
         required: true
         type: string
-      JSON_INIT:
+      INIT_JSON:
         required: false
         type: string
       INIT_NIX:
         required: false
         type: string
+      
 
 env:
   nixpkgs: nixpkgs=https://github.com/NixOS/nixpkgs/archive/cd87aef066e4bdbb1139845500072bd252d37c5e.tar.gz
@@ -70,15 +71,19 @@ jobs:
           THREADS: 0
           # Not set input variables become empty strings
         run: |
-          init_json="${{ inputs.INIT_NIX }}"
-          if [ -z ${init_json+x} ]
-          then export INIT_NIX=generated/${{ inputs.NAME }}/generated.json
+          init_json="${{ inputs.INIT_JSON }}"
+          if [ -z $init_json ]
+          then export INIT_JSON=generated/${{ inputs.NAME }}/generated.json
           fi
           init_nix="${{ inputs.INIT_NIX }}"
-          if [ -z ${init_nix+x} ]
+          if [ -z $init_nix ]
           then export INIT_NIX=generated/${{ inputs.NAME }}/generated.nix
           fi
           export OUT=./
+          
+          echo $INIT_JSON
+          echo $INIT_NIX
+          
           nix run .#scripts.nvfetch
 
       - name: Commit and push changes
