@@ -238,7 +238,7 @@ for i in range(first_block, last_block + 1):
 
     block_log = tmp_log / f"block{i}.txt"
     
-    trials = 4
+    trials = 5
     
     for i in range(trials):
         try:
