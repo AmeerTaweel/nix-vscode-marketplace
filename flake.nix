@@ -84,7 +84,7 @@
             					export NAME=vscode-marketplace
 											export OUT_DIR=tmp/out
                       export THREADS=40
-											# export JSON_INIT=generated/vscode-marketplace/generated.json
+											export INIT_JSON=generated/vscode-marketplace/generated.json
 											# export INIT_NIX=generated/vscode-marketplace/generated.nix
             			'';
           nativeBuildInputs = with pkgs; [
