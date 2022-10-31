@@ -31,7 +31,7 @@ env:
     git config user.name github-actions
     git config user.email github-actions@github.com
     git add generated/{0}
-    git diff --quiet && git diff --staged --quiet || git commit -m "action: run nvfetcher on {1}"
+    git diff --quiet && git diff --staged --quiet || git reset --soft HEAD~1 && git commit -m "action: run nvfetcher on {1}"
     git push
 
 jobs:
