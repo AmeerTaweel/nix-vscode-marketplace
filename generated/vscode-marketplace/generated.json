@@ -1,4 +1,7 @@
 {
+    "ms-python-python": {
+        "cargoLocks": null,
+        "extract": null,
         "name": "ms-python-python",
         "passthru": {
             "marketplaceName": "python",
@@ -8,12 +11,12 @@
         },
         "pinned": false,
         "src": {
-            "name": "python-2022.17.13020517.zip",
-            "sha256": "sha256-JrIPtFgMgi+kd2svECUAiYEpnA+bBM1j2XXd5z0m8Hk=",
+            "name": "python-2022.17.13041013.zip",
+            "sha256": "sha256-TYkzrxyp8Gu+58+iD1sLl4JjEb65tIt7cZBPMpjveTE=",
             "type": "url",
-            "url": "https://ms-python.gallery.vsassets.io/_apis/public/gallery/publisher/ms-python/extension/python/2022.17.13020517/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+            "url": "https://ms-python.gallery.vsassets.io/_apis/public/gallery/publisher/ms-python/extension/python/2022.17.13041013/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
-        "version": "2022.17.13020517"
+        "version": "2022.17.13041013"
     }
 ,
     "ms-toolsai-jupyter": {
@@ -28,231 +31,11 @@
         },
         "pinned": false,
         "src": {
-            "name": "jupyter-2022.10.1103032004.zip",
-            "sha256": "sha256-O/8rW1sXluq1zto1JIuMNsDBsvjvjKj+RvC4XlRiZ/w=",
+            "name": "jupyter-2022.11.1003061101.zip",
+            "sha256": "sha256-M3BhU5kVGFIPCV3gNBgXa5YiOHI58uY/JNx7mZaf/j0=",
             "type": "url",
-            "url": "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/jupyter/2022.10.1103032004/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+            "url": "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/jupyter/2022.11.1003061101/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
         },
-        "version": "2022.10.1103032004"
-    }
-,
-    "ms-python-vscode-pylance": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "ms-python-vscode-pylance",
-        "passthru": {
-            "marketplaceName": "vscode-pylance",
-            "marketplacePublisher": "ms-python",
-            "name": "vscode-pylance",
-            "publisher": "ms-python"
-        },
-        "pinned": false,
-        "src": {
-            "name": "vscode-pylance-2022.10.41.zip",
-            "sha256": "sha256-pUXdWfxQeKp+zLras8+NToLDekW+HFjnk/Qw5/LzCc0=",
-            "type": "url",
-            "url": "https://ms-python.gallery.vsassets.io/_apis/public/gallery/publisher/ms-python/extension/vscode-pylance/2022.10.41/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "2022.10.41"
-    }
-,
-    "ms-vscode-cpptools-themes": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "ms-vscode-cpptools-themes",
-        "passthru": {
-            "marketplaceName": "cpptools-themes",
-            "marketplacePublisher": "ms-vscode",
-            "name": "cpptools-themes",
-            "publisher": "ms-vscode"
-        },
-        "pinned": false,
-        "src": {
-            "name": "cpptools-themes-2.0.0.zip",
-            "sha256": "sha256-YWA5UsA+cgvI66uB9d9smwghmsqf3vZPFNpSCK+DJxc=",
-            "type": "url",
-            "url": "https://ms-vscode.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode/extension/cpptools-themes/2.0.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "2.0.0"
-    }
-,
-    "octref-vetur": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "octref-vetur",
-        "passthru": {
-            "marketplaceName": "vetur",
-            "marketplacePublisher": "octref",
-            "name": "vetur",
-            "publisher": "octref"
-        },
-        "pinned": false,
-        "src": {
-            "name": "vetur-0.36.0.zip",
-            "sha256": "sha256-EMwjYkI29QeFuAQqEgl/taGtDUMnaw6cJrhIVFA81ZM=",
-            "type": "url",
-            "url": "https://octref.gallery.vsassets.io/_apis/public/gallery/publisher/octref/extension/vetur/0.36.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "0.36.0"
-    }
-,
-    "formulahendry-auto-rename-tag": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "formulahendry-auto-rename-tag",
-        "passthru": {
-            "marketplaceName": "auto-rename-tag",
-            "marketplacePublisher": "formulahendry",
-            "name": "auto-rename-tag",
-            "publisher": "formulahendry"
-        },
-        "pinned": false,
-        "src": {
-            "name": "auto-rename-tag-0.1.10.zip",
-            "sha256": "sha256-uXqWebxnDwaUVLFG6MUh4bZ7jw5d2rTHRm5NoR2n0Vs=",
-            "type": "url",
-            "url": "https://formulahendry.gallery.vsassets.io/_apis/public/gallery/publisher/formulahendry/extension/auto-rename-tag/0.1.10/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "0.1.10"
-    }
-,
-    "ms-vscode-cpptools-extension-pack": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "ms-vscode-cpptools-extension-pack",
-        "passthru": {
-            "marketplaceName": "cpptools-extension-pack",
-            "marketplacePublisher": "ms-vscode",
-            "name": "cpptools-extension-pack",
-            "publisher": "ms-vscode"
-        },
-        "pinned": false,
-        "src": {
-            "name": "cpptools-extension-pack-1.3.0.zip",
-            "sha256": "sha256-rHST7CYCVins3fqXC+FYiS5Xgcjmi7QW7M4yFrUR04U=",
-            "type": "url",
-            "url": "https://ms-vscode.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode/extension/cpptools-extension-pack/1.3.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "1.3.0"
-    }
-,
-    "MS-vsliveshare-vsliveshare": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "MS-vsliveshare-vsliveshare",
-        "passthru": {
-            "marketplaceName": "vsliveshare",
-            "marketplacePublisher": "MS-vsliveshare",
-            "name": "vsliveshare",
-            "publisher": "ms-vsliveshare"
-        },
-        "pinned": false,
-        "src": {
-            "name": "vsliveshare-1.0.5750.zip",
-            "sha256": "sha256-SozFmcwCif3Q5rkg11/9wvMQauI5aLYkCP1rBl95uus=",
-            "type": "url",
-            "url": "https://MS-vsliveshare.gallery.vsassets.io/_apis/public/gallery/publisher/MS-vsliveshare/extension/vsliveshare/1.0.5750/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "1.0.5750"
-    }
-,
-    "xabikos-JavaScriptSnippets": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "xabikos-JavaScriptSnippets",
-        "passthru": {
-            "marketplaceName": "JavaScriptSnippets",
-            "marketplacePublisher": "xabikos",
-            "name": "javascriptsnippets",
-            "publisher": "xabikos"
-        },
-        "pinned": false,
-        "src": {
-            "name": "JavaScriptSnippets-1.8.0.zip",
-            "sha256": "sha256-ht6Wm1X7zien+fjMv864qP+Oz4M6X6f2RXjrThURr6c=",
-            "type": "url",
-            "url": "https://xabikos.gallery.vsassets.io/_apis/public/gallery/publisher/xabikos/extension/JavaScriptSnippets/1.8.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "1.8.0"
-    }
-,
-    "redhat-vscode-yaml": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "redhat-vscode-yaml",
-        "passthru": {
-            "marketplaceName": "vscode-yaml",
-            "marketplacePublisher": "redhat",
-            "name": "vscode-yaml",
-            "publisher": "redhat"
-        },
-        "pinned": false,
-        "src": {
-            "name": "vscode-yaml-1.11.10112022.zip",
-            "sha256": "sha256-/ZD3LOf6d5dJJW7eGZgkrf4hj1CXZJNI0u06Bnmyo0Q=",
-            "type": "url",
-            "url": "https://redhat.gallery.vsassets.io/_apis/public/gallery/publisher/redhat/extension/vscode-yaml/1.11.10112022/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "1.11.10112022"
-    }
-,
-    "jeff-hykin-better-cpp-syntax": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "jeff-hykin-better-cpp-syntax",
-        "passthru": {
-            "marketplaceName": "better-cpp-syntax",
-            "marketplacePublisher": "jeff-hykin",
-            "name": "better-cpp-syntax",
-            "publisher": "jeff-hykin"
-        },
-        "pinned": false,
-        "src": {
-            "name": "better-cpp-syntax-1.16.3.zip",
-            "sha256": "sha256-J0pnB8SOax+P9q+Cu47IEywSK3ssiugthhSfOGqGrLk=",
-            "type": "url",
-            "url": "https://jeff-hykin.gallery.vsassets.io/_apis/public/gallery/publisher/jeff-hykin/extension/better-cpp-syntax/1.16.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "1.16.3"
-    }
-,
-    "msjsdiag-debugger-for-chrome": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "msjsdiag-debugger-for-chrome",
-        "passthru": {
-            "marketplaceName": "debugger-for-chrome",
-            "marketplacePublisher": "msjsdiag",
-            "name": "debugger-for-chrome",
-            "publisher": "msjsdiag"
-        },
-        "pinned": false,
-        "src": {
-            "name": "debugger-for-chrome-4.13.0.zip",
-            "sha256": "sha256-acoy9w6G34GYJcf1ve2bB7hxtvWqLhHAdNhG3whA1GQ=",
-            "type": "url",
-            "url": "https://msjsdiag.gallery.vsassets.io/_apis/public/gallery/publisher/msjsdiag/extension/debugger-for-chrome/4.13.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "4.13.0"
-    }
-,
-    "cschlosser-doxdocgen": {
-        "cargoLocks": null,
-        "extract": null,
-        "name": "cschlosser-doxdocgen",
-        "passthru": {
-            "marketplaceName": "doxdocgen",
-            "marketplacePublisher": "cschlosser",
-            "name": "doxdocgen",
-            "publisher": "cschlosser"
-        },
-        "pinned": false,
-        "src": {
-            "name": "doxdocgen-1.4.0.zip",
-            "sha256": "sha256-InEfF1X7AgtsV47h8WWq5DZh6k/wxYhl2r/pLZz9JbU=",
-            "type": "url",
-            "url": "https://cschlosser.gallery.vsassets.io/_apis/public/gallery/publisher/cschlosser/extension/doxdocgen/1.4.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
-        },
-        "version": "1.4.0"
+        "version": "2022.11.1003061101"
     }
 }
