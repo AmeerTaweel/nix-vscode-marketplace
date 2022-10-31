@@ -99,11 +99,11 @@ def write_file(f, txt):
 def clean_file(f):
     write_file(f, "")
 
-if init_json == None or not Path(init_json).exists():
+if init_json == None or not Path(init_json).exists() or init_json == str(init_json_):
     init_json_.parents[0].mkdir(parents=True, exist_ok=True)
     write_file(init_json_, '{"mempty" : {}\n}')
 
-if init_nix == None or not Path(init_nix).exists():
+if init_nix == None or not Path(init_nix).exists()  or init_nix == str(init_nix_):
     init_nix_.parents[0].mkdir(parents=True, exist_ok=True)
     write_file(
         init_nix_,
@@ -291,7 +291,7 @@ for i in range(first_block, last_block + 1):
         atn.writelines(bng.readlines()[3:])
 
     shutil.copy(acc_tmp_nix, acc_nix)
-
+    
     print(block_end_label)
 
 def set_head(f, head_length, txt):
@@ -307,7 +307,8 @@ def set_head(f, head_length, txt):
     shutil.copy(g, f)
     g.unlink()
 
-set_head(acc_json, 2, "{\n")
+if init_json == str(init_json_):
+    set_head(acc_json, 2, "{\n")
 
 outdir = Path(out)
 out_generated_json = outdir / generated_json
