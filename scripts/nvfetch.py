@@ -237,12 +237,28 @@ for i in range(first_block, last_block + 1):
                 bt.write(j)
 
     block_log = tmp_log / f"block{i}.txt"
-    subprocess.run(
-        # f'printf "nvfetched\n"; touch {block_log}',
-        f"nvfetcher -j {threads} -o {tmp_generated} -c {block_toml} -t > {block_log}",
-        shell=True,
-        check=True,
-    )
+    
+    trials = 4
+    
+    for i in range(trials):
+        try:
+            subprocess.run(
+                # f'printf "nvfetched\n"; touch {block_log}',
+                f"nvfetcher -j {threads} -o {tmp_generated} -c {block_toml} -t > {block_log}",
+                shell=True,
+                check=True,
+            )
+        except Exception as e:
+            print(e)
+            print(f"nvfetcher failed the attempt {i + 1}")
+            if i < trials - 1:
+                print("Retrying")
+            else:
+                print(f"This was the last attempt. Stopping")
+                print(block_end_label)
+                sys.exit()
+            print(block_end_label)
+        
 
     with block_log.open("r", encoding=ENCODING) as bl:
         fetch_url_count = 0
