@@ -242,9 +242,10 @@ for i in range(first_block, last_block + 1):
 
     block_log = tmp_log / f"block{i}.txt"
 
-    TRIALS = 10
+    TRIALS = 5
+    nvfetch_ok = True
 
-    for i in range(TRIALS):
+    for j in range(TRIALS):
         try:
             subprocess.run(
                 # f'printf "nvfetched\n"; touch {block_log}',
@@ -255,14 +256,16 @@ for i in range(first_block, last_block + 1):
             )
         except Exception as e:
             print(e)
-            print(f"nvfetcher failed the attempt {i + 1}")
-            if i < TRIALS - 1:
+            print(f"nvfetcher failed the attempt {j + 1}")
+            if j < TRIALS - 1:
                 print("Retrying")
             else:
-                print(f"This was the last attempt. Stopping")
-                print(block_end_label)
-                sys.exit(1)
+                print(f"This was the last attempt. Skipping block {i + 1}")
+                nvfetch_ok = False
             print(block_end_label)
+
+    if not nvfetch_ok:
+        continue
 
     with block_log.open("r", encoding=ENCODING) as bl:
         fetch_url_count = 0
