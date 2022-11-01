@@ -245,24 +245,19 @@ for i in range(first_block, last_block + 1):
     TRIALS = 5
     nvfetch_ok = True
 
-    for j in range(TRIALS):
-        try:
-            subprocess.run(
-                # f'printf "nvfetched\n"; touch {block_log}',
-                f"nvfetcher -j {threads} -o {tmp_generated} -c \
-                    {block_toml} -t -r {TRIALS} > {block_log}",
-                shell=True,
-                check=True,
-            )
-        except Exception as e:
-            print(e)
-            print(f"nvfetcher failed the attempt {j + 1}")
-            if j < TRIALS - 1:
-                print("Retrying")
-            else:
-                print(f"This was the last attempt. Skipping block {i + 1}")
-                nvfetch_ok = False
-            print(block_end_label)
+    try:
+        subprocess.run(
+            # f'printf "nvfetched\n"; touch {block_log}',
+            f"nvfetcher -j {threads} -o {tmp_generated} -c \
+                {block_toml} -t -r {TRIALS} > {block_log}",
+            shell=True,
+            check=True,
+        )
+    except Exception as e:
+        print(e)
+        print(f"nvfetcher failed. Skipping block {i+1}")
+        nvfetch_ok = False
+        print(block_end_label)
 
     if not nvfetch_ok:
         continue
