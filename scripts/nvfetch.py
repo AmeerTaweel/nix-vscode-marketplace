@@ -243,7 +243,6 @@ for i in range(first_block, last_block + 1):
     block_log = tmp_log / f"block{i}.txt"
 
     TRIALS = 5
-    nvfetch_ok = True
 
     try:
         subprocess.run(
@@ -256,10 +255,7 @@ for i in range(first_block, last_block + 1):
     except Exception as e:
         print(e)
         print(f"nvfetcher failed. Skipping block {i+1}")
-        nvfetch_ok = False
         print(block_end_label)
-
-    if not nvfetch_ok:
         continue
 
     with block_log.open("r", encoding=ENCODING) as bl:
