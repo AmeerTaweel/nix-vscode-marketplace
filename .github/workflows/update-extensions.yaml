@@ -30,7 +30,7 @@ env:
 # https://docs.github.com/en/actions/using-jobs/defining-outputs-for-jobs#example-defining-outputs-for-a-job
 
 jobs:
-  read_config:
+  read-config:
     runs-on: ubuntu-latest
     outputs:
       matrix: ${{ steps.set-matrix.outputs.matrix }}
@@ -42,11 +42,11 @@ jobs:
         id: set-matrix
         run: echo "matrix=$(jq -c . < .github/workflows/config.json)" >> $GITHUB_OUTPUT
 
-  update_extensions:
-    needs: read_config
+  update-extensions:
+    needs: read-config
     runs-on: ubuntu-latest
     strategy:
-      matrix: ${{ fromJSON(needs.read_config.outputs.matrix) }}
+      matrix: ${{ fromJSON(needs.read-config.outputs.matrix) }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -64,7 +64,7 @@ jobs:
         run: ${{ format(env.commit_and_push, matrix.target, matrix.target) }}
 
   nvfetch-1:
-    needs: update_extensions
+    needs: update-extensions
     uses: ./.github/workflows/nvfetch.yaml
     with:
       NAME: vscode-marketplace
@@ -80,7 +80,7 @@ jobs:
       NAME: vscode-marketplace
       FIRST_BLOCK: 11
       BLOCK_LIMIT: 10
-  
+
   nvfetch-3:
     needs: nvfetch-2
     uses: ./.github/workflows/nvfetch.yaml
@@ -112,37 +112,11 @@ jobs:
       NAME: vscode-marketplace
       FIRST_BLOCK: 51
       BLOCK_LIMIT: 10
-  
+
   nvfetch-7:
     needs: nvfetch-6
     uses: ./.github/workflows/nvfetch.yaml
     with:
       NAME: vscode-marketplace
       FIRST_BLOCK: 61
-      BLOCK_LIMIT: 10
-
-  nvfetch-open-vsx-1:
-    needs: update_extensions
-    uses: ./.github/workflows/nvfetch.yaml
-    with:
-      NAME: open-vsx
-      FIRST_BLOCK: 1
-      BLOCK_LIMIT: 10
-      INIT_JSON: tmp/init/init.json
-      INIT_NIX: tmp/init/init.nix
-  
-  nvfetch-open-vsx-2:
-    needs: nvfetch-open-vsx-1
-    uses: ./.github/workflows/nvfetch.yaml
-    with:
-      NAME: open-vsx
-      FIRST_BLOCK: 11
-      BLOCK_LIMIT: 10
-  
-  nvfetch-open-vsx-3:
-    needs: nvfetch-open-vsx-2
-    uses: ./.github/workflows/nvfetch.yaml
-    with:
-      NAME: open-vsx
-      FIRST_BLOCK: 21
       BLOCK_LIMIT: 10
