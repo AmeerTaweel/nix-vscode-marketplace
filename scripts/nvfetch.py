@@ -99,11 +99,12 @@ def write_file(f, txt):
 def clean_file(f):
     write_file(f, "")
 
+
 if init_json == None or not Path(init_json).exists() or init_json == str(init_json_):
     init_json_.parents[0].mkdir(parents=True, exist_ok=True)
     write_file(init_json_, '{"mempty" : {}\n}')
 
-if init_nix == None or not Path(init_nix).exists()  or init_nix == str(init_nix_):
+if init_nix == None or not Path(init_nix).exists() or init_nix == str(init_nix_):
     init_nix_.parents[0].mkdir(parents=True, exist_ok=True)
     write_file(
         init_nix_,
@@ -149,7 +150,7 @@ if init_nix != None:
     shutil.copy(init_nix, acc_nix)
 else:
     shutil.copy(init_nix_, acc_nix)
-    
+
 # Temporary files location
 p = tmp / dir_generated
 p.mkdir(parents=True, exist_ok=True)
@@ -189,13 +190,16 @@ extensions_to_load = min(
     extension_count - (first_block * block_size),
 )
 
+
 def get_extensions_range(start, end):
     """1-base"""
     return start * block_size + 1, min((end + 1) * block_size, extension_count)
 
+
 def extensions_range_str(first_block_, last_block_):
     start, end = get_extensions_range(first_block_, last_block_)
     return f"extensions: {start} ... {end}"
+
 
 block_start_label = "┌----------┐"
 block_end_label = "└----------┘"
@@ -237,28 +241,28 @@ for i in range(first_block, last_block + 1):
                 bt.write(j)
 
     block_log = tmp_log / f"block{i}.txt"
-    
-    trials = 5
-    
-    for i in range(trials):
+
+    TRIALS = 10
+
+    for i in range(TRIALS):
         try:
             subprocess.run(
                 # f'printf "nvfetched\n"; touch {block_log}',
-                f"nvfetcher -j {threads} -o {tmp_generated} -c {block_toml} -t > {block_log}",
+                f"nvfetcher -j {threads} -o {tmp_generated} -c \
+                    {block_toml} -t -r {TRIALS} > {block_log}",
                 shell=True,
                 check=True,
             )
         except Exception as e:
             print(e)
             print(f"nvfetcher failed the attempt {i + 1}")
-            if i < trials - 1:
+            if i < TRIALS - 1:
                 print("Retrying")
             else:
                 print(f"This was the last attempt. Stopping")
                 print(block_end_label)
-                sys.exit()
+                sys.exit(1)
             print(block_end_label)
-        
 
     with block_log.open("r", encoding=ENCODING) as bl:
         fetch_url_count = 0
@@ -291,8 +295,9 @@ for i in range(first_block, last_block + 1):
         atn.writelines(bng.readlines()[3:])
 
     shutil.copy(acc_tmp_nix, acc_nix)
-    
+
     print(block_end_label)
+
 
 def set_head(f, head_length, txt):
     g = Path(f"{f}.copy")
@@ -306,6 +311,7 @@ def set_head(f, head_length, txt):
 
     shutil.copy(g, f)
     g.unlink()
+
 
 if init_json == str(init_json_):
     set_head(acc_json, 2, "{\n")
