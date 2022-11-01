@@ -1,0 +1,9 @@
+{
+    "include": [
+        {
+            "allow_net": "open-vsx.org",
+            "name": "Open VSX REGISTRY",
+            "BLOCK_SIZE": 800
+        }
+    ]
+}
