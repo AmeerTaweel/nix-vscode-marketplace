@@ -26,6 +26,24 @@
       "TARGET": "vscode-marketplace",
       "BLOCK_SIZE": 1,
       "BLOCK_LIMIT": 1
+    },
+    {
+      "ACTION_ID": 4,
+      "FIRST_BLOCK": 4,
+      "ALLOW_NET": "marketplace.visualstudio.com",
+      "NAME": "VSCode Marketplace",
+      "TARGET": "vscode-marketplace",
+      "BLOCK_SIZE": 1,
+      "BLOCK_LIMIT": 1
+    },
+    {
+      "ACTION_ID": 5,
+      "FIRST_BLOCK": 5,
+      "ALLOW_NET": "marketplace.visualstudio.com",
+      "NAME": "VSCode Marketplace",
+      "TARGET": "vscode-marketplace",
+      "BLOCK_SIZE": 1,
+      "BLOCK_LIMIT": 1
     }
   ]
 }
