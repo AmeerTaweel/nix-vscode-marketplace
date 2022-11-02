@@ -5,8 +5,8 @@ from pathlib import Path
 
 
 APPROX_TOTAL = 55000
-BLOCK_SIZE = 10
-BLOCK_LIMIT = 25
+BLOCK_SIZE = 100
+BLOCK_LIMIT = 20
 TARGET = "vscode-marketplace"
 NAME = "VSCode Marketplace"
 ALLOW_NET = "marketplace.visualstudio.com"
