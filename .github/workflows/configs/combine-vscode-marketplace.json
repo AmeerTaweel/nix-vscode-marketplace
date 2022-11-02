@@ -4,5 +4,8 @@
   ],
   "TARGET": [
     "vscode-marketplace"
+  ],
+  "NAME": [
+    "VSCode Marketplace"
   ]
 }

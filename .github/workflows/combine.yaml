@@ -2,7 +2,7 @@ name: Combine
 on:
   workflow_call:
     inputs:
-      NAME:
+      TARGET:
         required: true
         type: string
       NUMBER_JOBS:
@@ -38,7 +38,7 @@ jobs:
         uses: actions/checkout@v3
 
       - id: set-matrix
-        run: echo "matrix=$(jq -c . < .github/workflows/config-${{ inputs.NAME }}.json)" >> $GITHUB_OUTPUT
+        run: echo "matrix=$(jq -c . < .github/workflows/configs/combine-${{ inputs.TARGET }}.json)" >> $GITHUB_OUTPUT
 
   nvfetch:
     runs-on: ubuntu-latest
@@ -60,11 +60,11 @@ jobs:
           extra_nix_config: ${{ env.extra_nix_config }}
           nix_path: ${{ env.nixpkgs }}
 
-      - name: Combine extensions ${{ matrix.name }}
+      - name: Combine extensions ${{ matrix.NAME }}
         env:
-          NAME: ${{ inputs.NAME }}
+          NAME: ${{ inputs.TARGET }}
         run: |
           nix run .#scripts.combine
 
       - name: Commit and push changes
-        run: ${{ format(env.commit_and_push, inputs.NAME) }}
+        run: ${{ format(env.commit_and_push, inputs.TARGET) }}

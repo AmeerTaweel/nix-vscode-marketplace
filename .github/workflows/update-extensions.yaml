@@ -34,7 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       update-extensions: ${{ steps.update-extensions.outputs.update-extensions }}
-      # nvfetch-vscode-marketplace: ${{ steps.nvfetch-vscode-marketplace.outputs.nvfetch-vscode-marketplace }}
+      nvfetch-vscode-marketplace: ${{ steps.nvfetch-vscode-marketplace.outputs.nvfetch-vscode-marketplace }}
       # combine-vscode-marketplace: ${{ steps.combine-vscode-marketplace.outputs.combine-vscode-marketplace }}
     steps:
       - name: Checkout repository
@@ -44,48 +44,49 @@ jobs:
         id: update-extensions
         run: echo "update-extensions=$(jq -c . < .github/workflows/configs/update-extensions.json)" >> $GITHUB_OUTPUT
 
-      # - name: nvfetch VSCode
-      #   id: nvfetch-vscode-marketplace
-      #   run: echo "nvfetch-vscode-marketplace=$(jq -c . < .github/workflows/configs/nvfetch-vscode-marketplace.json)" >> $GITHUB_OUTPUT
+      - name: nvfetch VSCode
+        id: nvfetch-vscode-marketplace
+        run: echo "nvfetch-vscode-marketplace=$(jq -c . < .github/workflows/configs/nvfetch-vscode-marketplace.json)" >> $GITHUB_OUTPUT
 
       # - name: Combine VSCode Marketplace
       #   id: combine-vscode-marketplace
       #   run: echo "combine-vscode-marketplace=$(jq -c . < .github/workflows/configs/combine-vscode-marketplace.json)" >> $GITHUB_OUTPUT
 
-  update-extensions:
-    needs: read-configs
-    runs-on: ubuntu-latest
-    strategy:
-      matrix: ${{ fromJSON(needs.read-configs.outputs.update-extensions) }}
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Install latest Nix
-        uses: cachix/install-nix-action@v18
-        with:
-          extra_nix_config: ${{ env.extra_nix_config }}
-          nix_path: ${{ env.nixpkgs }}
-
-      - name: Run Updater on ${{ matrix.NAME }} extensions
-        run: ${{ format(env.run_updater, matrix.ALLOW_NET, matrix.TARGET, matrix.TARGET) }}
-
-      - name: Commit and push changes
-        run: ${{ format(env.commit_and_push, matrix.TARGET, matrix.TARGET) }}
-
-  # # Assume no race conditions when pushing
-  # nvfetch-vscode-marketplace:
-  #   name: ${{ matrix.NAME }}
-  #   needs: [read-configs, update-extensions]
+  # update-extensions:
+  #   needs: read-configs
+  #   runs-on: ubuntu-latest
   #   strategy:
-  #     matrix: ${{ fromJSON(needs.read-configs.outputs.nvfetch-vscode-marketplace) }}
-  #     fail-fast: false
-  #   uses: ./.github/workflows/nvfetch.yaml
-  #   with:
-  #     NAME: ${{ matrix.TARGET }}
-  #     ACTION_ID: ${{ matrix.ACTION_ID }}
-  #     FIRST_BLOCK: ${{ matrix.FIRST_BLOCK }}
-  #     BLOCK_LIMIT: ${{ matrix.BLOCK_LIMIT }}
+  #     matrix: ${{ fromJSON(needs.read-configs.outputs.update-extensions) }}
+  #   steps:
+  #     - name: Checkout repository
+  #       uses: actions/checkout@v3
+
+  #     - name: Install latest Nix
+  #       uses: cachix/install-nix-action@v18
+  #       with:
+  #         extra_nix_config: ${{ env.extra_nix_config }}
+  #         nix_path: ${{ env.nixpkgs }}
+
+  #     - name: Run Updater on ${{ matrix.NAME }} extensions
+  #       run: ${{ format(env.run_updater, matrix.ALLOW_NET, matrix.TARGET, matrix.TARGET) }}
+
+  #     - name: Commit and push changes
+  #       run: ${{ format(env.commit_and_push, matrix.TARGET, matrix.TARGET) }}
+
+  # Assume no race conditions when pushing
+  nvfetch-vscode-marketplace:
+    name: ${{ matrix.NAME }}
+    # needs: [read-configs, update-extensions]
+    needs: [read-configs]
+    strategy:
+      matrix: ${{ fromJSON(needs.read-configs.outputs.nvfetch-vscode-marketplace) }}
+      fail-fast: false
+    uses: ./.github/workflows/nvfetch.yaml
+    with:
+      TARGET: ${{ matrix.TARGET }}
+      ACTION_ID: ${{ matrix.ACTION_ID }}
+      FIRST_BLOCK: ${{ matrix.FIRST_BLOCK }}
+      BLOCK_LIMIT: ${{ matrix.BLOCK_LIMIT }}
 
   # combine-vscode-marketplace:
   #   needs: [nvfetch-vscode-marketplace, read-configs]
