@@ -1,0 +1,230 @@
+{
+  "ALLOW_NET": "marketplace.visualstudio.com",
+  "NAME": "VSCode Marketplace",
+  "TARGET": "vscode-marketplace",
+  "BLOCK_SIZE": 100,
+  "BLOCK_LIMIT": 10,
+  "NUMBER_JOBS": 56,
+  "include": [
+    {
+      "ACTION_ID": 1,
+      "FIRST_BLOCK": 1
+    },
+    {
+      "ACTION_ID": 2,
+      "FIRST_BLOCK": 11
+    },
+    {
+      "ACTION_ID": 3,
+      "FIRST_BLOCK": 21
+    },
+    {
+      "ACTION_ID": 4,
+      "FIRST_BLOCK": 31
+    },
+    {
+      "ACTION_ID": 5,
+      "FIRST_BLOCK": 41
+    },
+    {
+      "ACTION_ID": 6,
+      "FIRST_BLOCK": 51
+    },
+    {
+      "ACTION_ID": 7,
+      "FIRST_BLOCK": 61
+    },
+    {
+      "ACTION_ID": 8,
+      "FIRST_BLOCK": 71
+    },
+    {
+      "ACTION_ID": 9,
+      "FIRST_BLOCK": 81
+    },
+    {
+      "ACTION_ID": 10,
+      "FIRST_BLOCK": 91
+    },
+    {
+      "ACTION_ID": 11,
+      "FIRST_BLOCK": 101
+    },
+    {
+      "ACTION_ID": 12,
+      "FIRST_BLOCK": 111
+    },
+    {
+      "ACTION_ID": 13,
+      "FIRST_BLOCK": 121
+    },
+    {
+      "ACTION_ID": 14,
+      "FIRST_BLOCK": 131
+    },
+    {
+      "ACTION_ID": 15,
+      "FIRST_BLOCK": 141
+    },
+    {
+      "ACTION_ID": 16,
+      "FIRST_BLOCK": 151
+    },
+    {
+      "ACTION_ID": 17,
+      "FIRST_BLOCK": 161
+    },
+    {
+      "ACTION_ID": 18,
+      "FIRST_BLOCK": 171
+    },
+    {
+      "ACTION_ID": 19,
+      "FIRST_BLOCK": 181
+    },
+    {
+      "ACTION_ID": 20,
+      "FIRST_BLOCK": 191
+    },
+    {
+      "ACTION_ID": 21,
+      "FIRST_BLOCK": 201
+    },
+    {
+      "ACTION_ID": 22,
+      "FIRST_BLOCK": 211
+    },
+    {
+      "ACTION_ID": 23,
+      "FIRST_BLOCK": 221
+    },
+    {
+      "ACTION_ID": 24,
+      "FIRST_BLOCK": 231
+    },
+    {
+      "ACTION_ID": 25,
+      "FIRST_BLOCK": 241
+    },
+    {
+      "ACTION_ID": 26,
+      "FIRST_BLOCK": 251
+    },
+    {
+      "ACTION_ID": 27,
+      "FIRST_BLOCK": 261
+    },
+    {
+      "ACTION_ID": 28,
+      "FIRST_BLOCK": 271
+    },
+    {
+      "ACTION_ID": 29,
+      "FIRST_BLOCK": 281
+    },
+    {
+      "ACTION_ID": 30,
+      "FIRST_BLOCK": 291
+    },
+    {
+      "ACTION_ID": 31,
+      "FIRST_BLOCK": 301
+    },
+    {
+      "ACTION_ID": 32,
+      "FIRST_BLOCK": 311
+    },
+    {
+      "ACTION_ID": 33,
+      "FIRST_BLOCK": 321
+    },
+    {
+      "ACTION_ID": 34,
+      "FIRST_BLOCK": 331
+    },
+    {
+      "ACTION_ID": 35,
+      "FIRST_BLOCK": 341
+    },
+    {
+      "ACTION_ID": 36,
+      "FIRST_BLOCK": 351
+    },
+    {
+      "ACTION_ID": 37,
+      "FIRST_BLOCK": 361
+    },
+    {
+      "ACTION_ID": 38,
+      "FIRST_BLOCK": 371
+    },
+    {
+      "ACTION_ID": 39,
+      "FIRST_BLOCK": 381
+    },
+    {
+      "ACTION_ID": 40,
+      "FIRST_BLOCK": 391
+    },
+    {
+      "ACTION_ID": 41,
+      "FIRST_BLOCK": 401
+    },
+    {
+      "ACTION_ID": 42,
+      "FIRST_BLOCK": 411
+    },
+    {
+      "ACTION_ID": 43,
+      "FIRST_BLOCK": 421
+    },
+    {
+      "ACTION_ID": 44,
+      "FIRST_BLOCK": 431
+    },
+    {
+      "ACTION_ID": 45,
+      "FIRST_BLOCK": 441
+    },
+    {
+      "ACTION_ID": 46,
+      "FIRST_BLOCK": 451
+    },
+    {
+      "ACTION_ID": 47,
+      "FIRST_BLOCK": 461
+    },
+    {
+      "ACTION_ID": 48,
+      "FIRST_BLOCK": 471
+    },
+    {
+      "ACTION_ID": 49,
+      "FIRST_BLOCK": 481
+    },
+    {
+      "ACTION_ID": 50,
+      "FIRST_BLOCK": 491
+    },
+    {
+      "ACTION_ID": 51,
+      "FIRST_BLOCK": 501
+    },
+    {
+      "ACTION_ID": 52,
+      "FIRST_BLOCK": 511
+    },
+    {
+      "ACTION_ID": 53,
+      "FIRST_BLOCK": 521
+    },
+    {
+      "ACTION_ID": 54,
+      "FIRST_BLOCK": 531
+    },
+    {
+      "ACTION_ID": 55,
+      "FIRST_BLOCK": 541
+    }
+  ]
+}

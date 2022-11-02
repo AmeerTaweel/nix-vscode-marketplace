@@ -1,9 +1,0 @@
-{
-    "include": [
-        {
-            "allow_net": "marketplace.visualstudio.com",
-            "name": "VSCode Marketplace",
-            "BLOCK_SIZE": 100
-        }
-    ]
-}

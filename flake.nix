@@ -100,7 +100,7 @@
             deno
             nvfetcher
             # gawk
-            # poetry
+            poetry
           ];
           buildInputs = [ ];
         };

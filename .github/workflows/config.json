@@ -1,9 +1,0 @@
-{
-    "include": [
-        {
-            "target": "vscode-marketplace",
-            "allow_net": "marketplace.visualstudio.com",
-            "marketplace": "VSCode Marketplace"
-        }
-    ]
-}

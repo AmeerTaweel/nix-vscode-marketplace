@@ -7,16 +7,16 @@ ENCODING = "utf-8"
 GENERATED = Path("generated")
 
 
-def write_file(f, txt):
+def write_file(f: Path, txt: str):
     with f.open("w", encoding=ENCODING) as g:
         g.write(txt)
 
 
-def clean_file(f):
+def clean_file(f: Path):
     write_file(f, "")
 
 
-def set_head(f, head_length, text):
+def set_head(f: Path, head_length: int, text: str):
     g = Path(f"{f}.copy")
     with f.open("r", encoding=ENCODING) as f_:
         with g.open("w", encoding=ENCODING) as g_:
