@@ -59,8 +59,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-      - name: Git pull
-        run: git pull
       - name: Install latest Nix
         uses: cachix/install-nix-action@v18
         with:

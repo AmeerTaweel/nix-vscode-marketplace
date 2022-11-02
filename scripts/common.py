@@ -30,8 +30,8 @@ def set_head(f, head_length, text):
     g.unlink()
 
 
-def append_json(acc, block):
-    acc_tmp = acc.parents[0] / f"{acc.stem}.tmp.json"
+def append_json(acc: Path, block: Path):
+    acc_tmp: Path = acc.parents[0] / f"{acc.stem}.tmp.json"
     clean_file(acc_tmp)
     with acc.open("r", encoding=ENCODING) as aj, acc_tmp.open(
         "a", encoding=ENCODING
@@ -41,10 +41,11 @@ def append_json(acc, block):
         atj.writelines(bjg.readlines()[1:])
 
     shutil.copy(acc_tmp, acc)
+    acc_tmp.unlink()
 
 
-def append_nix(acc, block):
-    acc_tmp = acc.parents[0] / f"{acc.stem}.tmp.nix"
+def append_nix(acc: Path, block: Path):
+    acc_tmp: Path = acc.parents[0] / f"{acc.stem}.tmp.nix"
     clean_file(acc_tmp)
     with acc.open("r", encoding=ENCODING) as an, acc_tmp.open(
         "a", encoding=ENCODING
@@ -54,6 +55,8 @@ def append_nix(acc, block):
         atn.writelines(bng.readlines()[3:])
 
     shutil.copy(acc_tmp, acc)
+    acc_tmp.unlink()
+
 
 nix_head = dedent(
     """\

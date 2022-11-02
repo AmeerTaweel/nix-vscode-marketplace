@@ -132,3 +132,4 @@ jobs:
     uses: ./.github/workflows/combine.yaml
     with:
       NAME: vscode-marketplace
+      NUMBER_ACTIONS: 4

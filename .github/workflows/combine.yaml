@@ -5,6 +5,9 @@ on:
       NAME:
         required: true
         type: string
+      NUMBER_ACTIONS:
+        required: true
+        type: number
 
 env:
   nixpkgs: nixpkgs=https://github.com/NixOS/nixpkgs/archive/cd87aef066e4bdbb1139845500072bd252d37c5e.tar.gz
@@ -19,8 +22,7 @@ env:
     git config user.email github-actions@github.com
     rm -rf blocks
     git add .
-    git diff --quiet && git diff --staged --quiet || git commit -m "action: update {1} extensions"
-    # git reset --soft HEAD~1
+    git diff --quiet && git diff --staged --quiet || git reset --soft HEAD~${{ inputs.NUMBER_ACTIONS }} && git commit -m "action: update {1} extensions"
     git push
 
 jobs:
