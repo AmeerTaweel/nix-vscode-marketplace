@@ -35,7 +35,7 @@ jobs:
     outputs:
       update-extensions: ${{ steps.update-extensions.outputs.update-extensions }}
       nvfetch-vscode-marketplace: ${{ steps.nvfetch-vscode-marketplace.outputs.nvfetch-vscode-marketplace }}
-      # combine-vscode-marketplace: ${{ steps.combine-vscode-marketplace.outputs.combine-vscode-marketplace }}
+      combine-vscode-marketplace: ${{ steps.combine-vscode-marketplace.outputs.combine-vscode-marketplace }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -48,9 +48,9 @@ jobs:
         id: nvfetch-vscode-marketplace
         run: echo "nvfetch-vscode-marketplace=$(jq -c . < .github/workflows/configs/nvfetch-vscode-marketplace.json)" >> $GITHUB_OUTPUT
 
-      # - name: Combine VSCode Marketplace
-      #   id: combine-vscode-marketplace
-      #   run: echo "combine-vscode-marketplace=$(jq -c . < .github/workflows/configs/combine-vscode-marketplace.json)" >> $GITHUB_OUTPUT
+      - name: Combine VSCode Marketplace
+        id: combine-vscode-marketplace
+        run: echo "combine-vscode-marketplace=$(jq -c . < .github/workflows/configs/combine-vscode-marketplace.json)" >> $GITHUB_OUTPUT
 
   # update-extensions:
   #   needs: read-configs
@@ -75,8 +75,8 @@ jobs:
 
   # Assume no race conditions when pushing
   nvfetch-vscode-marketplace:
-    name: ${{ matrix.MARKETPLACE }}
     # needs: [read-configs, update-extensions]
+    name: ${{ matrix.MARKETPLACE }}
     needs: [read-configs]
     strategy:
       matrix: ${{ fromJSON(needs.read-configs.outputs.nvfetch-vscode-marketplace) }}
@@ -91,12 +91,12 @@ jobs:
       BLOCK_SIZE: ${{ matrix.BLOCK_SIZE }}
       MARKETPLACE: ${{ matrix.MARKETPLACE }}
 
-  # combine-vscode-marketplace:
-  #   needs: [nvfetch-vscode-marketplace, read-configs]
-  #   strategy:
-  #     matrix: ${{ fromJSON(needs.read-configs.outputs.combine-vscode-marketplace) }}
-  #   uses: ./.github/workflows/combine.yaml
-  #   with:
-  #     NAME: ${{ matrix.TARGET }}
-  #     # includes update-extensions as it also pushes a commit
-  #     NUMBER_JOBS: ${{ matrix.NUMBER_JOBS }}
+  combine-vscode-marketplace:
+    needs: [nvfetch-vscode-marketplace, read-configs]
+    strategy:
+      matrix: ${{ fromJSON(needs.read-configs.outputs.combine-vscode-marketplace) }}
+    uses: ./.github/workflows/combine.yaml
+    with:
+      NAME: ${{ matrix.TARGET }}
+      # includes update-extensions as it also pushes a commit
+      NUMBER_JOBS: ${{ matrix.NUMBER_JOBS }}
