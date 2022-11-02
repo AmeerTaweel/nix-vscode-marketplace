@@ -1,0 +1,21 @@
+{
+    "ms-toolsai-jupyter": {
+        "cargoLocks": null,
+        "extract": null,
+        "name": "ms-toolsai-jupyter",
+        "passthru": {
+            "marketplaceName": "jupyter",
+            "marketplacePublisher": "ms-toolsai",
+            "name": "jupyter",
+            "publisher": "ms-toolsai"
+        },
+        "pinned": false,
+        "src": {
+            "name": "jupyter-2022.11.1003081210.zip",
+            "sha256": "sha256-bsvQguCGdzQ8eyBXz2y4i1cE9A3kneItoR1BjLLcgv4=",
+            "type": "url",
+            "url": "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/jupyter/2022.11.1003081210/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+        },
+        "version": "2022.11.1003081210"
+    }
+}
