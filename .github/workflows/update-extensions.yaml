@@ -98,6 +98,6 @@ jobs:
       matrix: ${{ fromJSON(needs.read-configs.outputs.combine-vscode-marketplace) }}
     uses: ./.github/workflows/combine.yaml
     with:
-      NAME: ${{ matrix.TARGET }}
+      TARGET: ${{ matrix.TARGET }}
       # includes update-extensions as it also pushes a commit
       NUMBER_JOBS: ${{ matrix.NUMBER_JOBS }}
