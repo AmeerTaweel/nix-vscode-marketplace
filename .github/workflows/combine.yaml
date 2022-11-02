@@ -24,7 +24,7 @@ env:
     rm -rf blocks
     git diff --quiet && git diff --staged --quiet || \
       git reset --soft HEAD~${{ inputs.NUMBER_ACTIONS }} && \
-      git add .
+      git add . && \
       git commit --allow-empty -m "action: update {0} extensions" && \
       git push -f
 
