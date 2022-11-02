@@ -1,10 +1,22 @@
 {
-  "ALLOW_NET": "marketplace.visualstudio.com",
-  "NAME": "VSCode Marketplace",
-  "TARGET": "vscode-marketplace",
-  "BLOCK_SIZE": 100,
-  "BLOCK_LIMIT": 10,
-  "NUMBER_JOBS": 56,
+  "ALLOW_NET": [
+    "marketplace.visualstudio.com"
+  ],
+  "NAME": [
+    "VSCode Marketplace"
+  ],
+  "TARGET": [
+    "vscode-marketplace"
+  ],
+  "BLOCK_SIZE": [
+    100
+  ],
+  "BLOCK_LIMIT": [
+    10
+  ],
+  "NUMBER_JOBS": [
+    56
+  ],
   "include": [
     {
       "ACTION_ID": 1,

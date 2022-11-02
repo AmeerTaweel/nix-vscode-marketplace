@@ -17,12 +17,12 @@ include = [
 NUMBER_JOBS = len(include) + 1
 
 t = {
-    "ALLOW_NET": "marketplace.visualstudio.com",
-    "NAME": "VSCode Marketplace",
-    "TARGET": TARGET,
-    "BLOCK_SIZE": BLOCK_SIZE,
-    "BLOCK_LIMIT": BLOCK_LIMIT,
-    "NUMBER_JOBS": NUMBER_JOBS,
+    "ALLOW_NET": ["marketplace.visualstudio.com"],
+    "NAME": ["VSCode Marketplace"],
+    "TARGET": [TARGET],
+    "BLOCK_SIZE": [BLOCK_SIZE],
+    "BLOCK_LIMIT": [BLOCK_LIMIT],
+    "NUMBER_JOBS": [NUMBER_JOBS],
     "include": include,
 }
 
