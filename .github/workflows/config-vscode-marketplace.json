@@ -3,7 +3,7 @@
         {
             "allow_net": "marketplace.visualstudio.com",
             "name": "VSCode Marketplace",
-            "BLOCK_SIZE": 100
+            "BLOCK_SIZE": 1
         }
     ]
 }

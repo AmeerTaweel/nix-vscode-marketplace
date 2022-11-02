@@ -51,7 +51,7 @@ jobs:
           extra_nix_config: ${{ env.extra_nix_config }}
           nix_path: ${{ env.nixpkgs }}
 
-      - name: Run nvfetcher on ${{ matrix.name }}
+      - name: Combine extensions ${{ matrix.name }}
         env:
           NAME: ${{ inputs.NAME }}
         run: |
