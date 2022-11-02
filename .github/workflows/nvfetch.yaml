@@ -34,7 +34,7 @@ env:
     git config user.name github-actions
     git config user.email github-actions@github.com
     git config pull.rebase true
-    git add blocks
+    git add .
     git commit --allow-empty -m "action: run nvfetcher on {0}"
     git pull
     git push
