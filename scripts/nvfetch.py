@@ -203,7 +203,8 @@ print(f"last block: {last_block + 1}")
 
 if last_block < first_block:
     print("\nError: the first block should come before the last block")
-    sys.exit()
+    print("Skipping these blocks")
+    sys.exit(0)
 
 print(f"#extensions to load: {extensions_to_load}")
 print(extensions_range_str(first_block, last_block))
