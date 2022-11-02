@@ -5,13 +5,12 @@ from pathlib import Path
 
 
 APPROX_TOTAL = 55000
-BLOCK_SIZE = 1
-BLOCK_LIMIT = 1
+BLOCK_SIZE = 100
+BLOCK_LIMIT = 25
 TARGET = "vscode-marketplace"
 NAME = "VSCode Marketplace"
 ALLOW_NET = "marketplace.visualstudio.com"
-# APPROX_BLOCKS = int(APPROX_TOTAL / (BLOCK_SIZE * BLOCK_LIMIT))
-APPROX_BLOCKS = 5
+APPROX_BLOCKS = int(APPROX_TOTAL / (BLOCK_SIZE * BLOCK_LIMIT))
 
 include = [
     {

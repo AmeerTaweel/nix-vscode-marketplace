@@ -6,44 +6,197 @@
       "ALLOW_NET": "marketplace.visualstudio.com",
       "NAME": "VSCode Marketplace",
       "TARGET": "vscode-marketplace",
-      "BLOCK_SIZE": 1,
-      "BLOCK_LIMIT": 1
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
     },
     {
       "ACTION_ID": 2,
-      "FIRST_BLOCK": 2,
+      "FIRST_BLOCK": 26,
       "ALLOW_NET": "marketplace.visualstudio.com",
       "NAME": "VSCode Marketplace",
       "TARGET": "vscode-marketplace",
-      "BLOCK_SIZE": 1,
-      "BLOCK_LIMIT": 1
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
     },
     {
       "ACTION_ID": 3,
-      "FIRST_BLOCK": 3,
+      "FIRST_BLOCK": 51,
       "ALLOW_NET": "marketplace.visualstudio.com",
       "NAME": "VSCode Marketplace",
       "TARGET": "vscode-marketplace",
-      "BLOCK_SIZE": 1,
-      "BLOCK_LIMIT": 1
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
     },
     {
       "ACTION_ID": 4,
-      "FIRST_BLOCK": 4,
+      "FIRST_BLOCK": 76,
       "ALLOW_NET": "marketplace.visualstudio.com",
       "NAME": "VSCode Marketplace",
       "TARGET": "vscode-marketplace",
-      "BLOCK_SIZE": 1,
-      "BLOCK_LIMIT": 1
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
     },
     {
       "ACTION_ID": 5,
-      "FIRST_BLOCK": 5,
+      "FIRST_BLOCK": 101,
       "ALLOW_NET": "marketplace.visualstudio.com",
       "NAME": "VSCode Marketplace",
       "TARGET": "vscode-marketplace",
-      "BLOCK_SIZE": 1,
-      "BLOCK_LIMIT": 1
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
+    },
+    {
+      "ACTION_ID": 6,
+      "FIRST_BLOCK": 126,
+      "ALLOW_NET": "marketplace.visualstudio.com",
+      "NAME": "VSCode Marketplace",
+      "TARGET": "vscode-marketplace",
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
+    },
+    {
+      "ACTION_ID": 7,
+      "FIRST_BLOCK": 151,
+      "ALLOW_NET": "marketplace.visualstudio.com",
+      "NAME": "VSCode Marketplace",
+      "TARGET": "vscode-marketplace",
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
+    },
+    {
+      "ACTION_ID": 8,
+      "FIRST_BLOCK": 176,
+      "ALLOW_NET": "marketplace.visualstudio.com",
+      "NAME": "VSCode Marketplace",
+      "TARGET": "vscode-marketplace",
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
+    },
+    {
+      "ACTION_ID": 9,
+      "FIRST_BLOCK": 201,
+      "ALLOW_NET": "marketplace.visualstudio.com",
+      "NAME": "VSCode Marketplace",
+      "TARGET": "vscode-marketplace",
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
+    },
+    {
+      "ACTION_ID": 10,
+      "FIRST_BLOCK": 226,
+      "ALLOW_NET": "marketplace.visualstudio.com",
+      "NAME": "VSCode Marketplace",
+      "TARGET": "vscode-marketplace",
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
+    },
+    {
+      "ACTION_ID": 11,
+      "FIRST_BLOCK": 251,
+      "ALLOW_NET": "marketplace.visualstudio.com",
+      "NAME": "VSCode Marketplace",
+      "TARGET": "vscode-marketplace",
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
+    },
+    {
+      "ACTION_ID": 12,
+      "FIRST_BLOCK": 276,
+      "ALLOW_NET": "marketplace.visualstudio.com",
+      "NAME": "VSCode Marketplace",
+      "TARGET": "vscode-marketplace",
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
+    },
+    {
+      "ACTION_ID": 13,
+      "FIRST_BLOCK": 301,
+      "ALLOW_NET": "marketplace.visualstudio.com",
+      "NAME": "VSCode Marketplace",
+      "TARGET": "vscode-marketplace",
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
+    },
+    {
+      "ACTION_ID": 14,
+      "FIRST_BLOCK": 326,
+      "ALLOW_NET": "marketplace.visualstudio.com",
+      "NAME": "VSCode Marketplace",
+      "TARGET": "vscode-marketplace",
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
+    },
+    {
+      "ACTION_ID": 15,
+      "FIRST_BLOCK": 351,
+      "ALLOW_NET": "marketplace.visualstudio.com",
+      "NAME": "VSCode Marketplace",
+      "TARGET": "vscode-marketplace",
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
+    },
+    {
+      "ACTION_ID": 16,
+      "FIRST_BLOCK": 376,
+      "ALLOW_NET": "marketplace.visualstudio.com",
+      "NAME": "VSCode Marketplace",
+      "TARGET": "vscode-marketplace",
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
+    },
+    {
+      "ACTION_ID": 17,
+      "FIRST_BLOCK": 401,
+      "ALLOW_NET": "marketplace.visualstudio.com",
+      "NAME": "VSCode Marketplace",
+      "TARGET": "vscode-marketplace",
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
+    },
+    {
+      "ACTION_ID": 18,
+      "FIRST_BLOCK": 426,
+      "ALLOW_NET": "marketplace.visualstudio.com",
+      "NAME": "VSCode Marketplace",
+      "TARGET": "vscode-marketplace",
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
+    },
+    {
+      "ACTION_ID": 19,
+      "FIRST_BLOCK": 451,
+      "ALLOW_NET": "marketplace.visualstudio.com",
+      "NAME": "VSCode Marketplace",
+      "TARGET": "vscode-marketplace",
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
+    },
+    {
+      "ACTION_ID": 20,
+      "FIRST_BLOCK": 476,
+      "ALLOW_NET": "marketplace.visualstudio.com",
+      "NAME": "VSCode Marketplace",
+      "TARGET": "vscode-marketplace",
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
+    },
+    {
+      "ACTION_ID": 21,
+      "FIRST_BLOCK": 501,
+      "ALLOW_NET": "marketplace.visualstudio.com",
+      "NAME": "VSCode Marketplace",
+      "TARGET": "vscode-marketplace",
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
+    },
+    {
+      "ACTION_ID": 22,
+      "FIRST_BLOCK": 526,
+      "ALLOW_NET": "marketplace.visualstudio.com",
+      "NAME": "VSCode Marketplace",
+      "TARGET": "vscode-marketplace",
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
     }
   ]
 }
