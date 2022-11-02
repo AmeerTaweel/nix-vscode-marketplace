@@ -1,4 +1,4 @@
-name: Nvfetch
+name: Combine
 on:
   workflow_call:
     inputs:
