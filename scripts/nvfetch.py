@@ -148,9 +148,8 @@ tmp_log = tmp / "log"
 tmp_log.mkdir(parents=True, exist_ok=True)
 
 # will collect skipped blocks
-skipped_dir = Path("skipped")
-skipped_dir.mkdir(parents=True, exist_ok=True)
-skipped = skipped_dir / name / f"{action_id}.toml"
+skipped: Path = BLOCK_DIR / "skipped" / name / f"{action_id}.toml"
+skipped.parents[0].mkdir(parents=True, exist_ok=True)
 
 # install missing software
 if shutil.which("nvfetcher") is None:
@@ -245,9 +244,10 @@ for i in range(first_block, last_block + 1):
             shell=True,
             check=True,
         )
+    # TODO nvfetch skipped
     except Exception as e:
         print(
-            f"nvfetcher failed. Appending block {i+1} to {toml_file}. We will try to nvfetch it later"
+            f"nvfetcher failed. Appending block {i+1} to {skipped}. We will try to nvfetch it later"
         )
         with skipped.open("a", encoding=ENCODING) as s, block_toml.open(
             "r", encoding=ENCODING
@@ -280,7 +280,7 @@ if init_json == str(init_json_):
 set_head(acc_nix, 5, nix_head)
 outdir = Path(BLOCK_DIR)
 out_generated_json = (
-    outdir / (generated_json.parents[0]) / f"{GENERATED}-{action_id}.json"
+    outdir / generated_json.parents[0] / f"{GENERATED}-{action_id}.json"
 )
 out_generated_json.parents[0].mkdir(parents=True, exist_ok=True)
 out_generated_nix = outdir / (generated_nix.parents[0]) / f"{GENERATED}-{action_id}.nix"

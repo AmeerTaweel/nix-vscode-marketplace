@@ -2,9 +2,9 @@ from pathlib import Path
 import shutil
 from textwrap import dedent
 
-BLOCK_DIR = "blocks"
+BLOCK_DIR = Path("blocks")
 ENCODING = "utf-8"
-GENERATED = "generated"
+GENERATED = Path("generated")
 
 
 def write_file(f, txt):
