@@ -5,7 +5,7 @@ on:
       NAME:
         required: true
         type: string
-      NUMBER_ACTIONS:
+      NUMBER_JOBS:
         required: true
         type: number
 
@@ -23,7 +23,7 @@ env:
     git config pull.rebase true
     rm -rf blocks
     git diff --quiet && git diff --staged --quiet || \
-      git reset --soft HEAD~${{ inputs.NUMBER_ACTIONS }} && \
+      git reset --soft HEAD~${{ inputs.NUMBER_JOBS }} && \
       git add . && \
       git commit --allow-empty -m "action: update {0} extensions" && \
       git push -f
@@ -47,7 +47,7 @@ jobs:
       matrix: ${{ fromJSON(needs.read_config.outputs.matrix) }}
     steps:
       - name: Calculate fetch depth
-        run: let 'a = ${{ inputs.NUMBER_ACTIONS }} + 2'; echo "FETCH_DEPTH=$a" >> $GITHUB_ENV
+        run: let 'a = ${{ inputs.NUMBER_JOBS }} + 2'; echo "FETCH_DEPTH=$a" >> $GITHUB_ENV
       - name: Checkout repository
         uses: actions/checkout@v3
         with:

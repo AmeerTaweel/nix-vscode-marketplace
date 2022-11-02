@@ -70,57 +70,51 @@ jobs:
     uses: ./.github/workflows/nvfetch.yaml
     with:
       NAME: vscode-marketplace
-      FIRST_BLOCK: 1
-      BLOCK_LIMIT: 1
       ACTION_ID: 1
-      # FIRST_BLOCK: 1
-      # BLOCK_LIMIT: 100
+      FIRST_BLOCK: 1
+      BLOCK_LIMIT: 100
 
   nvfetch-vscode-marketplace-2:
     needs: update-extensions
     uses: ./.github/workflows/nvfetch.yaml
     with:
       NAME: vscode-marketplace
-      FIRST_BLOCK: 2
-      BLOCK_LIMIT: 1
       ACTION_ID: 2
-      # FIRST_BLOCK: 101
-      # BLOCK_LIMIT: 100
+      FIRST_BLOCK: 101
+      BLOCK_LIMIT: 100
 
   nvfetch-vscode-marketplace-3:
     needs: update-extensions
     uses: ./.github/workflows/nvfetch.yaml
     with:
       NAME: vscode-marketplace
-      FIRST_BLOCK: 3
-      BLOCK_LIMIT: 1
       ACTION_ID: 3
-      # FIRST_BLOCK: 201
-      # BLOCK_LIMIT: 100
+      FIRST_BLOCK: 201
+      BLOCK_LIMIT: 100
 
-  # nvfetch-vscode-marketplace-4:
-  #   needs: update-extensions
-  #   uses: ./.github/workflows/nvfetch.yaml
-  #   with:
-  #     NAME: vscode-marketplace
-  #     FIRST_BLOCK: 301
-  #     BLOCK_LIMIT: 100
+  nvfetch-vscode-marketplace-4:
+    needs: update-extensions
+    uses: ./.github/workflows/nvfetch.yaml
+    with:
+      NAME: vscode-marketplace
+      FIRST_BLOCK: 301
+      BLOCK_LIMIT: 100
 
-  # nvfetch-vscode-marketplace-5:
-  #   needs: update-extensions
-  #   uses: ./.github/workflows/nvfetch.yaml
-  #   with:
-  #     NAME: vscode-marketplace
-  #     FIRST_BLOCK: 401
-  #     BLOCK_LIMIT: 100
+  nvfetch-vscode-marketplace-5:
+    needs: update-extensions
+    uses: ./.github/workflows/nvfetch.yaml
+    with:
+      NAME: vscode-marketplace
+      FIRST_BLOCK: 401
+      BLOCK_LIMIT: 100
 
-  # nvfetch-vscode-marketplace-6:
-  #   needs: update-extensions
-  #   uses: ./.github/workflows/nvfetch.yaml
-  #   with:
-  #     NAME: vscode-marketplace
-  #     FIRST_BLOCK: 501
-  #     BLOCK_LIMIT: 100
+  nvfetch-vscode-marketplace-6:
+    needs: update-extensions
+    uses: ./.github/workflows/nvfetch.yaml
+    with:
+      NAME: vscode-marketplace
+      FIRST_BLOCK: 501
+      BLOCK_LIMIT: 100
 
   combine-vscode-marketplace:
     needs:
@@ -128,8 +122,12 @@ jobs:
         nvfetch-vscode-marketplace-1,
         nvfetch-vscode-marketplace-2,
         nvfetch-vscode-marketplace-3,
+        nvfetch-vscode-marketplace-4,
+        nvfetch-vscode-marketplace-5,
+        nvfetch-vscode-marketplace-6,
       ]
     uses: ./.github/workflows/combine.yaml
     with:
       NAME: vscode-marketplace
-      NUMBER_ACTIONS: 4
+      # includes update-extensions
+      NUMBER_JOBS: 7
