@@ -1,15 +1,9 @@
 {
   "include": [
     {
-      "TARGET": [
-        "vscode-marketplace"
-      ],
-      "NAME": [
-        "VSCode Marketplace"
-      ],
-      "NUMBER_JOBS": [
-        4
-      ]
+      "TARGET": "vscode-marketplace",
+      "NAME": "VSCode Marketplace",
+      "NUMBER_JOBS": 4
     }
   ]
 }

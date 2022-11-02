@@ -40,9 +40,9 @@ write_file(
 combine = {
     "include": [
         {
-            "TARGET": [TARGET],
-            "NAME": [NAME],
-            "NUMBER_JOBS": [NUMBER_JOBS],
+            "TARGET": TARGET,
+            "NAME": NAME,
+            "NUMBER_JOBS": NUMBER_JOBS,
         }
     ]
 }
