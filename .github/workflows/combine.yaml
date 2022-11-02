@@ -24,8 +24,7 @@ env:
     rm -rf blocks
     git add .
     git diff --quiet && git diff --staged --quiet || git reset --soft HEAD~${{ inputs.NUMBER_ACTIONS }} && git commit -m "action: update {0} extensions"
-    git pull
-    git push
+    git push -f
 
 jobs:
   read_config:
