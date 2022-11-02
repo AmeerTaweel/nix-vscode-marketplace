@@ -23,7 +23,10 @@ env:
     git config pull.rebase true
     rm -rf blocks
     git add .
-    git diff --quiet && git diff --staged --quiet || git reset --soft HEAD~${{ inputs.NUMBER_ACTIONS }} && git commit -m "action: update {0} extensions"
+    git diff --quiet && git diff --staged --quiet || \
+      git reset --soft HEAD~${{ inputs.NUMBER_ACTIONS }} && \
+      git add . \
+      git commit -m "action: update {0} extensions"
     git push -f
 
 jobs:
