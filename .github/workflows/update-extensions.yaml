@@ -92,6 +92,7 @@ jobs:
       MARKETPLACE: ${{ matrix.MARKETPLACE }}
 
   combine-vscode-marketplace:
+    name: combine ${{ matrix.NAME }}
     needs: [nvfetch-vscode-marketplace, read-configs]
     strategy:
       matrix: ${{ fromJSON(needs.read-configs.outputs.combine-vscode-marketplace) }}

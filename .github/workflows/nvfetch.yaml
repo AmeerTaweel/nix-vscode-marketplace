@@ -53,6 +53,7 @@ env:
 jobs:
 
   nvfetch:
+    name: nvfetch ${{ inputs.NAME }} extensions from block ${{ inputs.FIRST_BLOCK }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
