@@ -97,6 +97,7 @@ jobs:
     uses: ./.github/workflows/nvfetch.yaml
     with:
       NAME: vscode-marketplace
+      ACTION_ID: 4
       FIRST_BLOCK: 301
       BLOCK_LIMIT: 100
 
@@ -105,6 +106,7 @@ jobs:
     uses: ./.github/workflows/nvfetch.yaml
     with:
       NAME: vscode-marketplace
+      ACTION_ID: 5
       FIRST_BLOCK: 401
       BLOCK_LIMIT: 100
 
@@ -113,6 +115,7 @@ jobs:
     uses: ./.github/workflows/nvfetch.yaml
     with:
       NAME: vscode-marketplace
+      ACTION_ID: 6
       FIRST_BLOCK: 501
       BLOCK_LIMIT: 100
 
