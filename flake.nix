@@ -73,7 +73,7 @@
           };
           combine = pkgs.writeShellApplication {
             name = "combine";
-            text = ''
+            text = ''       poetry install
               							poetry run python -m scripts.combine \
               								--name "$NAME" --out-dir "''${OUT_DIR:-./}"
               						'';
