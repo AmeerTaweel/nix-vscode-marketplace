@@ -42,15 +42,15 @@ jobs:
 
       - name: Update extensions
         id: update-extensions
-        run: echo "update-extensions=$(jq -c . < .github/workflows/config/update-extensions.json)" >> $GITHUB_OUTPUT
+        run: echo "update-extensions=$(jq -c . < .github/workflows/configs/update-extensions.json)" >> $GITHUB_OUTPUT
 
       - name: nvfetch VSCode
         id: nvfetch-vscode-marketplace
-        run: echo "nvfetch-vscode-marketplace=$(jq -c . < .github/workflows/config/nvfetch-vscode-marketplace.json)" >> $GITHUB_OUTPUT
+        run: echo "nvfetch-vscode-marketplace=$(jq -c . < .github/workflows/configs/nvfetch-vscode-marketplace.json)" >> $GITHUB_OUTPUT
       
       - name: Combine VSCode Marketplace
         id: combine-vscode-marketplace
-        run: echo "combine-vscode-marketplace=$(jq -c . < .github/workflows/config/combine-vscode-marketplace.json)" >> $GITHUB_OUTPUT
+        run: echo "combine-vscode-marketplace=$(jq -c . < .github/workflows/configs/combine-vscode-marketplace.json)" >> $GITHUB_OUTPUT
 
   update-extensions:
     needs: read-configs
