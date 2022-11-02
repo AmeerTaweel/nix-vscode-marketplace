@@ -14,33 +14,7 @@
     marketplaceName = "python";
     publisher = "ms-python";
   };
-  ms-toolsai-jupyter = {
-    pname = "ms-toolsai-jupyter";
-    version = "2022.11.1003081210";
-    src = fetchurl {
-      url = "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/jupyter/2022.11.1003081210/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "jupyter-2022.11.1003081210.zip";
-      sha256 = "sha256-bsvQguCGdzQ8eyBXz2y4i1cE9A3kneItoR1BjLLcgv4=";
-    };
-    name = "jupyter";
-    marketplacePublisher = "ms-toolsai";
-    marketplaceName = "jupyter";
-    publisher = "ms-toolsai";
-  };
 
-  ms-python-vscode-pylance = {
-    pname = "ms-python-vscode-pylance";
-    version = "2022.11.10";
-    src = fetchurl {
-      url = "https://ms-python.gallery.vsassets.io/_apis/public/gallery/publisher/ms-python/extension/vscode-pylance/2022.11.10/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "vscode-pylance-2022.11.10.zip";
-      sha256 = "sha256-ieZzyxBpEz4uM/KYjYxAo1D91DAOI+zkTEUjtmNuZaQ=";
-    };
-    name = "vscode-pylance";
-    marketplacePublisher = "ms-python";
-    marketplaceName = "vscode-pylance";
-    publisher = "ms-python";
-  };
   ms-vscode-cpptools = {
     pname = "ms-vscode-cpptools";
     version = "1.13.3";
@@ -68,17 +42,32 @@
     marketplaceName = "jupyter-keymap";
     publisher = "ms-toolsai";
   };
-  ms-toolsai-jupyter-renderers = {
-    pname = "ms-toolsai-jupyter-renderers";
-    version = "1.0.12";
+
+  ms-toolsai-jupyter = {
+    pname = "ms-toolsai-jupyter";
+    version = "2022.11.1003082255";
     src = fetchurl {
-      url = "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/jupyter-renderers/1.0.12/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
-      name = "jupyter-renderers-1.0.12.zip";
-      sha256 = "sha256-HziacDGDg5HBMWkaO/v4/jdMuFFmMkTP6Xb8O4H5hYo=";
+      url = "https://ms-toolsai.gallery.vsassets.io/_apis/public/gallery/publisher/ms-toolsai/extension/jupyter/2022.11.1003082255/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "jupyter-2022.11.1003082255.zip";
+      sha256 = "sha256-pnGD7ToqqRe9JIsN3G6XkD+NO5A6a6Vsukm1JhCBYzU=";
     };
-    name = "jupyter-renderers";
+    name = "jupyter";
     marketplacePublisher = "ms-toolsai";
-    marketplaceName = "jupyter-renderers";
+    marketplaceName = "jupyter";
     publisher = "ms-toolsai";
+  };
+
+  ms-python-vscode-pylance = {
+    pname = "ms-python-vscode-pylance";
+    version = "2022.11.10";
+    src = fetchurl {
+      url = "https://ms-python.gallery.vsassets.io/_apis/public/gallery/publisher/ms-python/extension/vscode-pylance/2022.11.10/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage";
+      name = "vscode-pylance-2022.11.10.zip";
+      sha256 = "sha256-ieZzyxBpEz4uM/KYjYxAo1D91DAOI+zkTEUjtmNuZaQ=";
+    };
+    name = "vscode-pylance";
+    marketplacePublisher = "ms-python";
+    marketplaceName = "vscode-pylance";
+    publisher = "ms-python";
   };
 }
