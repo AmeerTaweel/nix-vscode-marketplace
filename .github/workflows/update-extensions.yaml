@@ -53,7 +53,7 @@ jobs:
         run: echo "combine-vscode-marketplace=$(jq -c . < .github/workflows/configs/combine-vscode-marketplace.json)" >> $GITHUB_OUTPUT
 
   update-extensions:
-    needs: [read-configs]
+    needs: read-configs
     runs-on: ubuntu-latest
     strategy:
       matrix: ${{ fromJSON(needs.read-configs.outputs.update-extensions) }}
@@ -80,7 +80,7 @@ jobs:
     strategy:
       matrix: ${{ fromJSON(needs.read-configs.outputs.nvfetch-vscode-marketplace) }}
       fail-fast: false
-    uses: .github/workflows/nvfetch.yaml
+    uses: ./.github/workflows/nvfetch.yaml
     with:
       NAME: ${{ matrix.TARGET }}
       ACTION_ID: ${{ matrix.ACTION_ID }}
@@ -91,7 +91,7 @@ jobs:
     needs: [nvfetch-vscode-marketplace, read-configs]
     strategy:
       matrix: ${{ fromJSON(needs.read-configs.outputs.combine-vscode-marketplace) }}
-    uses: .github/workflows/combine.yaml
+    uses: ./.github/workflows/combine.yaml
     with:
       NAME: ${{ matrix.TARGET }}
       # includes update-extensions as it also pushes a commit
