@@ -72,6 +72,7 @@ jobs:
       NAME: vscode-marketplace
       FIRST_BLOCK: 1
       BLOCK_LIMIT: 1
+      ACTION_ID: 1
       # FIRST_BLOCK: 1
       # BLOCK_LIMIT: 100
 
@@ -82,6 +83,7 @@ jobs:
       NAME: vscode-marketplace
       FIRST_BLOCK: 2
       BLOCK_LIMIT: 1
+      ACTION_ID: 2
       # FIRST_BLOCK: 101
       # BLOCK_LIMIT: 100
 
@@ -92,6 +94,7 @@ jobs:
       NAME: vscode-marketplace
       FIRST_BLOCK: 3
       BLOCK_LIMIT: 1
+      ACTION_ID: 3
       # FIRST_BLOCK: 201
       # BLOCK_LIMIT: 100
 

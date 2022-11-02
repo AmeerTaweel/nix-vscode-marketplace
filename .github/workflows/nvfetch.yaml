@@ -17,6 +17,9 @@ on:
       INIT_NIX:
         required: false
         type: string
+      ACTION_ID:
+        required: true
+        type: string
       
 
 env:
@@ -71,6 +74,7 @@ jobs:
           BLOCK_LIMIT: ${{ inputs.BLOCK_LIMIT }}
           BLOCK_SIZE: ${{ matrix.BLOCK_SIZE }}
           INIT_JSON: ${{ inputs.INIT_JSON }}
+          ACTION_ID: ${{ inputs.ACTION_ID }}
           THREADS: 0
           OUT_BLOCKS_DIR: ./
         run: |
