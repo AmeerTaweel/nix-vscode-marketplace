@@ -35,7 +35,7 @@ env:
     git config user.email github-actions@github.com
     git config pull.rebase true
     git add blocks
-    git diff --quiet && git diff --staged --quiet || git commit -m "action: run nvfetcher on {1}"
+    git diff --quiet && git diff --staged --quiet || git commit -m "action: run nvfetcher on {0}"
     git pull
     git push
 
@@ -79,4 +79,4 @@ jobs:
           nix run .#scripts.nvfetch
 
       - name: Commit and push changes
-        run: ${{ format(env.commit_and_push, inputs.NAME, inputs.NAME) }}
+        run: ${{ format(env.commit_and_push, inputs.NAME) }}

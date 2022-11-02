@@ -20,9 +20,11 @@ env:
   commit_and_push: |
     git config user.name github-actions
     git config user.email github-actions@github.com
+    git config pull.rebase true
     rm -rf blocks
     git add .
-    git diff --quiet && git diff --staged --quiet || git reset --soft HEAD~${{ inputs.NUMBER_ACTIONS }} && git commit -m "action: update {1} extensions"
+    git diff --quiet && git diff --staged --quiet || git reset --soft HEAD~${{ inputs.NUMBER_ACTIONS }} && git commit -m "action: update {0} extensions"
+    git pull
     git push
 
 jobs:
@@ -60,4 +62,4 @@ jobs:
           nix run .#scripts.combine
 
       - name: Commit and push changes
-        run: ${{ format(env.commit_and_push, inputs.NAME, matrix.name) }}
+        run: ${{ format(env.commit_and_push, inputs.NAME) }}
