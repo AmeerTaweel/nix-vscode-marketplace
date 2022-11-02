@@ -1,4 +1,5 @@
-{
+{"mempty": {}
+,
     "ms-python-vscode-pylance": {
         "cargoLocks": null,
         "extract": null,
