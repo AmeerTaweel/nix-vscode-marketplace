@@ -13,17 +13,20 @@ ALLOW_NET = "marketplace.visualstudio.com"
 APPROX_BLOCKS = int(APPROX_TOTAL / (BLOCK_SIZE * BLOCK_LIMIT))
 
 include = [
-    {"ACTION_ID": i + 1, "FIRST_BLOCK": i * BLOCK_LIMIT + 1}
+    {
+        "ACTION_ID": i + 1,
+        "FIRST_BLOCK": i * BLOCK_LIMIT + 1,
+        "ALLOW_NET": ALLOW_NET,
+        "NAME": NAME,
+        "TARGET": TARGET,
+        "BLOCK_SIZE": BLOCK_SIZE,
+        "BLOCK_LIMIT": BLOCK_LIMIT,
+    }
     for i in range(APPROX_BLOCKS)
 ]
 NUMBER_JOBS = len(include) + 1
 
 nvfetch = {
-    "ALLOW_NET": [ALLOW_NET],
-    "NAME": [NAME],
-    "TARGET": [TARGET],
-    "BLOCK_SIZE": [BLOCK_SIZE],
-    "BLOCK_LIMIT": [BLOCK_LIMIT],
     "include": include,
 }
 

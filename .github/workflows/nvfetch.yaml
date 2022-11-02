@@ -68,6 +68,7 @@ jobs:
           BLOCK_LIMIT: ${{ inputs.BLOCK_LIMIT }}
           BLOCK_SIZE: ${{ inputs.BLOCK_SIZE }}
           INIT_JSON: ${{ inputs.INIT_JSON }}
+          INIT_NIX: ${{ inputs.INIT_NIX }}
           ACTION_ID: ${{ inputs.ACTION_ID }}
           THREADS: 0
           OUT_BLOCKS_DIR: ./
