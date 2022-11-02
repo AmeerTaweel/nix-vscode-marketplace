@@ -57,18 +57,25 @@
 
         scripts = {
           nvfetch = pkgs.writeShellApplication {
-            name = "fetch-extensions";
+            name = "nvfetch";
             runtimeInputs = [ pkgs.poetry ];
 						text = ''
 							poetry install
 							dir="tmp/init"
               init_json="$dir/init.json"
               init_nix="$dir/init.nix"
-							poetry run python scripts/nvfetch.py \
-								--out "''${OUT_DIR:-.}" --name "$NAME" --first-block "$FIRST_BLOCK" \
+							poetry run python -m scripts.nvfetch \
+								--name "$NAME" --first-block "$FIRST_BLOCK" \
 								--block-size "$BLOCK_SIZE" --block-limit "$BLOCK_LIMIT" \
 								--init-json "''${INIT_JSON:-$init_json}" --init-nix "''${INIT_NIX:-$init_nix}" \
-                --threads "''${THREADS:-0}"
+                --threads "''${THREADS:-0}" --action-id "$ACTION_ID"
+						'';
+          };
+          combine = pkgs.writeShellApplication {
+            name = "combine";
+            text = ''
+							poetry run python -m scripts.combine \
+								--name "$NAME" --out-dir "''${OUT_DIR:-./}"
 						'';
           };
         };
@@ -78,13 +85,14 @@
         devShell = pkgs.mkShell {
           shellHook = ''
                 			export DENO_DIR="$(pwd)/.deno"
-            					export BLOCK_SIZE=3
-            					export BLOCK_LIMIT=2
+            					export BLOCK_SIZE=1
+            					export BLOCK_LIMIT=1
 											export FIRST_BLOCK=1
             					export NAME=vscode-marketplace
-											export OUT_DIR=tmp/out
-                      export THREADS=40
-											export INIT_JSON=generated/vscode-marketplace/generated.json
+                      export THREADS=0
+                      export OUT_DIR=tmp/out
+                      export ACTION_ID=1
+											# export INIT_JSON=generated/vscode-marketplace/generated.json
 											# export INIT_NIX=generated/vscode-marketplace/generated.nix
             			'';
           nativeBuildInputs = with pkgs; [

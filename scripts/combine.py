@@ -1,0 +1,57 @@
+import argparse
+from pathlib import Path
+from scripts.common import (
+    BLOCK_DIR,
+    GENERATED,
+    append_json,
+    append_nix,
+    write_file,
+    nix_head,
+    set_head,
+)
+
+my_parser = argparse.ArgumentParser(prog="run-nvfetcher", description="Run nvfetcher")
+
+my_parser.add_argument(
+    "--name",
+    metavar="STRING",
+    type=str,
+    help="Name of target marketplace",
+    default="vscode-marketplace",
+)
+
+my_parser.add_argument(
+    "--out-dir",
+    metavar="PATH",
+    type=str,
+    help="Where to write the generated files",
+    default="tmp/out/combined",
+)
+
+args = my_parser.parse_args()
+
+# prepare filesystem
+name = args.name
+in_blocks_dir = Path(BLOCK_DIR) / GENERATED / name
+out_dir = Path(args.out_dir) / GENERATED / name
+
+in_blocks_dir.mkdir(parents=True, exist_ok=True)
+out_dir.mkdir(parents=True, exist_ok=True)
+
+files_json = in_blocks_dir.glob("generated-*.json")
+files_nix = in_blocks_dir.glob("generated-*.nix")
+
+generated_json = out_dir / f"{GENERATED}.json"
+generated_nix = out_dir / f"{GENERATED}.nix"
+
+write_file(generated_json, '{"mempty": {}\n}')
+write_file(generated_nix, "{mempty = {};\n}")
+
+for file_json in files_json:
+    append_json(acc=generated_json, block=file_json)
+
+for file_nix in files_nix:
+    append_nix(acc=generated_nix, block=file_nix)
+
+set_head(generated_json, 2, "{\n")
+set_head(generated_nix, 2, nix_head)

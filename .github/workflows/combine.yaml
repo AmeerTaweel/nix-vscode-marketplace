@@ -5,19 +5,6 @@ on:
       NAME:
         required: true
         type: string
-      FIRST_BLOCK:
-        required: true
-        type: string
-      BLOCK_LIMIT:
-        required: true
-        type: string
-      INIT_JSON:
-        required: false
-        type: string
-      INIT_NIX:
-        required: false
-        type: string
-      
 
 env:
   nixpkgs: nixpkgs=https://github.com/NixOS/nixpkgs/archive/cd87aef066e4bdbb1139845500072bd252d37c5e.tar.gz
@@ -30,10 +17,10 @@ env:
   commit_and_push: |
     git config user.name github-actions
     git config user.email github-actions@github.com
-    git config pull.rebase true
-    git add blocks
-    git diff --quiet && git diff --staged --quiet || git commit -m "action: run nvfetcher on {1}"
-    git pull
+    rm -rf blocks
+    git add .
+    git diff --quiet && git diff --staged --quiet || git commit -m "action: update {1} extensions"
+    # git reset --soft HEAD~1
     git push
 
 jobs:
@@ -67,14 +54,8 @@ jobs:
       - name: Run nvfetcher on ${{ matrix.name }}
         env:
           NAME: ${{ inputs.NAME }}
-          FIRST_BLOCK: ${{ inputs.FIRST_BLOCK }}
-          BLOCK_LIMIT: ${{ inputs.BLOCK_LIMIT }}
-          BLOCK_SIZE: ${{ matrix.BLOCK_SIZE }}
-          INIT_JSON: ${{ inputs.INIT_JSON }}
-          THREADS: 0
-          OUT_BLOCKS_DIR: ./
         run: |
-          nix run .#scripts.nvfetch
+          nix run .#scripts.combine
 
       - name: Commit and push changes
-        run: ${{ format(env.commit_and_push, inputs.NAME, inputs.NAME) }}
+        run: ${{ format(env.commit_and_push, inputs.NAME, matrix.name) }}
