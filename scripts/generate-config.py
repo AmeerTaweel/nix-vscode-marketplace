@@ -11,7 +11,7 @@ TARGET = "vscode-marketplace"
 NAME = "VSCode Marketplace"
 ALLOW_NET = "marketplace.visualstudio.com"
 # APPROX_BLOCKS = int(APPROX_TOTAL / (BLOCK_SIZE * BLOCK_LIMIT))
-APPROX_BLOCKS = 3
+APPROX_BLOCKS = 5
 
 include = [
     {
