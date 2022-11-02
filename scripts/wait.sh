@@ -9,7 +9,8 @@ WAIT_SECONDS=3
 
 while [[ ! -f $PREV_GENERATED ]]
 do
-    git pull || echo "waiting $WAIT_SECONDS seconds" && sleep $WAIT_SECONDS
+    echo "waiting $WAIT_SECONDS seconds" && sleep $WAIT_SECONDS
+    git pull
 done
 
 echo "ready to push"
