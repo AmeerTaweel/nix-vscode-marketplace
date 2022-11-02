@@ -45,6 +45,8 @@ env:
     git config pull.rebase true
     git add .
     git commit --allow-empty -m "action: run nvfetcher on {0}"
+    export ACTION_ID=${{ inputs.ACTION_ID }}
+    bash scripts/wait.sh
     git pull
     git push
 
