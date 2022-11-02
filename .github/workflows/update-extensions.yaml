@@ -42,7 +42,7 @@ jobs:
 
       - name: Update extensions
         id: update-extensions
-        run: echo "update-extensions=$(jq -c . < .github/workflows/config.json)" >> $GITHUB_OUTPUT
+        run: echo "update-extensions=$(jq -c . < .github/workflows/config/update-extensions.json)" >> $GITHUB_OUTPUT
 
       - name: nvfetch VSCode
         id: nvfetch-vscode-marketplace
@@ -78,7 +78,7 @@ jobs:
     name: ${{ matrix.NAME }}
     needs: [read-configs, update-extensions]
     strategy:
-      matrix: ${{ fromJSON(needs.read-configs.outputs.nvfetch-vscode) }}
+      matrix: ${{ fromJSON(needs.read-configs.outputs.nvfetch-vscode-marketplace) }}
       fail-fast: false
     uses: ./.github/workflows/nvfetch.yaml
     with:
@@ -90,7 +90,7 @@ jobs:
   combine-vscode-marketplace:
     needs: [nvfetch-vscode-marketplace, read-configs]
     strategy:
-      matrix: ${{ fromJSON(needs.read-configs.outputs.nvfetch-vscode-marketplace) }}
+      matrix: ${{ fromJSON(needs.read-configs.outputs.combine-vscode-marketplace) }}
     uses: ./.github/workflows/combine.yaml
     with:
       NAME: ${{ matrix.TARGET }}
