@@ -47,7 +47,7 @@ jobs:
       - name: nvfetch VSCode
         id: nvfetch-vscode-marketplace
         run: echo "nvfetch-vscode-marketplace=$(jq -c . < .github/workflows/configs/nvfetch-vscode-marketplace.json)" >> $GITHUB_OUTPUT
-      
+
       - name: Combine VSCode Marketplace
         id: combine-vscode-marketplace
         run: echo "combine-vscode-marketplace=$(jq -c . < .github/workflows/configs/combine-vscode-marketplace.json)" >> $GITHUB_OUTPUT
