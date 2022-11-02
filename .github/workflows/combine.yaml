@@ -22,12 +22,11 @@ env:
     git config user.email github-actions@github.com
     git config pull.rebase true
     rm -rf blocks
-    git add .
     git diff --quiet && git diff --staged --quiet || \
       git reset --soft HEAD~${{ inputs.NUMBER_ACTIONS }} && \
-      git add . \
-      git commit -m "action: update {0} extensions"
-    git push -f
+      git add .
+      git commit --allow-empty -m "action: update {0} extensions" && \
+      git push -f
 
 jobs:
   read_config:
@@ -47,8 +46,12 @@ jobs:
     strategy:
       matrix: ${{ fromJSON(needs.read_config.outputs.matrix) }}
     steps:
+      - name: Calculate fetch depth
+        run: let 'a = ${{ inputs.NUMBER_ACTIONS }} + 2'; echo "FETCH_DEPTH=$a" >> $GITHUB_ENV
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: ${{ env.FETCH_DEPTH }}
       - name: Git pull
         run: git pull
       - name: Install latest Nix
