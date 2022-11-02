@@ -75,7 +75,7 @@ jobs:
 
   # Assume no race conditions when pushing
   nvfetch-vscode-marketplace:
-    name: ${{ matrix.NAME }}
+    name: ${{ matrix.MARKETPLACE }}
     # needs: [read-configs, update-extensions]
     needs: [read-configs]
     strategy:
@@ -84,9 +84,12 @@ jobs:
     uses: ./.github/workflows/nvfetch.yaml
     with:
       TARGET: ${{ matrix.TARGET }}
+      NAME: ${{ matrix.NAME }}
       ACTION_ID: ${{ matrix.ACTION_ID }}
       FIRST_BLOCK: ${{ matrix.FIRST_BLOCK }}
       BLOCK_LIMIT: ${{ matrix.BLOCK_LIMIT }}
+      BLOCK_SIZE: ${{ matrix.BLOCK_SIZE }}
+      MARKETPLACE: ${{ matrix.MARKETPLACE }}
 
   # combine-vscode-marketplace:
   #   needs: [nvfetch-vscode-marketplace, read-configs]

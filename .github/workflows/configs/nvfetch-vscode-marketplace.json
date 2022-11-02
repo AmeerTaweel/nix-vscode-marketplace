@@ -14,9 +14,6 @@
   "BLOCK_LIMIT": [
     10
   ],
-  "NUMBER_JOBS": [
-    56
-  ],
   "include": [
     {
       "ACTION_ID": 1,

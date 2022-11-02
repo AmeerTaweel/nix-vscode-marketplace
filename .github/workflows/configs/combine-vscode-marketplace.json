@@ -1,11 +1,15 @@
 {
-  "NUMBER_JOBS": [
-    28
-  ],
-  "TARGET": [
-    "vscode-marketplace"
-  ],
-  "NAME": [
-    "VSCode Marketplace"
+  "include": [
+    {
+      "TARGET": [
+        "vscode-marketplace"
+      ],
+      "NAME": [
+        "VSCode Marketplace"
+      ],
+      "NUMBER_JOBS": [
+        56
+      ]
+    }
   ]
 }
