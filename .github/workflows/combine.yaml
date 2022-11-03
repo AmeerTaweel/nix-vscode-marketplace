@@ -39,7 +39,7 @@ jobs:
 
       - name: Combine
         id: combine
-        run: echo "combine=$(jq -c . < .github/workflows/configs/combine-${{ inputs.TARGET }}.json)" >> $GITHUB_OUTPUT
+        run: echo "combine=$(jq -c . < .github/workflows/configs/${{ inputs.TARGET }}/combine.json)" >> $GITHUB_OUTPUT
 
   nvfetch:
     runs-on: ubuntu-latest
@@ -63,7 +63,7 @@ jobs:
 
       - name: Combine extensions ${{ matrix.NAME }}
         env:
-          NAME: ${{ inputs.TARGET }}
+          TARGET: ${{ inputs.TARGET }}
         run: |
           nix run .#scripts.combine
 

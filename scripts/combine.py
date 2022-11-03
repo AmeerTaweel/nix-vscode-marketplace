@@ -33,9 +33,9 @@ my_parser.add_argument(
 args = my_parser.parse_args()
 
 # prepare filesystem
-name = args.name
-in_blocks_dir: Path = Path(BLOCK_DIR) / GENERATED / name
-out_dir: Path = Path(args.out_dir) / GENERATED / name
+target = args.target
+in_blocks_dir: Path = Path(BLOCK_DIR) / GENERATED / target
+out_dir: Path = Path(args.out_dir) / GENERATED / target
 
 in_blocks_dir.mkdir(parents=True, exist_ok=True)
 out_dir.mkdir(parents=True, exist_ok=True)
