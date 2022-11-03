@@ -75,9 +75,8 @@ jobs:
 
   # Assume no race conditions when pushing
   nvfetch-vscode-marketplace:
-    # needs: [read-configs, update-extensions]
+    needs: [read-configs, update-extensions]
     name: ${{ matrix.MARKETPLACE }}
-    needs: [read-configs]
     strategy:
       matrix: ${{ fromJSON(needs.read-configs.outputs.nvfetch-vscode-marketplace) }}
       fail-fast: false
