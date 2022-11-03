@@ -5,9 +5,6 @@ on:
       TARGET:
         required: true
         type: string
-      NAME:
-        required: true
-        type: string
       MARKETPLACE:
         required: true
         type: string
@@ -53,7 +50,7 @@ env:
 jobs:
 
   nvfetch:
-    name: nvfetch ${{ inputs.NAME }} extensions from block ${{ inputs.FIRST_BLOCK }}
+    name: nvfetch ${{ inputs.MARKETPLACE }} extensions from block ${{ inputs.FIRST_BLOCK }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -64,9 +61,9 @@ jobs:
           extra_nix_config: ${{ env.extra_nix_config }}
           nix_path: ${{ env.nixpkgs }}
 
-      - name: Run nvfetcher on ${{ inputs.NAME }}
+      - name: Run nvfetcher on ${{ inputs.MARKETPLACE }}
         env:
-          NAME: ${{ inputs.TARGET }}
+          TARGET: ${{ inputs.TARGET }}
           FIRST_BLOCK: ${{ inputs.FIRST_BLOCK }}
           BLOCK_LIMIT: ${{ inputs.BLOCK_LIMIT }}
           BLOCK_SIZE: ${{ inputs.BLOCK_SIZE }}

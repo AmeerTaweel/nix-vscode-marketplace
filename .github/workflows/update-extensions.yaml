@@ -77,7 +77,7 @@ jobs:
           extra_nix_config: ${{ env.extra_nix_config }}
           nix_path: ${{ env.nixpkgs }}
 
-      - name: Run Updater on ${{ matrix.NAME }} extensions
+      - name: Run Updater on ${{ matrix.MARKETPLACE }} extensions
         run: ${{ format(env.run_updater, matrix.ALLOW_NET, matrix.TARGET, matrix.TARGET) }}
 
       - name: Commit and push changes
@@ -100,7 +100,7 @@ jobs:
       MARKETPLACE: ${{ matrix.MARKETPLACE }}
 
   combine-vscode-marketplace:
-    name: combine ${{ matrix.NAME }}
+    name: combine ${{ matrix.MARKETPLACE }}
     needs: [nvfetch-vscode-marketplace, read-configs]
     strategy:
       matrix: ${{ fromJSON(needs.read-configs.outputs.combine-vscode-marketplace) }}
@@ -127,7 +127,7 @@ jobs:
       MARKETPLACE: ${{ matrix.MARKETPLACE }}
 
   combine-open-vsx:
-    name: combine ${{ matrix.NAME }}
+    name: combine ${{ matrix.MARKETPLACE }}
     needs: [nvfetch-open-vsx, read-configs]
     strategy:
       matrix: ${{ fromJSON(needs.read-configs.outputs.combine-open-vsx) }}

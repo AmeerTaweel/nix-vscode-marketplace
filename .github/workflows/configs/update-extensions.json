@@ -3,7 +3,12 @@
         {
             "TARGET": "vscode-marketplace",
             "ALLOW_NET": "marketplace.visualstudio.com",
-            "NAME": "VSCode Marketplace"
+            "MARKETPLACE": "VSCode Marketplace"
+        },
+        {
+            "TARGET": "open-vsx",
+            "ALLOW_NET": "open-vsx.org",
+            "MARKETPLACE": "Open VSX"
         }
     ]
 }
