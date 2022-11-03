@@ -32,14 +32,17 @@ args = my_parser.parse_args()
 
 # prepare filesystem
 name = args.name
-in_blocks_dir = Path(BLOCK_DIR) / GENERATED / name
-out_dir = Path(args.out_dir) / GENERATED / name
+in_blocks_dir: Path = Path(BLOCK_DIR) / GENERATED / name
+out_dir: Path = Path(args.out_dir) / GENERATED / name
 
 in_blocks_dir.mkdir(parents=True, exist_ok=True)
 out_dir.mkdir(parents=True, exist_ok=True)
 
-files_json = in_blocks_dir.glob("generated-*.json")
-files_nix = in_blocks_dir.glob("generated-*.nix")
+files_json = list(in_blocks_dir.glob(f"{GENERATED}-*.json"))
+files_nix = list(in_blocks_dir.glob(f"{GENERATED}-*.nix"))
+
+files_json.sort()
+files_nix.sort()
 
 generated_json = out_dir / f"{GENERATED}.json"
 generated_nix = out_dir / f"{GENERATED}.nix"

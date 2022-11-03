@@ -55,31 +55,33 @@
           open-vsx = loadGenerated "open-vsx";
         };
 
-        scripts = {
-          nvfetch = pkgs.writeShellApplication {
-            name = "nvfetch";
-            runtimeInputs = [ pkgs.poetry ];
-            text = ''
-              							poetry install
-              							dir="tmp/init"
-                            init_json="$dir/init.json"
-                            init_nix="$dir/init.nix"
-              							poetry run python -m scripts.nvfetch \
-              								--name "$NAME" --first-block "$FIRST_BLOCK" \
-              								--block-size "$BLOCK_SIZE" --block-limit "$BLOCK_LIMIT" \
-              								--init-json "''${INIT_JSON:-$init_json}" --init-nix "''${INIT_NIX:-$init_nix}" \
-                              --threads "''${THREADS:-0}" --action-id "$ACTION_ID"
-              						'';
-          };
-          combine = pkgs.writeShellApplication {
-            name = "combine";
-            text = ''       poetry install
+        scripts =
+          let poetryInstall = "if [[ ! -d .venv ]]; then poetry install; fi"; in
+          {
+            nvfetch = pkgs.writeShellApplication {
+              name = "nvfetch";
+              runtimeInputs = [ pkgs.poetry ];
+              text = ''
+                							${poetryInstall}
+                							dir="tmp/init"
+                              init_json="$dir/init.json"
+                              init_nix="$dir/init.nix"
+                							poetry run python -m scripts.nvfetch \
+                								--name "$NAME" --first-block "$FIRST_BLOCK" \
+                								--block-size "$BLOCK_SIZE" --block-limit "$BLOCK_LIMIT" \
+                								--init-json "''${INIT_JSON:-$init_json}" --init-nix "''${INIT_NIX:-$init_nix}" \
+                                --threads "''${THREADS:-0}" --action-id "$ACTION_ID"
+                						'';
+            };
+            combine = pkgs.writeShellApplication {
+              name = "combine";
+              text = ''     ${poetryInstall}
               							poetry run python -m scripts.combine \
               								--name "$NAME" --out-dir "''${OUT_DIR:-./}"
               						'';
-            runtimeInputs = [ pkgs.poetry ];
+              runtimeInputs = [ pkgs.poetry ];
+            };
           };
-        };
 
       in
       {
@@ -87,7 +89,7 @@
           shellHook = ''
                             			export DENO_DIR="$(pwd)/.deno"
                         					export BLOCK_SIZE=1
-                        					export BLOCK_LIMIT=1
+                        					export BLOCK_LIMIT=2
             											export FIRST_BLOCK=1
                         					export NAME=vscode-marketplace
                                   export THREADS=0

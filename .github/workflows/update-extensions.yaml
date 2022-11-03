@@ -52,26 +52,26 @@ jobs:
         id: combine-vscode-marketplace
         run: echo "combine-vscode-marketplace=$(jq -c . < .github/workflows/configs/combine-vscode-marketplace.json)" >> $GITHUB_OUTPUT
 
-  # update-extensions:
-  #   needs: read-configs
-  #   runs-on: ubuntu-latest
-  #   strategy:
-  #     matrix: ${{ fromJSON(needs.read-configs.outputs.update-extensions) }}
-  #   steps:
-  #     - name: Checkout repository
-  #       uses: actions/checkout@v3
+  update-extensions:
+    needs: read-configs
+    runs-on: ubuntu-latest
+    strategy:
+      matrix: ${{ fromJSON(needs.read-configs.outputs.update-extensions) }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-  #     - name: Install latest Nix
-  #       uses: cachix/install-nix-action@v18
-  #       with:
-  #         extra_nix_config: ${{ env.extra_nix_config }}
-  #         nix_path: ${{ env.nixpkgs }}
+      - name: Install latest Nix
+        uses: cachix/install-nix-action@v18
+        with:
+          extra_nix_config: ${{ env.extra_nix_config }}
+          nix_path: ${{ env.nixpkgs }}
 
-  #     - name: Run Updater on ${{ matrix.NAME }} extensions
-  #       run: ${{ format(env.run_updater, matrix.ALLOW_NET, matrix.TARGET, matrix.TARGET) }}
+      - name: Run Updater on ${{ matrix.NAME }} extensions
+        run: ${{ format(env.run_updater, matrix.ALLOW_NET, matrix.TARGET, matrix.TARGET) }}
 
-  #     - name: Commit and push changes
-  #       run: ${{ format(env.commit_and_push, matrix.TARGET, matrix.TARGET) }}
+      - name: Commit and push changes
+        run: ${{ format(env.commit_and_push, matrix.TARGET, matrix.TARGET) }}
 
   # Assume no race conditions when pushing
   nvfetch-vscode-marketplace:

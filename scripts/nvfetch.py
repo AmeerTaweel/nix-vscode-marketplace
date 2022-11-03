@@ -151,6 +151,18 @@ tmp_log.mkdir(parents=True, exist_ok=True)
 skipped: Path = BLOCK_DIR / "skipped" / name / f"{action_id}.toml"
 skipped.parents[0].mkdir(parents=True, exist_ok=True)
 
+outdir = Path(BLOCK_DIR)
+out_generated_json = (
+    outdir / generated_json.parents[0] / f"{GENERATED}-{action_id}.json"
+)
+
+# combine GH action expects that there will be a generated file, even if it's empty
+out_generated_json.parents[0].mkdir(parents=True, exist_ok=True)
+out_generated_nix = outdir / (generated_nix.parents[0]) / f"{GENERATED}-{action_id}.nix"
+out_generated_nix.parents[0].mkdir(parents=True, exist_ok=True)
+write_file(out_generated_json, '')
+write_file(out_generated_nix, '')
+
 # install missing software
 if shutil.which("nvfetcher") is None:
     process = subprocess.run(
@@ -278,12 +290,6 @@ for i in range(first_block, last_block + 1):
 if init_json == str(init_json_):
     set_head(acc_json, 2, "{\n")
 set_head(acc_nix, 5, nix_head)
-outdir = Path(BLOCK_DIR)
-out_generated_json = (
-    outdir / generated_json.parents[0] / f"{GENERATED}-{action_id}.json"
-)
-out_generated_json.parents[0].mkdir(parents=True, exist_ok=True)
-out_generated_nix = outdir / (generated_nix.parents[0]) / f"{GENERATED}-{action_id}.nix"
-out_generated_nix.parents[0].mkdir(parents=True, exist_ok=True)
+
 shutil.copy(acc_json, out_generated_json)
 shutil.copy(acc_nix, out_generated_nix)

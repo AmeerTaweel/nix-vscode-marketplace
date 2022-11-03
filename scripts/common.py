@@ -33,12 +33,16 @@ def set_head(f: Path, head_length: int, text: str):
 def append_json(acc: Path, block: Path):
     acc_tmp: Path = acc.parents[0] / f"{acc.stem}.tmp.json"
     clean_file(acc_tmp)
-    with acc.open("r", encoding=ENCODING) as aj, acc_tmp.open(
+    with acc.open("r", encoding=ENCODING) as acc_, acc_tmp.open(
         "a", encoding=ENCODING
-    ) as atj, block.open("r", encoding=ENCODING) as bjg:
-        atj.writelines(aj.readlines()[:-1])
-        atj.write(",\n")
-        atj.writelines(bjg.readlines()[1:])
+    ) as acc_tmp_, block.open("r", encoding=ENCODING) as block_:
+        acc_tmp_.writelines(acc_.readlines()[:-1])
+        if block_.read() != "":
+            block_.seek(0)
+            acc_tmp_.write(",\n")
+            acc_tmp_.writelines(block_.readlines()[1:])
+        else:
+            acc_tmp_.write("}")
 
     shutil.copy(acc_tmp, acc)
     acc_tmp.unlink()
@@ -47,12 +51,16 @@ def append_json(acc: Path, block: Path):
 def append_nix(acc: Path, block: Path):
     acc_tmp: Path = acc.parents[0] / f"{acc.stem}.tmp.nix"
     clean_file(acc_tmp)
-    with acc.open("r", encoding=ENCODING) as an, acc_tmp.open(
+    with acc.open("r", encoding=ENCODING) as acc_, acc_tmp.open(
         "a", encoding=ENCODING
-    ) as atn, block.open("r", encoding=ENCODING) as bng:
-        atn.writelines(an.readlines()[:-1])
-        atn.writelines("\n")
-        atn.writelines(bng.readlines()[3:])
+    ) as acc_tmp_, block.open("r", encoding=ENCODING) as block_:
+        acc_tmp_.writelines(acc_.readlines()[:-1])
+        if block_.read() != "":
+            block_.seek(0)
+            acc_tmp_.write("\n")
+            acc_tmp_.writelines(block_.readlines()[3:])
+        else:
+            acc_tmp_.write("}")
 
     shutil.copy(acc_tmp, acc)
     acc_tmp.unlink()
