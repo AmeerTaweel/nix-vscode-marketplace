@@ -8,6 +8,7 @@ GENERATED = Path("generated")
 
 
 def write_file(f: Path, txt: str):
+    f.parents[0].mkdir(parents=True, exist_ok=True)
     with f.open("w", encoding=ENCODING) as g:
         g.write(txt)
 

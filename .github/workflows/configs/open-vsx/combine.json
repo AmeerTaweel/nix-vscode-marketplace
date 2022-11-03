@@ -1,0 +1,9 @@
+{
+  "include": [
+    {
+      "TARGET": "open-vsx",
+      "MARKETPLACE": "VSCode Marketplace",
+      "NUMBER_JOBS": 8
+    }
+  ]
+}

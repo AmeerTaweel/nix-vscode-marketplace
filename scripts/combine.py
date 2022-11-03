@@ -10,10 +10,12 @@ from scripts.common import (
     set_head,
 )
 
-my_parser = argparse.ArgumentParser(prog="run-nvfetcher", description="Run nvfetcher")
+my_parser = argparse.ArgumentParser(
+    prog="combine-generated", description="Combine multiple generated files"
+)
 
 my_parser.add_argument(
-    "--name",
+    "--target",
     metavar="STRING",
     type=str,
     help="Name of target marketplace",
@@ -24,7 +26,7 @@ my_parser.add_argument(
     "--out-dir",
     metavar="PATH",
     type=str,
-    help="Where to write the generated files",
+    help="Where to write the combined files",
     default="tmp/out/combined",
 )
 

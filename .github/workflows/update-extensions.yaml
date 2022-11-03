@@ -36,6 +36,8 @@ jobs:
       update-extensions: ${{ steps.update-extensions.outputs.update-extensions }}
       nvfetch-vscode-marketplace: ${{ steps.nvfetch-vscode-marketplace.outputs.nvfetch-vscode-marketplace }}
       combine-vscode-marketplace: ${{ steps.combine-vscode-marketplace.outputs.combine-vscode-marketplace }}
+      nvfetch-open-vsx: ${{ steps.nvfetch-open-vsx.outputs.nvfetch-open-vsx }}
+      combine-open-vsx: ${{ steps.combine-open-vsx.outputs.combine-open-vsx }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -46,11 +48,19 @@ jobs:
 
       - name: nvfetch VSCode
         id: nvfetch-vscode-marketplace
-        run: echo "nvfetch-vscode-marketplace=$(jq -c . < .github/workflows/configs/nvfetch-vscode-marketplace.json)" >> $GITHUB_OUTPUT
+        run: echo "nvfetch-vscode-marketplace=$(jq -c . < .github/workflows/configs/vscode-marketplace/nvfetch.json)" >> $GITHUB_OUTPUT
 
       - name: Combine VSCode Marketplace
         id: combine-vscode-marketplace
-        run: echo "combine-vscode-marketplace=$(jq -c . < .github/workflows/configs/combine-vscode-marketplace.json)" >> $GITHUB_OUTPUT
+        run: echo "combine-vscode-marketplace=$(jq -c . < .github/workflows/configs/vscode-marketplace/combine.json)" >> $GITHUB_OUTPUT
+      
+      - name: nvfetch Open VSX
+        id: nvfetch-open-vsx
+        run: echo "nvfetch-open-vsx=$(jq -c . < .github/workflows/configs/open-vsx/nvfetch.json)" >> $GITHUB_OUTPUT
+
+      - name: Combine Open VSX
+        id: combine-open-vsx
+        run: echo "combine-open-vsx=$(jq -c . < .github/workflows/configs/open-vsx/combine.json)" >> $GITHUB_OUTPUT
 
   update-extensions:
     needs: read-configs
@@ -83,7 +93,6 @@ jobs:
     uses: ./.github/workflows/nvfetch.yaml
     with:
       TARGET: ${{ matrix.TARGET }}
-      NAME: ${{ matrix.NAME }}
       ACTION_ID: ${{ matrix.ACTION_ID }}
       FIRST_BLOCK: ${{ matrix.FIRST_BLOCK }}
       BLOCK_LIMIT: ${{ matrix.BLOCK_LIMIT }}
@@ -95,6 +104,33 @@ jobs:
     needs: [nvfetch-vscode-marketplace, read-configs]
     strategy:
       matrix: ${{ fromJSON(needs.read-configs.outputs.combine-vscode-marketplace) }}
+    uses: ./.github/workflows/combine.yaml
+    with:
+      TARGET: ${{ matrix.TARGET }}
+      # includes update-extensions as it also pushes a commit
+      NUMBER_JOBS: ${{ matrix.NUMBER_JOBS }}
+  
+  # Assume no race conditions when pushing
+  nvfetch-open-vsx:
+    needs: [read-configs, combine-vscode-marketplace]
+    name: ${{ matrix.MARKETPLACE }}
+    strategy:
+      matrix: ${{ fromJSON(needs.read-configs.outputs.nvfetch-open-vsx) }}
+      fail-fast: false
+    uses: ./.github/workflows/nvfetch.yaml
+    with:
+      TARGET: ${{ matrix.TARGET }}
+      ACTION_ID: ${{ matrix.ACTION_ID }}
+      FIRST_BLOCK: ${{ matrix.FIRST_BLOCK }}
+      BLOCK_LIMIT: ${{ matrix.BLOCK_LIMIT }}
+      BLOCK_SIZE: ${{ matrix.BLOCK_SIZE }}
+      MARKETPLACE: ${{ matrix.MARKETPLACE }}
+
+  combine-open-vsx:
+    name: combine ${{ matrix.NAME }}
+    needs: [nvfetch-open-vsx, read-configs]
+    strategy:
+      matrix: ${{ fromJSON(needs.read-configs.outputs.combine-open-vsx) }}
     uses: ./.github/workflows/combine.yaml
     with:
       TARGET: ${{ matrix.TARGET }}

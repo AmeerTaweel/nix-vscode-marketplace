@@ -18,7 +18,7 @@ from scripts.common import (
 my_parser = argparse.ArgumentParser(prog="run-nvfetcher", description="Run nvfetcher")
 
 my_parser.add_argument(
-    "--name",
+    "--target",
     metavar="STRING",
     type=str,
     help="Name of target marketplace",
@@ -87,7 +87,7 @@ my_parser.add_argument(
 
 args = my_parser.parse_args()
 
-name = args.name
+target = args.target
 block_size = args.block_size
 block_limit = args.block_limit
 # 0-base
@@ -112,8 +112,8 @@ print(f"using {init_nix}")
 
 nvfetch = Path("nvfetch")
 generated = Path(GENERATED)
-toml_file = nvfetch / f"{name}.toml"
-dir_generated = generated / name
+toml_file = nvfetch / f"{target}.toml"
+dir_generated = generated / target
 generated_json = dir_generated / f"{GENERATED}.json"
 generated_nix = dir_generated / f"{GENERATED}.nix"
 
@@ -121,7 +121,7 @@ tmp = Path("tmp")
 block_json_generated = tmp / generated_json
 block_nix_generated = tmp / generated_nix
 
-block_toml = tmp / f"{name}.toml"
+block_toml = tmp / f"{target}.toml"
 
 tmp_generated = tmp / dir_generated
 tmp_generated.mkdir(parents=True, exist_ok=True)
@@ -148,7 +148,7 @@ tmp_log = tmp / "log"
 tmp_log.mkdir(parents=True, exist_ok=True)
 
 # will collect skipped blocks
-skipped: Path = BLOCK_DIR / "skipped" / name / f"{action_id}.toml"
+skipped: Path = BLOCK_DIR / "skipped" / target / f"{action_id}.toml"
 skipped.parents[0].mkdir(parents=True, exist_ok=True)
 
 outdir = Path(BLOCK_DIR)

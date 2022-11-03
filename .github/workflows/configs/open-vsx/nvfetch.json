@@ -1,0 +1,60 @@
+{
+  "include": [
+    {
+      "ACTION_ID": 1,
+      "FIRST_BLOCK": 1,
+      "MARKETPLACE": "VSCode Marketplace",
+      "TARGET": "open-vsx",
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
+    },
+    {
+      "ACTION_ID": 2,
+      "FIRST_BLOCK": 26,
+      "MARKETPLACE": "VSCode Marketplace",
+      "TARGET": "open-vsx",
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
+    },
+    {
+      "ACTION_ID": 3,
+      "FIRST_BLOCK": 51,
+      "MARKETPLACE": "VSCode Marketplace",
+      "TARGET": "open-vsx",
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
+    },
+    {
+      "ACTION_ID": 4,
+      "FIRST_BLOCK": 76,
+      "MARKETPLACE": "VSCode Marketplace",
+      "TARGET": "open-vsx",
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
+    },
+    {
+      "ACTION_ID": 5,
+      "FIRST_BLOCK": 101,
+      "MARKETPLACE": "VSCode Marketplace",
+      "TARGET": "open-vsx",
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
+    },
+    {
+      "ACTION_ID": 6,
+      "FIRST_BLOCK": 126,
+      "MARKETPLACE": "VSCode Marketplace",
+      "TARGET": "open-vsx",
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
+    },
+    {
+      "ACTION_ID": 7,
+      "FIRST_BLOCK": 151,
+      "MARKETPLACE": "VSCode Marketplace",
+      "TARGET": "open-vsx",
+      "BLOCK_SIZE": 100,
+      "BLOCK_LIMIT": 25
+    }
+  ]
+}

@@ -62,23 +62,34 @@
               name = "nvfetch";
               runtimeInputs = [ pkgs.poetry ];
               text = ''
-                							${poetryInstall}
-                							dir="tmp/init"
-                              init_json="$dir/init.json"
-                              init_nix="$dir/init.nix"
-                							poetry run python -m scripts.nvfetch \
-                								--name "$NAME" --first-block "$FIRST_BLOCK" \
-                								--block-size "$BLOCK_SIZE" --block-limit "$BLOCK_LIMIT" \
-                								--init-json "''${INIT_JSON:-$init_json}" --init-nix "''${INIT_NIX:-$init_nix}" \
-                                --threads "''${THREADS:-0}" --action-id "$ACTION_ID"
-                						'';
+                ${poetryInstall}
+                dir="tmp/init"
+                init_json="$dir/init.json"
+                init_nix="$dir/init.nix"
+                poetry run python -m scripts.nvfetch \
+                  --target "$TARGET" --first-block "$FIRST_BLOCK" \
+                  --block-size "$BLOCK_SIZE" --block-limit "$BLOCK_LIMIT" \
+                  --init-json "''${INIT_JSON:-$init_json}" --init-nix "''${INIT_NIX:-$init_nix}" \
+                  --threads "''${THREADS:-0}" --action-id "$ACTION_ID"
+              '';
             };
             combine = pkgs.writeShellApplication {
               name = "combine";
-              text = ''     ${poetryInstall}
-              							poetry run python -m scripts.combine \
-              								--name "$NAME" --out-dir "''${OUT_DIR:-./}"
-              						'';
+              text = ''
+                ${poetryInstall}
+                poetry run python -m scripts.combine \
+                  --target "$TARGET" --out-dir "''${OUT_DIR:-./}"
+              '';
+              runtimeInputs = [ pkgs.poetry ];
+            };
+            generateConfigs = pkgs.writeShellApplication {
+              name = "generate-configs";
+              text = ''     
+                ${poetryInstall}
+                poetry run python -m scripts.generate-configs \
+                  --target "''${TARGET:-vscode-marketplace}" \
+                  --approx-extensions "''${APPROX_EXTENSIONS:-10000}"
+              '';
               runtimeInputs = [ pkgs.poetry ];
             };
           };
@@ -87,17 +98,25 @@
       {
         devShell = pkgs.mkShell {
           shellHook = ''
-                            			export DENO_DIR="$(pwd)/.deno"
-                        					export BLOCK_SIZE=1
-                        					export BLOCK_LIMIT=2
-            											export FIRST_BLOCK=1
-                        					export NAME=vscode-marketplace
-                                  export THREADS=0
-                                  export OUT_DIR=tmp/out
-                                  export ACTION_ID=1
-            											# export INIT_JSON=generated/vscode-marketplace/generated.json
-            											# export INIT_NIX=generated/vscode-marketplace/generated.nix
-                        			'';
+            # nvfetch
+            export DENO_DIR="$(pwd)/.deno"
+            export BLOCK_SIZE=1
+            export BLOCK_LIMIT=2
+            export FIRST_BLOCK=1
+            export TARGET=vscode-marketplace
+            export THREADS=0
+            export ACTION_ID=1
+            # export INIT_JSON=generated/vscode-marketplace/generated.json
+            # export INIT_NIX=generated/vscode-marketplace/generated.nix
+
+
+            # combine
+            export OUT_DIR=tmp/out
+
+
+            # generateConfigs
+            export APPROX_EXTENSIONS=55000
+          '';
           nativeBuildInputs = with pkgs; [
             deno
             nvfetcher
