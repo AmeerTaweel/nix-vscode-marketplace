@@ -1,0 +1,412 @@
+
+[jeff-hykin-better-shellscript-syntax]
+src.openvsx = "jeff-hykin.better-shellscript-syntax"
+fetch.openvsx = "jeff-hykin.better-shellscript-syntax"
+
+[jeff-hykin-better-shellscript-syntax.passthru]
+name = "better-shellscript-syntax"
+publisher = "jeff-hykin"
+marketplaceName = "better-shellscript-syntax"
+marketplacePublisher = "jeff-hykin"
+license = "isc"
+downloadPage = "https://open-vsx.org/api/jeff-hykin/better-shellscript-syntax/1.3.0/file/jeff-hykin.better-shellscript-syntax-1.3.0.vsix"
+homepage = "https://github.com/jeff-hykin/better-shell-syntax#readme"
+
+[PROxZIMA-sweetdracula]
+src.openvsx = "PROxZIMA.sweetdracula"
+fetch.openvsx = "PROxZIMA.sweetdracula"
+
+[PROxZIMA-sweetdracula.passthru]
+name = "sweetdracula"
+publisher = "proxzima"
+marketplaceName = "sweetdracula"
+marketplacePublisher = "PROxZIMA"
+license = "mit"
+changelog = "https://open-vsx.org/api/PROxZIMA/sweetdracula/1.0.9/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/PROxZIMA/sweetdracula/1.0.9/file/PROxZIMA.sweetdracula-1.0.9.vsix"
+homepage = "https://github.com/PROxZIMA/sweet-dracula#readme"
+
+[tiabeast-vscode-bait]
+src.openvsx = "tiabeast.vscode-bait"
+fetch.openvsx = "tiabeast.vscode-bait"
+
+[tiabeast-vscode-bait.passthru]
+name = "vscode-bait"
+publisher = "tiabeast"
+marketplaceName = "vscode-bait"
+marketplacePublisher = "tiabeast"
+license = "mit"
+changelog = "https://open-vsx.org/api/tiabeast/vscode-bait/0.2.4/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/tiabeast/vscode-bait/0.2.4/file/tiabeast.vscode-bait-0.2.4.vsix"
+homepage = "https://github.com/tiabeast/vscode-bait#readme"
+
+[sugatoray-jinja-extension-pack]
+src.openvsx = "sugatoray.jinja-extension-pack"
+fetch.openvsx = "sugatoray.jinja-extension-pack"
+
+[sugatoray-jinja-extension-pack.passthru]
+name = "jinja-extension-pack"
+publisher = "sugatoray"
+marketplaceName = "jinja-extension-pack"
+marketplacePublisher = "sugatoray"
+license = "mit"
+changelog = "https://open-vsx.org/api/sugatoray/jinja-extension-pack/1.0.3/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/sugatoray/jinja-extension-pack/1.0.3/file/sugatoray.jinja-extension-pack-1.0.3.vsix"
+homepage = "https://github.com/sugatoray/vscode-jinja-extension-pack#readme"
+
+[edukera-archetype]
+src.openvsx = "edukera.archetype"
+fetch.openvsx = "edukera.archetype"
+
+[edukera-archetype.passthru]
+name = "archetype"
+publisher = "edukera"
+marketplaceName = "archetype"
+marketplacePublisher = "edukera"
+license = "mit"
+changelog = "https://open-vsx.org/api/edukera/archetype/0.68.0/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/edukera/archetype/0.68.0/file/edukera.archetype-0.68.0.vsix"
+homepage = "https://github.com/completium/vscode-archetype#readme"
+
+[sugatoray-vscode-markdown-extension-pack]
+src.openvsx = "sugatoray.vscode-markdown-extension-pack"
+fetch.openvsx = "sugatoray.vscode-markdown-extension-pack"
+
+[sugatoray-vscode-markdown-extension-pack.passthru]
+name = "vscode-markdown-extension-pack"
+publisher = "sugatoray"
+marketplaceName = "vscode-markdown-extension-pack"
+marketplacePublisher = "sugatoray"
+license = "mit"
+changelog = "https://open-vsx.org/api/sugatoray/vscode-markdown-extension-pack/1.1.1/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/sugatoray/vscode-markdown-extension-pack/1.1.1/file/sugatoray.vscode-markdown-extension-pack-1.1.1.vsix"
+homepage = "https://github.com/sugatoray/vscode-markdown-extension-pack#readme"
+
+[sqlfluff-vscode-sqlfluff]
+src.openvsx = "sqlfluff.vscode-sqlfluff"
+fetch.openvsx = "sqlfluff.vscode-sqlfluff"
+
+[sqlfluff-vscode-sqlfluff.passthru]
+name = "vscode-sqlfluff"
+publisher = "sqlfluff"
+marketplaceName = "vscode-sqlfluff"
+marketplacePublisher = "sqlfluff"
+license = "mit"
+changelog = "https://open-vsx.org/api/sqlfluff/vscode-sqlfluff/2.2.2/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/sqlfluff/vscode-sqlfluff/2.2.2/file/sqlfluff.vscode-sqlfluff-2.2.2.vsix"
+homepage = "https://github.com/sqlfluff/vscode-sqlfluff"
+
+[rome-rome]
+src.openvsx = "rome.rome"
+fetch.openvsx = "rome.rome"
+
+[rome-rome.passthru]
+name = "rome"
+publisher = "rome"
+marketplaceName = "rome"
+marketplacePublisher = "rome"
+license = "mit"
+downloadPage = "https://open-vsx.org/api/rome/rome/win32-x64/0.21.20221217/file/rome.rome-0.21.20221217@win32-x64.vsix"
+homepage = "https://github.com/rome/tools#readme"
+
+[quarto-quarto]
+src.openvsx = "quarto.quarto"
+fetch.openvsx = "quarto.quarto"
+
+[quarto-quarto.passthru]
+name = "quarto"
+publisher = "quarto"
+marketplaceName = "quarto"
+marketplacePublisher = "quarto"
+license = "unfree"
+changelog = "https://open-vsx.org/api/quarto/quarto/1.59.0/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/quarto/quarto/1.59.0/file/quarto.quarto-1.59.0.vsix"
+homepage = "https://github.com/quarto-dev/quarto/tree/main/apps/vscode"
+
+[revaturePro-revature-cloudlabs]
+src.openvsx = "revaturePro.revature-cloudlabs"
+fetch.openvsx = "revaturePro.revature-cloudlabs"
+
+[revaturePro-revature-cloudlabs.passthru]
+name = "revature-cloudlabs"
+publisher = "revaturepro"
+marketplaceName = "revature-cloudlabs"
+marketplacePublisher = "revaturePro"
+license = "mit"
+changelog = "https://open-vsx.org/api/revaturePro/revature-cloudlabs/0.0.5/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/revaturePro/revature-cloudlabs/0.0.5/file/revaturePro.revature-cloudlabs-0.0.5.vsix"
+homepage = "https://github.com/pavithra-nagarajan/gitpod-plugin#readme"
+
+
+[j-f1-sf-symbols]
+src.openvsx = "j-f1.sf-symbols"
+fetch.openvsx = "j-f1.sf-symbols"
+
+[j-f1-sf-symbols.passthru]
+name = "sf-symbols"
+publisher = "j-f1"
+marketplaceName = "sf-symbols"
+marketplacePublisher = "j-f1"
+license = "mit"
+downloadPage = "https://open-vsx.org/api/j-f1/sf-symbols/1.1.0/file/j-f1.sf-symbols-1.1.0.vsix"
+homepage = "https://github.com/j-f1/sf-symbols-vscode#readme"
+
+[j-f1-vscode-smart-transpose]
+src.openvsx = "j-f1.vscode-smart-transpose"
+fetch.openvsx = "j-f1.vscode-smart-transpose"
+
+[j-f1-vscode-smart-transpose.passthru]
+name = "vscode-smart-transpose"
+publisher = "j-f1"
+marketplaceName = "vscode-smart-transpose"
+marketplacePublisher = "j-f1"
+license = "mit"
+downloadPage = "https://open-vsx.org/api/j-f1/vscode-smart-transpose/1.0.0/file/j-f1.vscode-smart-transpose-1.0.0.vsix"
+homepage = "https://github.com/j-f1/vscode-smart-transpose#readme"
+
+[FelixAngelov-mason]
+src.openvsx = "FelixAngelov.mason"
+fetch.openvsx = "FelixAngelov.mason"
+
+[FelixAngelov-mason.passthru]
+name = "mason"
+publisher = "felixangelov"
+marketplaceName = "mason"
+marketplacePublisher = "FelixAngelov"
+license = "mit"
+changelog = "https://open-vsx.org/api/FelixAngelov/mason/0.1.7/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/FelixAngelov/mason/0.1.7/file/FelixAngelov.mason-0.1.7.vsix"
+homepage = "https://brickhub.dev"
+
+[arm-keil-studio-pack-web]
+src.openvsx = "arm.keil-studio-pack-web"
+fetch.openvsx = "arm.keil-studio-pack-web"
+
+[arm-keil-studio-pack-web.passthru]
+name = "keil-studio-pack-web"
+publisher = "arm"
+marketplaceName = "keil-studio-pack-web"
+marketplacePublisher = "arm"
+license = "mit"
+downloadPage = "https://open-vsx.org/api/arm/keil-studio-pack-web/web/1.2.2/file/Arm.keil-studio-pack-web-1.2.2@web.vsix"
+homepage = "https://github.com/ARM-software/vscode-keil-studio-pack#readme"
+
+[bmd-stm32-for-vscode]
+src.openvsx = "bmd.stm32-for-vscode"
+fetch.openvsx = "bmd.stm32-for-vscode"
+
+[bmd-stm32-for-vscode.passthru]
+name = "stm32-for-vscode"
+publisher = "bmd"
+marketplaceName = "stm32-for-vscode"
+marketplacePublisher = "bmd"
+license = "mit"
+changelog = "https://open-vsx.org/api/bmd/stm32-for-vscode/3.2.3/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/bmd/stm32-for-vscode/3.2.3/file/bmd.stm32-for-vscode-3.2.3.vsix"
+homepage = "https://github.com/bmd-studio/stm32-for-vscode#readme"
+
+[kahole-magit]
+src.openvsx = "kahole.magit"
+fetch.openvsx = "kahole.magit"
+
+[kahole-magit.passthru]
+name = "magit"
+publisher = "kahole"
+marketplaceName = "magit"
+marketplacePublisher = "kahole"
+license = "mit"
+changelog = "https://open-vsx.org/api/kahole/magit/0.6.36/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/kahole/magit/0.6.36/file/kahole.magit-0.6.36.vsix"
+homepage = "https://github.com/kahole/edamagit/blob/master/README.md"
+
+[kieler-pasta]
+src.openvsx = "kieler.pasta"
+fetch.openvsx = "kieler.pasta"
+
+[kieler-pasta.passthru]
+name = "pasta"
+publisher = "kieler"
+marketplaceName = "pasta"
+marketplacePublisher = "kieler"
+license = "epl20"
+downloadPage = "https://open-vsx.org/api/kieler/pasta/0.1.1/file/kieler.pasta-0.1.1.vsix"
+homepage = "https://github.com/kieler/stpa#readme"
+
+[seatonjiang-gitmoji-vscode]
+src.openvsx = "seatonjiang.gitmoji-vscode"
+fetch.openvsx = "seatonjiang.gitmoji-vscode"
+
+[seatonjiang-gitmoji-vscode.passthru]
+name = "gitmoji-vscode"
+publisher = "seatonjiang"
+marketplaceName = "gitmoji-vscode"
+marketplacePublisher = "seatonjiang"
+license = "mit"
+changelog = "https://open-vsx.org/api/seatonjiang/gitmoji-vscode/1.2.2/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/seatonjiang/gitmoji-vscode/1.2.2/file/seatonjiang.gitmoji-vscode-1.2.2.vsix"
+homepage = "https://github.com/seatonjiang/gitmoji-vscode/blob/main/README.md"
+
+[arm-keil-studio-pack]
+src.openvsx = "arm.keil-studio-pack"
+fetch.openvsx = "arm.keil-studio-pack"
+
+[arm-keil-studio-pack.passthru]
+name = "keil-studio-pack"
+publisher = "arm"
+marketplaceName = "keil-studio-pack"
+marketplacePublisher = "arm"
+license = "mit"
+downloadPage = "https://open-vsx.org/api/arm/keil-studio-pack/1.2.2/file/Arm.keil-studio-pack-1.2.2.vsix"
+homepage = "https://github.com/ARM-software/vscode-keil-studio-pack#readme"
+
+[tenninebt-vscode-koverage]
+src.openvsx = "tenninebt.vscode-koverage"
+fetch.openvsx = "tenninebt.vscode-koverage"
+
+[tenninebt-vscode-koverage.passthru]
+name = "vscode-koverage"
+publisher = "tenninebt"
+marketplaceName = "vscode-koverage"
+marketplacePublisher = "tenninebt"
+license = "asl20"
+changelog = "https://open-vsx.org/api/tenninebt/vscode-koverage/0.0.13/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/tenninebt/vscode-koverage/0.0.13/file/tenninebt.vscode-koverage-0.0.13.vsix"
+homepage = "https://github.com/tenninebt/vscode-koverage#readme"
+
+
+[PolyMeilex-wgsl]
+src.openvsx = "PolyMeilex.wgsl"
+fetch.openvsx = "PolyMeilex.wgsl"
+
+[PolyMeilex-wgsl.passthru]
+name = "wgsl"
+publisher = "polymeilex"
+marketplaceName = "wgsl"
+marketplacePublisher = "PolyMeilex"
+license = "mit"
+downloadPage = "https://open-vsx.org/api/PolyMeilex/wgsl/0.1.14/file/PolyMeilex.wgsl-0.1.14.vsix"
+homepage = ""
+
+[kieler-stpa]
+src.openvsx = "kieler.stpa"
+fetch.openvsx = "kieler.stpa"
+
+[kieler-stpa.passthru]
+name = "stpa"
+publisher = "kieler"
+marketplaceName = "stpa"
+marketplacePublisher = "kieler"
+license = "epl20"
+downloadPage = "https://open-vsx.org/api/kieler/stpa/0.0.1/file/kieler.stpa-0.0.1.vsix"
+homepage = "https://github.com/kieler/stpa#readme"
+
+[wso2-ballerina]
+src.openvsx = "wso2.ballerina"
+fetch.openvsx = "wso2.ballerina"
+
+[wso2-ballerina.passthru]
+name = "ballerina"
+publisher = "wso2"
+marketplaceName = "ballerina"
+marketplacePublisher = "wso2"
+license = "unfree"
+changelog = "https://open-vsx.org/api/wso2/ballerina/3.3.5/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/wso2/ballerina/3.3.5/file/wso2.ballerina-3.3.5.vsix"
+homepage = "https://github.com/wso2/ballerina-plugin-vscode#readme"
+
+[piousdeer-adwaita-theme]
+src.openvsx = "piousdeer.adwaita-theme"
+fetch.openvsx = "piousdeer.adwaita-theme"
+
+[piousdeer-adwaita-theme.passthru]
+name = "adwaita-theme"
+publisher = "piousdeer"
+marketplaceName = "adwaita-theme"
+marketplacePublisher = "piousdeer"
+license = "gpl3Only"
+downloadPage = "https://open-vsx.org/api/piousdeer/adwaita-theme/1.1.0/file/piousdeer.adwaita-theme-1.1.0.vsix"
+homepage = "https://github.com/piousdeer/vscode-adwaita"
+
+[StevenConaway-albacore-asm]
+src.openvsx = "StevenConaway.albacore-asm"
+fetch.openvsx = "StevenConaway.albacore-asm"
+
+[StevenConaway-albacore-asm.passthru]
+name = "albacore-asm"
+publisher = "stevenconaway"
+marketplaceName = "albacore-asm"
+marketplacePublisher = "StevenConaway"
+license = "mit"
+changelog = "https://open-vsx.org/api/StevenConaway/albacore-asm/0.5.2/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/StevenConaway/albacore-asm/0.5.2/file/StevenConaway.albacore-asm-0.5.2.vsix"
+homepage = "https://github.com/SConaway/vscode-albacore-asm#readme"
+
+[redhat-vscode-kaoto]
+src.openvsx = "redhat.vscode-kaoto"
+fetch.openvsx = "redhat.vscode-kaoto"
+
+[redhat-vscode-kaoto.passthru]
+name = "vscode-kaoto"
+publisher = "redhat"
+marketplaceName = "vscode-kaoto"
+marketplacePublisher = "redhat"
+license = "asl20"
+changelog = "https://open-vsx.org/api/redhat/vscode-kaoto/0.2.0/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/redhat/vscode-kaoto/0.2.0/file/redhat.vscode-kaoto-0.2.0.vsix"
+homepage = "https://github.com/KaotoIO/vscode-kaoto"
+
+[thiht-vscode-venom]
+src.openvsx = "thiht.vscode-venom"
+fetch.openvsx = "thiht.vscode-venom"
+
+[thiht-vscode-venom.passthru]
+name = "vscode-venom"
+publisher = "thiht"
+marketplaceName = "vscode-venom"
+marketplacePublisher = "thiht"
+license = "mit"
+changelog = "https://open-vsx.org/api/thiht/vscode-venom/1.4.0/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/thiht/vscode-venom/1.4.0/file/thiht.vscode-venom-1.4.0.vsix"
+homepage = "https://github.com/Thiht/vscode-venom#readme"
+
+[effect-effect-debugger]
+src.openvsx = "effect.effect-debugger"
+fetch.openvsx = "effect.effect-debugger"
+
+[effect-effect-debugger.passthru]
+name = "effect-debugger"
+publisher = "effect"
+marketplaceName = "effect-debugger"
+marketplacePublisher = "effect"
+license = "mit"
+downloadPage = "https://open-vsx.org/api/effect/effect-debugger/0.0.1/file/effect.effect-debugger-0.0.1.vsix"
+homepage = "https://github.com/Effect-TS/vscode-extension#readme"
+
+[karatelabs-karate]
+src.openvsx = "karatelabs.karate"
+fetch.openvsx = "karatelabs.karate"
+
+[karatelabs-karate.passthru]
+name = "karate"
+publisher = "karatelabs"
+marketplaceName = "karate"
+marketplacePublisher = "karatelabs"
+license = "unfree"
+changelog = "https://open-vsx.org/api/karatelabs/karate/linux-x64/0.4.0/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/karatelabs/karate/linux-x64/0.4.0/file/karatelabs.karate-0.4.0@linux-x64.vsix"
+homepage = "https://github.com/karatelabs/karate-vscode-extension"
+
+[pokey-parse-tree]
+src.openvsx = "pokey.parse-tree"
+fetch.openvsx = "pokey.parse-tree"
+
+[pokey-parse-tree.passthru]
+name = "parse-tree"
+publisher = "pokey"
+marketplaceName = "parse-tree"
+marketplacePublisher = "pokey"
+license = "mit"
+changelog = "https://open-vsx.org/api/pokey/parse-tree/0.24.0/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/pokey/parse-tree/0.24.0/file/pokey.parse-tree-0.24.0.vsix"
+homepage = ""
+
