@@ -65,7 +65,7 @@ publisher = "rust-lang"
 marketplaceName = "rust-analyzer"
 marketplacePublisher = "rust-lang"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/rust-lang/rust-analyzer/win32-x64/0.4.1365/file/rust-lang.rust-analyzer-0.4.1365@win32-x64.vsix"
+downloadPage = "https://open-vsx.org/api/rust-lang/rust-analyzer/win32-x64/0.4.1366/file/rust-lang.rust-analyzer-0.4.1366@win32-x64.vsix"
 homepage = "https://rust-analyzer.github.io/"
 
 [svelte-svelte-vscode]
@@ -217,20 +217,6 @@ license = "mit"
 downloadPage = "https://open-vsx.org/api/sasjs/sasjs-for-vscode/1.28.0/file/SASjs.sasjs-for-vscode-1.28.0.vsix"
 homepage = "https://sasjs.io/vscode"
 
-[WakaTime-vscode-wakatime]
-src.openvsx = "WakaTime.vscode-wakatime"
-fetch.openvsx = "WakaTime.vscode-wakatime"
-
-[WakaTime-vscode-wakatime.passthru]
-name = "vscode-wakatime"
-publisher = "wakatime"
-marketplaceName = "vscode-wakatime"
-marketplacePublisher = "WakaTime"
-license = "bsd3"
-changelog = "https://open-vsx.org/api/WakaTime/vscode-wakatime/23.0.0/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/WakaTime/vscode-wakatime/23.0.0/file/WakaTime.vscode-wakatime-23.0.0.vsix"
-homepage = "https://wakatime.com/"
-
 [Prisma-prisma-insider]
 src.openvsx = "Prisma.prisma-insider"
 fetch.openvsx = "Prisma.prisma-insider"
@@ -244,6 +230,20 @@ license = "asl20"
 changelog = "https://open-vsx.org/api/Prisma/prisma-insider/31.0.1817/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/Prisma/prisma-insider/31.0.1817/file/Prisma.prisma-insider-31.0.1817.vsix"
 homepage = "https://github.com/prisma/language-tools#readme"
+
+[WakaTime-vscode-wakatime]
+src.openvsx = "WakaTime.vscode-wakatime"
+fetch.openvsx = "WakaTime.vscode-wakatime"
+
+[WakaTime-vscode-wakatime.passthru]
+name = "vscode-wakatime"
+publisher = "wakatime"
+marketplaceName = "vscode-wakatime"
+marketplacePublisher = "WakaTime"
+license = "bsd3"
+changelog = "https://open-vsx.org/api/WakaTime/vscode-wakatime/23.0.0/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/WakaTime/vscode-wakatime/23.0.0/file/WakaTime.vscode-wakatime-23.0.0.vsix"
+homepage = "https://wakatime.com/"
 
 [hirosystems-clarity-lsp]
 src.openvsx = "hirosystems.clarity-lsp"
@@ -328,19 +328,19 @@ changelog = "https://open-vsx.org/api/d-biehl/robotcode/0.23.0/file/CHANGELOG.md
 downloadPage = "https://open-vsx.org/api/d-biehl/robotcode/0.23.0/file/d-biehl.robotcode-0.23.0.vsix"
 homepage = "https://robotcode.io"
 
-[webfreak-debug]
-src.openvsx = "webfreak.debug"
-fetch.openvsx = "webfreak.debug"
+[remcohaszing-schemastore]
+src.openvsx = "remcohaszing.schemastore"
+fetch.openvsx = "remcohaszing.schemastore"
 
-[webfreak-debug.passthru]
-name = "debug"
-publisher = "webfreak"
-marketplaceName = "debug"
-marketplacePublisher = "webfreak"
-license = "publicDomain"
-changelog = "https://open-vsx.org/api/webfreak/debug/0.26.1/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/webfreak/debug/0.26.1/file/webfreak.debug-0.26.1.vsix"
-homepage = "https://github.com/WebFreak001/code-debug#readme"
+[remcohaszing-schemastore.passthru]
+name = "schemastore"
+publisher = "remcohaszing"
+marketplaceName = "schemastore"
+marketplacePublisher = "remcohaszing"
+license = "mit"
+changelog = "https://open-vsx.org/api/remcohaszing/schemastore/1.0.47/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/remcohaszing/schemastore/1.0.47/file/remcohaszing.schemastore-1.0.47.vsix"
+homepage = "https://github.com/remcohaszing/vscode-schemastore#readme"
 
 [ONXGroup-elastic-tabstops-mono]
 src.openvsx = "ONXGroup.elastic-tabstops-mono"
@@ -368,6 +368,20 @@ marketplacePublisher = "borkdude"
 license = "epl10"
 downloadPage = "https://open-vsx.org/api/borkdude/clj-kondo/2023.1.12/file/borkdude.clj-kondo-2023.1.12.vsix"
 homepage = "https://github.com/borkdude/clj-kondo.lsp#readme"
+
+[webfreak-debug]
+src.openvsx = "webfreak.debug"
+fetch.openvsx = "webfreak.debug"
+
+[webfreak-debug.passthru]
+name = "debug"
+publisher = "webfreak"
+marketplaceName = "debug"
+marketplacePublisher = "webfreak"
+license = "publicDomain"
+changelog = "https://open-vsx.org/api/webfreak/debug/0.26.1/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/webfreak/debug/0.26.1/file/webfreak.debug-0.26.1.vsix"
+homepage = "https://github.com/WebFreak001/code-debug#readme"
 
 [atlassian-atlascode]
 src.openvsx = "atlassian.atlascode"
@@ -607,20 +621,6 @@ changelog = "https://open-vsx.org/api/zokugun/sync-settings/0.15.0/file/CHANGELO
 downloadPage = "https://open-vsx.org/api/zokugun/sync-settings/0.15.0/file/zokugun.sync-settings-0.15.0.vsix"
 homepage = "https://github.com/zokugun/vscode-sync-settings"
 
-[remcohaszing-schemastore]
-src.openvsx = "remcohaszing.schemastore"
-fetch.openvsx = "remcohaszing.schemastore"
-
-[remcohaszing-schemastore.passthru]
-name = "schemastore"
-publisher = "remcohaszing"
-marketplaceName = "schemastore"
-marketplacePublisher = "remcohaszing"
-license = "mit"
-changelog = "https://open-vsx.org/api/remcohaszing/schemastore/1.0.46/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/remcohaszing/schemastore/1.0.46/file/remcohaszing.schemastore-1.0.46.vsix"
-homepage = "https://github.com/remcohaszing/vscode-schemastore#readme"
-
 [LeonardSSH-vscord]
 src.openvsx = "LeonardSSH.vscord"
 fetch.openvsx = "LeonardSSH.vscord"
@@ -731,6 +731,20 @@ changelog = "https://open-vsx.org/api/fredhappyface/linuxkeybindings/1.58.0/file
 downloadPage = "https://open-vsx.org/api/fredhappyface/linuxkeybindings/1.58.0/file/fredhappyface.linuxkeybindings-1.58.0.vsix"
 homepage = "https://github.com/FredHappyface/VSCode.OSKeybindings#readme"
 
+[cyrusfirheir-twee3-language-tools]
+src.openvsx = "cyrusfirheir.twee3-language-tools"
+fetch.openvsx = "cyrusfirheir.twee3-language-tools"
+
+[cyrusfirheir-twee3-language-tools.passthru]
+name = "twee3-language-tools"
+publisher = "cyrusfirheir"
+marketplaceName = "twee3-language-tools"
+marketplacePublisher = "cyrusfirheir"
+license = "mit"
+changelog = "https://open-vsx.org/api/cyrusfirheir/twee3-language-tools/0.19.2/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/cyrusfirheir/twee3-language-tools/0.19.2/file/cyrusfirheir.twee3-language-tools-0.19.2.vsix"
+homepage = "https://github.com/cyrusfirheir/twee3-language-tools#readme"
+
 [Pivotal-vscode-spring-boot]
 src.openvsx = "Pivotal.vscode-spring-boot"
 fetch.openvsx = "Pivotal.vscode-spring-boot"
@@ -772,20 +786,6 @@ license = "mit"
 downloadPage = "https://open-vsx.org/api/halcyontechltd/code-for-ibmi/1.6.9/file/halcyontechltd.code-for-ibmi-1.6.9.vsix"
 homepage = "https://github.com/halcyon-tech/code-for-ibmi#readme"
 
-[pokey-cursorless]
-src.openvsx = "pokey.cursorless"
-fetch.openvsx = "pokey.cursorless"
-
-[pokey-cursorless.passthru]
-name = "cursorless"
-publisher = "pokey"
-marketplaceName = "cursorless"
-marketplacePublisher = "pokey"
-license = "mit"
-changelog = "https://open-vsx.org/api/pokey/cursorless/0.26.557/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/pokey/cursorless/0.26.557/file/pokey.cursorless-0.26.557.vsix"
-homepage = "https://www.cursorless.org/"
-
 [halcyontechltd-vscode-rpgle]
 src.openvsx = "halcyontechltd.vscode-rpgle"
 fetch.openvsx = "halcyontechltd.vscode-rpgle"
@@ -796,8 +796,8 @@ publisher = "halcyontechltd"
 marketplaceName = "vscode-rpgle"
 marketplacePublisher = "halcyontechltd"
 license = "mit"
-changelog = "https://open-vsx.org/api/halcyontechltd/vscode-rpgle/0.17.1/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/halcyontechltd/vscode-rpgle/0.17.1/file/halcyontechltd.vscode-rpgle-0.17.1.vsix"
+changelog = "https://open-vsx.org/api/halcyontechltd/vscode-rpgle/0.17.2/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/halcyontechltd/vscode-rpgle/0.17.2/file/halcyontechltd.vscode-rpgle-0.17.2.vsix"
 homepage = "https://github.com/halcyon-tech/vscode-rpgle#readme"
 
 [Slint-slint-nightly]
@@ -883,6 +883,20 @@ changelog = "https://open-vsx.org/api/CodeStream/codestream/14.12.0/file/CHANGEL
 downloadPage = "https://open-vsx.org/api/CodeStream/codestream/14.12.0/file/CodeStream.codestream-14.12.0.vsix"
 homepage = "https://codestream.com"
 
+[pokey-cursorless]
+src.openvsx = "pokey.cursorless"
+fetch.openvsx = "pokey.cursorless"
+
+[pokey-cursorless.passthru]
+name = "cursorless"
+publisher = "pokey"
+marketplaceName = "cursorless"
+marketplacePublisher = "pokey"
+license = "mit"
+changelog = "https://open-vsx.org/api/pokey/cursorless/0.26.557/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/pokey/cursorless/0.26.557/file/pokey.cursorless-0.26.557.vsix"
+homepage = "https://www.cursorless.org/"
+
 [dendron-dendron]
 src.openvsx = "dendron.dendron"
 fetch.openvsx = "dendron.dendron"
@@ -920,8 +934,8 @@ publisher = "ejgallego"
 marketplaceName = "coq-lsp"
 marketplacePublisher = "ejgallego"
 license = "unfree"
-changelog = "https://open-vsx.org/api/ejgallego/coq-lsp/0.1.2/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/ejgallego/coq-lsp/0.1.2/file/ejgallego.coq-lsp-0.1.2.vsix"
+changelog = "https://open-vsx.org/api/ejgallego/coq-lsp/0.1.3/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/ejgallego/coq-lsp/0.1.3/file/ejgallego.coq-lsp-0.1.3.vsix"
 homepage = "https://github.com/ejgallego/coq-lsp"
 
 [azdavis-millet]
@@ -1507,34 +1521,6 @@ changelog = "https://open-vsx.org/api/porifa/laravel-intelephense/1.20.4/file/CH
 downloadPage = "https://open-vsx.org/api/porifa/laravel-intelephense/1.20.4/file/porifa.laravel-intelephense-1.20.4.vsix"
 homepage = "https://github.com/porifa/extension-laravel-intelephense#readme"
 
-[ryanluker-vscode-coverage-gutters]
-src.openvsx = "ryanluker.vscode-coverage-gutters"
-fetch.openvsx = "ryanluker.vscode-coverage-gutters"
-
-[ryanluker-vscode-coverage-gutters.passthru]
-name = "vscode-coverage-gutters"
-publisher = "ryanluker"
-marketplaceName = "vscode-coverage-gutters"
-marketplacePublisher = "ryanluker"
-license = "mit"
-changelog = "https://open-vsx.org/api/ryanluker/vscode-coverage-gutters/2.10.3/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/ryanluker/vscode-coverage-gutters/2.10.3/file/ryanluker.vscode-coverage-gutters-2.10.3.vsix"
-homepage = ""
-
-[onflow-cadence]
-src.openvsx = "onflow.cadence"
-fetch.openvsx = "onflow.cadence"
-
-[onflow-cadence.passthru]
-name = "cadence"
-publisher = "onflow"
-marketplaceName = "cadence"
-marketplacePublisher = "onflow"
-license = "asl20"
-changelog = "https://open-vsx.org/api/onflow/cadence/1.0.6/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/onflow/cadence/1.0.6/file/onflow.cadence-1.0.6.vsix"
-homepage = "https://github.com/onflow/vscode-cadence#readme"
-
 [jroesch-lean]
 src.openvsx = "jroesch.lean"
 fetch.openvsx = "jroesch.lean"
@@ -1563,6 +1549,20 @@ changelog = "https://open-vsx.org/api/senx/warpscript-language/2.1.28/file/CHANG
 downloadPage = "https://open-vsx.org/api/senx/warpscript-language/2.1.28/file/senx.warpscript-language-2.1.28.vsix"
 homepage = "https://github.com/senx/VSCode-WarpScriptLanguage#readme"
 
+[ryanluker-vscode-coverage-gutters]
+src.openvsx = "ryanluker.vscode-coverage-gutters"
+fetch.openvsx = "ryanluker.vscode-coverage-gutters"
+
+[ryanluker-vscode-coverage-gutters.passthru]
+name = "vscode-coverage-gutters"
+publisher = "ryanluker"
+marketplaceName = "vscode-coverage-gutters"
+marketplacePublisher = "ryanluker"
+license = "mit"
+changelog = "https://open-vsx.org/api/ryanluker/vscode-coverage-gutters/2.10.3/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/ryanluker/vscode-coverage-gutters/2.10.3/file/ryanluker.vscode-coverage-gutters-2.10.3.vsix"
+homepage = ""
+
 [HackMD-vscode-hackmd]
 src.openvsx = "HackMD.vscode-hackmd"
 fetch.openvsx = "HackMD.vscode-hackmd"
@@ -1590,6 +1590,20 @@ license = "agpl3Only"
 changelog = "https://open-vsx.org/api/42Crunch/vscode-openapi/4.15.11/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/42Crunch/vscode-openapi/4.15.11/file/42Crunch.vscode-openapi-4.15.11.vsix"
 homepage = "https://github.com/42Crunch/vscode-openapi#readme"
+
+[onflow-cadence]
+src.openvsx = "onflow.cadence"
+fetch.openvsx = "onflow.cadence"
+
+[onflow-cadence.passthru]
+name = "cadence"
+publisher = "onflow"
+marketplaceName = "cadence"
+marketplacePublisher = "onflow"
+license = "asl20"
+changelog = "https://open-vsx.org/api/onflow/cadence/1.0.6/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/onflow/cadence/1.0.6/file/onflow.cadence-1.0.6.vsix"
+homepage = "https://github.com/onflow/vscode-cadence#readme"
 
 [charliermarsh-ruff]
 src.openvsx = "charliermarsh.ruff"
@@ -1646,19 +1660,6 @@ changelog = "https://open-vsx.org/api/streetsidesoftware/hunspell/1.0.2/file/CHA
 downloadPage = "https://open-vsx.org/api/streetsidesoftware/hunspell/1.0.2/file/streetsidesoftware.hunspell-1.0.2.vsix"
 homepage = "https://github.com/streetsidesoftware/vscode-cspell-dict-extensions#readme"
 
-[actboy168-lua-debug]
-src.openvsx = "actboy168.lua-debug"
-fetch.openvsx = "actboy168.lua-debug"
-
-[actboy168-lua-debug.passthru]
-name = "lua-debug"
-publisher = "actboy168"
-marketplaceName = "lua-debug"
-marketplacePublisher = "actboy168"
-license = "mit"
-downloadPage = "https://open-vsx.org/api/actboy168/lua-debug/win32-x64/1.61.0/file/actboy168.lua-debug-1.61.0@win32-x64.vsix"
-homepage = "https://github.com/actboy168/lua-debug#readme"
-
 [streetsidesoftware-code-spell-checker-serbian]
 src.openvsx = "streetsidesoftware.code-spell-checker-serbian"
 fetch.openvsx = "streetsidesoftware.code-spell-checker-serbian"
@@ -1672,6 +1673,19 @@ license = "gpl3Plus"
 changelog = "https://open-vsx.org/api/streetsidesoftware/code-spell-checker-serbian/1.0.2/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/streetsidesoftware/code-spell-checker-serbian/1.0.2/file/streetsidesoftware.code-spell-checker-serbian-1.0.2.vsix"
 homepage = "https://github.com/streetsidesoftware/vscode-cspell-dict-extensions#readme"
+
+[actboy168-lua-debug]
+src.openvsx = "actboy168.lua-debug"
+fetch.openvsx = "actboy168.lua-debug"
+
+[actboy168-lua-debug.passthru]
+name = "lua-debug"
+publisher = "actboy168"
+marketplaceName = "lua-debug"
+marketplacePublisher = "actboy168"
+license = "mit"
+downloadPage = "https://open-vsx.org/api/actboy168/lua-debug/win32-x64/1.61.0/file/actboy168.lua-debug-1.61.0@win32-x64.vsix"
+homepage = "https://github.com/actboy168/lua-debug#readme"
 
 [sugatoray-vscode-remotework-extension-pack]
 src.openvsx = "sugatoray.vscode-remotework-extension-pack"
@@ -2906,20 +2920,6 @@ changelog = "https://open-vsx.org/api/sainnhe/gruvbox-material/6.5.2/file/CHANGE
 downloadPage = "https://open-vsx.org/api/sainnhe/gruvbox-material/6.5.2/file/sainnhe.gruvbox-material-6.5.2.vsix"
 homepage = "https://github.com/sainnhe/gruvbox-material-vscode"
 
-[vivaxy-vscode-conventional-commits]
-src.openvsx = "vivaxy.vscode-conventional-commits"
-fetch.openvsx = "vivaxy.vscode-conventional-commits"
-
-[vivaxy-vscode-conventional-commits.passthru]
-name = "vscode-conventional-commits"
-publisher = "vivaxy"
-marketplaceName = "vscode-conventional-commits"
-marketplacePublisher = "vivaxy"
-license = "mit"
-changelog = "https://open-vsx.org/api/vivaxy/vscode-conventional-commits/1.25.0/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/vivaxy/vscode-conventional-commits/1.25.0/file/vivaxy.vscode-conventional-commits-1.25.0.vsix"
-homepage = "https://github.com/vivaxy/vscode-conventional-commits"
-
 [fredhappyface-windowskeybindings]
 src.openvsx = "fredhappyface.windowskeybindings"
 fetch.openvsx = "fredhappyface.windowskeybindings"
@@ -2933,6 +2933,20 @@ license = "unfree"
 changelog = "https://open-vsx.org/api/fredhappyface/windowskeybindings/1.58.0/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/fredhappyface/windowskeybindings/1.58.0/file/fredhappyface.windowskeybindings-1.58.0.vsix"
 homepage = "https://github.com/FredHappyface/VSCode.OSKeybindings#readme"
+
+[vivaxy-vscode-conventional-commits]
+src.openvsx = "vivaxy.vscode-conventional-commits"
+fetch.openvsx = "vivaxy.vscode-conventional-commits"
+
+[vivaxy-vscode-conventional-commits.passthru]
+name = "vscode-conventional-commits"
+publisher = "vivaxy"
+marketplaceName = "vscode-conventional-commits"
+marketplacePublisher = "vivaxy"
+license = "mit"
+changelog = "https://open-vsx.org/api/vivaxy/vscode-conventional-commits/1.25.0/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/vivaxy/vscode-conventional-commits/1.25.0/file/vivaxy.vscode-conventional-commits-1.25.0.vsix"
+homepage = "https://github.com/vivaxy/vscode-conventional-commits"
 
 [fredhappyface-mackeybindings]
 src.openvsx = "fredhappyface.mackeybindings"
@@ -3059,19 +3073,6 @@ changelog = "https://open-vsx.org/api/AdaCore/ada/23.0.12/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/AdaCore/ada/23.0.12/file/AdaCore.ada-23.0.12.vsix"
 homepage = "https://github.com/AdaCore/ada_language_server#readme"
 
-[keesschollaart-vscode-home-assistant]
-src.openvsx = "keesschollaart.vscode-home-assistant"
-fetch.openvsx = "keesschollaart.vscode-home-assistant"
-
-[keesschollaart-vscode-home-assistant.passthru]
-name = "vscode-home-assistant"
-publisher = "keesschollaart"
-marketplaceName = "vscode-home-assistant"
-marketplacePublisher = "keesschollaart"
-license = "mit"
-downloadPage = "https://open-vsx.org/api/keesschollaart/vscode-home-assistant/1.32.0/file/keesschollaart.vscode-home-assistant-1.32.0.vsix"
-homepage = "https://github.com/keesschollaart81/vscode-home-assistant#readme"
-
 [genuitecllc-codetogether]
 src.openvsx = "genuitecllc.codetogether"
 fetch.openvsx = "genuitecllc.codetogether"
@@ -3085,6 +3086,19 @@ license = "unfree"
 changelog = "https://open-vsx.org/api/genuitecllc/codetogether/2022.2.3/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/genuitecllc/codetogether/2022.2.3/file/genuitecllc.codetogether-2022.2.3.vsix"
 homepage = ""
+
+[keesschollaart-vscode-home-assistant]
+src.openvsx = "keesschollaart.vscode-home-assistant"
+fetch.openvsx = "keesschollaart.vscode-home-assistant"
+
+[keesschollaart-vscode-home-assistant.passthru]
+name = "vscode-home-assistant"
+publisher = "keesschollaart"
+marketplaceName = "vscode-home-assistant"
+marketplacePublisher = "keesschollaart"
+license = "mit"
+downloadPage = "https://open-vsx.org/api/keesschollaart/vscode-home-assistant/1.32.0/file/keesschollaart.vscode-home-assistant-1.32.0.vsix"
+homepage = "https://github.com/keesschollaart81/vscode-home-assistant#readme"
 
 [SPGoding-datapack-language-server]
 src.openvsx = "SPGoding.datapack-language-server"
@@ -3725,6 +3739,19 @@ changelog = "https://open-vsx.org/api/jock/svg/1.4.25/file/Changelog.md"
 downloadPage = "https://open-vsx.org/api/jock/svg/1.4.25/file/jock.svg-1.4.25.vsix"
 homepage = "https://github.com/lishu/vscode-svg2#readme"
 
+[jeff-hykin-better-shellscript-syntax]
+src.openvsx = "jeff-hykin.better-shellscript-syntax"
+fetch.openvsx = "jeff-hykin.better-shellscript-syntax"
+
+[jeff-hykin-better-shellscript-syntax.passthru]
+name = "better-shellscript-syntax"
+publisher = "jeff-hykin"
+marketplaceName = "better-shellscript-syntax"
+marketplacePublisher = "jeff-hykin"
+license = "isc"
+downloadPage = "https://open-vsx.org/api/jeff-hykin/better-shellscript-syntax/1.3.0/file/jeff-hykin.better-shellscript-syntax-1.3.0.vsix"
+homepage = "https://github.com/jeff-hykin/better-shell-syntax#readme"
+
 [vscodevim-vim]
 src.openvsx = "vscodevim.vim"
 fetch.openvsx = "vscodevim.vim"
@@ -3738,19 +3765,6 @@ license = "mit"
 changelog = "https://open-vsx.org/api/vscodevim/vim/1.24.3/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/vscodevim/vim/1.24.3/file/vscodevim.vim-1.24.3.vsix"
 homepage = "https://github.com/VSCodeVim/Vim"
-
-[jeff-hykin-better-shellscript-syntax]
-src.openvsx = "jeff-hykin.better-shellscript-syntax"
-fetch.openvsx = "jeff-hykin.better-shellscript-syntax"
-
-[jeff-hykin-better-shellscript-syntax.passthru]
-name = "better-shellscript-syntax"
-publisher = "jeff-hykin"
-marketplaceName = "better-shellscript-syntax"
-marketplacePublisher = "jeff-hykin"
-license = "isc"
-downloadPage = "https://open-vsx.org/api/jeff-hykin/better-shellscript-syntax/1.3.0/file/jeff-hykin.better-shellscript-syntax-1.3.0.vsix"
-homepage = "https://github.com/jeff-hykin/better-shell-syntax#readme"
 
 [PROxZIMA-sweetdracula]
 src.openvsx = "PROxZIMA.sweetdracula"
@@ -3849,20 +3863,6 @@ license = "mit"
 downloadPage = "https://open-vsx.org/api/rome/rome/win32-x64/0.21.20221217/file/rome.rome-0.21.20221217@win32-x64.vsix"
 homepage = "https://github.com/rome/tools#readme"
 
-[quarto-quarto]
-src.openvsx = "quarto.quarto"
-fetch.openvsx = "quarto.quarto"
-
-[quarto-quarto.passthru]
-name = "quarto"
-publisher = "quarto"
-marketplaceName = "quarto"
-marketplacePublisher = "quarto"
-license = "unfree"
-changelog = "https://open-vsx.org/api/quarto/quarto/1.59.0/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/quarto/quarto/1.59.0/file/quarto.quarto-1.59.0.vsix"
-homepage = "https://github.com/quarto-dev/quarto/tree/main/apps/vscode"
-
 [revaturePro-revature-cloudlabs]
 src.openvsx = "revaturePro.revature-cloudlabs"
 fetch.openvsx = "revaturePro.revature-cloudlabs"
@@ -3876,6 +3876,20 @@ license = "mit"
 changelog = "https://open-vsx.org/api/revaturePro/revature-cloudlabs/0.0.5/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/revaturePro/revature-cloudlabs/0.0.5/file/revaturePro.revature-cloudlabs-0.0.5.vsix"
 homepage = "https://github.com/pavithra-nagarajan/gitpod-plugin#readme"
+
+[quarto-quarto]
+src.openvsx = "quarto.quarto"
+fetch.openvsx = "quarto.quarto"
+
+[quarto-quarto.passthru]
+name = "quarto"
+publisher = "quarto"
+marketplaceName = "quarto"
+marketplacePublisher = "quarto"
+license = "unfree"
+changelog = "https://open-vsx.org/api/quarto/quarto/1.59.0/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/quarto/quarto/1.59.0/file/quarto.quarto-1.59.0.vsix"
+homepage = "https://github.com/quarto-dev/quarto/tree/main/apps/vscode"
 
 [leodevbro-blockman]
 src.openvsx = "leodevbro.blockman"
@@ -5140,20 +5154,6 @@ license = "epl20"
 downloadPage = "https://open-vsx.org/api/kieler/stpa/0.0.1/file/kieler.stpa-0.0.1.vsix"
 homepage = "https://github.com/kieler/stpa#readme"
 
-[wso2-ballerina]
-src.openvsx = "wso2.ballerina"
-fetch.openvsx = "wso2.ballerina"
-
-[wso2-ballerina.passthru]
-name = "ballerina"
-publisher = "wso2"
-marketplaceName = "ballerina"
-marketplacePublisher = "wso2"
-license = "unfree"
-changelog = "https://open-vsx.org/api/wso2/ballerina/3.3.5/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/wso2/ballerina/3.3.5/file/wso2.ballerina-3.3.5.vsix"
-homepage = "https://github.com/wso2/ballerina-plugin-vscode#readme"
-
 [piousdeer-adwaita-theme]
 src.openvsx = "piousdeer.adwaita-theme"
 fetch.openvsx = "piousdeer.adwaita-theme"
@@ -5221,6 +5221,20 @@ marketplacePublisher = "effect"
 license = "mit"
 downloadPage = "https://open-vsx.org/api/effect/effect-debugger/0.0.1/file/effect.effect-debugger-0.0.1.vsix"
 homepage = "https://github.com/Effect-TS/vscode-extension#readme"
+
+[wso2-ballerina]
+src.openvsx = "wso2.ballerina"
+fetch.openvsx = "wso2.ballerina"
+
+[wso2-ballerina.passthru]
+name = "ballerina"
+publisher = "wso2"
+marketplaceName = "ballerina"
+marketplacePublisher = "wso2"
+license = "unfree"
+changelog = "https://open-vsx.org/api/wso2/ballerina/3.3.5/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/wso2/ballerina/3.3.5/file/wso2.ballerina-3.3.5.vsix"
+homepage = "https://github.com/wso2/ballerina-plugin-vscode#readme"
 
 [karatelabs-karate]
 src.openvsx = "karatelabs.karate"
@@ -6288,20 +6302,6 @@ changelog = "https://open-vsx.org/api/zokugun/explicit-folding/0.23.1/file/CHANG
 downloadPage = "https://open-vsx.org/api/zokugun/explicit-folding/0.23.1/file/zokugun.explicit-folding-0.23.1.vsix"
 homepage = "https://github.com/zokugun/vscode-explicit-folding"
 
-[vscode-icons-team-vscode-icons]
-src.openvsx = "vscode-icons-team.vscode-icons"
-fetch.openvsx = "vscode-icons-team.vscode-icons"
-
-[vscode-icons-team-vscode-icons.passthru]
-name = "vscode-icons"
-publisher = "vscode-icons-team"
-marketplaceName = "vscode-icons"
-marketplacePublisher = "vscode-icons-team"
-license = "mit"
-changelog = "https://open-vsx.org/api/vscode-icons-team/vscode-icons/12.0.1/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/vscode-icons-team/vscode-icons/12.0.1/file/vscode-icons-team.vscode-icons-12.0.1.vsix"
-homepage = "https://vscodeicons.team"
-
 [wdhongtw-gpg-indicator]
 src.openvsx = "wdhongtw.gpg-indicator"
 fetch.openvsx = "wdhongtw.gpg-indicator"
@@ -6315,6 +6315,20 @@ license = "mit"
 changelog = "https://open-vsx.org/api/wdhongtw/gpg-indicator/0.6.2/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/wdhongtw/gpg-indicator/0.6.2/file/wdhongtw.gpg-indicator-0.6.2.vsix"
 homepage = "https://github.com/wdhongtw/vscode-gpg-indicator#readme"
+
+[vscode-icons-team-vscode-icons]
+src.openvsx = "vscode-icons-team.vscode-icons"
+fetch.openvsx = "vscode-icons-team.vscode-icons"
+
+[vscode-icons-team-vscode-icons.passthru]
+name = "vscode-icons"
+publisher = "vscode-icons-team"
+marketplaceName = "vscode-icons"
+marketplacePublisher = "vscode-icons-team"
+license = "mit"
+changelog = "https://open-vsx.org/api/vscode-icons-team/vscode-icons/12.0.1/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/vscode-icons-team/vscode-icons/12.0.1/file/vscode-icons-team.vscode-icons-12.0.1.vsix"
+homepage = "https://vscodeicons.team"
 
 [julialang-language-julia]
 src.openvsx = "julialang.language-julia"
@@ -6440,19 +6454,6 @@ changelog = "https://open-vsx.org/api/melmass/vscode-mono-workspace/win32-x64/1.
 downloadPage = "https://open-vsx.org/api/melmass/vscode-mono-workspace/win32-x64/1.4.1/file/melMass.vscode-mono-workspace-1.4.1@win32-x64.vsix"
 homepage = "https://github.com/mtb-tools/vscode-mono-workspace#readme"
 
-[appliedengdesign-vscode-gcode-syntax]
-src.openvsx = "appliedengdesign.vscode-gcode-syntax"
-fetch.openvsx = "appliedengdesign.vscode-gcode-syntax"
-
-[appliedengdesign-vscode-gcode-syntax.passthru]
-name = "vscode-gcode-syntax"
-publisher = "appliedengdesign"
-marketplaceName = "vscode-gcode-syntax"
-marketplacePublisher = "appliedengdesign"
-license = "mit"
-downloadPage = "https://open-vsx.org/api/appliedengdesign/vscode-gcode-syntax/0.7.7/file/appliedengdesign.vscode-gcode-syntax-0.7.7.vsix"
-homepage = "https://github.com/appliedengdesign/vscode-gcode-syntax"
-
 [gares-coq-elpi-lang]
 src.openvsx = "gares.coq-elpi-lang"
 fetch.openvsx = "gares.coq-elpi-lang"
@@ -6479,6 +6480,19 @@ marketplacePublisher = "openCAESAR"
 license = "asl20"
 downloadPage = "https://open-vsx.org/api/openCAESAR/oml-luxor/1.4.0/file/openCAESAR.oml-luxor-1.4.0.vsix"
 homepage = ""
+
+[appliedengdesign-vscode-gcode-syntax]
+src.openvsx = "appliedengdesign.vscode-gcode-syntax"
+fetch.openvsx = "appliedengdesign.vscode-gcode-syntax"
+
+[appliedengdesign-vscode-gcode-syntax.passthru]
+name = "vscode-gcode-syntax"
+publisher = "appliedengdesign"
+marketplaceName = "vscode-gcode-syntax"
+marketplacePublisher = "appliedengdesign"
+license = "mit"
+downloadPage = "https://open-vsx.org/api/appliedengdesign/vscode-gcode-syntax/0.7.7/file/appliedengdesign.vscode-gcode-syntax-0.7.7.vsix"
+homepage = "https://github.com/appliedengdesign/vscode-gcode-syntax"
 
 [augustocdias-tasks-shell-input]
 src.openvsx = "augustocdias.tasks-shell-input"
@@ -7141,20 +7155,6 @@ license = "mit"
 changelog = "https://open-vsx.org/api/vadimcn/vscode-lldb/1.8.1/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/vadimcn/vscode-lldb/1.8.1/file/vadimcn.vscode-lldb-1.8.1.vsix"
 homepage = "https://github.com/vadimcn/vscode-lldb#readme"
-
-[cyrusfirheir-twee3-language-tools]
-src.openvsx = "cyrusfirheir.twee3-language-tools"
-fetch.openvsx = "cyrusfirheir.twee3-language-tools"
-
-[cyrusfirheir-twee3-language-tools.passthru]
-name = "twee3-language-tools"
-publisher = "cyrusfirheir"
-marketplaceName = "twee3-language-tools"
-marketplacePublisher = "cyrusfirheir"
-license = "mit"
-changelog = "https://open-vsx.org/api/cyrusfirheir/twee3-language-tools/0.19.1/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/cyrusfirheir/twee3-language-tools/0.19.1/file/cyrusfirheir.twee3-language-tools-0.19.1.vsix"
-homepage = "https://github.com/cyrusfirheir/twee3-language-tools#readme"
 
 [anweber-timewarrior]
 src.openvsx = "anweber.timewarrior"
@@ -9522,20 +9522,6 @@ license = "mit"
 downloadPage = "https://open-vsx.org/api/hbenl/vscode-jasmine-test-adapter/1.8.2/file/hbenl.vscode-jasmine-test-adapter-1.8.2.vsix"
 homepage = "https://github.com/hbenl/vscode-jasmine-test-adapter"
 
-[MateuszDrewniak-theme-dracula-dark-plus]
-src.openvsx = "MateuszDrewniak.theme-dracula-dark-plus"
-fetch.openvsx = "MateuszDrewniak.theme-dracula-dark-plus"
-
-[MateuszDrewniak-theme-dracula-dark-plus.passthru]
-name = "theme-dracula-dark-plus"
-publisher = "mateuszdrewniak"
-marketplaceName = "theme-dracula-dark-plus"
-marketplacePublisher = "MateuszDrewniak"
-license = "mit"
-changelog = "https://open-vsx.org/api/MateuszDrewniak/theme-dracula-dark-plus/2.24.4/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/MateuszDrewniak/theme-dracula-dark-plus/2.24.4/file/MateuszDrewniak.theme-dracula-dark-plus-2.24.4.vsix"
-homepage = "https://gitlab.com/mateuszdrewniak/dracula-dark-plus"
-
 [zed-nait-kaolin-vscode-themes]
 src.openvsx = "zed-nait.kaolin-vscode-themes"
 fetch.openvsx = "zed-nait.kaolin-vscode-themes"
@@ -9549,6 +9535,20 @@ license = "gpl3Only"
 changelog = "https://open-vsx.org/api/zed-nait/kaolin-vscode-themes/0.1.0/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/zed-nait/kaolin-vscode-themes/0.1.0/file/zed-nait.kaolin-vscode-themes-0.1.0.vsix"
 homepage = "https://github.com/zed-nait/kaolin-vscode-themes#readme"
+
+[MateuszDrewniak-theme-dracula-dark-plus]
+src.openvsx = "MateuszDrewniak.theme-dracula-dark-plus"
+fetch.openvsx = "MateuszDrewniak.theme-dracula-dark-plus"
+
+[MateuszDrewniak-theme-dracula-dark-plus.passthru]
+name = "theme-dracula-dark-plus"
+publisher = "mateuszdrewniak"
+marketplaceName = "theme-dracula-dark-plus"
+marketplacePublisher = "MateuszDrewniak"
+license = "mit"
+changelog = "https://open-vsx.org/api/MateuszDrewniak/theme-dracula-dark-plus/2.24.4/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/MateuszDrewniak/theme-dracula-dark-plus/2.24.4/file/MateuszDrewniak.theme-dracula-dark-plus-2.24.4.vsix"
+homepage = "https://gitlab.com/mateuszdrewniak/dracula-dark-plus"
 
 [namespacelabs-namespace-vscode]
 src.openvsx = "namespacelabs.namespace-vscode"
@@ -14537,20 +14537,6 @@ changelog = "https://open-vsx.org/api/idleberg/electron-builder/0.7.2/file/CHANG
 downloadPage = "https://open-vsx.org/api/idleberg/electron-builder/0.7.2/file/idleberg.electron-builder-0.7.2.vsix"
 homepage = "https://github.com/idleberg/vscode-electron-builder#readme"
 
-[hediet-vscode-drawio]
-src.openvsx = "hediet.vscode-drawio"
-fetch.openvsx = "hediet.vscode-drawio"
-
-[hediet-vscode-drawio.passthru]
-name = "vscode-drawio"
-publisher = "hediet"
-marketplaceName = "vscode-drawio"
-marketplacePublisher = "hediet"
-license = "gpl3Only"
-changelog = "https://open-vsx.org/api/hediet/vscode-drawio/1.6.4/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/hediet/vscode-drawio/1.6.4/file/hediet.vscode-drawio-1.6.4.vsix"
-homepage = ""
-
 [kuroidoruido-gobelin-vscode]
 src.openvsx = "kuroidoruido.gobelin-vscode"
 fetch.openvsx = "kuroidoruido.gobelin-vscode"
@@ -14563,6 +14549,20 @@ marketplacePublisher = "kuroidoruido"
 license = "gpl3Only"
 changelog = "https://open-vsx.org/api/kuroidoruido/gobelin-vscode/1.2.0/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/kuroidoruido/gobelin-vscode/1.2.0/file/kuroidoruido.gobelin-vscode-1.2.0.vsix"
+homepage = ""
+
+[hediet-vscode-drawio]
+src.openvsx = "hediet.vscode-drawio"
+fetch.openvsx = "hediet.vscode-drawio"
+
+[hediet-vscode-drawio.passthru]
+name = "vscode-drawio"
+publisher = "hediet"
+marketplaceName = "vscode-drawio"
+marketplacePublisher = "hediet"
+license = "gpl3Only"
+changelog = "https://open-vsx.org/api/hediet/vscode-drawio/1.6.4/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/hediet/vscode-drawio/1.6.4/file/hediet.vscode-drawio-1.6.4.vsix"
 homepage = ""
 
 [a5hk-tabulate]
@@ -16056,20 +16056,6 @@ changelog = "https://open-vsx.org/api/markwylde/vscode-filesize/3.1.0/file/CHANG
 downloadPage = "https://open-vsx.org/api/markwylde/vscode-filesize/3.1.0/file/markwylde.vscode-filesize-3.1.0.vsix"
 homepage = ""
 
-[lokalise-i18n-ally]
-src.openvsx = "lokalise.i18n-ally"
-fetch.openvsx = "lokalise.i18n-ally"
-
-[lokalise-i18n-ally.passthru]
-name = "i18n-ally"
-publisher = "lokalise"
-marketplaceName = "i18n-ally"
-marketplacePublisher = "lokalise"
-license = "mit"
-changelog = "https://open-vsx.org/api/lokalise/i18n-ally/2.8.1/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/lokalise/i18n-ally/2.8.1/file/lokalise.i18n-ally-2.8.1.vsix"
-homepage = "https://github.com/lokalise/i18n-ally"
-
 [a5hk-vscode-scilla]
 src.openvsx = "a5hk.vscode-scilla"
 fetch.openvsx = "a5hk.vscode-scilla"
@@ -16111,6 +16097,20 @@ license = "mit"
 changelog = "https://open-vsx.org/api/voidc/llvm-asm/0.0.1/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/voidc/llvm-asm/0.0.1/file/voidc.llvm-asm-0.0.1.vsix"
 homepage = ""
+
+[lokalise-i18n-ally]
+src.openvsx = "lokalise.i18n-ally"
+fetch.openvsx = "lokalise.i18n-ally"
+
+[lokalise-i18n-ally.passthru]
+name = "i18n-ally"
+publisher = "lokalise"
+marketplaceName = "i18n-ally"
+marketplacePublisher = "lokalise"
+license = "mit"
+changelog = "https://open-vsx.org/api/lokalise/i18n-ally/2.8.1/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/lokalise/i18n-ally/2.8.1/file/lokalise.i18n-ally-2.8.1.vsix"
+homepage = "https://github.com/lokalise/i18n-ally"
 
 [jeanp413-smoketest-check-web]
 src.openvsx = "jeanp413.smoketest-check-web"
@@ -16232,6 +16232,18 @@ license = "mit"
 changelog = "https://open-vsx.org/api/leandro-rodrigues/fluent-ui-vscode/0.3.12/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/leandro-rodrigues/fluent-ui-vscode/0.3.12/file/leandro-rodrigues.fluent-ui-vscode-0.3.12.vsix"
 
+[TshakaEricLekholoane-hy]
+src.openvsx = "TshakaEricLekholoane.hy"
+fetch.openvsx = "TshakaEricLekholoane.hy"
+
+[TshakaEricLekholoane-hy.passthru]
+name = "hy"
+publisher = "tshakaericlekholoane"
+marketplaceName = "hy"
+marketplacePublisher = "TshakaEricLekholoane"
+license = "mit"
+downloadPage = "https://open-vsx.org/api/TshakaEricLekholoane/hy/0.0.17/file/TshakaEricLekholoane.hy-0.0.17.vsix"
+
 [ms-azuretools-vscode-docker]
 src.openvsx = "ms-azuretools.vscode-docker"
 fetch.openvsx = "ms-azuretools.vscode-docker"
@@ -16245,18 +16257,6 @@ license = "mit"
 changelog = "https://open-vsx.org/api/ms-azuretools/vscode-docker/1.23.3/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/ms-azuretools/vscode-docker/1.23.3/file/ms-azuretools.vscode-docker-1.23.3.vsix"
 homepage = "https://github.com/Microsoft/vscode-docker/blob/main/README.md"
-
-[TshakaEricLekholoane-hy]
-src.openvsx = "TshakaEricLekholoane.hy"
-fetch.openvsx = "TshakaEricLekholoane.hy"
-
-[TshakaEricLekholoane-hy.passthru]
-name = "hy"
-publisher = "tshakaericlekholoane"
-marketplaceName = "hy"
-marketplacePublisher = "TshakaEricLekholoane"
-license = "mit"
-downloadPage = "https://open-vsx.org/api/TshakaEricLekholoane/hy/0.0.17/file/TshakaEricLekholoane.hy-0.0.17.vsix"
 
 [idleberg-svg-icons]
 src.openvsx = "idleberg.svg-icons"
@@ -16759,19 +16759,6 @@ changelog = "https://open-vsx.org/api/denoland/vscode-deno/3.16.0/file/CHANGELOG
 downloadPage = "https://open-vsx.org/api/denoland/vscode-deno/3.16.0/file/denoland.vscode-deno-3.16.0.vsix"
 homepage = "https://github.com/denoland/vscode_deno#readme"
 
-[vscode-html-language-features]
-src.openvsx = "vscode.html-language-features"
-fetch.openvsx = "vscode.html-language-features"
-
-[vscode-html-language-features.passthru]
-name = "html-language-features"
-publisher = "vscode"
-marketplaceName = "html-language-features"
-marketplacePublisher = "vscode"
-license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/html-language-features/1.64.2/file/vscode.html-language-features-1.64.2.vsix"
-homepage = ""
-
 [Pivotal-vscode-boot-dev-pack]
 src.openvsx = "Pivotal.vscode-boot-dev-pack"
 fetch.openvsx = "Pivotal.vscode-boot-dev-pack"
@@ -16784,6 +16771,19 @@ marketplacePublisher = "Pivotal"
 license = "epl10"
 downloadPage = "https://open-vsx.org/api/Pivotal/vscode-boot-dev-pack/0.1.0/file/Pivotal.vscode-boot-dev-pack-0.1.0.vsix"
 homepage = "https://github.com/spring-projects/sts4"
+
+[vscode-html-language-features]
+src.openvsx = "vscode.html-language-features"
+fetch.openvsx = "vscode.html-language-features"
+
+[vscode-html-language-features.passthru]
+name = "html-language-features"
+publisher = "vscode"
+marketplaceName = "html-language-features"
+marketplacePublisher = "vscode"
+license = "mit"
+downloadPage = "https://open-vsx.org/api/vscode/html-language-features/1.64.2/file/vscode.html-language-features-1.64.2.vsix"
+homepage = ""
 
 [vscode-markdown]
 src.openvsx = "vscode.markdown"
@@ -17050,19 +17050,6 @@ license = "mit"
 downloadPage = "https://open-vsx.org/api/vscode/handlebars/1.64.2/file/vscode.handlebars-1.64.2.vsix"
 homepage = ""
 
-[vscode-python]
-src.openvsx = "vscode.python"
-fetch.openvsx = "vscode.python"
-
-[vscode-python.passthru]
-name = "python"
-publisher = "vscode"
-marketplaceName = "python"
-marketplacePublisher = "vscode"
-license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/python/1.64.2/file/vscode.python-1.64.2.vsix"
-homepage = ""
-
 [vscode-debug-auto-launch]
 src.openvsx = "vscode.debug-auto-launch"
 fetch.openvsx = "vscode.debug-auto-launch"
@@ -17087,6 +17074,19 @@ marketplaceName = "make"
 marketplacePublisher = "vscode"
 license = "mit"
 downloadPage = "https://open-vsx.org/api/vscode/make/1.64.2/file/vscode.make-1.64.2.vsix"
+homepage = ""
+
+[vscode-python]
+src.openvsx = "vscode.python"
+fetch.openvsx = "vscode.python"
+
+[vscode-python.passthru]
+name = "python"
+publisher = "vscode"
+marketplaceName = "python"
+marketplacePublisher = "vscode"
+license = "mit"
+downloadPage = "https://open-vsx.org/api/vscode/python/1.64.2/file/vscode.python-1.64.2.vsix"
 homepage = ""
 
 [vscode-emmet]
@@ -17273,19 +17273,6 @@ license = "mit"
 downloadPage = "https://open-vsx.org/api/vscode/fsharp/1.64.2/file/vscode.fsharp-1.64.2.vsix"
 homepage = ""
 
-[vscode-lua]
-src.openvsx = "vscode.lua"
-fetch.openvsx = "vscode.lua"
-
-[vscode-lua.passthru]
-name = "lua"
-publisher = "vscode"
-marketplaceName = "lua"
-marketplacePublisher = "vscode"
-license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/lua/1.64.2/file/vscode.lua-1.64.2.vsix"
-homepage = ""
-
 [vscjava-vscode-spring-initializr]
 src.openvsx = "vscjava.vscode-spring-initializr"
 fetch.openvsx = "vscjava.vscode-spring-initializr"
@@ -17299,6 +17286,19 @@ license = "mit"
 changelog = "https://open-vsx.org/api/vscjava/vscode-spring-initializr/0.11.2/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/vscjava/vscode-spring-initializr/0.11.2/file/vscjava.vscode-spring-initializr-0.11.2.vsix"
 homepage = "https://github.com/Microsoft/vscode-spring-initializr"
+
+[vscode-lua]
+src.openvsx = "vscode.lua"
+fetch.openvsx = "vscode.lua"
+
+[vscode-lua.passthru]
+name = "lua"
+publisher = "vscode"
+marketplaceName = "lua"
+marketplacePublisher = "vscode"
+license = "mit"
+downloadPage = "https://open-vsx.org/api/vscode/lua/1.64.2/file/vscode.lua-1.64.2.vsix"
+homepage = ""
 
 [vscode-merge-conflict]
 src.openvsx = "vscode.merge-conflict"
@@ -17352,19 +17352,6 @@ license = "mit"
 downloadPage = "https://open-vsx.org/api/vscode/typescript-language-features/1.64.2/file/vscode.typescript-language-features-1.64.2.vsix"
 homepage = ""
 
-[vscode-theme-quietlight]
-src.openvsx = "vscode.theme-quietlight"
-fetch.openvsx = "vscode.theme-quietlight"
-
-[vscode-theme-quietlight.passthru]
-name = "theme-quietlight"
-publisher = "vscode"
-marketplaceName = "theme-quietlight"
-marketplacePublisher = "vscode"
-license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/theme-quietlight/1.64.2/file/vscode.theme-quietlight-1.64.2.vsix"
-homepage = ""
-
 [serverless-devs-fc-webide-plugin]
 src.openvsx = "serverless-devs.fc-webide-plugin"
 fetch.openvsx = "serverless-devs.fc-webide-plugin"
@@ -17406,32 +17393,6 @@ changelog = "https://open-vsx.org/api/Revaturepro-non-prod/revature-labs-non-pro
 downloadPage = "https://open-vsx.org/api/Revaturepro-non-prod/revature-labs-non-prod/0.0.13/file/Revaturepro-non-prod.revature-labs-non-prod-0.0.13.vsix"
 homepage = ""
 
-[vscode-theme-monokai]
-src.openvsx = "vscode.theme-monokai"
-fetch.openvsx = "vscode.theme-monokai"
-
-[vscode-theme-monokai.passthru]
-name = "theme-monokai"
-publisher = "vscode"
-marketplaceName = "theme-monokai"
-marketplacePublisher = "vscode"
-license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/theme-monokai/1.64.2/file/vscode.theme-monokai-1.64.2.vsix"
-homepage = ""
-
-[vscode-theme-monokai-dimmed]
-src.openvsx = "vscode.theme-monokai-dimmed"
-fetch.openvsx = "vscode.theme-monokai-dimmed"
-
-[vscode-theme-monokai-dimmed.passthru]
-name = "theme-monokai-dimmed"
-publisher = "vscode"
-marketplaceName = "theme-monokai-dimmed"
-marketplacePublisher = "vscode"
-license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/theme-monokai-dimmed/1.64.2/file/vscode.theme-monokai-dimmed-1.64.2.vsix"
-homepage = ""
-
 [zardoy-extra-commands]
 src.openvsx = "zardoy.extra-commands"
 fetch.openvsx = "zardoy.extra-commands"
@@ -17460,6 +17421,19 @@ changelog = "https://open-vsx.org/api/bml-lang/bml-vscode/0.1.0/file/CHANGELOG.m
 downloadPage = "https://open-vsx.org/api/bml-lang/bml-vscode/0.1.0/file/bml-lang.bml-vscode-0.1.0.vsix"
 homepage = ""
 
+[vscode-theme-quietlight]
+src.openvsx = "vscode.theme-quietlight"
+fetch.openvsx = "vscode.theme-quietlight"
+
+[vscode-theme-quietlight.passthru]
+name = "theme-quietlight"
+publisher = "vscode"
+marketplaceName = "theme-quietlight"
+marketplacePublisher = "vscode"
+license = "mit"
+downloadPage = "https://open-vsx.org/api/vscode/theme-quietlight/1.64.2/file/vscode.theme-quietlight-1.64.2.vsix"
+homepage = ""
+
 [dfinity-foundation-vscode-motoko]
 src.openvsx = "dfinity-foundation.vscode-motoko"
 fetch.openvsx = "dfinity-foundation.vscode-motoko"
@@ -17473,18 +17447,32 @@ license = "asl20"
 downloadPage = "https://open-vsx.org/api/dfinity-foundation/vscode-motoko/0.7.4/file/dfinity-foundation.vscode-motoko-0.7.4.vsix"
 homepage = "https://github.com/dfinity/vscode-motoko#readme"
 
-[vscode-vscode-theme-seti]
-src.openvsx = "vscode.vscode-theme-seti"
-fetch.openvsx = "vscode.vscode-theme-seti"
+[vscode-theme-monokai]
+src.openvsx = "vscode.theme-monokai"
+fetch.openvsx = "vscode.theme-monokai"
 
-[vscode-vscode-theme-seti.passthru]
-name = "vscode-theme-seti"
+[vscode-theme-monokai.passthru]
+name = "theme-monokai"
 publisher = "vscode"
-marketplaceName = "vscode-theme-seti"
+marketplaceName = "theme-monokai"
 marketplacePublisher = "vscode"
 license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/vscode-theme-seti/1.64.2/file/vscode.vscode-theme-seti-1.64.2.vsix"
+downloadPage = "https://open-vsx.org/api/vscode/theme-monokai/1.64.2/file/vscode.theme-monokai-1.64.2.vsix"
 homepage = ""
+
+[JacobPfeifer-pfeifer-x12]
+src.openvsx = "JacobPfeifer.pfeifer-x12"
+fetch.openvsx = "JacobPfeifer.pfeifer-x12"
+
+[JacobPfeifer-pfeifer-x12.passthru]
+name = "pfeifer-x12"
+publisher = "jacobpfeifer"
+marketplaceName = "pfeifer-x12"
+marketplacePublisher = "JacobPfeifer"
+license = "mit"
+changelog = "https://open-vsx.org/api/JacobPfeifer/pfeifer-x12/0.1.0/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/JacobPfeifer/pfeifer-x12/0.1.0/file/JacobPfeifer.pfeifer-x12-0.1.0.vsix"
+homepage = "https://github.com/pfeiferj/vscode-x12#readme"
 
 [vscjava-vscode-java-pack]
 src.openvsx = "vscjava.vscode-java-pack"
@@ -17500,19 +17488,31 @@ changelog = "https://open-vsx.org/api/vscjava/vscode-java-pack/0.25.7/file/CHANG
 downloadPage = "https://open-vsx.org/api/vscjava/vscode-java-pack/0.25.7/file/vscjava.vscode-java-pack-0.25.7.vsix"
 homepage = "https://github.com/Microsoft/vscode-java-pack"
 
-[JacobPfeifer-pfeifer-x12]
-src.openvsx = "JacobPfeifer.pfeifer-x12"
-fetch.openvsx = "JacobPfeifer.pfeifer-x12"
+[vscode-theme-monokai-dimmed]
+src.openvsx = "vscode.theme-monokai-dimmed"
+fetch.openvsx = "vscode.theme-monokai-dimmed"
 
-[JacobPfeifer-pfeifer-x12.passthru]
-name = "pfeifer-x12"
-publisher = "jacobpfeifer"
-marketplaceName = "pfeifer-x12"
-marketplacePublisher = "JacobPfeifer"
+[vscode-theme-monokai-dimmed.passthru]
+name = "theme-monokai-dimmed"
+publisher = "vscode"
+marketplaceName = "theme-monokai-dimmed"
+marketplacePublisher = "vscode"
 license = "mit"
-changelog = "https://open-vsx.org/api/JacobPfeifer/pfeifer-x12/0.1.0/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/JacobPfeifer/pfeifer-x12/0.1.0/file/JacobPfeifer.pfeifer-x12-0.1.0.vsix"
-homepage = "https://github.com/pfeiferj/vscode-x12#readme"
+downloadPage = "https://open-vsx.org/api/vscode/theme-monokai-dimmed/1.64.2/file/vscode.theme-monokai-dimmed-1.64.2.vsix"
+homepage = ""
+
+[vscode-vscode-theme-seti]
+src.openvsx = "vscode.vscode-theme-seti"
+fetch.openvsx = "vscode.vscode-theme-seti"
+
+[vscode-vscode-theme-seti.passthru]
+name = "vscode-theme-seti"
+publisher = "vscode"
+marketplaceName = "vscode-theme-seti"
+marketplacePublisher = "vscode"
+license = "mit"
+downloadPage = "https://open-vsx.org/api/vscode/vscode-theme-seti/1.64.2/file/vscode.vscode-theme-seti-1.64.2.vsix"
+homepage = ""
 
 [cutetee-qml]
 src.openvsx = "cutetee.qml"
@@ -17542,19 +17542,6 @@ changelog = "https://open-vsx.org/api/DanielSanMedium/dscodegpt/1.0.6/file/CHANG
 downloadPage = "https://open-vsx.org/api/DanielSanMedium/dscodegpt/1.0.6/file/DanielSanMedium.dscodegpt-1.0.6.vsix"
 homepage = "https://github.com/davila7/codegpt#readme"
 
-[vscode-sql]
-src.openvsx = "vscode.sql"
-fetch.openvsx = "vscode.sql"
-
-[vscode-sql.passthru]
-name = "sql"
-publisher = "vscode"
-marketplaceName = "sql"
-marketplacePublisher = "vscode"
-license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/sql/1.64.2/file/vscode.sql-1.64.2.vsix"
-homepage = ""
-
 [vscode-theme-solarized-dark]
 src.openvsx = "vscode.theme-solarized-dark"
 fetch.openvsx = "vscode.theme-solarized-dark"
@@ -17566,6 +17553,19 @@ marketplaceName = "theme-solarized-dark"
 marketplacePublisher = "vscode"
 license = "mit"
 downloadPage = "https://open-vsx.org/api/vscode/theme-solarized-dark/1.64.2/file/vscode.theme-solarized-dark-1.64.2.vsix"
+homepage = ""
+
+[vscode-sql]
+src.openvsx = "vscode.sql"
+fetch.openvsx = "vscode.sql"
+
+[vscode-sql.passthru]
+name = "sql"
+publisher = "vscode"
+marketplaceName = "sql"
+marketplacePublisher = "vscode"
+license = "mit"
+downloadPage = "https://open-vsx.org/api/vscode/sql/1.64.2/file/vscode.sql-1.64.2.vsix"
 homepage = ""
 
 [vscode-theme-defaults]
@@ -17580,6 +17580,19 @@ marketplacePublisher = "vscode"
 license = "mit"
 downloadPage = "https://open-vsx.org/api/vscode/theme-defaults/1.64.2/file/vscode.theme-defaults-1.64.2.vsix"
 homepage = ""
+
+[Heliax-juvix-mode]
+src.openvsx = "Heliax.juvix-mode"
+fetch.openvsx = "Heliax.juvix-mode"
+
+[Heliax-juvix-mode.passthru]
+name = "juvix-mode"
+publisher = "heliax"
+marketplaceName = "juvix-mode"
+marketplacePublisher = "Heliax"
+license = "gpl3Only"
+downloadPage = "https://open-vsx.org/api/Heliax/juvix-mode/0.1.19/file/heliax.juvix-mode-0.1.19.vsix"
+homepage = "https://github.com/anoma/vscode-juvix#readme"
 
 [vscode-theme-abyss]
 src.openvsx = "vscode.theme-abyss"
@@ -17645,19 +17658,6 @@ marketplacePublisher = "vscode"
 license = "mit"
 downloadPage = "https://open-vsx.org/api/vscode/scss/1.64.2/file/vscode.scss-1.64.2.vsix"
 homepage = ""
-
-[Heliax-juvix-mode]
-src.openvsx = "Heliax.juvix-mode"
-fetch.openvsx = "Heliax.juvix-mode"
-
-[Heliax-juvix-mode.passthru]
-name = "juvix-mode"
-publisher = "heliax"
-marketplaceName = "juvix-mode"
-marketplacePublisher = "Heliax"
-license = "gpl3Only"
-downloadPage = "https://open-vsx.org/api/Heliax/juvix-mode/0.1.19/file/heliax.juvix-mode-0.1.19.vsix"
-homepage = "https://github.com/anoma/vscode-juvix#readme"
 
 [Vue-volar]
 src.openvsx = "Vue.volar"
@@ -17779,6 +17779,20 @@ license = "mit"
 changelog = "https://open-vsx.org/api/CocaineJohnsson/nihil/1.0.2/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/CocaineJohnsson/nihil/1.0.2/file/CocaineJohnsson.nihil-1.0.2.vsix"
 
+[idleberg-nsis-plugins]
+src.openvsx = "idleberg.nsis-plugins"
+fetch.openvsx = "idleberg.nsis-plugins"
+
+[idleberg-nsis-plugins.passthru]
+name = "nsis-plugins"
+publisher = "idleberg"
+marketplaceName = "nsis-plugins"
+marketplacePublisher = "idleberg"
+license = "mit"
+changelog = "https://open-vsx.org/api/idleberg/nsis-plugins/1.3.1/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/idleberg/nsis-plugins/1.3.1/file/idleberg.nsis-plugins-1.3.1.vsix"
+homepage = "https://github.com/idleberg/vscode-nsis-plugins#readme"
+
 [vscode-ruby]
 src.openvsx = "vscode.ruby"
 fetch.openvsx = "vscode.ruby"
@@ -17804,20 +17818,6 @@ marketplacePublisher = "vscode"
 license = "mit"
 downloadPage = "https://open-vsx.org/api/vscode/objective-c/1.64.2/file/vscode.objective-c-1.64.2.vsix"
 homepage = ""
-
-[idleberg-nsis-plugins]
-src.openvsx = "idleberg.nsis-plugins"
-fetch.openvsx = "idleberg.nsis-plugins"
-
-[idleberg-nsis-plugins.passthru]
-name = "nsis-plugins"
-publisher = "idleberg"
-marketplaceName = "nsis-plugins"
-marketplacePublisher = "idleberg"
-license = "mit"
-changelog = "https://open-vsx.org/api/idleberg/nsis-plugins/1.3.1/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/idleberg/nsis-plugins/1.3.1/file/idleberg.nsis-plugins-1.3.1.vsix"
-homepage = "https://github.com/idleberg/vscode-nsis-plugins#readme"
 
 [vscode-rust]
 src.openvsx = "vscode.rust"
@@ -17858,32 +17858,6 @@ license = "mit"
 downloadPage = "https://open-vsx.org/api/vscode/vb/1.64.2/file/vscode.vb-1.64.2.vsix"
 homepage = ""
 
-[vscode-shaderlab]
-src.openvsx = "vscode.shaderlab"
-fetch.openvsx = "vscode.shaderlab"
-
-[vscode-shaderlab.passthru]
-name = "shaderlab"
-publisher = "vscode"
-marketplaceName = "shaderlab"
-marketplacePublisher = "vscode"
-license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/shaderlab/1.64.2/file/vscode.shaderlab-1.64.2.vsix"
-homepage = ""
-
-[vscode-swift]
-src.openvsx = "vscode.swift"
-fetch.openvsx = "vscode.swift"
-
-[vscode-swift.passthru]
-name = "swift"
-publisher = "vscode"
-marketplaceName = "swift"
-marketplacePublisher = "vscode"
-license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/swift/1.64.2/file/vscode.swift-1.64.2.vsix"
-homepage = ""
-
 [kashish-quick-type]
 src.openvsx = "kashish.quick-type"
 fetch.openvsx = "kashish.quick-type"
@@ -17897,19 +17871,6 @@ license = "mit"
 changelog = "https://open-vsx.org/api/kashish/quick-type/0.1.2/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/kashish/quick-type/0.1.2/file/kashish.quick-type-0.1.2.vsix"
 homepage = "https://github.com/kashishpt/quick-type#readme"
-
-[vscode-razor]
-src.openvsx = "vscode.razor"
-fetch.openvsx = "vscode.razor"
-
-[vscode-razor.passthru]
-name = "razor"
-publisher = "vscode"
-marketplaceName = "razor"
-marketplacePublisher = "vscode"
-license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/razor/1.64.2/file/vscode.razor-1.64.2.vsix"
-homepage = ""
 
 [TheAIGang-code-fixer]
 src.openvsx = "TheAIGang.code-fixer"
@@ -17939,6 +17900,32 @@ changelog = "https://open-vsx.org/api/jorol/perl-completions/0.0.2/file/CHANGELO
 downloadPage = "https://open-vsx.org/api/jorol/perl-completions/0.0.2/file/jorol.perl-completions-0.0.2.vsix"
 homepage = "https://github.com/jorol/perl-completions#readme"
 
+[vscode-shaderlab]
+src.openvsx = "vscode.shaderlab"
+fetch.openvsx = "vscode.shaderlab"
+
+[vscode-shaderlab.passthru]
+name = "shaderlab"
+publisher = "vscode"
+marketplaceName = "shaderlab"
+marketplacePublisher = "vscode"
+license = "mit"
+downloadPage = "https://open-vsx.org/api/vscode/shaderlab/1.64.2/file/vscode.shaderlab-1.64.2.vsix"
+homepage = ""
+
+[vscode-swift]
+src.openvsx = "vscode.swift"
+fetch.openvsx = "vscode.swift"
+
+[vscode-swift.passthru]
+name = "swift"
+publisher = "vscode"
+marketplaceName = "swift"
+marketplacePublisher = "vscode"
+license = "mit"
+downloadPage = "https://open-vsx.org/api/vscode/swift/1.64.2/file/vscode.swift-1.64.2.vsix"
+homepage = ""
+
 [k--kato-intellij-idea-keybindings]
 src.openvsx = "k--kato.intellij-idea-keybindings"
 fetch.openvsx = "k--kato.intellij-idea-keybindings"
@@ -17952,6 +17939,19 @@ license = "mit"
 changelog = "https://open-vsx.org/api/k--kato/intellij-idea-keybindings/1.5.5/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/k--kato/intellij-idea-keybindings/1.5.5/file/k--kato.intellij-idea-keybindings-1.5.5.vsix"
 homepage = "https://github.com/kasecato/vscode-intellij-idea-keybindings#readme"
+
+[vscode-razor]
+src.openvsx = "vscode.razor"
+fetch.openvsx = "vscode.razor"
+
+[vscode-razor.passthru]
+name = "razor"
+publisher = "vscode"
+marketplaceName = "razor"
+marketplacePublisher = "vscode"
+license = "mit"
+downloadPage = "https://open-vsx.org/api/vscode/razor/1.64.2/file/vscode.razor-1.64.2.vsix"
+homepage = ""
 
 [matepek-vscode-catch2-test-adapter]
 src.openvsx = "matepek.vscode-catch2-test-adapter"
@@ -18258,6 +18258,19 @@ changelog = "https://open-vsx.org/api/Equinusocio/vsc-material-theme-icons/2.5.0
 downloadPage = "https://open-vsx.org/api/Equinusocio/vsc-material-theme-icons/2.5.0/file/equinusocio.vsc-material-theme-icons-2.5.0.vsix"
 homepage = "https://github.com/material-theme/vsc-material-theme-icons#readme"
 
+[evhub-coconut]
+src.openvsx = "evhub.coconut"
+fetch.openvsx = "evhub.coconut"
+
+[evhub-coconut.passthru]
+name = "coconut"
+publisher = "evhub"
+marketplaceName = "coconut"
+marketplacePublisher = "evhub"
+license = "gpl3Only"
+downloadPage = "https://open-vsx.org/api/evhub/coconut/2.1.4/file/evhub.coconut-2.1.4.vsix"
+homepage = "https://github.com/evhub/sublime-coconut#readme"
+
 [MS-CEINTL-vscode-language-pack-fr]
 src.openvsx = "MS-CEINTL.vscode-language-pack-fr"
 fetch.openvsx = "MS-CEINTL.vscode-language-pack-fr"
@@ -18271,19 +18284,6 @@ license = "mit"
 changelog = "https://open-vsx.org/api/MS-CEINTL/vscode-language-pack-fr/1.75.0/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/MS-CEINTL/vscode-language-pack-fr/1.75.0/file/MS-CEINTL.vscode-language-pack-fr-1.75.0.vsix"
 homepage = "https://github.com/Microsoft/vscode-loc#readme"
-
-[evhub-coconut]
-src.openvsx = "evhub.coconut"
-fetch.openvsx = "evhub.coconut"
-
-[evhub-coconut.passthru]
-name = "coconut"
-publisher = "evhub"
-marketplaceName = "coconut"
-marketplacePublisher = "evhub"
-license = "gpl3Only"
-downloadPage = "https://open-vsx.org/api/evhub/coconut/2.1.4/file/evhub.coconut-2.1.4.vsix"
-homepage = "https://github.com/evhub/sublime-coconut#readme"
 
 [meraymond-idris-vscode]
 src.openvsx = "meraymond.idris-vscode"
@@ -18486,6 +18486,18 @@ changelog = "https://open-vsx.org/api/MS-CEINTL/vscode-language-pack-pt-BR/1.75.
 downloadPage = "https://open-vsx.org/api/MS-CEINTL/vscode-language-pack-pt-BR/1.75.0/file/MS-CEINTL.vscode-language-pack-pt-BR-1.75.0.vsix"
 homepage = "https://github.com/Microsoft/vscode-loc#readme"
 
+[ComplYue-vscode-ghci]
+src.openvsx = "ComplYue.vscode-ghci"
+fetch.openvsx = "ComplYue.vscode-ghci"
+
+[ComplYue-vscode-ghci.passthru]
+name = "vscode-ghci"
+publisher = "complyue"
+marketplaceName = "vscode-ghci"
+marketplacePublisher = "ComplYue"
+license = "mit"
+downloadPage = "https://open-vsx.org/api/ComplYue/vscode-ghci/0.3.0/file/ComplYue.vscode-ghci-0.3.0.vsix"
+
 [vscode-git]
 src.openvsx = "vscode.git"
 fetch.openvsx = "vscode.git"
@@ -18498,18 +18510,6 @@ marketplacePublisher = "vscode"
 license = "mit"
 downloadPage = "https://open-vsx.org/api/vscode/git/1.64.2/file/vscode.git-1.64.2.vsix"
 homepage = ""
-
-[ComplYue-vscode-ghci]
-src.openvsx = "ComplYue.vscode-ghci"
-fetch.openvsx = "ComplYue.vscode-ghci"
-
-[ComplYue-vscode-ghci.passthru]
-name = "vscode-ghci"
-publisher = "complyue"
-marketplaceName = "vscode-ghci"
-marketplacePublisher = "ComplYue"
-license = "mit"
-downloadPage = "https://open-vsx.org/api/ComplYue/vscode-ghci/0.3.0/file/ComplYue.vscode-ghci-0.3.0.vsix"
 
 [vscode-php]
 src.openvsx = "vscode.php"
@@ -18552,20 +18552,6 @@ changelog = "https://open-vsx.org/api/NaotoOno2/hogehoge/0.0.1/file/CHANGELOG.md
 downloadPage = "https://open-vsx.org/api/NaotoOno2/hogehoge/0.0.1/file/NaotoOno2.hogehoge-0.0.1.vsix"
 homepage = ""
 
-[tomoki1207-pdf]
-src.openvsx = "tomoki1207.pdf"
-fetch.openvsx = "tomoki1207.pdf"
-
-[tomoki1207-pdf.passthru]
-name = "pdf"
-publisher = "tomoki1207"
-marketplaceName = "pdf"
-marketplacePublisher = "tomoki1207"
-license = "unfree"
-changelog = "https://open-vsx.org/api/tomoki1207/pdf/1.2.2/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/tomoki1207/pdf/1.2.2/file/tomoki1207.pdf-1.2.2.vsix"
-homepage = "https://github.com/tomoki1207/vscode-pdfviewer#readme"
-
 [MS-CEINTL-vscode-language-pack-it]
 src.openvsx = "MS-CEINTL.vscode-language-pack-it"
 fetch.openvsx = "MS-CEINTL.vscode-language-pack-it"
@@ -18579,6 +18565,20 @@ license = "mit"
 changelog = "https://open-vsx.org/api/MS-CEINTL/vscode-language-pack-it/1.75.0/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/MS-CEINTL/vscode-language-pack-it/1.75.0/file/MS-CEINTL.vscode-language-pack-it-1.75.0.vsix"
 homepage = "https://github.com/Microsoft/vscode-loc#readme"
+
+[tomoki1207-pdf]
+src.openvsx = "tomoki1207.pdf"
+fetch.openvsx = "tomoki1207.pdf"
+
+[tomoki1207-pdf.passthru]
+name = "pdf"
+publisher = "tomoki1207"
+marketplaceName = "pdf"
+marketplacePublisher = "tomoki1207"
+license = "unfree"
+changelog = "https://open-vsx.org/api/tomoki1207/pdf/1.2.2/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/tomoki1207/pdf/1.2.2/file/tomoki1207.pdf-1.2.2.vsix"
+homepage = "https://github.com/tomoki1207/vscode-pdfviewer#readme"
 
 [reduckted-vscode-gitweblinks]
 src.openvsx = "reduckted.vscode-gitweblinks"
@@ -18676,20 +18676,6 @@ changelog = "https://open-vsx.org/api/JacobPfeifer/pfeifer-hurl/1.1.2/file/CHANG
 downloadPage = "https://open-vsx.org/api/JacobPfeifer/pfeifer-hurl/1.1.2/file/JacobPfeifer.pfeifer-hurl-1.1.2.vsix"
 homepage = "https://github.com/pfeiferj/vscode-hurl#readme"
 
-[MS-CEINTL-vscode-language-pack-ko]
-src.openvsx = "MS-CEINTL.vscode-language-pack-ko"
-fetch.openvsx = "MS-CEINTL.vscode-language-pack-ko"
-
-[MS-CEINTL-vscode-language-pack-ko.passthru]
-name = "vscode-language-pack-ko"
-publisher = "ms-ceintl"
-marketplaceName = "vscode-language-pack-ko"
-marketplacePublisher = "MS-CEINTL"
-license = "mit"
-changelog = "https://open-vsx.org/api/MS-CEINTL/vscode-language-pack-ko/1.75.0/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/MS-CEINTL/vscode-language-pack-ko/1.75.0/file/MS-CEINTL.vscode-language-pack-ko-1.75.0.vsix"
-homepage = "https://github.com/Microsoft/vscode-loc#readme"
-
 [fulib-vnc-viewer]
 src.openvsx = "fulib.vnc-viewer"
 fetch.openvsx = "fulib.vnc-viewer"
@@ -18729,6 +18715,20 @@ license = "mit"
 downloadPage = "https://open-vsx.org/api/vscode/php-language-features/1.64.2/file/vscode.php-language-features-1.64.2.vsix"
 homepage = ""
 
+[MS-CEINTL-vscode-language-pack-ko]
+src.openvsx = "MS-CEINTL.vscode-language-pack-ko"
+fetch.openvsx = "MS-CEINTL.vscode-language-pack-ko"
+
+[MS-CEINTL-vscode-language-pack-ko.passthru]
+name = "vscode-language-pack-ko"
+publisher = "ms-ceintl"
+marketplaceName = "vscode-language-pack-ko"
+marketplacePublisher = "MS-CEINTL"
+license = "mit"
+changelog = "https://open-vsx.org/api/MS-CEINTL/vscode-language-pack-ko/1.75.0/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/MS-CEINTL/vscode-language-pack-ko/1.75.0/file/MS-CEINTL.vscode-language-pack-ko-1.75.0.vsix"
+homepage = "https://github.com/Microsoft/vscode-loc#readme"
+
 [ms-vscode-cmake-tools]
 src.openvsx = "ms-vscode.cmake-tools"
 fetch.openvsx = "ms-vscode.cmake-tools"
@@ -18742,19 +18742,6 @@ license = "mit"
 changelog = "https://open-vsx.org/api/ms-vscode/cmake-tools/1.13.0/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/ms-vscode/cmake-tools/1.13.0/file/ms-vscode.cmake-tools-1.13.0.vsix"
 homepage = "https://github.com/microsoft/vscode-cmake-tools"
-
-[vscode-github]
-src.openvsx = "vscode.github"
-fetch.openvsx = "vscode.github"
-
-[vscode-github.passthru]
-name = "github"
-publisher = "vscode"
-marketplaceName = "github"
-marketplacePublisher = "vscode"
-license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/github/1.64.2/file/vscode.github-1.64.2.vsix"
-homepage = ""
 
 [vscode-search-result]
 src.openvsx = "vscode.search-result"
@@ -18796,6 +18783,19 @@ license = "unfree"
 changelog = "https://open-vsx.org/api/ban/spellright/3.0.114/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/ban/spellright/3.0.114/file/ban.spellright-3.0.114.vsix"
 homepage = "https://github.com/bartosz-antosik/vscode-spellright"
+
+[vscode-github]
+src.openvsx = "vscode.github"
+fetch.openvsx = "vscode.github"
+
+[vscode-github.passthru]
+name = "github"
+publisher = "vscode"
+marketplaceName = "github"
+marketplacePublisher = "vscode"
+license = "mit"
+downloadPage = "https://open-vsx.org/api/vscode/github/1.64.2/file/vscode.github-1.64.2.vsix"
+homepage = ""
 
 [vscode-debug-server-ready]
 src.openvsx = "vscode.debug-server-ready"
@@ -18971,6 +18971,19 @@ license = "mit"
 downloadPage = "https://open-vsx.org/api/vscode/simple-browser/1.64.2/file/vscode.simple-browser-1.64.2.vsix"
 homepage = ""
 
+[vscode-julia]
+src.openvsx = "vscode.julia"
+fetch.openvsx = "vscode.julia"
+
+[vscode-julia.passthru]
+name = "julia"
+publisher = "vscode"
+marketplaceName = "julia"
+marketplacePublisher = "vscode"
+license = "mit"
+downloadPage = "https://open-vsx.org/api/vscode/julia/1.64.2/file/vscode.julia-1.64.2.vsix"
+homepage = ""
+
 [ms-toolsai-vscode-jupyter-cell-tags]
 src.openvsx = "ms-toolsai.vscode-jupyter-cell-tags"
 fetch.openvsx = "ms-toolsai.vscode-jupyter-cell-tags"
@@ -18997,19 +19010,6 @@ marketplacePublisher = "ms-toolsai"
 license = "mit"
 downloadPage = "https://open-vsx.org/api/ms-toolsai/vscode-jupyter-slideshow/0.1.5/file/ms-toolsai.vscode-jupyter-slideshow-0.1.5.vsix"
 homepage = "https://github.com/Microsoft/vscode-jupyter-slideshow#readme"
-
-[vscode-julia]
-src.openvsx = "vscode.julia"
-fetch.openvsx = "vscode.julia"
-
-[vscode-julia.passthru]
-name = "julia"
-publisher = "vscode"
-marketplaceName = "julia"
-marketplacePublisher = "vscode"
-license = "mit"
-downloadPage = "https://open-vsx.org/api/vscode/julia/1.64.2/file/vscode.julia-1.64.2.vsix"
-homepage = ""
 
 [ms-vscode-powershell]
 src.openvsx = "ms-vscode.powershell"
@@ -19420,19 +19420,6 @@ changelog = "https://open-vsx.org/api/k8s-devops-tools/vscode-gitops-tools/0.22.
 downloadPage = "https://open-vsx.org/api/k8s-devops-tools/vscode-gitops-tools/0.22.5/file/k8s-devops-tools.vscode-gitops-tools-0.22.5.vsix"
 homepage = "https://github.com/weaveworks/vscode-gitops-tools"
 
-[nanikamado-cotton-language-server]
-src.openvsx = "nanikamado.cotton-language-server"
-fetch.openvsx = "nanikamado.cotton-language-server"
-
-[nanikamado-cotton-language-server.passthru]
-name = "cotton-language-server"
-publisher = "nanikamado"
-marketplaceName = "cotton-language-server"
-marketplacePublisher = "nanikamado"
-license = "mit"
-downloadPage = "https://open-vsx.org/api/nanikamado/cotton-language-server/0.0.1/file/nanikamado.cotton-language-server-0.0.1.vsix"
-homepage = "https://github.com/nanikamado/cotton-language-server#readme"
-
 [Rickaym-manim-sideview]
 src.openvsx = "Rickaym.manim-sideview"
 fetch.openvsx = "Rickaym.manim-sideview"
@@ -19445,6 +19432,19 @@ marketplacePublisher = "Rickaym"
 license = "mit"
 downloadPage = "https://open-vsx.org/api/Rickaym/manim-sideview/0.1.5/file/Rickaym.manim-sideview-0.1.5.vsix"
 homepage = "https://github.com/Rickaym/Manim-Sideview#readme"
+
+[nanikamado-cotton-language-server]
+src.openvsx = "nanikamado.cotton-language-server"
+fetch.openvsx = "nanikamado.cotton-language-server"
+
+[nanikamado-cotton-language-server.passthru]
+name = "cotton-language-server"
+publisher = "nanikamado"
+marketplaceName = "cotton-language-server"
+marketplacePublisher = "nanikamado"
+license = "mit"
+downloadPage = "https://open-vsx.org/api/nanikamado/cotton-language-server/0.0.1/file/nanikamado.cotton-language-server-0.0.1.vsix"
+homepage = "https://github.com/nanikamado/cotton-language-server#readme"
 
 [zardoy-fix-all-json]
 src.openvsx = "zardoy.fix-all-json"
@@ -19920,20 +19920,6 @@ marketplacePublisher = "captain-stack"
 license = "mit"
 downloadPage = "https://open-vsx.org/api/captain-stack/captain-stack/0.0.3/file/captain-stack.captain-stack-0.0.3.vsix"
 
-[ms-vscode-live-server]
-src.openvsx = "ms-vscode.live-server"
-fetch.openvsx = "ms-vscode.live-server"
-
-[ms-vscode-live-server.passthru]
-name = "live-server"
-publisher = "ms-vscode"
-marketplaceName = "live-server"
-marketplacePublisher = "ms-vscode"
-license = "mit"
-changelog = "https://open-vsx.org/api/ms-vscode/live-server/0.4.4/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/ms-vscode/live-server/0.4.4/file/ms-vscode.live-server-0.4.4.vsix"
-homepage = "https://github.com/microsoft/vscode-livepreview#readme"
-
 [aswinkumar863-smarty-template-support]
 src.openvsx = "aswinkumar863.smarty-template-support"
 fetch.openvsx = "aswinkumar863.smarty-template-support"
@@ -19947,6 +19933,20 @@ license = "mit"
 changelog = "https://open-vsx.org/api/aswinkumar863/smarty-template-support/2.0.0/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/aswinkumar863/smarty-template-support/2.0.0/file/aswinkumar863.smarty-template-support-2.0.0.vsix"
 homepage = "https://github.com/aswinkumar863/smarty-vscode-support#readme"
+
+[ms-vscode-live-server]
+src.openvsx = "ms-vscode.live-server"
+fetch.openvsx = "ms-vscode.live-server"
+
+[ms-vscode-live-server.passthru]
+name = "live-server"
+publisher = "ms-vscode"
+marketplaceName = "live-server"
+marketplacePublisher = "ms-vscode"
+license = "mit"
+changelog = "https://open-vsx.org/api/ms-vscode/live-server/0.4.4/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/ms-vscode/live-server/0.4.4/file/ms-vscode.live-server-0.4.4.vsix"
+homepage = "https://github.com/microsoft/vscode-livepreview#readme"
 
 [gieson-smoothy-7-theme]
 src.openvsx = "gieson.smoothy-7-theme"
@@ -21597,20 +21597,6 @@ changelog = "https://open-vsx.org/api/GustavoASC/google-drive-vscode/1.3.5/file/
 downloadPage = "https://open-vsx.org/api/GustavoASC/google-drive-vscode/1.3.5/file/GustavoASC.google-drive-vscode-1.3.5.vsix"
 homepage = "https://github.com/GustavoASC/google-drive-vscode#readme"
 
-[DavidAnson-vscode-markdownlint]
-src.openvsx = "DavidAnson.vscode-markdownlint"
-fetch.openvsx = "DavidAnson.vscode-markdownlint"
-
-[DavidAnson-vscode-markdownlint.passthru]
-name = "vscode-markdownlint"
-publisher = "davidanson"
-marketplaceName = "vscode-markdownlint"
-marketplacePublisher = "DavidAnson"
-license = "mit"
-changelog = "https://open-vsx.org/api/DavidAnson/vscode-markdownlint/0.48.1/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/DavidAnson/vscode-markdownlint/0.48.1/file/DavidAnson.vscode-markdownlint-0.48.1.vsix"
-homepage = "https://github.com/DavidAnson/vscode-markdownlint"
-
 [nadako-vshaxe]
 src.openvsx = "nadako.vshaxe"
 fetch.openvsx = "nadako.vshaxe"
@@ -21624,6 +21610,20 @@ license = "mit"
 changelog = "https://open-vsx.org/api/nadako/vshaxe/2.25.0/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/nadako/vshaxe/2.25.0/file/nadako.vshaxe-2.25.0.vsix"
 homepage = "https://github.com/vshaxe/vshaxe/blob/master/README.md"
+
+[DavidAnson-vscode-markdownlint]
+src.openvsx = "DavidAnson.vscode-markdownlint"
+fetch.openvsx = "DavidAnson.vscode-markdownlint"
+
+[DavidAnson-vscode-markdownlint.passthru]
+name = "vscode-markdownlint"
+publisher = "davidanson"
+marketplaceName = "vscode-markdownlint"
+marketplacePublisher = "DavidAnson"
+license = "mit"
+changelog = "https://open-vsx.org/api/DavidAnson/vscode-markdownlint/0.48.1/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/DavidAnson/vscode-markdownlint/0.48.1/file/DavidAnson.vscode-markdownlint-0.48.1.vsix"
+homepage = "https://github.com/DavidAnson/vscode-markdownlint"
 
 [chunsen-bracket-select]
 src.openvsx = "chunsen.bracket-select"
@@ -22062,20 +22062,6 @@ changelog = "https://open-vsx.org/api/bmalehorn/vscode-fish/1.0.31/file/CHANGELO
 downloadPage = "https://open-vsx.org/api/bmalehorn/vscode-fish/1.0.31/file/bmalehorn.vscode-fish-1.0.31.vsix"
 homepage = "https://github.com/bmalehorn/vscode-fish#readme"
 
-[aaron-bond-better-comments]
-src.openvsx = "aaron-bond.better-comments"
-fetch.openvsx = "aaron-bond.better-comments"
-
-[aaron-bond-better-comments.passthru]
-name = "better-comments"
-publisher = "aaron-bond"
-marketplaceName = "better-comments"
-marketplacePublisher = "aaron-bond"
-license = "mit"
-changelog = "https://open-vsx.org/api/aaron-bond/better-comments/3.0.2/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/aaron-bond/better-comments/3.0.2/file/aaron-bond.better-comments-3.0.2.vsix"
-homepage = "https://github.com/aaron-bond/better-comments/blob/master/README.md"
-
 [Nash-awesome-flutter-snippets]
 src.openvsx = "Nash.awesome-flutter-snippets"
 fetch.openvsx = "Nash.awesome-flutter-snippets"
@@ -22089,6 +22075,20 @@ license = "asl20"
 changelog = "https://open-vsx.org/api/Nash/awesome-flutter-snippets/3.0.0/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/Nash/awesome-flutter-snippets/3.0.0/file/Nash.awesome-flutter-snippets-3.0.0.vsix"
 homepage = "https://github.com/Neevash/awesome-flutter-snippets"
+
+[aaron-bond-better-comments]
+src.openvsx = "aaron-bond.better-comments"
+fetch.openvsx = "aaron-bond.better-comments"
+
+[aaron-bond-better-comments.passthru]
+name = "better-comments"
+publisher = "aaron-bond"
+marketplaceName = "better-comments"
+marketplacePublisher = "aaron-bond"
+license = "mit"
+changelog = "https://open-vsx.org/api/aaron-bond/better-comments/3.0.2/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/aaron-bond/better-comments/3.0.2/file/aaron-bond.better-comments-3.0.2.vsix"
+homepage = "https://github.com/aaron-bond/better-comments/blob/master/README.md"
 
 [xoronic-pestfile]
 src.openvsx = "xoronic.pestfile"
@@ -22199,20 +22199,6 @@ changelog = "https://open-vsx.org/api/anweber/httpbook-grid/0.6.0/file/CHANGELOG
 downloadPage = "https://open-vsx.org/api/anweber/httpbook-grid/0.6.0/file/anweber.httpbook-grid-0.6.0.vsix"
 homepage = "https://github.com/AnWeber/httpbook-grid"
 
-[stylelint-vscode-stylelint]
-src.openvsx = "stylelint.vscode-stylelint"
-fetch.openvsx = "stylelint.vscode-stylelint"
-
-[stylelint-vscode-stylelint.passthru]
-name = "vscode-stylelint"
-publisher = "stylelint"
-marketplaceName = "vscode-stylelint"
-marketplacePublisher = "stylelint"
-license = "mit"
-changelog = "https://open-vsx.org/api/stylelint/vscode-stylelint/1.2.3/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/stylelint/vscode-stylelint/1.2.3/file/stylelint.vscode-stylelint-1.2.3.vsix"
-homepage = "https://github.com/stylelint/vscode-stylelint#readme"
-
 [GitHub-github-vscode-theme]
 src.openvsx = "GitHub.github-vscode-theme"
 fetch.openvsx = "GitHub.github-vscode-theme"
@@ -22226,6 +22212,20 @@ license = "mit"
 changelog = "https://open-vsx.org/api/GitHub/github-vscode-theme/6.3.2/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/GitHub/github-vscode-theme/6.3.2/file/GitHub.github-vscode-theme-6.3.2.vsix"
 homepage = "https://github.com/primer/github-vscode-theme#readme"
+
+[stylelint-vscode-stylelint]
+src.openvsx = "stylelint.vscode-stylelint"
+fetch.openvsx = "stylelint.vscode-stylelint"
+
+[stylelint-vscode-stylelint.passthru]
+name = "vscode-stylelint"
+publisher = "stylelint"
+marketplaceName = "vscode-stylelint"
+marketplacePublisher = "stylelint"
+license = "mit"
+changelog = "https://open-vsx.org/api/stylelint/vscode-stylelint/1.2.3/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/stylelint/vscode-stylelint/1.2.3/file/stylelint.vscode-stylelint-1.2.3.vsix"
+homepage = "https://github.com/stylelint/vscode-stylelint#readme"
 
 [artlaman-chalice-color-theme]
 src.openvsx = "artlaman.chalice-color-theme"
@@ -22499,6 +22499,19 @@ changelog = "https://open-vsx.org/api/donjayamanne/python-environment-manager/1.
 downloadPage = "https://open-vsx.org/api/donjayamanne/python-environment-manager/1.0.4/file/donjayamanne.python-environment-manager-1.0.4.vsix"
 homepage = "https://github.com/DonJayamanne/vscode-python-manager"
 
+[timdmackey-mechanic-liquid]
+src.openvsx = "timdmackey.mechanic-liquid"
+fetch.openvsx = "timdmackey.mechanic-liquid"
+
+[timdmackey-mechanic-liquid.passthru]
+name = "mechanic-liquid"
+publisher = "timdmackey"
+marketplaceName = "mechanic-liquid"
+marketplacePublisher = "timdmackey"
+license = "unfree"
+downloadPage = "https://open-vsx.org/api/timdmackey/mechanic-liquid/0.0.18/file/timdmackey.mechanic-liquid-0.0.18.vsix"
+homepage = "https://github.com/timdmackey/vscode-mechanic-liquid"
+
 [donjayamanne-python-extension-pack]
 src.openvsx = "donjayamanne.python-extension-pack"
 fetch.openvsx = "donjayamanne.python-extension-pack"
@@ -22512,19 +22525,6 @@ license = "mit"
 changelog = "https://open-vsx.org/api/donjayamanne/python-extension-pack/1.7.0/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/donjayamanne/python-extension-pack/1.7.0/file/donjayamanne.python-extension-pack-1.7.0.vsix"
 homepage = "https://github.com/DonJayamanne/python-extension-pack#readme"
-
-[timdmackey-mechanic-liquid]
-src.openvsx = "timdmackey.mechanic-liquid"
-fetch.openvsx = "timdmackey.mechanic-liquid"
-
-[timdmackey-mechanic-liquid.passthru]
-name = "mechanic-liquid"
-publisher = "timdmackey"
-marketplaceName = "mechanic-liquid"
-marketplacePublisher = "timdmackey"
-license = "unfree"
-downloadPage = "https://open-vsx.org/api/timdmackey/mechanic-liquid/0.0.18/file/timdmackey.mechanic-liquid-0.0.18.vsix"
-homepage = "https://github.com/timdmackey/vscode-mechanic-liquid"
 
 [lextudio-restructuredtext]
 src.openvsx = "lextudio.restructuredtext"
@@ -25013,6 +25013,19 @@ changelog = "https://open-vsx.org/api/dracula-theme/theme-dracula/2.24.2/file/CH
 downloadPage = "https://open-vsx.org/api/dracula-theme/theme-dracula/2.24.2/file/dracula-theme.theme-dracula-2.24.2.vsix"
 homepage = "https://draculatheme.com/"
 
+[ikappas-composer]
+src.openvsx = "ikappas.composer"
+fetch.openvsx = "ikappas.composer"
+
+[ikappas-composer.passthru]
+name = "composer"
+publisher = "ikappas"
+marketplaceName = "composer"
+marketplacePublisher = "ikappas"
+license = "mit"
+downloadPage = "https://open-vsx.org/api/ikappas/composer/0.8.0/file/ikappas.composer-0.8.0.vsix"
+homepage = "https://github.com/ikappas/vscode-composer/blob/master/README.md"
+
 [tomblind-local-lua-debugger-vscode]
 src.openvsx = "tomblind.local-lua-debugger-vscode"
 fetch.openvsx = "tomblind.local-lua-debugger-vscode"
@@ -25026,19 +25039,6 @@ license = "mit"
 changelog = "https://open-vsx.org/api/tomblind/local-lua-debugger-vscode/0.3.3/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/tomblind/local-lua-debugger-vscode/0.3.3/file/tomblind.local-lua-debugger-vscode-0.3.3.vsix"
 homepage = "https://github.com/tomblind/local-lua-debugger-vscode#readme"
-
-[ikappas-composer]
-src.openvsx = "ikappas.composer"
-fetch.openvsx = "ikappas.composer"
-
-[ikappas-composer.passthru]
-name = "composer"
-publisher = "ikappas"
-marketplaceName = "composer"
-marketplacePublisher = "ikappas"
-license = "mit"
-downloadPage = "https://open-vsx.org/api/ikappas/composer/0.8.0/file/ikappas.composer-0.8.0.vsix"
-homepage = "https://github.com/ikappas/vscode-composer/blob/master/README.md"
 
 [appulate-filewatcher]
 src.openvsx = "appulate.filewatcher"
@@ -26626,20 +26626,6 @@ changelog = "https://open-vsx.org/api/liangcheng-plugins/open-sourcetree-in-vsco
 downloadPage = "https://open-vsx.org/api/liangcheng-plugins/open-sourcetree-in-vscode-plugin/2.0.0/file/liangcheng-plugins.open-sourcetree-in-vscode-plugin-2.0.0.vsix"
 homepage = "https://github.com/slcnx/open-sourcetree-in-vscode-plugin"
 
-[Tyriar-sort-lines]
-src.openvsx = "Tyriar.sort-lines"
-fetch.openvsx = "Tyriar.sort-lines"
-
-[Tyriar-sort-lines.passthru]
-name = "sort-lines"
-publisher = "tyriar"
-marketplaceName = "sort-lines"
-marketplacePublisher = "Tyriar"
-license = "mit"
-changelog = "https://open-vsx.org/api/Tyriar/sort-lines/1.9.1/file/CHANGELOG.md"
-downloadPage = "https://open-vsx.org/api/Tyriar/sort-lines/1.9.1/file/Tyriar.sort-lines-1.9.1.vsix"
-homepage = "https://github.com/Tyriar/vscode-sort-lines"
-
 [evaera-roblox-api-explorer]
 src.openvsx = "evaera.roblox-api-explorer"
 fetch.openvsx = "evaera.roblox-api-explorer"
@@ -26653,6 +26639,20 @@ license = "mit"
 changelog = "https://open-vsx.org/api/evaera/roblox-api-explorer/1.2.0/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/evaera/roblox-api-explorer/1.2.0/file/evaera.roblox-api-explorer-1.2.0.vsix"
 homepage = "https://github.com/evaera/vscode-roblox-api-explorer#readme"
+
+[Tyriar-sort-lines]
+src.openvsx = "Tyriar.sort-lines"
+fetch.openvsx = "Tyriar.sort-lines"
+
+[Tyriar-sort-lines.passthru]
+name = "sort-lines"
+publisher = "tyriar"
+marketplaceName = "sort-lines"
+marketplacePublisher = "Tyriar"
+license = "mit"
+changelog = "https://open-vsx.org/api/Tyriar/sort-lines/1.9.1/file/CHANGELOG.md"
+downloadPage = "https://open-vsx.org/api/Tyriar/sort-lines/1.9.1/file/Tyriar.sort-lines-1.9.1.vsix"
+homepage = "https://github.com/Tyriar/vscode-sort-lines"
 
 [CoenraadS-bracket-pair-colorizer]
 src.openvsx = "CoenraadS.bracket-pair-colorizer"
@@ -27555,19 +27555,6 @@ marketplacePublisher = "ChrisRu"
 license = "mit"
 downloadPage = "https://open-vsx.org/api/ChrisRu/vscode-nightsky/2.0.0/file/ChrisRu.vscode-nightsky-2.0.0.vsix"
 
-[arcanis-vscode-zipfs]
-src.openvsx = "arcanis.vscode-zipfs"
-fetch.openvsx = "arcanis.vscode-zipfs"
-
-[arcanis-vscode-zipfs.passthru]
-name = "vscode-zipfs"
-publisher = "arcanis"
-marketplaceName = "vscode-zipfs"
-marketplacePublisher = "arcanis"
-license = "bsd2"
-downloadPage = "https://open-vsx.org/api/arcanis/vscode-zipfs/2.4.0-rc.5/file/arcanis.vscode-zipfs-2.4.0-rc.5.vsix"
-homepage = "https://github.com/yarnpkg/berry/blob/master/packages/vscode-zipfs"
-
 [Telerik-nativescript]
 src.openvsx = "Telerik.nativescript"
 fetch.openvsx = "Telerik.nativescript"
@@ -27581,6 +27568,19 @@ license = "asl20"
 changelog = "https://open-vsx.org/api/Telerik/nativescript/0.11.0/file/CHANGELOG.md"
 downloadPage = "https://open-vsx.org/api/Telerik/nativescript/0.11.0/file/Telerik.nativescript-0.11.0.vsix"
 homepage = "https://www.nativescript.org/"
+
+[arcanis-vscode-zipfs]
+src.openvsx = "arcanis.vscode-zipfs"
+fetch.openvsx = "arcanis.vscode-zipfs"
+
+[arcanis-vscode-zipfs.passthru]
+name = "vscode-zipfs"
+publisher = "arcanis"
+marketplaceName = "vscode-zipfs"
+marketplacePublisher = "arcanis"
+license = "bsd2"
+downloadPage = "https://open-vsx.org/api/arcanis/vscode-zipfs/2.4.0-rc.5/file/arcanis.vscode-zipfs-2.4.0-rc.5.vsix"
+homepage = "https://github.com/yarnpkg/berry/blob/master/packages/vscode-zipfs"
 
 [sheaf-groovylambda]
 src.openvsx = "sheaf.groovylambda"
