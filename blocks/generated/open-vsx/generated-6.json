@@ -4071,6 +4071,28 @@
         },
         "version": "0.7.0"
     },
+    "TshakaEricLekholoane-hy": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "TshakaEricLekholoane-hy",
+        "passthru": {
+            "downloadPage": "https://open-vsx.org/api/TshakaEricLekholoane/hy/0.0.17/file/TshakaEricLekholoane.hy-0.0.17.vsix",
+            "license": "mit",
+            "marketplaceName": "hy",
+            "marketplacePublisher": "TshakaEricLekholoane",
+            "name": "hy",
+            "publisher": "tshakaericlekholoane"
+        },
+        "pinned": false,
+        "src": {
+            "name": "hy-0.0.17.zip",
+            "sha256": "sha256-JLX3CaJFiZuDdsvdDlgMyQVP7Ar5BWDJPyQQmDd0/Oo=",
+            "type": "url",
+            "url": "https://open-vsx.org/api/TshakaEricLekholoane/hy/0.0.17/file/TshakaEricLekholoane.hy-0.0.17.vsix"
+        },
+        "version": "0.0.17"
+    },
     "gamunu-vscode-yarn": {
         "cargoLocks": null,
         "date": null,
@@ -4140,30 +4162,6 @@
             "url": "https://open-vsx.org/api/leandro-rodrigues/fluent-ui-vscode/0.3.12/file/leandro-rodrigues.fluent-ui-vscode-0.3.12.vsix"
         },
         "version": "0.3.12"
-    },
-    "ms-azuretools-vscode-docker": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "ms-azuretools-vscode-docker",
-        "passthru": {
-            "changelog": "https://open-vsx.org/api/ms-azuretools/vscode-docker/1.23.3/file/CHANGELOG.md",
-            "downloadPage": "https://open-vsx.org/api/ms-azuretools/vscode-docker/1.23.3/file/ms-azuretools.vscode-docker-1.23.3.vsix",
-            "homepage": "https://github.com/Microsoft/vscode-docker/blob/main/README.md",
-            "license": "mit",
-            "marketplaceName": "vscode-docker",
-            "marketplacePublisher": "ms-azuretools",
-            "name": "vscode-docker",
-            "publisher": "ms-azuretools"
-        },
-        "pinned": false,
-        "src": {
-            "name": "vscode-docker-1.23.3.zip",
-            "sha256": "sha256-0qflugzWA1pV0PVWGTzOjdxM/0G8hTLOozoXCAdQnRY=",
-            "type": "url",
-            "url": "https://open-vsx.org/api/ms-azuretools/vscode-docker/1.23.3/file/ms-azuretools.vscode-docker-1.23.3.vsix"
-        },
-        "version": "1.23.3"
     },
     "ms-toolsai-jupyter": {
         "cargoLocks": null,
@@ -4307,28 +4305,6 @@
         },
         "version": "9.4.5"
     },
-    "TshakaEricLekholoane-hy": {
-        "cargoLocks": null,
-        "date": null,
-        "extract": null,
-        "name": "TshakaEricLekholoane-hy",
-        "passthru": {
-            "downloadPage": "https://open-vsx.org/api/TshakaEricLekholoane/hy/0.0.17/file/TshakaEricLekholoane.hy-0.0.17.vsix",
-            "license": "mit",
-            "marketplaceName": "hy",
-            "marketplacePublisher": "TshakaEricLekholoane",
-            "name": "hy",
-            "publisher": "tshakaericlekholoane"
-        },
-        "pinned": false,
-        "src": {
-            "name": "hy-0.0.17.zip",
-            "sha256": "sha256-JLX3CaJFiZuDdsvdDlgMyQVP7Ar5BWDJPyQQmDd0/Oo=",
-            "type": "url",
-            "url": "https://open-vsx.org/api/TshakaEricLekholoane/hy/0.0.17/file/TshakaEricLekholoane.hy-0.0.17.vsix"
-        },
-        "version": "0.0.17"
-    },
     "dlasagno-wal-theme": {
         "cargoLocks": null,
         "date": null,
@@ -4423,6 +4399,30 @@
             "url": "https://open-vsx.org/api/idleberg/svg-icons/0.9.0/file/idleberg.svg-icons-0.9.0.vsix"
         },
         "version": "0.9.0"
+    },
+    "ms-azuretools-vscode-docker": {
+        "cargoLocks": null,
+        "date": null,
+        "extract": null,
+        "name": "ms-azuretools-vscode-docker",
+        "passthru": {
+            "changelog": "https://open-vsx.org/api/ms-azuretools/vscode-docker/1.23.3/file/CHANGELOG.md",
+            "downloadPage": "https://open-vsx.org/api/ms-azuretools/vscode-docker/1.23.3/file/ms-azuretools.vscode-docker-1.23.3.vsix",
+            "homepage": "https://github.com/Microsoft/vscode-docker/blob/main/README.md",
+            "license": "mit",
+            "marketplaceName": "vscode-docker",
+            "marketplacePublisher": "ms-azuretools",
+            "name": "vscode-docker",
+            "publisher": "ms-azuretools"
+        },
+        "pinned": false,
+        "src": {
+            "name": "vscode-docker-1.23.3.zip",
+            "sha256": "sha256-0qflugzWA1pV0PVWGTzOjdxM/0G8hTLOozoXCAdQnRY=",
+            "type": "url",
+            "url": "https://open-vsx.org/api/ms-azuretools/vscode-docker/1.23.3/file/ms-azuretools.vscode-docker-1.23.3.vsix"
+        },
+        "version": "1.23.3"
     },
     "ms-toolsai-jupyter-renderers": {
         "cargoLocks": null,

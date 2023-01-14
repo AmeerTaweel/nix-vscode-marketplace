@@ -2875,6 +2875,21 @@
     marketplaceName = "markdowntable";
     publisher = "takumii";
   };
+  TshakaEricLekholoane-hy = {
+    pname = "TshakaEricLekholoane-hy";
+    version = "0.0.17";
+    src = fetchurl {
+      url = "https://open-vsx.org/api/TshakaEricLekholoane/hy/0.0.17/file/TshakaEricLekholoane.hy-0.0.17.vsix";
+      name = "hy-0.0.17.zip";
+      sha256 = "sha256-JLX3CaJFiZuDdsvdDlgMyQVP7Ar5BWDJPyQQmDd0/Oo=";
+    };
+    license = "mit";
+    name = "hy";
+    downloadPage = "https://open-vsx.org/api/TshakaEricLekholoane/hy/0.0.17/file/TshakaEricLekholoane.hy-0.0.17.vsix";
+    marketplacePublisher = "TshakaEricLekholoane";
+    marketplaceName = "hy";
+    publisher = "tshakaericlekholoane";
+  };
   gamunu-vscode-yarn = {
     pname = "gamunu-vscode-yarn";
     version = "2.0.0";
@@ -2923,23 +2938,6 @@
     changelog = "https://open-vsx.org/api/leandro-rodrigues/fluent-ui-vscode/0.3.12/file/CHANGELOG.md";
     marketplaceName = "fluent-ui-vscode";
     publisher = "leandro-rodrigues";
-  };
-  ms-azuretools-vscode-docker = {
-    pname = "ms-azuretools-vscode-docker";
-    version = "1.23.3";
-    src = fetchurl {
-      url = "https://open-vsx.org/api/ms-azuretools/vscode-docker/1.23.3/file/ms-azuretools.vscode-docker-1.23.3.vsix";
-      name = "vscode-docker-1.23.3.zip";
-      sha256 = "sha256-0qflugzWA1pV0PVWGTzOjdxM/0G8hTLOozoXCAdQnRY=";
-    };
-    license = "mit";
-    name = "vscode-docker";
-    homepage = "https://github.com/Microsoft/vscode-docker/blob/main/README.md";
-    downloadPage = "https://open-vsx.org/api/ms-azuretools/vscode-docker/1.23.3/file/ms-azuretools.vscode-docker-1.23.3.vsix";
-    marketplacePublisher = "ms-azuretools";
-    changelog = "https://open-vsx.org/api/ms-azuretools/vscode-docker/1.23.3/file/CHANGELOG.md";
-    marketplaceName = "vscode-docker";
-    publisher = "ms-azuretools";
   };
   ms-toolsai-jupyter = {
     pname = "ms-toolsai-jupyter";
@@ -3041,21 +3039,6 @@
     marketplaceName = "latex-workshop";
     publisher = "james-yu";
   };
-  TshakaEricLekholoane-hy = {
-    pname = "TshakaEricLekholoane-hy";
-    version = "0.0.17";
-    src = fetchurl {
-      url = "https://open-vsx.org/api/TshakaEricLekholoane/hy/0.0.17/file/TshakaEricLekholoane.hy-0.0.17.vsix";
-      name = "hy-0.0.17.zip";
-      sha256 = "sha256-JLX3CaJFiZuDdsvdDlgMyQVP7Ar5BWDJPyQQmDd0/Oo=";
-    };
-    license = "mit";
-    name = "hy";
-    downloadPage = "https://open-vsx.org/api/TshakaEricLekholoane/hy/0.0.17/file/TshakaEricLekholoane.hy-0.0.17.vsix";
-    marketplacePublisher = "TshakaEricLekholoane";
-    marketplaceName = "hy";
-    publisher = "tshakaericlekholoane";
-  };
   dlasagno-wal-theme = {
     pname = "dlasagno-wal-theme";
     version = "1.1.2";
@@ -3122,6 +3105,23 @@
     changelog = "https://open-vsx.org/api/idleberg/svg-icons/0.9.0/file/CHANGELOG.md";
     marketplaceName = "svg-icons";
     publisher = "idleberg";
+  };
+  ms-azuretools-vscode-docker = {
+    pname = "ms-azuretools-vscode-docker";
+    version = "1.23.3";
+    src = fetchurl {
+      url = "https://open-vsx.org/api/ms-azuretools/vscode-docker/1.23.3/file/ms-azuretools.vscode-docker-1.23.3.vsix";
+      name = "vscode-docker-1.23.3.zip";
+      sha256 = "sha256-0qflugzWA1pV0PVWGTzOjdxM/0G8hTLOozoXCAdQnRY=";
+    };
+    license = "mit";
+    name = "vscode-docker";
+    homepage = "https://github.com/Microsoft/vscode-docker/blob/main/README.md";
+    downloadPage = "https://open-vsx.org/api/ms-azuretools/vscode-docker/1.23.3/file/ms-azuretools.vscode-docker-1.23.3.vsix";
+    marketplacePublisher = "ms-azuretools";
+    changelog = "https://open-vsx.org/api/ms-azuretools/vscode-docker/1.23.3/file/CHANGELOG.md";
+    marketplaceName = "vscode-docker";
+    publisher = "ms-azuretools";
   };
   ms-toolsai-jupyter-renderers = {
     pname = "ms-toolsai-jupyter-renderers";
