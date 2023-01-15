@@ -1,3 +1,5 @@
+**Moved to [nix-community/nix-vscode-extensions](https://github.com/nix-community/nix-vscode-extensions).**
+
 # Nix VSCode Marketplace
 
 At the time of writing this, searching `nixpkgs` yields around **200** VS Code extensions.
